@@ -1,0 +1,512 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>Trading_GetStoreRequestType Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.1 (build 858)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">PicoEBayTradingClient </a></h1>
+				<a id="developerHome" href="../index.html">LeanSoft Technology</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">Trading_GetStoreRequestType Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/categoryStructureOnly">&nbsp;&nbsp;&nbsp;&nbsp;categoryStructureOnly</option>
+	
+	<option value="//api/name/levelLimit">&nbsp;&nbsp;&nbsp;&nbsp;levelLimit</option>
+	
+	<option value="//api/name/rootCategoryID">&nbsp;&nbsp;&nbsp;&nbsp;rootCategoryID</option>
+	
+	<option value="//api/name/userID">&nbsp;&nbsp;&nbsp;&nbsp;userID</option>
+	
+	
+	
+	
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/categoryStructureOnly">categoryStructureOnly</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/levelLimit">levelLimit</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/rootCategoryID">rootCategoryID</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/userID">userID</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="Trading_GetStoreRequestType Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">Trading_GetStoreRequestType Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value"><a href="../Classes/Trading_AbstractRequestType.html">Trading_AbstractRequestType</a> : NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">Trading_GetStoreRequestType.h<br />Trading_GetStoreRequestType.m</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>Retrieves configuration information for the eBay store owned by the specified<br/>
+UserID, or by the caller.</p>
+
+<p>@ingroup EBayAPIInterface</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/categoryStructureOnly">&nbsp;&nbsp;categoryStructureOnly</a></code>
+		<span class="tooltip"><p>  If this is set to True, only the category structure of the store is<br/>
+  returned. If this is not specified or set to False, the complete store<br/>
+  configuration is returned.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/rootCategoryID">&nbsp;&nbsp;rootCategoryID</a></code>
+		<span class="tooltip"><p>Specifies the category ID for the topmost category to return (along with<br/>
+the subcategories under it, the value of the LevelLimit property<br/>
+determining how deep). This tag is optional. If RootCategoryID is not<br/>
+specified, then the category tree starting at that root Category is<br/>
+returned.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/levelLimit">&nbsp;&nbsp;levelLimit</a></code>
+		<span class="tooltip"><p>  Specifies the limit for the number of levels of the category hierarchy<br/>
+  to return, where the given root category is level 1 and its children are<br/>
+  level 2. Only categories at or above the level specified are returned.<br/>
+  This tag is optional. If LevelLimit is not set, the complete category<br/>
+  hierarchy is returned. Stores support category hierarchies up to 3<br/>
+  levels only.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/userID">&nbsp;&nbsp;userID</a></code>
+		<span class="tooltip"><p>Specifies the user whose store data is to be returned. If not specified,<br/>
+then the store returned is that for the requesting user.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/categoryStructureOnly" title="categoryStructureOnly"></a>
+	<h3 class="subsubtitle method-title">categoryStructureOnly</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>  If this is set to True, only the category structure of the store is<br/>
+  returned. If this is not specified or set to False, the complete store<br/>
+  configuration is returned.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSNumber *categoryStructureOnly</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>  If this is set to True, only the category structure of the store is<br/>
+  returned. If this is not specified or set to False, the complete store<br/>
+  configuration is returned.</p>
+
+<p>type : NSNumber, wrapper for primitive bool</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_GetStoreRequestType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/levelLimit" title="levelLimit"></a>
+	<h3 class="subsubtitle method-title">levelLimit</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>  Specifies the limit for the number of levels of the category hierarchy<br/>
+  to return, where the given root category is level 1 and its children are<br/>
+  level 2. Only categories at or above the level specified are returned.<br/>
+  This tag is optional. If LevelLimit is not set, the complete category<br/>
+  hierarchy is returned. Stores support category hierarchies up to 3<br/>
+  levels only.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSNumber *levelLimit</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>  Specifies the limit for the number of levels of the category hierarchy<br/>
+  to return, where the given root category is level 1 and its children are<br/>
+  level 2. Only categories at or above the level specified are returned.<br/>
+  This tag is optional. If LevelLimit is not set, the complete category<br/>
+  hierarchy is returned. Stores support category hierarchies up to 3<br/>
+  levels only.</p>
+
+<p>type : NSNumber, wrapper for primitive int</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_GetStoreRequestType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/rootCategoryID" title="rootCategoryID"></a>
+	<h3 class="subsubtitle method-title">rootCategoryID</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Specifies the category ID for the topmost category to return (along with<br/>
+the subcategories under it, the value of the LevelLimit property<br/>
+determining how deep). This tag is optional. If RootCategoryID is not<br/>
+specified, then the category tree starting at that root Category is<br/>
+returned.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSNumber *rootCategoryID</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Specifies the category ID for the topmost category to return (along with<br/>
+the subcategories under it, the value of the LevelLimit property<br/>
+determining how deep). This tag is optional. If RootCategoryID is not<br/>
+specified, then the category tree starting at that root Category is<br/>
+returned.</p>
+
+<p>type : NSNumber, wrapper for primitive long</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_GetStoreRequestType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/userID" title="userID"></a>
+	<h3 class="subsubtitle method-title">userID</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Specifies the user whose store data is to be returned. If not specified,<br/>
+then the store returned is that for the requesting user.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *userID</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Specifies the user whose store data is to be returned. If not specified,<br/>
+then the store returned is that for the requesting user.</p>
+
+<p>type : NSString, wrapper for primitive string</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_GetStoreRequestType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 LeanSoft Technology. All rights reserved. (Last updated: 2013-03-31)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.1 (build 858)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

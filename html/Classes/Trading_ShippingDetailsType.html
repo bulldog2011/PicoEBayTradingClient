@@ -1,0 +1,3434 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>Trading_ShippingDetailsType Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.1 (build 858)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">PicoEBayTradingClient </a></h1>
+				<a id="developerHome" href="../index.html">LeanSoft Technology</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">Trading_ShippingDetailsType Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/allowPaymentEdit">&nbsp;&nbsp;&nbsp;&nbsp;allowPaymentEdit</option>
+	
+	<option value="//api/name/any">&nbsp;&nbsp;&nbsp;&nbsp;any</option>
+	
+	<option value="//api/name/applyShippingDiscount">&nbsp;&nbsp;&nbsp;&nbsp;applyShippingDiscount</option>
+	
+	<option value="//api/name/calculatedShippingDiscount">&nbsp;&nbsp;&nbsp;&nbsp;calculatedShippingDiscount</option>
+	
+	<option value="//api/name/calculatedShippingRate">&nbsp;&nbsp;&nbsp;&nbsp;calculatedShippingRate</option>
+	
+	<option value="//api/name/changePaymentInstructions">&nbsp;&nbsp;&nbsp;&nbsp;changePaymentInstructions</option>
+	
+	<option value="//api/name/codCost">&nbsp;&nbsp;&nbsp;&nbsp;codCost</option>
+	
+	<option value="//api/name/defaultShippingCost">&nbsp;&nbsp;&nbsp;&nbsp;defaultShippingCost</option>
+	
+	<option value="//api/name/excludeShipToLocation">&nbsp;&nbsp;&nbsp;&nbsp;excludeShipToLocation</option>
+	
+	<option value="//api/name/flatShippingDiscount">&nbsp;&nbsp;&nbsp;&nbsp;flatShippingDiscount</option>
+	
+	<option value="//api/name/getItFast">&nbsp;&nbsp;&nbsp;&nbsp;getItFast</option>
+	
+	<option value="//api/name/globalShipping">&nbsp;&nbsp;&nbsp;&nbsp;globalShipping</option>
+	
+	<option value="//api/name/insuranceDetails">&nbsp;&nbsp;&nbsp;&nbsp;insuranceDetails</option>
+	
+	<option value="//api/name/insuranceFee">&nbsp;&nbsp;&nbsp;&nbsp;insuranceFee</option>
+	
+	<option value="//api/name/insuranceOption">&nbsp;&nbsp;&nbsp;&nbsp;insuranceOption</option>
+	
+	<option value="//api/name/insuranceWanted">&nbsp;&nbsp;&nbsp;&nbsp;insuranceWanted</option>
+	
+	<option value="//api/name/internationalCalculatedShippingDiscount">&nbsp;&nbsp;&nbsp;&nbsp;internationalCalculatedShippingDiscount</option>
+	
+	<option value="//api/name/internationalFlatShippingDiscount">&nbsp;&nbsp;&nbsp;&nbsp;internationalFlatShippingDiscount</option>
+	
+	<option value="//api/name/internationalInsuranceDetails">&nbsp;&nbsp;&nbsp;&nbsp;internationalInsuranceDetails</option>
+	
+	<option value="//api/name/internationalPromotionalShippingDiscount">&nbsp;&nbsp;&nbsp;&nbsp;internationalPromotionalShippingDiscount</option>
+	
+	<option value="//api/name/internationalShippingDiscountProfileID">&nbsp;&nbsp;&nbsp;&nbsp;internationalShippingDiscountProfileID</option>
+	
+	<option value="//api/name/internationalShippingServiceOption">&nbsp;&nbsp;&nbsp;&nbsp;internationalShippingServiceOption</option>
+	
+	<option value="//api/name/paymentEdited">&nbsp;&nbsp;&nbsp;&nbsp;paymentEdited</option>
+	
+	<option value="//api/name/paymentInstructions">&nbsp;&nbsp;&nbsp;&nbsp;paymentInstructions</option>
+	
+	<option value="//api/name/promotionalShippingDiscount">&nbsp;&nbsp;&nbsp;&nbsp;promotionalShippingDiscount</option>
+	
+	<option value="//api/name/promotionalShippingDiscountDetails">&nbsp;&nbsp;&nbsp;&nbsp;promotionalShippingDiscountDetails</option>
+	
+	<option value="//api/name/rateTableDetails">&nbsp;&nbsp;&nbsp;&nbsp;rateTableDetails</option>
+	
+	<option value="//api/name/salesTax">&nbsp;&nbsp;&nbsp;&nbsp;salesTax</option>
+	
+	<option value="//api/name/sellerExcludeShipToLocationsPreference">&nbsp;&nbsp;&nbsp;&nbsp;sellerExcludeShipToLocationsPreference</option>
+	
+	<option value="//api/name/sellingManagerSalesRecordNumber">&nbsp;&nbsp;&nbsp;&nbsp;sellingManagerSalesRecordNumber</option>
+	
+	<option value="//api/name/shipmentTrackingDetails">&nbsp;&nbsp;&nbsp;&nbsp;shipmentTrackingDetails</option>
+	
+	<option value="//api/name/shippingDiscountProfileID">&nbsp;&nbsp;&nbsp;&nbsp;shippingDiscountProfileID</option>
+	
+	<option value="//api/name/shippingRateErrorMessage">&nbsp;&nbsp;&nbsp;&nbsp;shippingRateErrorMessage</option>
+	
+	<option value="//api/name/shippingRateType">&nbsp;&nbsp;&nbsp;&nbsp;shippingRateType</option>
+	
+	<option value="//api/name/shippingServiceOptions">&nbsp;&nbsp;&nbsp;&nbsp;shippingServiceOptions</option>
+	
+	<option value="//api/name/shippingServiceUsed">&nbsp;&nbsp;&nbsp;&nbsp;shippingServiceUsed</option>
+	
+	<option value="//api/name/shippingType">&nbsp;&nbsp;&nbsp;&nbsp;shippingType</option>
+	
+	<option value="//api/name/taxTable">&nbsp;&nbsp;&nbsp;&nbsp;taxTable</option>
+	
+	<option value="//api/name/thirdPartyCheckout">&nbsp;&nbsp;&nbsp;&nbsp;thirdPartyCheckout</option>
+	
+	
+	
+	
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/allowPaymentEdit">allowPaymentEdit</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/any">any</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/applyShippingDiscount">applyShippingDiscount</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/calculatedShippingDiscount">calculatedShippingDiscount</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/calculatedShippingRate">calculatedShippingRate</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/changePaymentInstructions">changePaymentInstructions</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/codCost">codCost</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/defaultShippingCost">defaultShippingCost</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/excludeShipToLocation">excludeShipToLocation</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/flatShippingDiscount">flatShippingDiscount</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getItFast">getItFast</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/globalShipping">globalShipping</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/insuranceDetails">insuranceDetails</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/insuranceFee">insuranceFee</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/insuranceOption">insuranceOption</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/insuranceWanted">insuranceWanted</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/internationalCalculatedShippingDiscount">internationalCalculatedShippingDiscount</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/internationalFlatShippingDiscount">internationalFlatShippingDiscount</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/internationalInsuranceDetails">internationalInsuranceDetails</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/internationalPromotionalShippingDiscount">internationalPromotionalShippingDiscount</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/internationalShippingDiscountProfileID">internationalShippingDiscountProfileID</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/internationalShippingServiceOption">internationalShippingServiceOption</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/paymentEdited">paymentEdited</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/paymentInstructions">paymentInstructions</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/promotionalShippingDiscount">promotionalShippingDiscount</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/promotionalShippingDiscountDetails">promotionalShippingDiscountDetails</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/rateTableDetails">rateTableDetails</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/salesTax">salesTax</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/sellerExcludeShipToLocationsPreference">sellerExcludeShipToLocationsPreference</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/sellingManagerSalesRecordNumber">sellingManagerSalesRecordNumber</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/shipmentTrackingDetails">shipmentTrackingDetails</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/shippingDiscountProfileID">shippingDiscountProfileID</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/shippingRateErrorMessage">shippingRateErrorMessage</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/shippingRateType">shippingRateType</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/shippingServiceOptions">shippingServiceOptions</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/shippingServiceUsed">shippingServiceUsed</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/shippingType">shippingType</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/taxTable">taxTable</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/thirdPartyCheckout">thirdPartyCheckout</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="Trading_ShippingDetailsType Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">Trading_ShippingDetailsType Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value">PicoBindable</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">Trading_ShippingDetailsType.h<br />Trading_ShippingDetailsType.m</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>Type defining the ShippingDetails container, which contains the shipping-related<br/>
+details for an item (pre-checkout) or order (post-checkout).<br/>
+<br/><br/><br/>
+             <span class="tablenote"><br/>
+             <strong>IMPORTANT:</strong> To avoid loss of shipping details when revising a listing, you must include all <strong>ShippingDetails</strong> fields that were originally provided. Do not omit <a href="#//api/name/any">any</a> tag, even if its value does not change. Omitting a shipping field when revising an item will remove that detail from the listing.<br/>
+             </span></p>
+
+<p>@ingroup EBayAPIInterface</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/allowPaymentEdit">&nbsp;&nbsp;allowPaymentEdit</a></code>
+		<span class="tooltip"><p>This field is no longer returned and has been replaced by the ShippingDetails.PaymentEdited field.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/applyShippingDiscount">&nbsp;&nbsp;applyShippingDiscount</a></code>
+		<span class="tooltip"><p>No longer used. To be deprecated in late 2010.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/globalShipping">&nbsp;&nbsp;globalShipping</a></code>
+		<span class="tooltip"><p>Indicates whether eBay&rsquo;s Global Shipping Program is offered for the listing. If the value of <strong>GlobalShipping</strong> is True, the Global Shipping Program is the default international shipping option for the listing, and eBay sets the international shipping service to International Priority Shipping. If the value of <strong>GlobalShipping</strong> is False, the seller is responsible for specifying an international shipping service for the listing if desired.<br/>
+<br/><br/><br/>
+When calling <strong>RelistFixedPriceItem</strong>, <strong>RelistItem</strong>, <strong>ReviseFixedPriceItem</strong> or <strong>ReviseItem</strong>, you can omit this field if its value doesn&rsquo;t need to change.<br/>
+<br/><br/><br/>
+Before using this field for a listing, ensure that the seller and the item being listed are eligible for the Global Shipping Program.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/calculatedShippingRate">&nbsp;&nbsp;calculatedShippingRate</a></code>
+		<span class="tooltip"><p>Details pertinent to one or more items for which calculated shipping has been<br/>
+offered by the seller, such as package dimension and weight and<br/>
+packaging/handling costs. If your call specifies a large-dimension item listed<br/>
+with UPS, see &lt;a href=<br/>
+&ldquo;<a href="http://ebay.custhelp.com/cgi-bin/ebay.cfg/php/enduser/std">http://ebay.custhelp.com/cgi-bin/ebay.cfg/php/enduser/std</a>_adp.php?p_faqid=1159&rdquo;</p>
+
+<blockquote><p>Dimensional Weight limit on UPS shipping services results in failure of<br/>
+shipping calculator</a>.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p></blockquote></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/changePaymentInstructions">&nbsp;&nbsp;changePaymentInstructions</a></code>
+		<span class="tooltip"><p>Whether the seller specified payment and shipping instructions during checkout<br/>
+(for example, to update the details of an order). Valid for flat and calculated<br/>
+shipping.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/insuranceFee">&nbsp;&nbsp;insuranceFee</a></code>
+		<span class="tooltip"><p>Cost of shipping insurance set by the seller. If the buyer bought more than one<br/>
+of this item, this is the insurance for just a single item. Exception: for<br/>
+GetItemShipping, this is proportional to QuantitySold. Value should be greater<br/>
+than 0.00 if InsuranceOption is Optional or Required. For flat shipping only.<br/>
+Optional as input and only allowed if ChangePaymentInstructions is true. This<br/>
+field is ignored when InsuranceOption is not specified in the request.<br/>
+<br><br><br/>
+Valid only on the following sites: FR and IT<br/>
+<br><br/>
+Applicable to Half.com for GetOrders.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/insuranceOption">&nbsp;&nbsp;insuranceOption</a></code>
+		<span class="tooltip"><p>Whether the seller offers shipping insurance and, if so, whether the insurance is<br/>
+optional or required. Optional as input and only allowed if<br/>
+ChangePaymentInstructions is true. If this field is not included in the request,<br/>
+values specified in the InsuranceFee field will be ignored.<br/>
+<br><br><br/>
+<span class="tablenote"><strong>Note:</strong><br/>
+Note that sellers are responsible for the items they sell until they safely<br/>
+arrive in their customers' hands, and that offering buyer-paid insurance<br/>
+(either as an optional or required service) infers that the buyer is somehow<br/>
+responsible for the safe delivery of the items they purchase. This notion can<br/>
+reduce buyer confidence in the marketplace and the practice of including buyer-<br/>
+paid shipping insurance in your item listings is discouraged.<br/>
+</span><br/>
+<br><br/>
+This field is only returned if the value is other than NotOffered.<br/>
+<br><br><br/>
+Valid only on the following sites: FR and IT<br/>
+<br><br/>
+If you include buyer-paid shipping insurance for an item listed on one<br/>
+of the sites that supports this option, a buyer on a site that does not support<br/>
+buyer-paid shipping insurance can still purchase the item. In these cases, the<br/>
+buyer is responsible for all the shipping insurance terms that have been outlined<br/>
+in the item listing.<br/>
+<br><br><br/>
+Applicable to Half.com</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/insuranceWanted">&nbsp;&nbsp;insuranceWanted</a></code>
+		<span class="tooltip"><p>Whether or not the buyer selected to pay for insurance as an option offered by<br/>
+the seller. This only has a value after the buyer has gone through checkout and<br/>
+selected the insurance preference.<br/>
+<br><br><br/>
+Valid only on the following sites: FR and IT<br/>
+<br><br/>
+Applicable to Half.com for GetOrders.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/paymentEdited">&nbsp;&nbsp;paymentEdited</a></code>
+		<span class="tooltip"><p>Whether the seller allows the buyer to edit the payment amount for the order.<br/>
+(Sellers enable this property in their My eBay user preferences on the eBay site.)<br/>
+<br><br><br/>
+Not applicable to Half.com.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/paymentInstructions">&nbsp;&nbsp;paymentInstructions</a></code>
+		<span class="tooltip"><p>Payment instructions (or message) from the seller to the buyer. These<br/>
+instructions appear on eBay&rsquo;s View Item page and on eBay&rsquo;s checkout page when the<br/>
+buyer pays for the item.<br/>
+<br><br><br/>
+Sellers usually use this field to specify payment instructions, how soon the item<br/>
+will shipped, feedback instructions, and other reminders that the buyer should be<br/>
+aware of when they bid on or buy an item. This field can be specified regardless<br/>
+of the shipping type eBay only allows 500 characters as input, but due to the way<br/>
+the eBay Web site UI treats characters, this field can return more than 500<br/>
+characters in the response. Characters like &amp; and &lsquo; (apostrophe/single quote)<br/>
+count as 5 characters each. Use DeletedField to remove this value when revising<br/>
+or relisting an item.<br/>
+<br><br><br/>
+Applicable to eBay Motors (usually used to elaborate on the return policy).<br/>
+<br><br/>
+Not applicable to Half.com.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/salesTax">&nbsp;&nbsp;salesTax</a></code>
+		<span class="tooltip"><p>Sales tax details. US (site 0) and Motors (site 100) sites only, excluding vehicle listings. Flat and calculated shipping.<br/>
+<br><br><br/>
+Applicable to Half.com (for GetOrders).</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/shippingRateErrorMessage">&nbsp;&nbsp;shippingRateErrorMessage</a></code>
+		<span class="tooltip"><p>For most applicable calls, returns the words No Error or returns an error message<br/>
+related to an attempt to calculate shipping rates. For calculated shipping only.<br/>
+<br><br><br/>
+The message text explains that a postal code is needed to calculate<br/>
+shipping. Only returned when ItemDetails is set to Fine.<br/>
+<br><br><br/>
+Not applicable to Half.com or eBay Motors vehicle listings.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/shippingRateType">&nbsp;&nbsp;shippingRateType</a></code>
+		<span class="tooltip"><p>A shipping rate scale for shipping through UPS that affects the shipping cost<br/>
+calculated for UPS (lower if ShippingRateType is DailyPickup). ShippingRateType<br/>
+is only returned if ShippingService is one of the UPS shipping services. For<br/>
+calculated shipping only.<br/>
+<br><br><br/>
+Not applicable to Half.com or eBay Motors vehicle listings.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/shippingServiceOptions">&nbsp;&nbsp;shippingServiceOptions</a></code>
+		<span class="tooltip"><p>Shipping costs and options related to domestic shipping services offered by the<br/>
+seller. Flat and calculated shipping. Required if<br/>
+InternationalShippingServiceOption is specified.<br/>
+<br><br><br/>
+For flat shipping, a maximum shipping cost may apply when listing. See Shipping<br/>
+documentation for details about Maximum Flat Rate Shipping Costs.<br/>
+<br><br><br/>
+If you specify multiple ShippingServiceOptions nodes, the repeating nodes must be<br/>
+contiguous. For example, you can insert InternationalShippingServiceOption nodes<br/>
+after a list of repeating ShippingServiceOptions nodes, but not between them:<br/>
+<br><br><br/>
+&lt;ShippingServiceOptions&gt;&hellip;&lt;/ShippingServiceOptions&gt;<br><br/>
+&lt;ShippingServiceOptions&gt;&hellip;&lt;/ShippingServiceOptions&gt;<br><br/>
+&lt;ShippingServiceOptions&gt;&hellip;&lt;/ShippingServiceOptions&gt;<br><br/>
+&lt;InternationalShippingServiceOption&gt;&hellip;&lt;/InternationalShippingServiceOption&gt;<br><br/>
+&lt;InternationalShippingServiceOption&gt;&hellip;&lt;/InternationalShippingServiceOption&gt;<br/>
+<br><br><br/>
+If you specify ShippingDetails when you revise or relist an item but you omit<br/>
+ShippingServiceOptions, eBay will drop the domestic shipping services from the<br/>
+listing. This may also have unintended side effects, as other fields that depend<br/>
+on this data may be dropped as well. To retain the shipping services and<br/>
+dependent fields when you modify other shipping details, it may be simplest to<br/>
+specify all ShippingDetails that you still want to include in the listing.<br/>
+<br><br><br/>
+A seller can offer up to four domestic shipping services and up to five<br/>
+international shipping services. All specified domestic and international<br/>
+shipping services must be the same shipping type (for example, Flat versus<br/>
+Calculated).<br/>
+<br><br><br/>
+For GetItemShipping, results are filtered:  if <a href="#//api/name/any">any</a> service is not available<br/>
+in the buyer&rsquo;s region, it is removed. If no services remain after this<br/>
+filtering, a warning is returned.<br/>
+<br><br><br/>
+Not applicable to Half.com or eBay Motors vehicle listings.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/internationalShippingServiceOption">&nbsp;&nbsp;internationalShippingServiceOption</a></code>
+		<span class="tooltip"><p>Shipping costs and options related to an international shipping service. If used, at least one domestic shipping service must also be provided in ShippingServiceOptions.<br/>
+<br><br><br/>
+If you specify multiple InternationalShippingServiceOption nodes, the repeating nodes must be contiguous. That is, you cannot insert other nodes between InternationalShippingServiceOption nodes.<br/>
+<br><br><br/>
+All specified domestic and international shipping services must be the same shipping type (for example, Flat versus Calculated).<br/>
+<br><br><br/>
+A seller can offer up to four domestic shipping services and up to five international shipping services. However, if the seller is opted in to the Global Shipping Program, only four other international shipping services may be offered (regardless of whether or not Global Shipping is offered for the listing).<br/>
+<br><br><br/>
+If you specify ShippingDetails when you revise or relist an item but you omit InternationalShippingServiceOption, eBay will drop the international shipping services (except the Global Shipping Program) from the listing. This may also have unintended side effects, as other fields that depend on this data may be dropped as well. To retain the shipping services and dependent fields when you modify other shipping details, it may be simplest to specify all ShippingDetails that you still want to include in the listing.<br/>
+<br><br><br/>
+For GetItemShipping, results are filtered:  if <a href="#//api/name/any">any</a> service is not available in the buyer&rsquo;s region, it is removed. If no services remain after this filtering, a warning is returned.<br/>
+<br><br><br/>
+Not applicable to Half.com or eBay Motors vehicle listings.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/shippingType">&nbsp;&nbsp;shippingType</a></code>
+		<span class="tooltip"><p>The shipping cost model offered by the seller. This is not returned for<br/>
+various calls since shipping type can be deduced: if a CalculatedShippingRate<br/>
+structure is returned by the call, the shipping type is Calculated. Otherwise,<br/>
+it is one of the other non-Calculated shipping types.<br/>
+<br><br><br/>
+<b>GetItemShipping and GetItemTransactions</b>:<br/>
+If the type was a mix of flat and calculated services, this is<br/>
+set simply to Flat or Calculated because it is the buyer's<br/>
+selection that results in one of these.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/sellingManagerSalesRecordNumber">&nbsp;&nbsp;sellingManagerSalesRecordNumber</a></code>
+		<span class="tooltip"><p>The sale record ID. Applicable to Selling Manager users.<br/>
+When an item is sold, Selling Manager generates a sale record.<br/>
+A sale record contains buyer information, shipping, and other information.<br/>
+A sale record is displayed in the Sold view in Selling Manager.<br/>
+Each sale record has a sale record ID. In the following calls,<br/>
+the value for the sale record ID is in the SellingManagerSalesRecordNumber field:<br/>
+GetItemTransactions, GetSellerTransactions, GetOrders, GetOrderTransactions.<br/>
+In the Selling Manager calls, the value for the sale record ID is in the<br/>
+SaleRecordID field. The sale record ID can be for a single or a multiple line item order.<br/>
+<br><br/>
+Applicable to Half.com (for GetOrders).</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/thirdPartyCheckout">&nbsp;&nbsp;thirdPartyCheckout</a></code>
+		<span class="tooltip"><p>As of July 1, 2011, third-party applications can no longer be used for<br/>
+checkout. All purchased items must go through the eBay Checkout flow.<br/>
+<br><br><br/>
+This field can no longer be passed into the Add Item family of calls.<br/>
+<br><br><br/>
+This field will be returned in some calls (that return the ShippingDetails<br/>
+container) if it was set to True at listing time (for listings created before<br/>
+July 1, 2011). If this field was set to True at listing time, the user must<br/>
+include this field and set it to False in the Relist and Revise Item family of<br/>
+calls. Otherwise, the caller may get an error.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/taxTable">&nbsp;&nbsp;taxTable</a></code>
+		<span class="tooltip"><p>Tax details for a jurisdiction, such as a state or province. If no tax table<br/>
+is associated with the item, a tax table is not returned.<br/>
+<br><br><br/>
+For GetItem, a tax table is returned if it exists when:<br/>
+<br><br/>
+- DetailLevel is set to ReturnAll or ItemReturnDescription (in this case,<br/>
+the value of IncludeTaxTable does not matter).<br/>
+<br><br/>
+- IncludeTaxTable is set to true and DetailLevel is not set or it is set<br/>
+to ItemReturnAttributes.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getItFast">&nbsp;&nbsp;getItFast</a></code>
+		<span class="tooltip"><p>Indicates whether the seller has opted the listing into the Get It Fast<br/>
+feature. If GetItFast is true and if at least one of the domestic shipping<br/>
+services offered by the seller is an expedited shipping service, every shipping<br/>
+service offered by the seller is considered a Get It Fast service, and the<br/>
+seller commits to delivering the item to the buyer-selected shipping service<br/>
+within one day.<br/>
+<br><br><br/>
+Applicable to Half.com for GetOrders.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/shippingServiceUsed">&nbsp;&nbsp;shippingServiceUsed</a></code>
+		<span class="tooltip"><p>The shipping service actually used by the seller to ship the item(s) to the<br/>
+buyer.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/defaultShippingCost">&nbsp;&nbsp;defaultShippingCost</a></code>
+		<span class="tooltip"><p>The default shipping cost for the item. If the seller specified<br/>
+multiple shipping services, this is the &ldquo;first&rdquo; shipping service<br/>
+as specified by the seller when they listed the item.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/insuranceDetails">&nbsp;&nbsp;insuranceDetails</a></code>
+		<span class="tooltip"><p>Container for domestic insurance information.<br/>
+<br><br><br/>
+Note that there are fields named InsuranceFee and InsuranceOption at the same<br/>
+level as this container. These were once used for representing both domestic and<br/>
+international insurance details. If this (newer) container is provided on input<br/>
+and if ShippingDetails.InsuranceFee or ShippingDetails.InsuranceOption are also<br/>
+provided, those two (older fields) are ignored. If this container is omitted on<br/>
+input, its InsuranceFee and InsuranceOption subfields are set to match whatever<br/>
+(the older fields) ShippingDetails.InsuranceFee and<br/>
+ShippingDetails.InsuranceOption are set to. For flat and calculated shipping,<br/>
+depending on which subfields are used.<br/>
+<br><br><br/>
+Valid only on the following sites: FR and IT</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/internationalInsuranceDetails">&nbsp;&nbsp;internationalInsuranceDetails</a></code>
+		<span class="tooltip"><p>Container for international insurance information.<br/>
+<br><br><br/>
+Note that there are fields named InsuranceFee and InsuranceOption at the same<br/>
+level as this container. These were once used for representing both domestic<br/>
+and international insurance details. If this (newer) container is provided on<br/>
+input and if ShippingDetails.InsuranceFee or ShippingDetails.InsuranceOption<br/>
+are also provided, those two (older fields) are ignored. If this container is<br/>
+omitted on input, its InsuranceFee and InsuranceOption subfields are set to<br/>
+match whatever (the older fields) are set to for flat and calculated shipping,<br/>
+depending on which subfields are used.<br/>
+<br><br><br/>
+Valid only on the following sites: FR and IT</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/shippingDiscountProfileID">&nbsp;&nbsp;shippingDiscountProfileID</a></code>
+		<span class="tooltip"><p>On input, this is the ID of the shipping discount to offer for the domestic<br/>
+shipping services (where the shipping discount is either of type<br/>
+FlatShippingDiscount or CalculatedShippingDiscount). On output, this is the ID<br/>
+of the shipping discount offered and corresponds to whichever is returned:<br/>
+FlatShippingDiscount or CalculatedShippingDiscount. Only returned if the<br/>
+calling user is the seller.  If the user created a shipping discount profile,<br/>
+use the ShippingDiscountProfileID.<br/>
+<br><br><br/>
+In the RelistItem and ReviseItem family of calls, you can remove the existing<br/>
+ShippingDiscountProfileID associated with the item by supplying a value of 0 (zero).<br/>
+<br><br><br/>
+Only returned if the calling user is the seller.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/flatShippingDiscount">&nbsp;&nbsp;flatShippingDiscount</a></code>
+		<span class="tooltip"><p>If a flat rate shipping discount was offered for the domestic shipping<br/>
+services, this contains the details of the flat rate shipping discount.<br/>
+Otherwise, it is not returned. Only returned if the calling user is the seller.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/calculatedShippingDiscount">&nbsp;&nbsp;calculatedShippingDiscount</a></code>
+		<span class="tooltip"><p>If a calculated shipping discount was offered for the domestic shipping<br/>
+services, this contains the details of the calculated shipping discount.<br/>
+Otherwise, it is not returned. Only returned if the calling user is the seller.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/promotionalShippingDiscount">&nbsp;&nbsp;promotionalShippingDiscount</a></code>
+		<span class="tooltip"><p>On input, this specifies whether to offer the promotional shipping discount for<br/>
+the domestic shipping services of this listing (only applicable if the seller<br/>
+has a promotional shipping discount in effect at the moment).<br/>
+<br><br><br/>
+Returned on output only if the seller is making the call. This indicates<br/>
+whether the promotional shipping discount is being offered for the domestic<br/>
+shipping services of this listing (if the listing is still active&ndash;this is only<br/>
+possible if the seller has a promotional shipping discount in effect at the<br/>
+moment) or whether the discount was offered at the time the listing ended.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/internationalShippingDiscountProfileID">&nbsp;&nbsp;internationalShippingDiscountProfileID</a></code>
+		<span class="tooltip"><p>On input, this is the ID of the shipping discount to offer for the<br/>
+international shipping services (where the shipping discount is either<br/>
+of type FlatShippingDiscount or CalculatedShippingDiscount).<br/>
+<br><br><br/>
+In the RelistItem and ReviseItem family of calls, you can remove the existing<br/>
+InternationalShippingDiscountProfileID associated with the item by supplying a<br/>
+value of 0 (zero).<br/>
+<br><br><br/>
+Returned on output only if the seller is making the call. The value is<br/>
+the ID of the shipping discount offered and corresponds to whichever<br/>
+is returned: FlatShippingDiscount or CalculatedShippingDiscount.<br/>
+<br><br><br/>
+If the user created a shipping discount profile, use<br/>
+InternationalShippingDiscountProfileID.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/internationalFlatShippingDiscount">&nbsp;&nbsp;internationalFlatShippingDiscount</a></code>
+		<span class="tooltip"><p>This value is returned only if the seller is making the call. If a flat<br/>
+rate shipping discount was offered for the international shipping<br/>
+services, this contains the details of the flat rate shipping discount.<br/>
+Otherwise, it is not returned.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/internationalCalculatedShippingDiscount">&nbsp;&nbsp;internationalCalculatedShippingDiscount</a></code>
+		<span class="tooltip"><p>This value is returned only if the seller is making the call. If a<br/>
+calculated shipping discount was offered for the international shipping<br/>
+services, this contains the details of the calculated shipping<br/>
+discount. Otherwise, it is not returned.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/internationalPromotionalShippingDiscount">&nbsp;&nbsp;internationalPromotionalShippingDiscount</a></code>
+		<span class="tooltip"><p>On input, this specifies whether to offer the promotional shipping<br/>
+discount for the listing&rsquo;s international shipping services (only<br/>
+applicable if the seller has a promotional shipping discount in effect<br/>
+at the moment).<br/>
+<br><br><br/>
+Returned on output only if the seller is making the call. This value<br/>
+indicates whether the promotional shipping discount is being offered<br/>
+for the international shipping services of this listing (if the listing<br/>
+is still active&ndash;this is only possible if the seller has a promotional<br/>
+shipping discount in effect at the moment) or whether the discount was<br/>
+offered at the time the listing ended.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/promotionalShippingDiscountDetails">&nbsp;&nbsp;promotionalShippingDiscountDetails</a></code>
+		<span class="tooltip"><p>This value is returned only if the seller is making the call. Contains details of<br/>
+the promotional shipping discount, if such is being offered while the listing is<br/>
+active or if it was offered at the time the listing ended.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/codCost">&nbsp;&nbsp;codCost</a></code>
+		<span class="tooltip"><p>Valid only for the Italy site (site ID 101); contains<br/>
+the cash-on-delivery (COD) cost for COD shipping.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/excludeShipToLocation">&nbsp;&nbsp;excludeShipToLocation</a></code>
+		<span class="tooltip"><p>Use this field to specify an international country or region, or a special domestic<br/>
+location, such as &lsquo;PO Box&rsquo; (in US) or &lsquo;Packstation&rsquo; (in DE), to where you<br/>
+will not ship the associated item. Repeat this element in the call request for each<br/>
+location that you want to exclude as a shipping destination for your item.<br/>
+<br><br><br/>
+Set ShipToRegistrationCountry to true to have your ExcludeShipToLocation<br/>
+settings applied to your listing. The locations you have excluded display in<br/>
+the Shipping and Handling section of your item listing.<br/>
+<br><br><br/>
+If a buyer&rsquo;s primary ship-to location is a location that you have listed as<br/>
+an excluded ship-to location (or if the buyer does not have a primary ship-to<br/>
+location), they will receive an error message if they attempt to buy or place<br/>
+a bid on your item.<br/>
+<br><br><br/>
+The exclude ship-to location values are eBay regions and countries. To see<br/>
+the valid exclude ship-to locations for a specified site, call <b>GeteBayDetails</b><br/>
+with <b>DetailName</b> set to <b>ExcludeShippingLocationDetails</b>,<br/>
+and then look for the ExcludeShippingLocationDetails.Location fields in the response.<br/>
+Repeat <b>GeteBayDetails</b> for each site on which you list.<br/>
+<br><br><br/>
+This field works in conjunction with Item.ShipToLocations to create a set of<br/>
+international countries and regions to where you will, and will not, ship.<br/>
+You can list a region in the ShipToLocations field, then exclude specific<br/>
+countries within that region with this field (for example, you can specify<br/>
+Africa in ShipToLocations, yet exclude Chad with a ExcludeShipToLocation<br/>
+setting). In addition, if your ShipToLocations is Worldwide, you can use<br/>
+this field to specify both regions and countries that you want to exclude<br/>
+from your shipping destinations.<br/>
+<br><br><br/>
+You can specify a default set of locations to where you will not ship in My<br/>
+eBay. If you create an Exclude Ship-To List, it is, by default, in effect<br/>
+when you list items. However, if you specify any value in this field on<br/>
+input, it nullifies the default settings in your Exclude Ship-To List. (If<br/>
+you use ExcludeShipToLocation when you list an item, you will need to list<br/>
+all the locations to where you will not ship the associated item, regardless<br/>
+of the default settings in your Exclude Ship-To List.)<br/>
+<br><br><br/>
+Specify NONE in this field to override the default Exclude Ship-To List you<br/>
+might have set up in My eBay and indicate that you do not want to exclude any<br/>
+shipping locations from the respective item listing.<br/>
+<br><br><br/>
+<span class="tablenote"><strong>Note:</strong><br/>
+To enable your default Exclude Ship-To List, you must enable Exclude<br/>
+Shipping Locations and Buyer Requirements in your My eBay Site Preferences.<br/>
+For details, see the KnowledgeBase Article &lt;a href=<br/>
+&ldquo;<a href="https://ebay.custhelp.com/cgi-bin/ebay.cfg/php/enduser/std">https://ebay.custhelp.com/cgi-bin/ebay.cfg/php/enduser/std</a>_adp.php?p_faqid=1495&rdquo;</p>
+
+<blockquote><p>HowTo: ExcludeShipToLocation</a>.<br/>
+</span></p></blockquote></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/sellerExcludeShipToLocationsPreference">&nbsp;&nbsp;sellerExcludeShipToLocationsPreference</a></code>
+		<span class="tooltip"><p>Sellers can set up a global Exclude Ship-To List through their My eBay account.<br/>
+The Exclude Ship-To List defines the countries to where the seller does not<br/>
+ship, by default.<br/>
+<br><br><br/>
+This flag returns true if the Exclude Ship-To List is enabled by the seller for<br/>
+the associated item. If false, the seller&rsquo;s Exclude Ship-To List is either not<br/>
+set up, or it has been overridden by the seller when they listed the item with<br/>
+ExcludeShipToLocation fields.<br/>
+<br><br><br/>
+In the response, ExcludeShipToLocation fields detail the locations to where the<br/>
+seller will not ship the item, regardless of the value returned in this field.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/shipmentTrackingDetails">&nbsp;&nbsp;shipmentTrackingDetails</a></code>
+		<span class="tooltip"><p>Container for the shipping carrier and tracking information associated with the<br/>
+shipment of an order.<br/>
+<br><br><br/>
+As each package has a unique tracking number, this container should be<br/>
+repeated for each package in the order.<br/>
+<br><br/>
+<br><br/>
+<span class="tablenote"><b>Note:</b><br/>
+Starting June 20, 2012 Top-rated sellers must have a record of uploading shipment tracking<br/>
+information (through site or through API) for at least 90 percent of their order line<br/>
+items (purchased by U.S. buyers) to keep their status as Top-rated sellers. For more<br/>
+information on changes to eBay&rsquo;s Top-rated seller program, see the<br/>
+<a href="[http://pages.ebay.com/sellerinformation/news/eTRSupdate.html](http://pages.ebay.com/sellerinformation/news/eTRSupdate.html)">2012 Spring Seller Update</a> page.<br/>
+</span><br/>
+<br></p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/rateTableDetails">&nbsp;&nbsp;rateTableDetails</a></code>
+		<span class="tooltip"><pre><code>This container specifies the shipping rate tables that are to be applied to this listing. Shipping rate tables enable sellers to tailor the flat shipping rates offered for an item to fit the shipping destination. They can specify a shipping rate for a large &lt;em&gt;base&lt;/em&gt; region, then define alternative rates or surcharges for shipping to other &lt;em&gt;extended&lt;/em&gt; regions within the base region.  
+&lt;br&gt;&lt;br&gt;
+</code></pre></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/any">&nbsp;&nbsp;any</a></code>
+		<span class="tooltip"><p>(public property)</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/allowPaymentEdit" title="allowPaymentEdit"></a>
+	<h3 class="subsubtitle method-title">allowPaymentEdit</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>This field is no longer returned and has been replaced by the ShippingDetails.PaymentEdited field.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSNumber *allowPaymentEdit</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>This field is no longer returned and has been replaced by the ShippingDetails.PaymentEdited field.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p>
+
+<p>type : NSNumber, wrapper for primitive bool</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_ShippingDetailsType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/any" title="any"></a>
+	<h3 class="subsubtitle method-title">any</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>(public property)</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSMutableArray *any</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>(public property)</p>
+
+<p>entry type : PicoAnyElement, wrapper for primitive anyelement</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_ShippingDetailsType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/applyShippingDiscount" title="applyShippingDiscount"></a>
+	<h3 class="subsubtitle method-title">applyShippingDiscount</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>No longer used. To be deprecated in late 2010.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSNumber *applyShippingDiscount</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>No longer used. To be deprecated in late 2010.</p>
+
+<p>type : NSNumber, wrapper for primitive bool</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_ShippingDetailsType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/calculatedShippingDiscount" title="calculatedShippingDiscount"></a>
+	<h3 class="subsubtitle method-title">calculatedShippingDiscount</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>If a calculated shipping discount was offered for the domestic shipping<br/>
+services, this contains the details of the calculated shipping discount.<br/>
+Otherwise, it is not returned. Only returned if the calling user is the seller.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_CalculatedShippingDiscountType *calculatedShippingDiscount</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>If a calculated shipping discount was offered for the domestic shipping<br/>
+services, this contains the details of the calculated shipping discount.<br/>
+Otherwise, it is not returned. Only returned if the calling user is the seller.</p>
+
+<p>type : class <a href="../Classes/Trading_CalculatedShippingDiscountType.html">Trading_CalculatedShippingDiscountType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_ShippingDetailsType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/calculatedShippingRate" title="calculatedShippingRate"></a>
+	<h3 class="subsubtitle method-title">calculatedShippingRate</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Details pertinent to one or more items for which calculated shipping has been<br/>
+offered by the seller, such as package dimension and weight and<br/>
+packaging/handling costs. If your call specifies a large-dimension item listed<br/>
+with UPS, see &lt;a href=<br/>
+&ldquo;<a href="http://ebay.custhelp.com/cgi-bin/ebay.cfg/php/enduser/std">http://ebay.custhelp.com/cgi-bin/ebay.cfg/php/enduser/std</a>_adp.php?p_faqid=1159&rdquo;</p>
+
+<blockquote><p>Dimensional Weight limit on UPS shipping services results in failure of<br/>
+shipping calculator</a>.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p></blockquote>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_CalculatedShippingRateType *calculatedShippingRate</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Details pertinent to one or more items for which calculated shipping has been<br/>
+offered by the seller, such as package dimension and weight and<br/>
+packaging/handling costs. If your call specifies a large-dimension item listed<br/>
+with UPS, see &lt;a href=<br/>
+&ldquo;<a href="http://ebay.custhelp.com/cgi-bin/ebay.cfg/php/enduser/std">http://ebay.custhelp.com/cgi-bin/ebay.cfg/php/enduser/std</a>_adp.php?p_faqid=1159&rdquo;</p>
+
+<blockquote><p>Dimensional Weight limit on UPS shipping services results in failure of<br/>
+shipping calculator</a>.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p></blockquote>
+
+<p>type : class <a href="../Classes/Trading_CalculatedShippingRateType.html">Trading_CalculatedShippingRateType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_ShippingDetailsType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/changePaymentInstructions" title="changePaymentInstructions"></a>
+	<h3 class="subsubtitle method-title">changePaymentInstructions</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Whether the seller specified payment and shipping instructions during checkout<br/>
+(for example, to update the details of an order). Valid for flat and calculated<br/>
+shipping.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSNumber *changePaymentInstructions</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Whether the seller specified payment and shipping instructions during checkout<br/>
+(for example, to update the details of an order). Valid for flat and calculated<br/>
+shipping.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p>
+
+<p>type : NSNumber, wrapper for primitive bool</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_ShippingDetailsType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/codCost" title="codCost"></a>
+	<h3 class="subsubtitle method-title">codCost</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Valid only for the Italy site (site ID 101); contains<br/>
+the cash-on-delivery (COD) cost for COD shipping.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_AmountType *codCost</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Valid only for the Italy site (site ID 101); contains<br/>
+the cash-on-delivery (COD) cost for COD shipping.</p>
+
+<p>type : class <a href="../Classes/Trading_AmountType.html">Trading_AmountType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_ShippingDetailsType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/defaultShippingCost" title="defaultShippingCost"></a>
+	<h3 class="subsubtitle method-title">defaultShippingCost</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The default shipping cost for the item. If the seller specified<br/>
+multiple shipping services, this is the &ldquo;first&rdquo; shipping service<br/>
+as specified by the seller when they listed the item.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_AmountType *defaultShippingCost</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The default shipping cost for the item. If the seller specified<br/>
+multiple shipping services, this is the &ldquo;first&rdquo; shipping service<br/>
+as specified by the seller when they listed the item.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p>
+
+<p>type : class <a href="../Classes/Trading_AmountType.html">Trading_AmountType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_ShippingDetailsType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/excludeShipToLocation" title="excludeShipToLocation"></a>
+	<h3 class="subsubtitle method-title">excludeShipToLocation</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Use this field to specify an international country or region, or a special domestic<br/>
+location, such as &lsquo;PO Box&rsquo; (in US) or &lsquo;Packstation&rsquo; (in DE), to where you<br/>
+will not ship the associated item. Repeat this element in the call request for each<br/>
+location that you want to exclude as a shipping destination for your item.<br/>
+<br><br><br/>
+Set ShipToRegistrationCountry to true to have your ExcludeShipToLocation<br/>
+settings applied to your listing. The locations you have excluded display in<br/>
+the Shipping and Handling section of your item listing.<br/>
+<br><br><br/>
+If a buyer&rsquo;s primary ship-to location is a location that you have listed as<br/>
+an excluded ship-to location (or if the buyer does not have a primary ship-to<br/>
+location), they will receive an error message if they attempt to buy or place<br/>
+a bid on your item.<br/>
+<br><br><br/>
+The exclude ship-to location values are eBay regions and countries. To see<br/>
+the valid exclude ship-to locations for a specified site, call <b>GeteBayDetails</b><br/>
+with <b>DetailName</b> set to <b>ExcludeShippingLocationDetails</b>,<br/>
+and then look for the ExcludeShippingLocationDetails.Location fields in the response.<br/>
+Repeat <b>GeteBayDetails</b> for each site on which you list.<br/>
+<br><br><br/>
+This field works in conjunction with Item.ShipToLocations to create a set of<br/>
+international countries and regions to where you will, and will not, ship.<br/>
+You can list a region in the ShipToLocations field, then exclude specific<br/>
+countries within that region with this field (for example, you can specify<br/>
+Africa in ShipToLocations, yet exclude Chad with a ExcludeShipToLocation<br/>
+setting). In addition, if your ShipToLocations is Worldwide, you can use<br/>
+this field to specify both regions and countries that you want to exclude<br/>
+from your shipping destinations.<br/>
+<br><br><br/>
+You can specify a default set of locations to where you will not ship in My<br/>
+eBay. If you create an Exclude Ship-To List, it is, by default, in effect<br/>
+when you list items. However, if you specify any value in this field on<br/>
+input, it nullifies the default settings in your Exclude Ship-To List. (If<br/>
+you use ExcludeShipToLocation when you list an item, you will need to list<br/>
+all the locations to where you will not ship the associated item, regardless<br/>
+of the default settings in your Exclude Ship-To List.)<br/>
+<br><br><br/>
+Specify NONE in this field to override the default Exclude Ship-To List you<br/>
+might have set up in My eBay and indicate that you do not want to exclude any<br/>
+shipping locations from the respective item listing.<br/>
+<br><br><br/>
+<span class="tablenote"><strong>Note:</strong><br/>
+To enable your default Exclude Ship-To List, you must enable Exclude<br/>
+Shipping Locations and Buyer Requirements in your My eBay Site Preferences.<br/>
+For details, see the KnowledgeBase Article &lt;a href=<br/>
+&ldquo;<a href="https://ebay.custhelp.com/cgi-bin/ebay.cfg/php/enduser/std">https://ebay.custhelp.com/cgi-bin/ebay.cfg/php/enduser/std</a>_adp.php?p_faqid=1495&rdquo;</p>
+
+<blockquote><p>HowTo: ExcludeShipToLocation</a>.<br/>
+</span></p></blockquote>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSMutableArray *excludeShipToLocation</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Use this field to specify an international country or region, or a special domestic<br/>
+location, such as &lsquo;PO Box&rsquo; (in US) or &lsquo;Packstation&rsquo; (in DE), to where you<br/>
+will not ship the associated item. Repeat this element in the call request for each<br/>
+location that you want to exclude as a shipping destination for your item.<br/>
+<br><br><br/>
+Set ShipToRegistrationCountry to true to have your ExcludeShipToLocation<br/>
+settings applied to your listing. The locations you have excluded display in<br/>
+the Shipping and Handling section of your item listing.<br/>
+<br><br><br/>
+If a buyer&rsquo;s primary ship-to location is a location that you have listed as<br/>
+an excluded ship-to location (or if the buyer does not have a primary ship-to<br/>
+location), they will receive an error message if they attempt to buy or place<br/>
+a bid on your item.<br/>
+<br><br><br/>
+The exclude ship-to location values are eBay regions and countries. To see<br/>
+the valid exclude ship-to locations for a specified site, call <b>GeteBayDetails</b><br/>
+with <b>DetailName</b> set to <b>ExcludeShippingLocationDetails</b>,<br/>
+and then look for the ExcludeShippingLocationDetails.Location fields in the response.<br/>
+Repeat <b>GeteBayDetails</b> for each site on which you list.<br/>
+<br><br><br/>
+This field works in conjunction with Item.ShipToLocations to create a set of<br/>
+international countries and regions to where you will, and will not, ship.<br/>
+You can list a region in the ShipToLocations field, then exclude specific<br/>
+countries within that region with this field (for example, you can specify<br/>
+Africa in ShipToLocations, yet exclude Chad with a ExcludeShipToLocation<br/>
+setting). In addition, if your ShipToLocations is Worldwide, you can use<br/>
+this field to specify both regions and countries that you want to exclude<br/>
+from your shipping destinations.<br/>
+<br><br><br/>
+You can specify a default set of locations to where you will not ship in My<br/>
+eBay. If you create an Exclude Ship-To List, it is, by default, in effect<br/>
+when you list items. However, if you specify any value in this field on<br/>
+input, it nullifies the default settings in your Exclude Ship-To List. (If<br/>
+you use ExcludeShipToLocation when you list an item, you will need to list<br/>
+all the locations to where you will not ship the associated item, regardless<br/>
+of the default settings in your Exclude Ship-To List.)<br/>
+<br><br><br/>
+Specify NONE in this field to override the default Exclude Ship-To List you<br/>
+might have set up in My eBay and indicate that you do not want to exclude any<br/>
+shipping locations from the respective item listing.<br/>
+<br><br><br/>
+<span class="tablenote"><strong>Note:</strong><br/>
+To enable your default Exclude Ship-To List, you must enable Exclude<br/>
+Shipping Locations and Buyer Requirements in your My eBay Site Preferences.<br/>
+For details, see the KnowledgeBase Article &lt;a href=<br/>
+&ldquo;<a href="https://ebay.custhelp.com/cgi-bin/ebay.cfg/php/enduser/std">https://ebay.custhelp.com/cgi-bin/ebay.cfg/php/enduser/std</a>_adp.php?p_faqid=1495&rdquo;</p>
+
+<blockquote><p>HowTo: ExcludeShipToLocation</a>.<br/>
+</span></p></blockquote>
+
+<p>entry type : NSString, wrapper for primitive string</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_ShippingDetailsType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/flatShippingDiscount" title="flatShippingDiscount"></a>
+	<h3 class="subsubtitle method-title">flatShippingDiscount</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>If a flat rate shipping discount was offered for the domestic shipping<br/>
+services, this contains the details of the flat rate shipping discount.<br/>
+Otherwise, it is not returned. Only returned if the calling user is the seller.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_FlatShippingDiscountType *flatShippingDiscount</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>If a flat rate shipping discount was offered for the domestic shipping<br/>
+services, this contains the details of the flat rate shipping discount.<br/>
+Otherwise, it is not returned. Only returned if the calling user is the seller.</p>
+
+<p>type : class <a href="../Classes/Trading_FlatShippingDiscountType.html">Trading_FlatShippingDiscountType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_ShippingDetailsType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getItFast" title="getItFast"></a>
+	<h3 class="subsubtitle method-title">getItFast</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Indicates whether the seller has opted the listing into the Get It Fast<br/>
+feature. If GetItFast is true and if at least one of the domestic shipping<br/>
+services offered by the seller is an expedited shipping service, every shipping<br/>
+service offered by the seller is considered a Get It Fast service, and the<br/>
+seller commits to delivering the item to the buyer-selected shipping service<br/>
+within one day.<br/>
+<br><br><br/>
+Applicable to Half.com for GetOrders.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSNumber *getItFast</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Indicates whether the seller has opted the listing into the Get It Fast<br/>
+feature. If GetItFast is true and if at least one of the domestic shipping<br/>
+services offered by the seller is an expedited shipping service, every shipping<br/>
+service offered by the seller is considered a Get It Fast service, and the<br/>
+seller commits to delivering the item to the buyer-selected shipping service<br/>
+within one day.<br/>
+<br><br><br/>
+Applicable to Half.com for GetOrders.</p>
+
+<p>type : NSNumber, wrapper for primitive bool</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_ShippingDetailsType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/globalShipping" title="globalShipping"></a>
+	<h3 class="subsubtitle method-title">globalShipping</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Indicates whether eBay&rsquo;s Global Shipping Program is offered for the listing. If the value of <strong>GlobalShipping</strong> is True, the Global Shipping Program is the default international shipping option for the listing, and eBay sets the international shipping service to International Priority Shipping. If the value of <strong>GlobalShipping</strong> is False, the seller is responsible for specifying an international shipping service for the listing if desired.<br/>
+<br/><br/><br/>
+When calling <strong>RelistFixedPriceItem</strong>, <strong>RelistItem</strong>, <strong>ReviseFixedPriceItem</strong> or <strong>ReviseItem</strong>, you can omit this field if its value doesn&rsquo;t need to change.<br/>
+<br/><br/><br/>
+Before using this field for a listing, ensure that the seller and the item being listed are eligible for the Global Shipping Program.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSNumber *globalShipping</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Indicates whether eBay&rsquo;s Global Shipping Program is offered for the listing. If the value of <strong>GlobalShipping</strong> is True, the Global Shipping Program is the default international shipping option for the listing, and eBay sets the international shipping service to International Priority Shipping. If the value of <strong>GlobalShipping</strong> is False, the seller is responsible for specifying an international shipping service for the listing if desired.<br/>
+<br/><br/><br/>
+When calling <strong>RelistFixedPriceItem</strong>, <strong>RelistItem</strong>, <strong>ReviseFixedPriceItem</strong> or <strong>ReviseItem</strong>, you can omit this field if its value doesn&rsquo;t need to change.<br/>
+<br/><br/><br/>
+Before using this field for a listing, ensure that the seller and the item being listed are eligible for the Global Shipping Program.</p>
+
+<p>type : NSNumber, wrapper for primitive bool</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_ShippingDetailsType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/insuranceDetails" title="insuranceDetails"></a>
+	<h3 class="subsubtitle method-title">insuranceDetails</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Container for domestic insurance information.<br/>
+<br><br><br/>
+Note that there are fields named InsuranceFee and InsuranceOption at the same<br/>
+level as this container. These were once used for representing both domestic and<br/>
+international insurance details. If this (newer) container is provided on input<br/>
+and if ShippingDetails.InsuranceFee or ShippingDetails.InsuranceOption are also<br/>
+provided, those two (older fields) are ignored. If this container is omitted on<br/>
+input, its InsuranceFee and InsuranceOption subfields are set to match whatever<br/>
+(the older fields) ShippingDetails.InsuranceFee and<br/>
+ShippingDetails.InsuranceOption are set to. For flat and calculated shipping,<br/>
+depending on which subfields are used.<br/>
+<br><br><br/>
+Valid only on the following sites: FR and IT</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_InsuranceDetailsType *insuranceDetails</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Container for domestic insurance information.<br/>
+<br><br><br/>
+Note that there are fields named InsuranceFee and InsuranceOption at the same<br/>
+level as this container. These were once used for representing both domestic and<br/>
+international insurance details. If this (newer) container is provided on input<br/>
+and if ShippingDetails.InsuranceFee or ShippingDetails.InsuranceOption are also<br/>
+provided, those two (older fields) are ignored. If this container is omitted on<br/>
+input, its InsuranceFee and InsuranceOption subfields are set to match whatever<br/>
+(the older fields) ShippingDetails.InsuranceFee and<br/>
+ShippingDetails.InsuranceOption are set to. For flat and calculated shipping,<br/>
+depending on which subfields are used.<br/>
+<br><br><br/>
+Valid only on the following sites: FR and IT</p>
+
+<p>type : class <a href="../Classes/Trading_InsuranceDetailsType.html">Trading_InsuranceDetailsType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_ShippingDetailsType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/insuranceFee" title="insuranceFee"></a>
+	<h3 class="subsubtitle method-title">insuranceFee</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Cost of shipping insurance set by the seller. If the buyer bought more than one<br/>
+of this item, this is the insurance for just a single item. Exception: for<br/>
+GetItemShipping, this is proportional to QuantitySold. Value should be greater<br/>
+than 0.00 if InsuranceOption is Optional or Required. For flat shipping only.<br/>
+Optional as input and only allowed if ChangePaymentInstructions is true. This<br/>
+field is ignored when InsuranceOption is not specified in the request.<br/>
+<br><br><br/>
+Valid only on the following sites: FR and IT<br/>
+<br><br/>
+Applicable to Half.com for GetOrders.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_AmountType *insuranceFee</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Cost of shipping insurance set by the seller. If the buyer bought more than one<br/>
+of this item, this is the insurance for just a single item. Exception: for<br/>
+GetItemShipping, this is proportional to QuantitySold. Value should be greater<br/>
+than 0.00 if InsuranceOption is Optional or Required. For flat shipping only.<br/>
+Optional as input and only allowed if ChangePaymentInstructions is true. This<br/>
+field is ignored when InsuranceOption is not specified in the request.<br/>
+<br><br><br/>
+Valid only on the following sites: FR and IT<br/>
+<br><br/>
+Applicable to Half.com for GetOrders.</p>
+
+<p>type : class <a href="../Classes/Trading_AmountType.html">Trading_AmountType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_ShippingDetailsType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/insuranceOption" title="insuranceOption"></a>
+	<h3 class="subsubtitle method-title">insuranceOption</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Whether the seller offers shipping insurance and, if so, whether the insurance is<br/>
+optional or required. Optional as input and only allowed if<br/>
+ChangePaymentInstructions is true. If this field is not included in the request,<br/>
+values specified in the InsuranceFee field will be ignored.<br/>
+<br><br><br/>
+<span class="tablenote"><strong>Note:</strong><br/>
+Note that sellers are responsible for the items they sell until they safely<br/>
+arrive in their customers' hands, and that offering buyer-paid insurance<br/>
+(either as an optional or required service) infers that the buyer is somehow<br/>
+responsible for the safe delivery of the items they purchase. This notion can<br/>
+reduce buyer confidence in the marketplace and the practice of including buyer-<br/>
+paid shipping insurance in your item listings is discouraged.<br/>
+</span><br/>
+<br><br/>
+This field is only returned if the value is other than NotOffered.<br/>
+<br><br><br/>
+Valid only on the following sites: FR and IT<br/>
+<br><br/>
+If you include buyer-paid shipping insurance for an item listed on one<br/>
+of the sites that supports this option, a buyer on a site that does not support<br/>
+buyer-paid shipping insurance can still purchase the item. In these cases, the<br/>
+buyer is responsible for all the shipping insurance terms that have been outlined<br/>
+in the item listing.<br/>
+<br><br><br/>
+Applicable to Half.com</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *insuranceOption</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Whether the seller offers shipping insurance and, if so, whether the insurance is<br/>
+optional or required. Optional as input and only allowed if<br/>
+ChangePaymentInstructions is true. If this field is not included in the request,<br/>
+values specified in the InsuranceFee field will be ignored.<br/>
+<br><br><br/>
+<span class="tablenote"><strong>Note:</strong><br/>
+Note that sellers are responsible for the items they sell until they safely<br/>
+arrive in their customers' hands, and that offering buyer-paid insurance<br/>
+(either as an optional or required service) infers that the buyer is somehow<br/>
+responsible for the safe delivery of the items they purchase. This notion can<br/>
+reduce buyer confidence in the marketplace and the practice of including buyer-<br/>
+paid shipping insurance in your item listings is discouraged.<br/>
+</span><br/>
+<br><br/>
+This field is only returned if the value is other than NotOffered.<br/>
+<br><br><br/>
+Valid only on the following sites: FR and IT<br/>
+<br><br/>
+If you include buyer-paid shipping insurance for an item listed on one<br/>
+of the sites that supports this option, a buyer on a site that does not support<br/>
+buyer-paid shipping insurance can still purchase the item. In these cases, the<br/>
+buyer is responsible for all the shipping insurance terms that have been outlined<br/>
+in the item listing.<br/>
+<br><br><br/>
+Applicable to Half.com</p>
+
+<p>type: string constant in Trading_InsuranceOptionCodeType.h</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_ShippingDetailsType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/insuranceWanted" title="insuranceWanted"></a>
+	<h3 class="subsubtitle method-title">insuranceWanted</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Whether or not the buyer selected to pay for insurance as an option offered by<br/>
+the seller. This only has a value after the buyer has gone through checkout and<br/>
+selected the insurance preference.<br/>
+<br><br><br/>
+Valid only on the following sites: FR and IT<br/>
+<br><br/>
+Applicable to Half.com for GetOrders.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSNumber *insuranceWanted</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Whether or not the buyer selected to pay for insurance as an option offered by<br/>
+the seller. This only has a value after the buyer has gone through checkout and<br/>
+selected the insurance preference.<br/>
+<br><br><br/>
+Valid only on the following sites: FR and IT<br/>
+<br><br/>
+Applicable to Half.com for GetOrders.</p>
+
+<p>type : NSNumber, wrapper for primitive bool</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_ShippingDetailsType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/internationalCalculatedShippingDiscount" title="internationalCalculatedShippingDiscount"></a>
+	<h3 class="subsubtitle method-title">internationalCalculatedShippingDiscount</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>This value is returned only if the seller is making the call. If a<br/>
+calculated shipping discount was offered for the international shipping<br/>
+services, this contains the details of the calculated shipping<br/>
+discount. Otherwise, it is not returned.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_CalculatedShippingDiscountType *internationalCalculatedShippingDiscount</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>This value is returned only if the seller is making the call. If a<br/>
+calculated shipping discount was offered for the international shipping<br/>
+services, this contains the details of the calculated shipping<br/>
+discount. Otherwise, it is not returned.</p>
+
+<p>type : class <a href="../Classes/Trading_CalculatedShippingDiscountType.html">Trading_CalculatedShippingDiscountType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_ShippingDetailsType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/internationalFlatShippingDiscount" title="internationalFlatShippingDiscount"></a>
+	<h3 class="subsubtitle method-title">internationalFlatShippingDiscount</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>This value is returned only if the seller is making the call. If a flat<br/>
+rate shipping discount was offered for the international shipping<br/>
+services, this contains the details of the flat rate shipping discount.<br/>
+Otherwise, it is not returned.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_FlatShippingDiscountType *internationalFlatShippingDiscount</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>This value is returned only if the seller is making the call. If a flat<br/>
+rate shipping discount was offered for the international shipping<br/>
+services, this contains the details of the flat rate shipping discount.<br/>
+Otherwise, it is not returned.</p>
+
+<p>type : class <a href="../Classes/Trading_FlatShippingDiscountType.html">Trading_FlatShippingDiscountType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_ShippingDetailsType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/internationalInsuranceDetails" title="internationalInsuranceDetails"></a>
+	<h3 class="subsubtitle method-title">internationalInsuranceDetails</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Container for international insurance information.<br/>
+<br><br><br/>
+Note that there are fields named InsuranceFee and InsuranceOption at the same<br/>
+level as this container. These were once used for representing both domestic<br/>
+and international insurance details. If this (newer) container is provided on<br/>
+input and if ShippingDetails.InsuranceFee or ShippingDetails.InsuranceOption<br/>
+are also provided, those two (older fields) are ignored. If this container is<br/>
+omitted on input, its InsuranceFee and InsuranceOption subfields are set to<br/>
+match whatever (the older fields) are set to for flat and calculated shipping,<br/>
+depending on which subfields are used.<br/>
+<br><br><br/>
+Valid only on the following sites: FR and IT</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_InsuranceDetailsType *internationalInsuranceDetails</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Container for international insurance information.<br/>
+<br><br><br/>
+Note that there are fields named InsuranceFee and InsuranceOption at the same<br/>
+level as this container. These were once used for representing both domestic<br/>
+and international insurance details. If this (newer) container is provided on<br/>
+input and if ShippingDetails.InsuranceFee or ShippingDetails.InsuranceOption<br/>
+are also provided, those two (older fields) are ignored. If this container is<br/>
+omitted on input, its InsuranceFee and InsuranceOption subfields are set to<br/>
+match whatever (the older fields) are set to for flat and calculated shipping,<br/>
+depending on which subfields are used.<br/>
+<br><br><br/>
+Valid only on the following sites: FR and IT</p>
+
+<p>type : class <a href="../Classes/Trading_InsuranceDetailsType.html">Trading_InsuranceDetailsType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_ShippingDetailsType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/internationalPromotionalShippingDiscount" title="internationalPromotionalShippingDiscount"></a>
+	<h3 class="subsubtitle method-title">internationalPromotionalShippingDiscount</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>On input, this specifies whether to offer the promotional shipping<br/>
+discount for the listing&rsquo;s international shipping services (only<br/>
+applicable if the seller has a promotional shipping discount in effect<br/>
+at the moment).<br/>
+<br><br><br/>
+Returned on output only if the seller is making the call. This value<br/>
+indicates whether the promotional shipping discount is being offered<br/>
+for the international shipping services of this listing (if the listing<br/>
+is still active&ndash;this is only possible if the seller has a promotional<br/>
+shipping discount in effect at the moment) or whether the discount was<br/>
+offered at the time the listing ended.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSNumber *internationalPromotionalShippingDiscount</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>On input, this specifies whether to offer the promotional shipping<br/>
+discount for the listing&rsquo;s international shipping services (only<br/>
+applicable if the seller has a promotional shipping discount in effect<br/>
+at the moment).<br/>
+<br><br><br/>
+Returned on output only if the seller is making the call. This value<br/>
+indicates whether the promotional shipping discount is being offered<br/>
+for the international shipping services of this listing (if the listing<br/>
+is still active&ndash;this is only possible if the seller has a promotional<br/>
+shipping discount in effect at the moment) or whether the discount was<br/>
+offered at the time the listing ended.</p>
+
+<p>type : NSNumber, wrapper for primitive bool</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_ShippingDetailsType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/internationalShippingDiscountProfileID" title="internationalShippingDiscountProfileID"></a>
+	<h3 class="subsubtitle method-title">internationalShippingDiscountProfileID</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>On input, this is the ID of the shipping discount to offer for the<br/>
+international shipping services (where the shipping discount is either<br/>
+of type FlatShippingDiscount or CalculatedShippingDiscount).<br/>
+<br><br><br/>
+In the RelistItem and ReviseItem family of calls, you can remove the existing<br/>
+InternationalShippingDiscountProfileID associated with the item by supplying a<br/>
+value of 0 (zero).<br/>
+<br><br><br/>
+Returned on output only if the seller is making the call. The value is<br/>
+the ID of the shipping discount offered and corresponds to whichever<br/>
+is returned: FlatShippingDiscount or CalculatedShippingDiscount.<br/>
+<br><br><br/>
+If the user created a shipping discount profile, use<br/>
+InternationalShippingDiscountProfileID.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *internationalShippingDiscountProfileID</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>On input, this is the ID of the shipping discount to offer for the<br/>
+international shipping services (where the shipping discount is either<br/>
+of type FlatShippingDiscount or CalculatedShippingDiscount).<br/>
+<br><br><br/>
+In the RelistItem and ReviseItem family of calls, you can remove the existing<br/>
+InternationalShippingDiscountProfileID associated with the item by supplying a<br/>
+value of 0 (zero).<br/>
+<br><br><br/>
+Returned on output only if the seller is making the call. The value is<br/>
+the ID of the shipping discount offered and corresponds to whichever<br/>
+is returned: FlatShippingDiscount or CalculatedShippingDiscount.<br/>
+<br><br><br/>
+If the user created a shipping discount profile, use<br/>
+InternationalShippingDiscountProfileID.</p>
+
+<p>type : NSString, wrapper for primitive string</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_ShippingDetailsType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/internationalShippingServiceOption" title="internationalShippingServiceOption"></a>
+	<h3 class="subsubtitle method-title">internationalShippingServiceOption</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Shipping costs and options related to an international shipping service. If used, at least one domestic shipping service must also be provided in ShippingServiceOptions.<br/>
+<br><br><br/>
+If you specify multiple InternationalShippingServiceOption nodes, the repeating nodes must be contiguous. That is, you cannot insert other nodes between InternationalShippingServiceOption nodes.<br/>
+<br><br><br/>
+All specified domestic and international shipping services must be the same shipping type (for example, Flat versus Calculated).<br/>
+<br><br><br/>
+A seller can offer up to four domestic shipping services and up to five international shipping services. However, if the seller is opted in to the Global Shipping Program, only four other international shipping services may be offered (regardless of whether or not Global Shipping is offered for the listing).<br/>
+<br><br><br/>
+If you specify ShippingDetails when you revise or relist an item but you omit InternationalShippingServiceOption, eBay will drop the international shipping services (except the Global Shipping Program) from the listing. This may also have unintended side effects, as other fields that depend on this data may be dropped as well. To retain the shipping services and dependent fields when you modify other shipping details, it may be simplest to specify all ShippingDetails that you still want to include in the listing.<br/>
+<br><br><br/>
+For GetItemShipping, results are filtered:  if <a href="#//api/name/any">any</a> service is not available in the buyer&rsquo;s region, it is removed. If no services remain after this filtering, a warning is returned.<br/>
+<br><br><br/>
+Not applicable to Half.com or eBay Motors vehicle listings.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSMutableArray *internationalShippingServiceOption</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Shipping costs and options related to an international shipping service. If used, at least one domestic shipping service must also be provided in ShippingServiceOptions.<br/>
+<br><br><br/>
+If you specify multiple InternationalShippingServiceOption nodes, the repeating nodes must be contiguous. That is, you cannot insert other nodes between InternationalShippingServiceOption nodes.<br/>
+<br><br><br/>
+All specified domestic and international shipping services must be the same shipping type (for example, Flat versus Calculated).<br/>
+<br><br><br/>
+A seller can offer up to four domestic shipping services and up to five international shipping services. However, if the seller is opted in to the Global Shipping Program, only four other international shipping services may be offered (regardless of whether or not Global Shipping is offered for the listing).<br/>
+<br><br><br/>
+If you specify ShippingDetails when you revise or relist an item but you omit InternationalShippingServiceOption, eBay will drop the international shipping services (except the Global Shipping Program) from the listing. This may also have unintended side effects, as other fields that depend on this data may be dropped as well. To retain the shipping services and dependent fields when you modify other shipping details, it may be simplest to specify all ShippingDetails that you still want to include in the listing.<br/>
+<br><br><br/>
+For GetItemShipping, results are filtered:  if <a href="#//api/name/any">any</a> service is not available in the buyer&rsquo;s region, it is removed. If no services remain after this filtering, a warning is returned.<br/>
+<br><br><br/>
+Not applicable to Half.com or eBay Motors vehicle listings.</p>
+
+<p>entry type : class <a href="../Classes/Trading_InternationalShippingServiceOptionsType.html">Trading_InternationalShippingServiceOptionsType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_ShippingDetailsType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/paymentEdited" title="paymentEdited"></a>
+	<h3 class="subsubtitle method-title">paymentEdited</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Whether the seller allows the buyer to edit the payment amount for the order.<br/>
+(Sellers enable this property in their My eBay user preferences on the eBay site.)<br/>
+<br><br><br/>
+Not applicable to Half.com.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSNumber *paymentEdited</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Whether the seller allows the buyer to edit the payment amount for the order.<br/>
+(Sellers enable this property in their My eBay user preferences on the eBay site.)<br/>
+<br><br><br/>
+Not applicable to Half.com.</p>
+
+<p>type : NSNumber, wrapper for primitive bool</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_ShippingDetailsType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/paymentInstructions" title="paymentInstructions"></a>
+	<h3 class="subsubtitle method-title">paymentInstructions</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Payment instructions (or message) from the seller to the buyer. These<br/>
+instructions appear on eBay&rsquo;s View Item page and on eBay&rsquo;s checkout page when the<br/>
+buyer pays for the item.<br/>
+<br><br><br/>
+Sellers usually use this field to specify payment instructions, how soon the item<br/>
+will shipped, feedback instructions, and other reminders that the buyer should be<br/>
+aware of when they bid on or buy an item. This field can be specified regardless<br/>
+of the shipping type eBay only allows 500 characters as input, but due to the way<br/>
+the eBay Web site UI treats characters, this field can return more than 500<br/>
+characters in the response. Characters like &amp; and &lsquo; (apostrophe/single quote)<br/>
+count as 5 characters each. Use DeletedField to remove this value when revising<br/>
+or relisting an item.<br/>
+<br><br><br/>
+Applicable to eBay Motors (usually used to elaborate on the return policy).<br/>
+<br><br/>
+Not applicable to Half.com.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *paymentInstructions</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Payment instructions (or message) from the seller to the buyer. These<br/>
+instructions appear on eBay&rsquo;s View Item page and on eBay&rsquo;s checkout page when the<br/>
+buyer pays for the item.<br/>
+<br><br><br/>
+Sellers usually use this field to specify payment instructions, how soon the item<br/>
+will shipped, feedback instructions, and other reminders that the buyer should be<br/>
+aware of when they bid on or buy an item. This field can be specified regardless<br/>
+of the shipping type eBay only allows 500 characters as input, but due to the way<br/>
+the eBay Web site UI treats characters, this field can return more than 500<br/>
+characters in the response. Characters like &amp; and &lsquo; (apostrophe/single quote)<br/>
+count as 5 characters each. Use DeletedField to remove this value when revising<br/>
+or relisting an item.<br/>
+<br><br><br/>
+Applicable to eBay Motors (usually used to elaborate on the return policy).<br/>
+<br><br/>
+Not applicable to Half.com.</p>
+
+<p>type : NSString, wrapper for primitive string</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_ShippingDetailsType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/promotionalShippingDiscount" title="promotionalShippingDiscount"></a>
+	<h3 class="subsubtitle method-title">promotionalShippingDiscount</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>On input, this specifies whether to offer the promotional shipping discount for<br/>
+the domestic shipping services of this listing (only applicable if the seller<br/>
+has a promotional shipping discount in effect at the moment).<br/>
+<br><br><br/>
+Returned on output only if the seller is making the call. This indicates<br/>
+whether the promotional shipping discount is being offered for the domestic<br/>
+shipping services of this listing (if the listing is still active&ndash;this is only<br/>
+possible if the seller has a promotional shipping discount in effect at the<br/>
+moment) or whether the discount was offered at the time the listing ended.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSNumber *promotionalShippingDiscount</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>On input, this specifies whether to offer the promotional shipping discount for<br/>
+the domestic shipping services of this listing (only applicable if the seller<br/>
+has a promotional shipping discount in effect at the moment).<br/>
+<br><br><br/>
+Returned on output only if the seller is making the call. This indicates<br/>
+whether the promotional shipping discount is being offered for the domestic<br/>
+shipping services of this listing (if the listing is still active&ndash;this is only<br/>
+possible if the seller has a promotional shipping discount in effect at the<br/>
+moment) or whether the discount was offered at the time the listing ended.</p>
+
+<p>type : NSNumber, wrapper for primitive bool</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_ShippingDetailsType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/promotionalShippingDiscountDetails" title="promotionalShippingDiscountDetails"></a>
+	<h3 class="subsubtitle method-title">promotionalShippingDiscountDetails</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>This value is returned only if the seller is making the call. Contains details of<br/>
+the promotional shipping discount, if such is being offered while the listing is<br/>
+active or if it was offered at the time the listing ended.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_PromotionalShippingDiscountDetailsType *promotionalShippingDiscountDetails</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>This value is returned only if the seller is making the call. Contains details of<br/>
+the promotional shipping discount, if such is being offered while the listing is<br/>
+active or if it was offered at the time the listing ended.</p>
+
+<p>type : class <a href="../Classes/Trading_PromotionalShippingDiscountDetailsType.html">Trading_PromotionalShippingDiscountDetailsType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_ShippingDetailsType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/rateTableDetails" title="rateTableDetails"></a>
+	<h3 class="subsubtitle method-title">rateTableDetails</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<pre><code>This container specifies the shipping rate tables that are to be applied to this listing. Shipping rate tables enable sellers to tailor the flat shipping rates offered for an item to fit the shipping destination. They can specify a shipping rate for a large &lt;em&gt;base&lt;/em&gt; region, then define alternative rates or surcharges for shipping to other &lt;em&gt;extended&lt;/em&gt; regions within the base region.  
+&lt;br&gt;&lt;br&gt;
+</code></pre>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_RateTableDetailsType *rateTableDetails</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<pre><code>This container specifies the shipping rate tables that are to be applied to this listing. Shipping rate tables enable sellers to tailor the flat shipping rates offered for an item to fit the shipping destination. They can specify a shipping rate for a large &lt;em&gt;base&lt;/em&gt; region, then define alternative rates or surcharges for shipping to other &lt;em&gt;extended&lt;/em&gt; regions within the base region.  
+&lt;br&gt;&lt;br&gt;  
+
+Prerequisites for applying shipping rate tables:  
+&lt;ul&gt;  
+&lt;li&gt;The shipping type for the listing must be Flat. &lt;/li&gt;  
+&lt;li&gt;The seller must have previously configured a shipping rate table in My eBay site preferences. &lt;/li&gt;  
+&lt;/ul&gt;  
+
+               In a domestic shipping rate table, sellers can specify an alternative shipping rate for each shipping service category, for each of several extended domestic regions within their country. For example, in the US the shipping categories are Economy, Standard, Expedited and One-day. The extended regions are Alaska and Hawaii, US Protectorates, and Army/Fleet Post Offices.  
+&lt;br&gt;&lt;br&gt;  
+
+               In an international shipping rate table, sellers can specify an alternative shipping rate for each shipping service category, for each country in a given base region. The international rate table has nine base regions: Africa, Asia, Central America and Caribbean, Europe, Middle East, North America, Oceania, Southeast Asia, and South America.  
+
+      You can use the GetUser call to determine if the seller has configured a shipping rate table. If the domestic shipping rate table is available for this seller, the &lt;strong&gt;User.SellerInfo.DomesticRateTable&lt;/strong&gt; field will be &lt;code&gt;true&lt;/code&gt;. If the international shipping rate table is available for this seller, the &lt;strong&gt;User.SellerInfo.InternationalTable&lt;/strong&gt; field will be &lt;code&gt;true&lt;/code&gt;.  
+&lt;br&gt;&lt;br&gt;  
+</code></pre>
+
+<p><span class="tablenote"><br/>
+    <strong>Note:</strong> You can use <strong>RateTableDetails</strong> to apply a shipping rate table to a listing or remove it from a listing. However, the details of a shipping rate table configuration can only be viewed and modified on the eBay website, not by using the API.<br/>
+    </span></p>
+
+<pre><code>Sellers use a dropdown list to specify the alternative shipping rate applied by the rate table as one of the following:  
+&lt;ul&gt;  
+&lt;li&gt;A flat amount per item &lt;/li&gt;  
+&lt;li&gt;A flat surcharge (domestic rate tables only) &lt;/li&gt;  
+&lt;li&gt;A surcharge by weight &lt;/li&gt;  
+&lt;/ul&gt;  
+
+               This selection applies to the entire table; there is no mixing and matching by region or shipping category.  
+&lt;br&gt;&lt;br&gt;  
+
+               If you are applying a shipping rate table that specifies a surcharge by weight, you must specify the item weight in the &lt;strong&gt;ShippingDetails.CalculatedShippingRate&lt;/strong&gt; container's &lt;strong&gt;WeightMajor&lt;/strong&gt; and &lt;strong&gt;WeightMinor&lt;/strong&gt; fields, even though this is a flat rate listing. Do not use any other fields in the &lt;strong&gt;CalculatedShippingRate&lt;/strong&gt; container because those are not supported in this scenario.  
+&lt;br&gt;&lt;br&gt;  
+
+               &lt;span class="tablenote"&gt;  
+&lt;strong&gt;Note:&lt;/strong&gt; There is currently no way to determine through the API whether a seller's rate table specifies a surcharge by weight, so your application must make it clear to the seller that item weight must be supplied if the seller has specified a surcharge by weight. If the required weight values are not supplied, a default weight of one unit (1 lb or 1 kg, depending on locale) is used as the basis for the surcharge.  
+&lt;/span&gt;  
+
+This container is returned from the GetItem family of calls only for the seller who listed the item.  
+&lt;br&gt;&lt;br&gt;  
+
+You can find more information about using shipping rate tables in the Shipping chapter of the Trading API User's Guide.  
+</code></pre>
+
+<p>type : class <a href="../Classes/Trading_RateTableDetailsType.html">Trading_RateTableDetailsType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_ShippingDetailsType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/salesTax" title="salesTax"></a>
+	<h3 class="subsubtitle method-title">salesTax</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Sales tax details. US (site 0) and Motors (site 100) sites only, excluding vehicle listings. Flat and calculated shipping.<br/>
+<br><br><br/>
+Applicable to Half.com (for GetOrders).</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_SalesTaxType *salesTax</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Sales tax details. US (site 0) and Motors (site 100) sites only, excluding vehicle listings. Flat and calculated shipping.<br/>
+<br><br><br/>
+Applicable to Half.com (for GetOrders).</p>
+
+<p>type : class <a href="../Classes/Trading_SalesTaxType.html">Trading_SalesTaxType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_ShippingDetailsType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/sellerExcludeShipToLocationsPreference" title="sellerExcludeShipToLocationsPreference"></a>
+	<h3 class="subsubtitle method-title">sellerExcludeShipToLocationsPreference</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Sellers can set up a global Exclude Ship-To List through their My eBay account.<br/>
+The Exclude Ship-To List defines the countries to where the seller does not<br/>
+ship, by default.<br/>
+<br><br><br/>
+This flag returns true if the Exclude Ship-To List is enabled by the seller for<br/>
+the associated item. If false, the seller&rsquo;s Exclude Ship-To List is either not<br/>
+set up, or it has been overridden by the seller when they listed the item with<br/>
+ExcludeShipToLocation fields.<br/>
+<br><br><br/>
+In the response, ExcludeShipToLocation fields detail the locations to where the<br/>
+seller will not ship the item, regardless of the value returned in this field.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSNumber *sellerExcludeShipToLocationsPreference</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Sellers can set up a global Exclude Ship-To List through their My eBay account.<br/>
+The Exclude Ship-To List defines the countries to where the seller does not<br/>
+ship, by default.<br/>
+<br><br><br/>
+This flag returns true if the Exclude Ship-To List is enabled by the seller for<br/>
+the associated item. If false, the seller&rsquo;s Exclude Ship-To List is either not<br/>
+set up, or it has been overridden by the seller when they listed the item with<br/>
+ExcludeShipToLocation fields.<br/>
+<br><br><br/>
+In the response, ExcludeShipToLocation fields detail the locations to where the<br/>
+seller will not ship the item, regardless of the value returned in this field.</p>
+
+<p>type : NSNumber, wrapper for primitive bool</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_ShippingDetailsType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/sellingManagerSalesRecordNumber" title="sellingManagerSalesRecordNumber"></a>
+	<h3 class="subsubtitle method-title">sellingManagerSalesRecordNumber</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The sale record ID. Applicable to Selling Manager users.<br/>
+When an item is sold, Selling Manager generates a sale record.<br/>
+A sale record contains buyer information, shipping, and other information.<br/>
+A sale record is displayed in the Sold view in Selling Manager.<br/>
+Each sale record has a sale record ID. In the following calls,<br/>
+the value for the sale record ID is in the SellingManagerSalesRecordNumber field:<br/>
+GetItemTransactions, GetSellerTransactions, GetOrders, GetOrderTransactions.<br/>
+In the Selling Manager calls, the value for the sale record ID is in the<br/>
+SaleRecordID field. The sale record ID can be for a single or a multiple line item order.<br/>
+<br><br/>
+Applicable to Half.com (for GetOrders).</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSNumber *sellingManagerSalesRecordNumber</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The sale record ID. Applicable to Selling Manager users.<br/>
+When an item is sold, Selling Manager generates a sale record.<br/>
+A sale record contains buyer information, shipping, and other information.<br/>
+A sale record is displayed in the Sold view in Selling Manager.<br/>
+Each sale record has a sale record ID. In the following calls,<br/>
+the value for the sale record ID is in the SellingManagerSalesRecordNumber field:<br/>
+GetItemTransactions, GetSellerTransactions, GetOrders, GetOrderTransactions.<br/>
+In the Selling Manager calls, the value for the sale record ID is in the<br/>
+SaleRecordID field. The sale record ID can be for a single or a multiple line item order.<br/>
+<br><br/>
+Applicable to Half.com (for GetOrders).</p>
+
+<p>type : NSNumber, wrapper for primitive int</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_ShippingDetailsType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/shipmentTrackingDetails" title="shipmentTrackingDetails"></a>
+	<h3 class="subsubtitle method-title">shipmentTrackingDetails</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Container for the shipping carrier and tracking information associated with the<br/>
+shipment of an order.<br/>
+<br><br><br/>
+As each package has a unique tracking number, this container should be<br/>
+repeated for each package in the order.<br/>
+<br><br/>
+<br><br/>
+<span class="tablenote"><b>Note:</b><br/>
+Starting June 20, 2012 Top-rated sellers must have a record of uploading shipment tracking<br/>
+information (through site or through API) for at least 90 percent of their order line<br/>
+items (purchased by U.S. buyers) to keep their status as Top-rated sellers. For more<br/>
+information on changes to eBay&rsquo;s Top-rated seller program, see the<br/>
+<a href="[http://pages.ebay.com/sellerinformation/news/eTRSupdate.html](http://pages.ebay.com/sellerinformation/news/eTRSupdate.html)">2012 Spring Seller Update</a> page.<br/>
+</span><br/>
+<br></p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSMutableArray *shipmentTrackingDetails</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Container for the shipping carrier and tracking information associated with the<br/>
+shipment of an order.<br/>
+<br><br><br/>
+As each package has a unique tracking number, this container should be<br/>
+repeated for each package in the order.<br/>
+<br><br/>
+<br><br/>
+<span class="tablenote"><b>Note:</b><br/>
+Starting June 20, 2012 Top-rated sellers must have a record of uploading shipment tracking<br/>
+information (through site or through API) for at least 90 percent of their order line<br/>
+items (purchased by U.S. buyers) to keep their status as Top-rated sellers. For more<br/>
+information on changes to eBay&rsquo;s Top-rated seller program, see the<br/>
+<a href="[http://pages.ebay.com/sellerinformation/news/eTRSupdate.html](http://pages.ebay.com/sellerinformation/news/eTRSupdate.html)">2012 Spring Seller Update</a> page.<br/>
+</span><br/>
+<br></p>
+
+<p>entry type : class <a href="../Classes/Trading_ShipmentTrackingDetailsType.html">Trading_ShipmentTrackingDetailsType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_ShippingDetailsType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/shippingDiscountProfileID" title="shippingDiscountProfileID"></a>
+	<h3 class="subsubtitle method-title">shippingDiscountProfileID</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>On input, this is the ID of the shipping discount to offer for the domestic<br/>
+shipping services (where the shipping discount is either of type<br/>
+FlatShippingDiscount or CalculatedShippingDiscount). On output, this is the ID<br/>
+of the shipping discount offered and corresponds to whichever is returned:<br/>
+FlatShippingDiscount or CalculatedShippingDiscount. Only returned if the<br/>
+calling user is the seller.  If the user created a shipping discount profile,<br/>
+use the ShippingDiscountProfileID.<br/>
+<br><br><br/>
+In the RelistItem and ReviseItem family of calls, you can remove the existing<br/>
+ShippingDiscountProfileID associated with the item by supplying a value of 0 (zero).<br/>
+<br><br><br/>
+Only returned if the calling user is the seller.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *shippingDiscountProfileID</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>On input, this is the ID of the shipping discount to offer for the domestic<br/>
+shipping services (where the shipping discount is either of type<br/>
+FlatShippingDiscount or CalculatedShippingDiscount). On output, this is the ID<br/>
+of the shipping discount offered and corresponds to whichever is returned:<br/>
+FlatShippingDiscount or CalculatedShippingDiscount. Only returned if the<br/>
+calling user is the seller.  If the user created a shipping discount profile,<br/>
+use the ShippingDiscountProfileID.<br/>
+<br><br><br/>
+In the RelistItem and ReviseItem family of calls, you can remove the existing<br/>
+ShippingDiscountProfileID associated with the item by supplying a value of 0 (zero).<br/>
+<br><br><br/>
+Only returned if the calling user is the seller.</p>
+
+<p>type : NSString, wrapper for primitive string</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_ShippingDetailsType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/shippingRateErrorMessage" title="shippingRateErrorMessage"></a>
+	<h3 class="subsubtitle method-title">shippingRateErrorMessage</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>For most applicable calls, returns the words No Error or returns an error message<br/>
+related to an attempt to calculate shipping rates. For calculated shipping only.<br/>
+<br><br><br/>
+The message text explains that a postal code is needed to calculate<br/>
+shipping. Only returned when ItemDetails is set to Fine.<br/>
+<br><br><br/>
+Not applicable to Half.com or eBay Motors vehicle listings.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *shippingRateErrorMessage</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>For most applicable calls, returns the words No Error or returns an error message<br/>
+related to an attempt to calculate shipping rates. For calculated shipping only.<br/>
+<br><br><br/>
+The message text explains that a postal code is needed to calculate<br/>
+shipping. Only returned when ItemDetails is set to Fine.<br/>
+<br><br><br/>
+Not applicable to Half.com or eBay Motors vehicle listings.</p>
+
+<p>type : NSString, wrapper for primitive string</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_ShippingDetailsType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/shippingRateType" title="shippingRateType"></a>
+	<h3 class="subsubtitle method-title">shippingRateType</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>A shipping rate scale for shipping through UPS that affects the shipping cost<br/>
+calculated for UPS (lower if ShippingRateType is DailyPickup). ShippingRateType<br/>
+is only returned if ShippingService is one of the UPS shipping services. For<br/>
+calculated shipping only.<br/>
+<br><br><br/>
+Not applicable to Half.com or eBay Motors vehicle listings.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *shippingRateType</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>A shipping rate scale for shipping through UPS that affects the shipping cost<br/>
+calculated for UPS (lower if ShippingRateType is DailyPickup). ShippingRateType<br/>
+is only returned if ShippingService is one of the UPS shipping services. For<br/>
+calculated shipping only.<br/>
+<br><br><br/>
+Not applicable to Half.com or eBay Motors vehicle listings.</p>
+
+<p>type: string constant in Trading_ShippingRateTypeCodeType.h</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_ShippingDetailsType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/shippingServiceOptions" title="shippingServiceOptions"></a>
+	<h3 class="subsubtitle method-title">shippingServiceOptions</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Shipping costs and options related to domestic shipping services offered by the<br/>
+seller. Flat and calculated shipping. Required if<br/>
+InternationalShippingServiceOption is specified.<br/>
+<br><br><br/>
+For flat shipping, a maximum shipping cost may apply when listing. See Shipping<br/>
+documentation for details about Maximum Flat Rate Shipping Costs.<br/>
+<br><br><br/>
+If you specify multiple ShippingServiceOptions nodes, the repeating nodes must be<br/>
+contiguous. For example, you can insert InternationalShippingServiceOption nodes<br/>
+after a list of repeating ShippingServiceOptions nodes, but not between them:<br/>
+<br><br><br/>
+&lt;ShippingServiceOptions&gt;&hellip;&lt;/ShippingServiceOptions&gt;<br><br/>
+&lt;ShippingServiceOptions&gt;&hellip;&lt;/ShippingServiceOptions&gt;<br><br/>
+&lt;ShippingServiceOptions&gt;&hellip;&lt;/ShippingServiceOptions&gt;<br><br/>
+&lt;InternationalShippingServiceOption&gt;&hellip;&lt;/InternationalShippingServiceOption&gt;<br><br/>
+&lt;InternationalShippingServiceOption&gt;&hellip;&lt;/InternationalShippingServiceOption&gt;<br/>
+<br><br><br/>
+If you specify ShippingDetails when you revise or relist an item but you omit<br/>
+ShippingServiceOptions, eBay will drop the domestic shipping services from the<br/>
+listing. This may also have unintended side effects, as other fields that depend<br/>
+on this data may be dropped as well. To retain the shipping services and<br/>
+dependent fields when you modify other shipping details, it may be simplest to<br/>
+specify all ShippingDetails that you still want to include in the listing.<br/>
+<br><br><br/>
+A seller can offer up to four domestic shipping services and up to five<br/>
+international shipping services. All specified domestic and international<br/>
+shipping services must be the same shipping type (for example, Flat versus<br/>
+Calculated).<br/>
+<br><br><br/>
+For GetItemShipping, results are filtered:  if <a href="#//api/name/any">any</a> service is not available<br/>
+in the buyer&rsquo;s region, it is removed. If no services remain after this<br/>
+filtering, a warning is returned.<br/>
+<br><br><br/>
+Not applicable to Half.com or eBay Motors vehicle listings.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSMutableArray *shippingServiceOptions</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Shipping costs and options related to domestic shipping services offered by the<br/>
+seller. Flat and calculated shipping. Required if<br/>
+InternationalShippingServiceOption is specified.<br/>
+<br><br><br/>
+For flat shipping, a maximum shipping cost may apply when listing. See Shipping<br/>
+documentation for details about Maximum Flat Rate Shipping Costs.<br/>
+<br><br><br/>
+If you specify multiple ShippingServiceOptions nodes, the repeating nodes must be<br/>
+contiguous. For example, you can insert InternationalShippingServiceOption nodes<br/>
+after a list of repeating ShippingServiceOptions nodes, but not between them:<br/>
+<br><br><br/>
+&lt;ShippingServiceOptions&gt;&hellip;&lt;/ShippingServiceOptions&gt;<br><br/>
+&lt;ShippingServiceOptions&gt;&hellip;&lt;/ShippingServiceOptions&gt;<br><br/>
+&lt;ShippingServiceOptions&gt;&hellip;&lt;/ShippingServiceOptions&gt;<br><br/>
+&lt;InternationalShippingServiceOption&gt;&hellip;&lt;/InternationalShippingServiceOption&gt;<br><br/>
+&lt;InternationalShippingServiceOption&gt;&hellip;&lt;/InternationalShippingServiceOption&gt;<br/>
+<br><br><br/>
+If you specify ShippingDetails when you revise or relist an item but you omit<br/>
+ShippingServiceOptions, eBay will drop the domestic shipping services from the<br/>
+listing. This may also have unintended side effects, as other fields that depend<br/>
+on this data may be dropped as well. To retain the shipping services and<br/>
+dependent fields when you modify other shipping details, it may be simplest to<br/>
+specify all ShippingDetails that you still want to include in the listing.<br/>
+<br><br><br/>
+A seller can offer up to four domestic shipping services and up to five<br/>
+international shipping services. All specified domestic and international<br/>
+shipping services must be the same shipping type (for example, Flat versus<br/>
+Calculated).<br/>
+<br><br><br/>
+For GetItemShipping, results are filtered:  if <a href="#//api/name/any">any</a> service is not available<br/>
+in the buyer&rsquo;s region, it is removed. If no services remain after this<br/>
+filtering, a warning is returned.<br/>
+<br><br><br/>
+Not applicable to Half.com or eBay Motors vehicle listings.</p>
+
+<p>entry type : class <a href="../Classes/Trading_ShippingServiceOptionsType.html">Trading_ShippingServiceOptionsType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_ShippingDetailsType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/shippingServiceUsed" title="shippingServiceUsed"></a>
+	<h3 class="subsubtitle method-title">shippingServiceUsed</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The shipping service actually used by the seller to ship the item(s) to the<br/>
+buyer.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *shippingServiceUsed</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The shipping service actually used by the seller to ship the item(s) to the<br/>
+buyer.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p>
+
+<p>type : NSString, wrapper for primitive string</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_ShippingDetailsType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/shippingType" title="shippingType"></a>
+	<h3 class="subsubtitle method-title">shippingType</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The shipping cost model offered by the seller. This is not returned for<br/>
+various calls since shipping type can be deduced: if a CalculatedShippingRate<br/>
+structure is returned by the call, the shipping type is Calculated. Otherwise,<br/>
+it is one of the other non-Calculated shipping types.<br/>
+<br><br><br/>
+<b>GetItemShipping and GetItemTransactions</b>:<br/>
+If the type was a mix of flat and calculated services, this is<br/>
+set simply to Flat or Calculated because it is the buyer's<br/>
+selection that results in one of these.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *shippingType</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The shipping cost model offered by the seller. This is not returned for<br/>
+various calls since shipping type can be deduced: if a CalculatedShippingRate<br/>
+structure is returned by the call, the shipping type is Calculated. Otherwise,<br/>
+it is one of the other non-Calculated shipping types.<br/>
+<br><br><br/>
+<b>GetItemShipping and GetItemTransactions</b>:<br/>
+If the type was a mix of flat and calculated services, this is<br/>
+set simply to Flat or Calculated because it is the buyer's<br/>
+selection that results in one of these.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p>
+
+<p>type: string constant in Trading_ShippingTypeCodeType.h</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_ShippingDetailsType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/taxTable" title="taxTable"></a>
+	<h3 class="subsubtitle method-title">taxTable</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Tax details for a jurisdiction, such as a state or province. If no tax table<br/>
+is associated with the item, a tax table is not returned.<br/>
+<br><br><br/>
+For GetItem, a tax table is returned if it exists when:<br/>
+<br><br/>
+- DetailLevel is set to ReturnAll or ItemReturnDescription (in this case,<br/>
+the value of IncludeTaxTable does not matter).<br/>
+<br><br/>
+- IncludeTaxTable is set to true and DetailLevel is not set or it is set<br/>
+to ItemReturnAttributes.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_TaxTableType *taxTable</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Tax details for a jurisdiction, such as a state or province. If no tax table<br/>
+is associated with the item, a tax table is not returned.<br/>
+<br><br><br/>
+For GetItem, a tax table is returned if it exists when:<br/>
+<br><br/>
+- DetailLevel is set to ReturnAll or ItemReturnDescription (in this case,<br/>
+the value of IncludeTaxTable does not matter).<br/>
+<br><br/>
+- IncludeTaxTable is set to true and DetailLevel is not set or it is set<br/>
+to ItemReturnAttributes.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p>
+
+<p>type : class <a href="../Classes/Trading_TaxTableType.html">Trading_TaxTableType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_ShippingDetailsType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/thirdPartyCheckout" title="thirdPartyCheckout"></a>
+	<h3 class="subsubtitle method-title">thirdPartyCheckout</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>As of July 1, 2011, third-party applications can no longer be used for<br/>
+checkout. All purchased items must go through the eBay Checkout flow.<br/>
+<br><br><br/>
+This field can no longer be passed into the Add Item family of calls.<br/>
+<br><br><br/>
+This field will be returned in some calls (that return the ShippingDetails<br/>
+container) if it was set to True at listing time (for listings created before<br/>
+July 1, 2011). If this field was set to True at listing time, the user must<br/>
+include this field and set it to False in the Relist and Revise Item family of<br/>
+calls. Otherwise, the caller may get an error.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSNumber *thirdPartyCheckout</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>As of July 1, 2011, third-party applications can no longer be used for<br/>
+checkout. All purchased items must go through the eBay Checkout flow.<br/>
+<br><br><br/>
+This field can no longer be passed into the Add Item family of calls.<br/>
+<br><br><br/>
+This field will be returned in some calls (that return the ShippingDetails<br/>
+container) if it was set to True at listing time (for listings created before<br/>
+July 1, 2011). If this field was set to True at listing time, the user must<br/>
+include this field and set it to False in the Relist and Revise Item family of<br/>
+calls. Otherwise, the caller may get an error.</p>
+
+<p>type : NSNumber, wrapper for primitive bool</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_ShippingDetailsType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 LeanSoft Technology. All rights reserved. (Last updated: 2013-03-31)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.1 (build 858)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

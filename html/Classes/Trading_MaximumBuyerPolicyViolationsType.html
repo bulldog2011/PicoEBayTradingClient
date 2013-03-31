@@ -1,0 +1,475 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>Trading_MaximumBuyerPolicyViolationsType Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.1 (build 858)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">PicoEBayTradingClient </a></h1>
+				<a id="developerHome" href="../index.html">LeanSoft Technology</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">Trading_MaximumBuyerPolicyViolationsType Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/any">&nbsp;&nbsp;&nbsp;&nbsp;any</option>
+	
+	<option value="//api/name/count">&nbsp;&nbsp;&nbsp;&nbsp;count</option>
+	
+	<option value="//api/name/period">&nbsp;&nbsp;&nbsp;&nbsp;period</option>
+	
+	
+	
+	
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/any">any</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/count">count</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/period">period</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="Trading_MaximumBuyerPolicyViolationsType Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">Trading_MaximumBuyerPolicyViolationsType Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value">PicoBindable</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">Trading_MaximumBuyerPolicyViolationsType.h<br />Trading_MaximumBuyerPolicyViolationsType.m</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>Type defining the <b>MaximumBuyerPolicyViolations</b> container, which is<br/>
+used by the seller as a mechanism to block prospective buyers who have buyer policy<br/>
+violations on their ac<a href="#//api/name/count">count</a> exceeding the value set in the <b>Count</b><br/>
+field during a specified time <a href="#//api/name/period">period</a> (set in the <b>Period</b> field).</p>
+
+<p>@ingroup EBayAPIInterface</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/count">&nbsp;&nbsp;count</a></code>
+		<span class="tooltip"><p>This integer value sets the maximum number of buyer policy violations that a prospective buyer<br/>
+is allowed to have during a specified time <a href="#//api/name/period">period</a><br/>
+(<b>MaximumBuyerPolicyViolations.Period</b>) before being blocked from<br/>
+buying/bidding on the item.<br/>
+<br><br><br/>
+To retrieve a list of allowed values for this field, the seller should call<br/>
+<b>GeteBayDetails</b>, including <b>BuyerRequirementDetails</b> in<br/>
+the <b>DetailName</b> field of the request, and then look for the<br/>
+<b>BuyerRequirementDetails.MaximumBuyerPolicyViolations.NumberOfPolicyViolations.Count</b><br/>
+fields in the response.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/period">&nbsp;&nbsp;period</a></code>
+		<span class="tooltip"><p>This enumerated value defines the length of time over which a prospective buyer's<br/>
+buyer policy violations will be counted. If the prospective buyer&rsquo;s number of buyer policy<br/>
+violations during this defined period exceeds the value set in the <b>Count</b><br/>
+field, that prospective buyer is blocked from buying/bidding on the item.<br/>
+<br/><br/><br/>
+If the <b>Count</b> value is 2, and the specified <b>Period</b><br/>
+is &lsquo;Days_30&rsquo; (counting back 30 days from the present day), <a href="#//api/name/any">any</a> prospective buyer that has<br/>
+had three or more buyer policy violations is blocked from buying/bidding on the item.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/any">&nbsp;&nbsp;any</a></code>
+		<span class="tooltip"><p>(public property)</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/any" title="any"></a>
+	<h3 class="subsubtitle method-title">any</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>(public property)</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSMutableArray *any</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>(public property)</p>
+
+<p>entry type : PicoAnyElement, wrapper for primitive anyelement</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_MaximumBuyerPolicyViolationsType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/count" title="count"></a>
+	<h3 class="subsubtitle method-title">count</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>This integer value sets the maximum number of buyer policy violations that a prospective buyer<br/>
+is allowed to have during a specified time <a href="#//api/name/period">period</a><br/>
+(<b>MaximumBuyerPolicyViolations.Period</b>) before being blocked from<br/>
+buying/bidding on the item.<br/>
+<br><br><br/>
+To retrieve a list of allowed values for this field, the seller should call<br/>
+<b>GeteBayDetails</b>, including <b>BuyerRequirementDetails</b> in<br/>
+the <b>DetailName</b> field of the request, and then look for the<br/>
+<b>BuyerRequirementDetails.MaximumBuyerPolicyViolations.NumberOfPolicyViolations.Count</b><br/>
+fields in the response.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSNumber *count</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>This integer value sets the maximum number of buyer policy violations that a prospective buyer<br/>
+is allowed to have during a specified time <a href="#//api/name/period">period</a><br/>
+(<b>MaximumBuyerPolicyViolations.Period</b>) before being blocked from<br/>
+buying/bidding on the item.<br/>
+<br><br><br/>
+To retrieve a list of allowed values for this field, the seller should call<br/>
+<b>GeteBayDetails</b>, including <b>BuyerRequirementDetails</b> in<br/>
+the <b>DetailName</b> field of the request, and then look for the<br/>
+<b>BuyerRequirementDetails.MaximumBuyerPolicyViolations.NumberOfPolicyViolations.Count</b><br/>
+fields in the response.</p>
+
+<p>type : NSNumber, wrapper for primitive int</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_MaximumBuyerPolicyViolationsType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/period" title="period"></a>
+	<h3 class="subsubtitle method-title">period</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>This enumerated value defines the length of time over which a prospective buyer's<br/>
+buyer policy violations will be counted. If the prospective buyer&rsquo;s number of buyer policy<br/>
+violations during this defined period exceeds the value set in the <b>Count</b><br/>
+field, that prospective buyer is blocked from buying/bidding on the item.<br/>
+<br/><br/><br/>
+If the <b>Count</b> value is 2, and the specified <b>Period</b><br/>
+is &lsquo;Days_30&rsquo; (counting back 30 days from the present day), <a href="#//api/name/any">any</a> prospective buyer that has<br/>
+had three or more buyer policy violations is blocked from buying/bidding on the item.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *period</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>This enumerated value defines the length of time over which a prospective buyer's<br/>
+buyer policy violations will be counted. If the prospective buyer&rsquo;s number of buyer policy<br/>
+violations during this defined period exceeds the value set in the <b>Count</b><br/>
+field, that prospective buyer is blocked from buying/bidding on the item.<br/>
+<br/><br/><br/>
+If the <b>Count</b> value is 2, and the specified <b>Period</b><br/>
+is &lsquo;Days_30&rsquo; (counting back 30 days from the present day), <a href="#//api/name/any">any</a> prospective buyer that has<br/>
+had three or more buyer policy violations is blocked from buying/bidding on the item.</p>
+
+<p>type: string constant in Trading_PeriodCodeType.h</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_MaximumBuyerPolicyViolationsType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 LeanSoft Technology. All rights reserved. (Last updated: 2013-03-31)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.1 (build 858)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

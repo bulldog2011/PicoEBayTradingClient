@@ -1,0 +1,798 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>Trading_GetFeedbackRequestType Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.1 (build 858)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">PicoEBayTradingClient </a></h1>
+				<a id="developerHome" href="../index.html">LeanSoft Technology</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">Trading_GetFeedbackRequestType Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/commentType">&nbsp;&nbsp;&nbsp;&nbsp;commentType</option>
+	
+	<option value="//api/name/feedbackID">&nbsp;&nbsp;&nbsp;&nbsp;feedbackID</option>
+	
+	<option value="//api/name/feedbackType">&nbsp;&nbsp;&nbsp;&nbsp;feedbackType</option>
+	
+	<option value="//api/name/itemID">&nbsp;&nbsp;&nbsp;&nbsp;itemID</option>
+	
+	<option value="//api/name/orderLineItemID">&nbsp;&nbsp;&nbsp;&nbsp;orderLineItemID</option>
+	
+	<option value="//api/name/pagination">&nbsp;&nbsp;&nbsp;&nbsp;pagination</option>
+	
+	<option value="//api/name/transactionID">&nbsp;&nbsp;&nbsp;&nbsp;transactionID</option>
+	
+	<option value="//api/name/userID">&nbsp;&nbsp;&nbsp;&nbsp;userID</option>
+	
+	
+	
+	
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/commentType">commentType</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/feedbackID">feedbackID</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/feedbackType">feedbackType</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/itemID">itemID</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/orderLineItemID">orderLineItemID</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/pagination">pagination</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/transactionID">transactionID</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/userID">userID</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="Trading_GetFeedbackRequestType Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">Trading_GetFeedbackRequestType Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value"><a href="../Classes/Trading_AbstractRequestType.html">Trading_AbstractRequestType</a> : NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">Trading_GetFeedbackRequestType.h<br />Trading_GetFeedbackRequestType.m</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>Retrieves the accumulated feedback left for a specified user or the summary<br/>
+feedback data for a specific order line item or item listing.&nbsp;<b>Also for<br/>
+Half.com</b>.</p>
+
+<p>@ingroup EBayAPIInterface</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/userID">&nbsp;&nbsp;userID</a></code>
+		<span class="tooltip"><p>Specifies the user whose feedback data is to be returned. If not<br/>
+specified, then the feedback returned is for the requesting user.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/feedbackID">&nbsp;&nbsp;feedbackID</a></code>
+		<span class="tooltip"><p>An ID that uniquely identifies a feedback record to be retrieved.<br/>
+Used only by the Feedback notification.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/itemID">&nbsp;&nbsp;itemID</a></code>
+		<span class="tooltip"><p>Unique identifier for an eBay item listing. A listing can have multiple<br/>
+order line items (transactions), but only one <b>ItemID</b>. If <b>ItemID</b> is<br/>
+specified in the <b>GetFeedback</b> request, the returned feedback records are<br/>
+restricted to the specified <b>ItemID</b>. The <b>FeedbackType</b> and <b>Pagination</b><br/>
+fields (if included) are ignored. The maximum number of feedback records<br/>
+returned is 100.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/transactionID">&nbsp;&nbsp;transactionID</a></code>
+		<span class="tooltip"><p>Unique identifier for an eBay order line item (transaction). A<br/>
+<b>TransactionID</b> can be paired up with its corresponding <b>ItemID</b> and used as<br/>
+an input filter in the <b>GetFeedback</b> request. If an <b>ItemID</b>/<b>TransactionID</b><br/>
+pair or an <b>OrderLineItemID</b> value is used to retrieve a feedback record<br/>
+on a specific order line item, the <b>FeedbackType</b> and <b>Pagination</b><br/>
+fields (if included) are ignored.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/commentType">&nbsp;&nbsp;commentType</a></code>
+		<span class="tooltip"><p>Returns feedback of a specified type (positive, negative, or neutral) in<br/>
+<b>FeedbackDetailArray</b>. You can include two comment types in your call if you want<br/>
+to exclude the third type from your results. If no <b>CommentType</b> is specified,<br/>
+all of the feedback types are returned.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/feedbackType">&nbsp;&nbsp;feedbackType</a></code>
+		<span class="tooltip"><p>Returns feedback that you received as a buyer or seller, or feedback you left<br/>
+for others (as either a buyer or a seller). You can include only one<br/>
+<b>FeedbackType</b> in your call. If no <b>FeedbackType</b> is specified, all of the<br/>
+available feedback is returned.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/pagination">&nbsp;&nbsp;pagination</a></code>
+		<span class="tooltip"><p>Controls the pagination of the result set. Child elements, <b>EntriesPerPage</b> and<br/>
+<b>PageNumber</b>, specify the maximum number of individual feedback records to return<br/>
+per call and which page of data to return. Only applicable if <b>DetailLevel</b> is<br/>
+set to <b>ReturnAll</b> and the call is returning feedback for a <b>UserID</b>. Feedback<br/>
+summary data is not paginated, but when pagination is used, it is returned<br/>
+after the last feedback detail entry.<br/>
+<br><br><br/>
+Accepted values for <b>Pagination.EntriesPerPage</b> for GetFeedback is 25 (the<br/>
+default), 50, 100, and 200. If you specify a value of zero, or a value<br/>
+greater than 200, the call fails with an error. If you specify a value between<br/>
+one and twenty-four, the value is rounded up to 25. Values between 26 and 199<br/>
+that are not one of the accepted values are rounded down to the nearest<br/>
+accepted value.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/orderLineItemID">&nbsp;&nbsp;orderLineItemID</a></code>
+		<span class="tooltip"><p><b>OrderLineItemID</b> is a unique identifier for an eBay order line item and<br/>
+is based upon the concatenation of <b>ItemID</b> and <b>TransactionID</b>, with a<br/>
+hyphen in between these two IDs. An <b>OrderLineItemID</b> can be used as an<br/>
+input filter in the <b>GetFeedback</b> request. If an <b>OrderLineItemID</b> value is<br/>
+used to retrieve a feedback record on a specific order line item, the<br/>
+<b>FeedbackType</b> and <b>Pagination</b> fields (if included) are ignored.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/commentType" title="commentType"></a>
+	<h3 class="subsubtitle method-title">commentType</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns feedback of a specified type (positive, negative, or neutral) in<br/>
+<b>FeedbackDetailArray</b>. You can include two comment types in your call if you want<br/>
+to exclude the third type from your results. If no <b>CommentType</b> is specified,<br/>
+all of the feedback types are returned.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSMutableArray *commentType</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Returns feedback of a specified type (positive, negative, or neutral) in<br/>
+<b>FeedbackDetailArray</b>. You can include two comment types in your call if you want<br/>
+to exclude the third type from your results. If no <b>CommentType</b> is specified,<br/>
+all of the feedback types are returned.</p>
+
+<p>entry type : string constant in Trading_CommentTypeCodeType.h</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_GetFeedbackRequestType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/feedbackID" title="feedbackID"></a>
+	<h3 class="subsubtitle method-title">feedbackID</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>An ID that uniquely identifies a feedback record to be retrieved.<br/>
+Used only by the Feedback notification.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *feedbackID</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>An ID that uniquely identifies a feedback record to be retrieved.<br/>
+Used only by the Feedback notification.</p>
+
+<p>type : NSString, wrapper for primitive string</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_GetFeedbackRequestType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/feedbackType" title="feedbackType"></a>
+	<h3 class="subsubtitle method-title">feedbackType</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns feedback that you received as a buyer or seller, or feedback you left<br/>
+for others (as either a buyer or a seller). You can include only one<br/>
+<b>FeedbackType</b> in your call. If no <b>FeedbackType</b> is specified, all of the<br/>
+available feedback is returned.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *feedbackType</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Returns feedback that you received as a buyer or seller, or feedback you left<br/>
+for others (as either a buyer or a seller). You can include only one<br/>
+<b>FeedbackType</b> in your call. If no <b>FeedbackType</b> is specified, all of the<br/>
+available feedback is returned.</p>
+
+<p>type: string constant in Trading_FeedbackTypeCodeType.h</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_GetFeedbackRequestType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/itemID" title="itemID"></a>
+	<h3 class="subsubtitle method-title">itemID</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Unique identifier for an eBay item listing. A listing can have multiple<br/>
+order line items (transactions), but only one <b>ItemID</b>. If <b>ItemID</b> is<br/>
+specified in the <b>GetFeedback</b> request, the returned feedback records are<br/>
+restricted to the specified <b>ItemID</b>. The <b>FeedbackType</b> and <b>Pagination</b><br/>
+fields (if included) are ignored. The maximum number of feedback records<br/>
+returned is 100.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *itemID</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Unique identifier for an eBay item listing. A listing can have multiple<br/>
+order line items (transactions), but only one <b>ItemID</b>. If <b>ItemID</b> is<br/>
+specified in the <b>GetFeedback</b> request, the returned feedback records are<br/>
+restricted to the specified <b>ItemID</b>. The <b>FeedbackType</b> and <b>Pagination</b><br/>
+fields (if included) are ignored. The maximum number of feedback records<br/>
+returned is 100.</p>
+
+<p>type : NSString, wrapper for primitive string</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_GetFeedbackRequestType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/orderLineItemID" title="orderLineItemID"></a>
+	<h3 class="subsubtitle method-title">orderLineItemID</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p><b>OrderLineItemID</b> is a unique identifier for an eBay order line item and<br/>
+is based upon the concatenation of <b>ItemID</b> and <b>TransactionID</b>, with a<br/>
+hyphen in between these two IDs. An <b>OrderLineItemID</b> can be used as an<br/>
+input filter in the <b>GetFeedback</b> request. If an <b>OrderLineItemID</b> value is<br/>
+used to retrieve a feedback record on a specific order line item, the<br/>
+<b>FeedbackType</b> and <b>Pagination</b> fields (if included) are ignored.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *orderLineItemID</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p><b>OrderLineItemID</b> is a unique identifier for an eBay order line item and<br/>
+is based upon the concatenation of <b>ItemID</b> and <b>TransactionID</b>, with a<br/>
+hyphen in between these two IDs. An <b>OrderLineItemID</b> can be used as an<br/>
+input filter in the <b>GetFeedback</b> request. If an <b>OrderLineItemID</b> value is<br/>
+used to retrieve a feedback record on a specific order line item, the<br/>
+<b>FeedbackType</b> and <b>Pagination</b> fields (if included) are ignored.</p>
+
+<p>type : NSString, wrapper for primitive string</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_GetFeedbackRequestType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/pagination" title="pagination"></a>
+	<h3 class="subsubtitle method-title">pagination</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Controls the pagination of the result set. Child elements, <b>EntriesPerPage</b> and<br/>
+<b>PageNumber</b>, specify the maximum number of individual feedback records to return<br/>
+per call and which page of data to return. Only applicable if <b>DetailLevel</b> is<br/>
+set to <b>ReturnAll</b> and the call is returning feedback for a <b>UserID</b>. Feedback<br/>
+summary data is not paginated, but when pagination is used, it is returned<br/>
+after the last feedback detail entry.<br/>
+<br><br><br/>
+Accepted values for <b>Pagination.EntriesPerPage</b> for GetFeedback is 25 (the<br/>
+default), 50, 100, and 200. If you specify a value of zero, or a value<br/>
+greater than 200, the call fails with an error. If you specify a value between<br/>
+one and twenty-four, the value is rounded up to 25. Values between 26 and 199<br/>
+that are not one of the accepted values are rounded down to the nearest<br/>
+accepted value.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_PaginationType *pagination</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Controls the pagination of the result set. Child elements, <b>EntriesPerPage</b> and<br/>
+<b>PageNumber</b>, specify the maximum number of individual feedback records to return<br/>
+per call and which page of data to return. Only applicable if <b>DetailLevel</b> is<br/>
+set to <b>ReturnAll</b> and the call is returning feedback for a <b>UserID</b>. Feedback<br/>
+summary data is not paginated, but when pagination is used, it is returned<br/>
+after the last feedback detail entry.<br/>
+<br><br><br/>
+Accepted values for <b>Pagination.EntriesPerPage</b> for GetFeedback is 25 (the<br/>
+default), 50, 100, and 200. If you specify a value of zero, or a value<br/>
+greater than 200, the call fails with an error. If you specify a value between<br/>
+one and twenty-four, the value is rounded up to 25. Values between 26 and 199<br/>
+that are not one of the accepted values are rounded down to the nearest<br/>
+accepted value.</p>
+
+<p>type : class <a href="../Classes/Trading_PaginationType.html">Trading_PaginationType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_GetFeedbackRequestType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/transactionID" title="transactionID"></a>
+	<h3 class="subsubtitle method-title">transactionID</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Unique identifier for an eBay order line item (transaction). A<br/>
+<b>TransactionID</b> can be paired up with its corresponding <b>ItemID</b> and used as<br/>
+an input filter in the <b>GetFeedback</b> request. If an <b>ItemID</b>/<b>TransactionID</b><br/>
+pair or an <b>OrderLineItemID</b> value is used to retrieve a feedback record<br/>
+on a specific order line item, the <b>FeedbackType</b> and <b>Pagination</b><br/>
+fields (if included) are ignored.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *transactionID</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Unique identifier for an eBay order line item (transaction). A<br/>
+<b>TransactionID</b> can be paired up with its corresponding <b>ItemID</b> and used as<br/>
+an input filter in the <b>GetFeedback</b> request. If an <b>ItemID</b>/<b>TransactionID</b><br/>
+pair or an <b>OrderLineItemID</b> value is used to retrieve a feedback record<br/>
+on a specific order line item, the <b>FeedbackType</b> and <b>Pagination</b><br/>
+fields (if included) are ignored.</p>
+
+<p>type : NSString, wrapper for primitive string</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_GetFeedbackRequestType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/userID" title="userID"></a>
+	<h3 class="subsubtitle method-title">userID</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Specifies the user whose feedback data is to be returned. If not<br/>
+specified, then the feedback returned is for the requesting user.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *userID</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Specifies the user whose feedback data is to be returned. If not<br/>
+specified, then the feedback returned is for the requesting user.</p>
+
+<p>type : NSString, wrapper for primitive string</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_GetFeedbackRequestType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 LeanSoft Technology. All rights reserved. (Last updated: 2013-03-31)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.1 (build 858)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

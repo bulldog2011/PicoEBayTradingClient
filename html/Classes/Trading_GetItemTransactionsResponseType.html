@@ -1,0 +1,761 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>Trading_GetItemTransactionsResponseType Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.1 (build 858)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">PicoEBayTradingClient </a></h1>
+				<a id="developerHome" href="../index.html">LeanSoft Technology</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">Trading_GetItemTransactionsResponseType Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/hasMoreTransactions">&nbsp;&nbsp;&nbsp;&nbsp;hasMoreTransactions</option>
+	
+	<option value="//api/name/item">&nbsp;&nbsp;&nbsp;&nbsp;item</option>
+	
+	<option value="//api/name/pageNumber">&nbsp;&nbsp;&nbsp;&nbsp;pageNumber</option>
+	
+	<option value="//api/name/paginationResult">&nbsp;&nbsp;&nbsp;&nbsp;paginationResult</option>
+	
+	<option value="//api/name/payPalPreferred">&nbsp;&nbsp;&nbsp;&nbsp;payPalPreferred</option>
+	
+	<option value="//api/name/returnedTransactionCountActual">&nbsp;&nbsp;&nbsp;&nbsp;returnedTransactionCountActual</option>
+	
+	<option value="//api/name/transactionArray">&nbsp;&nbsp;&nbsp;&nbsp;transactionArray</option>
+	
+	<option value="//api/name/transactionsPerPage">&nbsp;&nbsp;&nbsp;&nbsp;transactionsPerPage</option>
+	
+	
+	
+	
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/hasMoreTransactions">hasMoreTransactions</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/item">item</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/pageNumber">pageNumber</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/paginationResult">paginationResult</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/payPalPreferred">payPalPreferred</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/returnedTransactionCountActual">returnedTransactionCountActual</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/transactionArray">transactionArray</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/transactionsPerPage">transactionsPerPage</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="Trading_GetItemTransactionsResponseType Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">Trading_GetItemTransactionsResponseType Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value"><a href="../Classes/Trading_AbstractResponseType.html">Trading_AbstractResponseType</a> : NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">Trading_GetItemTransactionsResponseType.h<br />Trading_GetItemTransactionsResponseType.m</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>Returns an array of order line <a href="#//api/name/item">item</a> (transaction) data for the <a href="#//api/name/item">item</a> specified in the request.<br/>
+The results can be used to create a report of data that is commonly<br/>
+necessary for order processing.<br/>
+Zero, one, or many <b>Transaction</b> objects can be returned in the <b>TransactionArray</b>.<br/>
+The set of order line items returned is limited to those that were modified between<br/>
+the times specified in the request&rsquo;s <b>ModTimeFrom</b> and <b>ModTime</b> filters.<br/>
+Also returns the <b>Item</b> object that spawned the order line items.<br/>
+If pagination filters were specified in the request, returns meta-data describing<br/>
+the effects of those filters on the current response and the estimated effects if<br/>
+the same filters are used in subsequent calls.<br/>
+<br><br><br/>
+Data from the <b>TransactionArray</b> may be used to trigger the following Platform<br/>
+Notifications: EndOfAuction, AuctionCheckoutComplete, FixedPriceEndOfTransaction,<br/>
+CheckoutBuyerRequestTotal, FixedPriceTransaction, Checkout,<br/>
+FixedPriceTransactionForSeller, FixedPriceTransactionForBuyer, ItemMarkedAsShipped,<br/>
+and ItemMarkedAsPaid. Each notification will be based on the state of the <a href="#//api/name/item">item</a><br/>
+(a &lsquo;snapshot&rsquo; of the <a href="#//api/name/item">item</a>) at the time the order line <a href="#//api/name/item">item</a> was created.</p>
+
+<p>@ingroup EBayAPIInterface</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/paginationResult">&nbsp;&nbsp;paginationResult</a></code>
+		<span class="tooltip"><p>Contains the total number of pages (<b>TotalNumberOfPages</b>) and the total number<br/>
+of entries (<b>TotalNumberOfEntries</b>) that could be returned given repeated calls<br/>
+that use the same selection criteria as the call that returned this response.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/hasMoreTransactions">&nbsp;&nbsp;hasMoreTransactions</a></code>
+		<span class="tooltip"><p>Indicates whether there are additional order line items (transactions) to retrieve.<br/>
+That is, indicates whether more pages of data are available to be<br/>
+returned, given the filters that were specified in the request.<br/>
+Returns false for the last page of data.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/transactionsPerPage">&nbsp;&nbsp;transactionsPerPage</a></code>
+		<span class="tooltip"><p>Number of order line items (transactions) returned per page (per call). May be a higher value<br/>
+than <b>ReturnedTransactionCountActual</b> if the page returned is the last page<br/>
+and more than one page of data exists.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/pageNumber">&nbsp;&nbsp;pageNumber</a></code>
+		<span class="tooltip"><p>Page number for the page of order line items the response returned.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/returnedTransactionCountActual">&nbsp;&nbsp;returnedTransactionCountActual</a></code>
+		<span class="tooltip"><p>Number of order line items retrieved in the current page of results just returned.<br/>
+May be a lower value than <b>TransactionsPerPage</b> if the page returned is the last<br/>
+page and more than one page of data exists.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/item">&nbsp;&nbsp;item</a></code>
+		<span class="tooltip"><p><b>Item</b> object that spawned the order line item. It is a purchase from this item&rsquo;s listing<br/>
+that the order line item represents.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/transactionArray">&nbsp;&nbsp;transactionArray</a></code>
+		<span class="tooltip"><p>List of <b>Transaction</b> objects representing the order line items resulting<br/>
+from the listing. Each <b>Transaction</b> object contains the data for one purchase<br/>
+(of one or more items in the same listing). The <b>Transaction.Item</b> field is not<br/>
+returned because the <b>Item</b> object is returned at the root level of the response.<br/>
+See the reference guide for more information about the fields that are returned.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/payPalPreferred">&nbsp;&nbsp;payPalPreferred</a></code>
+		<span class="tooltip"><p>Indicates whether the item&rsquo;s seller has the preference enabled that shows<br/>
+that the seller prefers PayPal as the method of payment for an <a href="#//api/name/item">item</a>. This<br/>
+preference is indicated on an item&rsquo;s View Item page and is intended to<br/>
+influence a buyer to use PayPal<br/>
+to pay for the <a href="#//api/name/item">item</a>.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/hasMoreTransactions" title="hasMoreTransactions"></a>
+	<h3 class="subsubtitle method-title">hasMoreTransactions</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Indicates whether there are additional order line items (transactions) to retrieve.<br/>
+That is, indicates whether more pages of data are available to be<br/>
+returned, given the filters that were specified in the request.<br/>
+Returns false for the last page of data.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSNumber *hasMoreTransactions</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Indicates whether there are additional order line items (transactions) to retrieve.<br/>
+That is, indicates whether more pages of data are available to be<br/>
+returned, given the filters that were specified in the request.<br/>
+Returns false for the last page of data.</p>
+
+<p>type : NSNumber, wrapper for primitive bool</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_GetItemTransactionsResponseType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/item" title="item"></a>
+	<h3 class="subsubtitle method-title">item</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p><b>Item</b> object that spawned the order line item. It is a purchase from this item&rsquo;s listing<br/>
+that the order line item represents.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_ItemType *item</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p><b>Item</b> object that spawned the order line item. It is a purchase from this item&rsquo;s listing<br/>
+that the order line item represents.</p>
+
+<p>type : class <a href="../Classes/Trading_ItemType.html">Trading_ItemType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_GetItemTransactionsResponseType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/pageNumber" title="pageNumber"></a>
+	<h3 class="subsubtitle method-title">pageNumber</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Page number for the page of order line items the response returned.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSNumber *pageNumber</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Page number for the page of order line items the response returned.</p>
+
+<p>type : NSNumber, wrapper for primitive int</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_GetItemTransactionsResponseType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/paginationResult" title="paginationResult"></a>
+	<h3 class="subsubtitle method-title">paginationResult</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Contains the total number of pages (<b>TotalNumberOfPages</b>) and the total number<br/>
+of entries (<b>TotalNumberOfEntries</b>) that could be returned given repeated calls<br/>
+that use the same selection criteria as the call that returned this response.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_PaginationResultType *paginationResult</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Contains the total number of pages (<b>TotalNumberOfPages</b>) and the total number<br/>
+of entries (<b>TotalNumberOfEntries</b>) that could be returned given repeated calls<br/>
+that use the same selection criteria as the call that returned this response.</p>
+
+<p>type : class <a href="../Classes/Trading_PaginationResultType.html">Trading_PaginationResultType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_GetItemTransactionsResponseType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/payPalPreferred" title="payPalPreferred"></a>
+	<h3 class="subsubtitle method-title">payPalPreferred</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Indicates whether the item&rsquo;s seller has the preference enabled that shows<br/>
+that the seller prefers PayPal as the method of payment for an <a href="#//api/name/item">item</a>. This<br/>
+preference is indicated on an item&rsquo;s View Item page and is intended to<br/>
+influence a buyer to use PayPal<br/>
+to pay for the <a href="#//api/name/item">item</a>.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSNumber *payPalPreferred</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Indicates whether the item&rsquo;s seller has the preference enabled that shows<br/>
+that the seller prefers PayPal as the method of payment for an <a href="#//api/name/item">item</a>. This<br/>
+preference is indicated on an item&rsquo;s View Item page and is intended to<br/>
+influence a buyer to use PayPal<br/>
+to pay for the <a href="#//api/name/item">item</a>.</p>
+
+<p>type : NSNumber, wrapper for primitive bool</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_GetItemTransactionsResponseType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/returnedTransactionCountActual" title="returnedTransactionCountActual"></a>
+	<h3 class="subsubtitle method-title">returnedTransactionCountActual</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Number of order line items retrieved in the current page of results just returned.<br/>
+May be a lower value than <b>TransactionsPerPage</b> if the page returned is the last<br/>
+page and more than one page of data exists.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSNumber *returnedTransactionCountActual</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Number of order line items retrieved in the current page of results just returned.<br/>
+May be a lower value than <b>TransactionsPerPage</b> if the page returned is the last<br/>
+page and more than one page of data exists.</p>
+
+<p>type : NSNumber, wrapper for primitive int</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_GetItemTransactionsResponseType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/transactionArray" title="transactionArray"></a>
+	<h3 class="subsubtitle method-title">transactionArray</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>List of <b>Transaction</b> objects representing the order line items resulting<br/>
+from the listing. Each <b>Transaction</b> object contains the data for one purchase<br/>
+(of one or more items in the same listing). The <b>Transaction.Item</b> field is not<br/>
+returned because the <b>Item</b> object is returned at the root level of the response.<br/>
+See the reference guide for more information about the fields that are returned.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_TransactionArrayType *transactionArray</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>List of <b>Transaction</b> objects representing the order line items resulting<br/>
+from the listing. Each <b>Transaction</b> object contains the data for one purchase<br/>
+(of one or more items in the same listing). The <b>Transaction.Item</b> field is not<br/>
+returned because the <b>Item</b> object is returned at the root level of the response.<br/>
+See the reference guide for more information about the fields that are returned.</p>
+
+<p>type : class <a href="../Classes/Trading_TransactionArrayType.html">Trading_TransactionArrayType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_GetItemTransactionsResponseType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/transactionsPerPage" title="transactionsPerPage"></a>
+	<h3 class="subsubtitle method-title">transactionsPerPage</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Number of order line items (transactions) returned per page (per call). May be a higher value<br/>
+than <b>ReturnedTransactionCountActual</b> if the page returned is the last page<br/>
+and more than one page of data exists.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSNumber *transactionsPerPage</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Number of order line items (transactions) returned per page (per call). May be a higher value<br/>
+than <b>ReturnedTransactionCountActual</b> if the page returned is the last page<br/>
+and more than one page of data exists.</p>
+
+<p>type : NSNumber, wrapper for primitive int</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_GetItemTransactionsResponseType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 LeanSoft Technology. All rights reserved. (Last updated: 2013-03-31)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.1 (build 858)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

@@ -1,0 +1,736 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>Trading_IssueRefundRequestType Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.1 (build 858)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">PicoEBayTradingClient </a></h1>
+				<a id="developerHome" href="../index.html">LeanSoft Technology</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">Trading_IssueRefundRequestType Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/itemID">&nbsp;&nbsp;&nbsp;&nbsp;itemID</option>
+	
+	<option value="//api/name/orderLineItemID">&nbsp;&nbsp;&nbsp;&nbsp;orderLineItemID</option>
+	
+	<option value="//api/name/refundAmount">&nbsp;&nbsp;&nbsp;&nbsp;refundAmount</option>
+	
+	<option value="//api/name/refundMessage">&nbsp;&nbsp;&nbsp;&nbsp;refundMessage</option>
+	
+	<option value="//api/name/refundReason">&nbsp;&nbsp;&nbsp;&nbsp;refundReason</option>
+	
+	<option value="//api/name/refundType">&nbsp;&nbsp;&nbsp;&nbsp;refundType</option>
+	
+	<option value="//api/name/transactionID">&nbsp;&nbsp;&nbsp;&nbsp;transactionID</option>
+	
+	
+	
+	
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/itemID">itemID</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/orderLineItemID">orderLineItemID</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/refundAmount">refundAmount</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/refundMessage">refundMessage</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/refundReason">refundReason</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/refundType">refundType</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/transactionID">transactionID</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="Trading_IssueRefundRequestType Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">Trading_IssueRefundRequestType Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value"><a href="../Classes/Trading_AbstractRequestType.html">Trading_AbstractRequestType</a> : NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">Trading_IssueRefundRequestType.h<br />Trading_IssueRefundRequestType.m</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p><b>Half.com only.</b>&nbsp;Issues a refund for a specific<br/>
+Half.com order line item. This can only be called by a seller. Sellers do not<br/>
+have the ability to issue a general refund (a refund not tied to an order line<br/>
+item) to a buyer.</p>
+
+<p>@ingroup EBayAPIInterface</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/itemID">&nbsp;&nbsp;itemID</a></code>
+		<span class="tooltip"><p>Unique identifier for the Half.com item listing. Unless an<br/>
+<b>OrderLineItemID</b> is specified in the <b>IssueRefund</b> request, the <b>ItemID</b> is<br/>
+required along with the corresponding <b>TransactionID</b> to identify the<br/>
+order line item that will be refunded. You can use <b>GetSellerPayments</b> to<br/>
+retrieve the <b>ItemID</b> and/or <b>TransactionID</b> associated with the order line<br/>
+item.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/transactionID">&nbsp;&nbsp;transactionID</a></code>
+		<span class="tooltip"><p>Unique identifier for a Half.com order line item (transaction). An order<br/>
+line item is created once there is a commitment from a buyer to purchase<br/>
+an item. Along with its corresponding <b>ItemID</b>, a <b>TransactionID</b> is used to<br/>
+identify the order line item that will be refunded. Unless an<br/>
+<b>OrderLineItemID</b> is specified in the <b>IssueRefund</b> request, the<br/>
+<b>TransactionID</b> is required along with the corresponding <b>ItemID</b>. You can<br/>
+use <b>GetSellerPayments</b> to retrieve the <b>ItemID</b> and/or <b>TransactionID</b><br/>
+associated with the order line item.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/refundReason">&nbsp;&nbsp;refundReason</a></code>
+		<span class="tooltip"><p>Explanation of the reason that the refund is being issued.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/refundType">&nbsp;&nbsp;refundType</a></code>
+		<span class="tooltip"><p>Explanation of the costs that the refund amount covers.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/refundAmount">&nbsp;&nbsp;refundAmount</a></code>
+		<span class="tooltip"><p>The amount the seller wants to refund to the buyer, in US Dollars (USD).<br/>
+Must be greater than 0.00. Half.com allows a maximum of the original item<br/>
+sale price (order line item price plus original shipping reimbursement) plus<br/>
+return shipping costs (the amount the buyer paid to return the item).<br/>
+Typically, the return shipping cost is based on the current cost of<br/>
+shipping the individual item (not the discounted cost calculated during<br/>
+the original checkout for a Combined Payment order). You can also issue a<br/>
+partial refund for the amount you want the buyer to receive. If<br/>
+RefundType=Full or RefundType=FullPlusShipping and you do not pass<br/>
+<b>RefundAmount</b> in the request, Half.com will calculate the refund amount for<br/>
+you. If you pass <b>RefundAmount</b> in the request, the amount you specify will<br/>
+override Half.com&rsquo;s calculated value. Required if RefundType=<br/>
+CustomOrPartial.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/refundMessage">&nbsp;&nbsp;refundMessage</a></code>
+		<span class="tooltip"><p>Note to the buyer. Cannot include HTML.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/orderLineItemID">&nbsp;&nbsp;orderLineItemID</a></code>
+		<span class="tooltip"><p>A unique identifier for an eBay order line item. This field is created<br/>
+as soon as there is a commitment to buy from the seller, and its value<br/>
+is based upon the concatenation of <b>ItemID</b> and <b>TransactionID</b>, with a<br/>
+hyphen in between these two IDs. The <b>OrderLineItemID</b> value is used to<br/>
+identify the order line item that will be refunded. Unless an<br/>
+<b>ItemID</b>/<b>TransactionID</b> pair is specified in the <b>IssueRefund</b> request, the<br/>
+<b>OrderLineItemID</b> is required. You can use <b>GetSellerPayments</b> to retrieve<br/>
+the <b>OrderLineItemID</b> associated with the order line item.<br/>
+<br></p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/itemID" title="itemID"></a>
+	<h3 class="subsubtitle method-title">itemID</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Unique identifier for the Half.com item listing. Unless an<br/>
+<b>OrderLineItemID</b> is specified in the <b>IssueRefund</b> request, the <b>ItemID</b> is<br/>
+required along with the corresponding <b>TransactionID</b> to identify the<br/>
+order line item that will be refunded. You can use <b>GetSellerPayments</b> to<br/>
+retrieve the <b>ItemID</b> and/or <b>TransactionID</b> associated with the order line<br/>
+item.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *itemID</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Unique identifier for the Half.com item listing. Unless an<br/>
+<b>OrderLineItemID</b> is specified in the <b>IssueRefund</b> request, the <b>ItemID</b> is<br/>
+required along with the corresponding <b>TransactionID</b> to identify the<br/>
+order line item that will be refunded. You can use <b>GetSellerPayments</b> to<br/>
+retrieve the <b>ItemID</b> and/or <b>TransactionID</b> associated with the order line<br/>
+item.</p>
+
+<p>type : NSString, wrapper for primitive string</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_IssueRefundRequestType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/orderLineItemID" title="orderLineItemID"></a>
+	<h3 class="subsubtitle method-title">orderLineItemID</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>A unique identifier for an eBay order line item. This field is created<br/>
+as soon as there is a commitment to buy from the seller, and its value<br/>
+is based upon the concatenation of <b>ItemID</b> and <b>TransactionID</b>, with a<br/>
+hyphen in between these two IDs. The <b>OrderLineItemID</b> value is used to<br/>
+identify the order line item that will be refunded. Unless an<br/>
+<b>ItemID</b>/<b>TransactionID</b> pair is specified in the <b>IssueRefund</b> request, the<br/>
+<b>OrderLineItemID</b> is required. You can use <b>GetSellerPayments</b> to retrieve<br/>
+the <b>OrderLineItemID</b> associated with the order line item.<br/>
+<br></p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *orderLineItemID</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>A unique identifier for an eBay order line item. This field is created<br/>
+as soon as there is a commitment to buy from the seller, and its value<br/>
+is based upon the concatenation of <b>ItemID</b> and <b>TransactionID</b>, with a<br/>
+hyphen in between these two IDs. The <b>OrderLineItemID</b> value is used to<br/>
+identify the order line item that will be refunded. Unless an<br/>
+<b>ItemID</b>/<b>TransactionID</b> pair is specified in the <b>IssueRefund</b> request, the<br/>
+<b>OrderLineItemID</b> is required. You can use <b>GetSellerPayments</b> to retrieve<br/>
+the <b>OrderLineItemID</b> associated with the order line item.<br/>
+<br></p>
+
+<p>type : NSString, wrapper for primitive string</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_IssueRefundRequestType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/refundAmount" title="refundAmount"></a>
+	<h3 class="subsubtitle method-title">refundAmount</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The amount the seller wants to refund to the buyer, in US Dollars (USD).<br/>
+Must be greater than 0.00. Half.com allows a maximum of the original item<br/>
+sale price (order line item price plus original shipping reimbursement) plus<br/>
+return shipping costs (the amount the buyer paid to return the item).<br/>
+Typically, the return shipping cost is based on the current cost of<br/>
+shipping the individual item (not the discounted cost calculated during<br/>
+the original checkout for a Combined Payment order). You can also issue a<br/>
+partial refund for the amount you want the buyer to receive. If<br/>
+RefundType=Full or RefundType=FullPlusShipping and you do not pass<br/>
+<b>RefundAmount</b> in the request, Half.com will calculate the refund amount for<br/>
+you. If you pass <b>RefundAmount</b> in the request, the amount you specify will<br/>
+override Half.com&rsquo;s calculated value. Required if RefundType=<br/>
+CustomOrPartial.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_AmountType *refundAmount</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The amount the seller wants to refund to the buyer, in US Dollars (USD).<br/>
+Must be greater than 0.00. Half.com allows a maximum of the original item<br/>
+sale price (order line item price plus original shipping reimbursement) plus<br/>
+return shipping costs (the amount the buyer paid to return the item).<br/>
+Typically, the return shipping cost is based on the current cost of<br/>
+shipping the individual item (not the discounted cost calculated during<br/>
+the original checkout for a Combined Payment order). You can also issue a<br/>
+partial refund for the amount you want the buyer to receive. If<br/>
+RefundType=Full or RefundType=FullPlusShipping and you do not pass<br/>
+<b>RefundAmount</b> in the request, Half.com will calculate the refund amount for<br/>
+you. If you pass <b>RefundAmount</b> in the request, the amount you specify will<br/>
+override Half.com&rsquo;s calculated value. Required if RefundType=<br/>
+CustomOrPartial.</p>
+
+<p>type : class <a href="../Classes/Trading_AmountType.html">Trading_AmountType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_IssueRefundRequestType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/refundMessage" title="refundMessage"></a>
+	<h3 class="subsubtitle method-title">refundMessage</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Note to the buyer. Cannot include HTML.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *refundMessage</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Note to the buyer. Cannot include HTML.</p>
+
+<p>type : NSString, wrapper for primitive string</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_IssueRefundRequestType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/refundReason" title="refundReason"></a>
+	<h3 class="subsubtitle method-title">refundReason</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Explanation of the reason that the refund is being issued.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *refundReason</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Explanation of the reason that the refund is being issued.</p>
+
+<p>type: string constant in Trading_RefundReasonCodeType.h</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_IssueRefundRequestType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/refundType" title="refundType"></a>
+	<h3 class="subsubtitle method-title">refundType</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Explanation of the costs that the refund amount covers.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *refundType</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Explanation of the costs that the refund amount covers.</p>
+
+<p>type: string constant in Trading_RefundTypeCodeType.h</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_IssueRefundRequestType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/transactionID" title="transactionID"></a>
+	<h3 class="subsubtitle method-title">transactionID</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Unique identifier for a Half.com order line item (transaction). An order<br/>
+line item is created once there is a commitment from a buyer to purchase<br/>
+an item. Along with its corresponding <b>ItemID</b>, a <b>TransactionID</b> is used to<br/>
+identify the order line item that will be refunded. Unless an<br/>
+<b>OrderLineItemID</b> is specified in the <b>IssueRefund</b> request, the<br/>
+<b>TransactionID</b> is required along with the corresponding <b>ItemID</b>. You can<br/>
+use <b>GetSellerPayments</b> to retrieve the <b>ItemID</b> and/or <b>TransactionID</b><br/>
+associated with the order line item.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *transactionID</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Unique identifier for a Half.com order line item (transaction). An order<br/>
+line item is created once there is a commitment from a buyer to purchase<br/>
+an item. Along with its corresponding <b>ItemID</b>, a <b>TransactionID</b> is used to<br/>
+identify the order line item that will be refunded. Unless an<br/>
+<b>OrderLineItemID</b> is specified in the <b>IssueRefund</b> request, the<br/>
+<b>TransactionID</b> is required along with the corresponding <b>ItemID</b>. You can<br/>
+use <b>GetSellerPayments</b> to retrieve the <b>ItemID</b> and/or <b>TransactionID</b><br/>
+associated with the order line item.</p>
+
+<p>type : NSString, wrapper for primitive string</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_IssueRefundRequestType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 LeanSoft Technology. All rights reserved. (Last updated: 2013-03-31)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.1 (build 858)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

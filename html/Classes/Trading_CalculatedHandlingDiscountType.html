@@ -1,0 +1,697 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>Trading_CalculatedHandlingDiscountType Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.1 (build 858)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">PicoEBayTradingClient </a></h1>
+				<a id="developerHome" href="../index.html">LeanSoft Technology</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">Trading_CalculatedHandlingDiscountType Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/any">&nbsp;&nbsp;&nbsp;&nbsp;any</option>
+	
+	<option value="//api/name/discountName">&nbsp;&nbsp;&nbsp;&nbsp;discountName</option>
+	
+	<option value="//api/name/eachAdditionalAmount">&nbsp;&nbsp;&nbsp;&nbsp;eachAdditionalAmount</option>
+	
+	<option value="//api/name/eachAdditionalOffAmount">&nbsp;&nbsp;&nbsp;&nbsp;eachAdditionalOffAmount</option>
+	
+	<option value="//api/name/eachAdditionalPercentOff">&nbsp;&nbsp;&nbsp;&nbsp;eachAdditionalPercentOff</option>
+	
+	<option value="//api/name/orderHandlingAmount">&nbsp;&nbsp;&nbsp;&nbsp;orderHandlingAmount</option>
+	
+	
+	
+	
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/any">any</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/discountName">discountName</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/eachAdditionalAmount">eachAdditionalAmount</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/eachAdditionalOffAmount">eachAdditionalOffAmount</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/eachAdditionalPercentOff">eachAdditionalPercentOff</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/orderHandlingAmount">orderHandlingAmount</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="Trading_CalculatedHandlingDiscountType Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">Trading_CalculatedHandlingDiscountType Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value">PicoBindable</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">Trading_CalculatedHandlingDiscountType.h<br />Trading_CalculatedHandlingDiscountType.m</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>Instructions on packaging/handling costs for combined payment.</p>
+
+<p>@ingroup EBayAPIInterface</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/discountName">&nbsp;&nbsp;discountName</a></code>
+		<span class="tooltip"><p>The type of discount that is detailed in the profile.<br/>
+If the selection is EachAdditionalAmount, EachAdditionalAmountOff or<br/>
+EachAdditionalPercentOff, the value is set in the child element of same<br/>
+name in CalculatedHandlingDiscount. If the selection is CombinedHandlingFee,<br/>
+specify the amount in CalculatedHandlingDiscount.OrderHandlingAmount.<br/>
+If the selection is IndividualHandlingFee, the amount is determined by eBay<br/>
+by adding the fees of the individual items.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/orderHandlingAmount">&nbsp;&nbsp;orderHandlingAmount</a></code>
+		<span class="tooltip"><p>If specified, this is the fixed shipping cost to charge for an order,<br/>
+regardless of the number of items in the order.<br/>
+This field is mutually exclusive with the other amount and percentage<br/>
+fields within this type.<br/>
+This field only applies when DiscountName is CombinedHandlingFee.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/eachAdditionalAmount">&nbsp;&nbsp;eachAdditionalAmount</a></code>
+		<span class="tooltip"><p>The packaging/handling cost for each item beyond the first item (where the<br/>
+item with the highest packaging/handling cost is selected by eBay as the first<br/>
+item). Let&rsquo;s say the buyer purchases three items, each assigned a<br/>
+packaging/handling cost of $8, and the seller set EachAdditionalAmount to $6.<br/>
+The packaging/handling cost for three items would normally be $24, but since<br/>
+the seller specified $6, the total packaging/handling cost would be $8 + $6 +<br/>
+$6, or $20.<br/>
+This field is mutually exclusive with the other amount and percentage<br/>
+fields within this type.<br/>
+This field only applies when DiscountName is EachAdditionalAmount.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/eachAdditionalOffAmount">&nbsp;&nbsp;eachAdditionalOffAmount</a></code>
+		<span class="tooltip"><p>The amount by which to reduce the packaging/handling cost for each item beyond<br/>
+the first item (where the item with the highest packaging/handling cost is<br/>
+selected by eBay as the first item). Let&rsquo;s say the buyer purchases three<br/>
+items, each assigned a packaging/handling cost of $8, and the seller set<br/>
+EachAdditionalAmountOff to $2.  The packaging/handling cost for three items<br/>
+would normally be $24, but since the seller specified $2, the total<br/>
+packaging/handling cost would be $24 - (two additional items x $2), or $20.<br/>
+This field is mutually exclusive with the other amount and percentage<br/>
+fields within this type.<br/>
+This field only applies when DiscountName is EachAdditionalOffAmount.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/eachAdditionalPercentOff">&nbsp;&nbsp;eachAdditionalPercentOff</a></code>
+		<span class="tooltip"><p>The percentage by which to reduce the packaging/handling cost for each item<br/>
+beyond the first item (where the item with the highest packaging/handling cost<br/>
+is selected by eBay as the first item). Let&rsquo;s say the buyer purchases three<br/>
+items, each assigned a packaging/handling cost of $8, and the seller set<br/>
+EachAdditionalPercentOff to 0.25.  The packaging/handling cost for three items<br/>
+would normally be $24, but since the seller specified 0.25 ($2 out of 8), the<br/>
+total packaging/handling cost would be $24 - (two additional items x $2), or<br/>
+$20.<br/>
+This field is mutually exclusive with the amount fields within this type.<br/>
+This field only applies when DiscountName is EachAdditionalPercentOff.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/any">&nbsp;&nbsp;any</a></code>
+		<span class="tooltip"><p>(public property)</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/any" title="any"></a>
+	<h3 class="subsubtitle method-title">any</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>(public property)</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSMutableArray *any</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>(public property)</p>
+
+<p>entry type : PicoAnyElement, wrapper for primitive anyelement</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_CalculatedHandlingDiscountType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/discountName" title="discountName"></a>
+	<h3 class="subsubtitle method-title">discountName</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The type of discount that is detailed in the profile.<br/>
+If the selection is EachAdditionalAmount, EachAdditionalAmountOff or<br/>
+EachAdditionalPercentOff, the value is set in the child element of same<br/>
+name in CalculatedHandlingDiscount. If the selection is CombinedHandlingFee,<br/>
+specify the amount in CalculatedHandlingDiscount.OrderHandlingAmount.<br/>
+If the selection is IndividualHandlingFee, the amount is determined by eBay<br/>
+by adding the fees of the individual items.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *discountName</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The type of discount that is detailed in the profile.<br/>
+If the selection is EachAdditionalAmount, EachAdditionalAmountOff or<br/>
+EachAdditionalPercentOff, the value is set in the child element of same<br/>
+name in CalculatedHandlingDiscount. If the selection is CombinedHandlingFee,<br/>
+specify the amount in CalculatedHandlingDiscount.OrderHandlingAmount.<br/>
+If the selection is IndividualHandlingFee, the amount is determined by eBay<br/>
+by adding the fees of the individual items.</p>
+
+<p>type: string constant in Trading_HandlingNameCodeType.h</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_CalculatedHandlingDiscountType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/eachAdditionalAmount" title="eachAdditionalAmount"></a>
+	<h3 class="subsubtitle method-title">eachAdditionalAmount</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The packaging/handling cost for each item beyond the first item (where the<br/>
+item with the highest packaging/handling cost is selected by eBay as the first<br/>
+item). Let&rsquo;s say the buyer purchases three items, each assigned a<br/>
+packaging/handling cost of $8, and the seller set EachAdditionalAmount to $6.<br/>
+The packaging/handling cost for three items would normally be $24, but since<br/>
+the seller specified $6, the total packaging/handling cost would be $8 + $6 +<br/>
+$6, or $20.<br/>
+This field is mutually exclusive with the other amount and percentage<br/>
+fields within this type.<br/>
+This field only applies when DiscountName is EachAdditionalAmount.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_AmountType *eachAdditionalAmount</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The packaging/handling cost for each item beyond the first item (where the<br/>
+item with the highest packaging/handling cost is selected by eBay as the first<br/>
+item). Let&rsquo;s say the buyer purchases three items, each assigned a<br/>
+packaging/handling cost of $8, and the seller set EachAdditionalAmount to $6.<br/>
+The packaging/handling cost for three items would normally be $24, but since<br/>
+the seller specified $6, the total packaging/handling cost would be $8 + $6 +<br/>
+$6, or $20.<br/>
+This field is mutually exclusive with the other amount and percentage<br/>
+fields within this type.<br/>
+This field only applies when DiscountName is EachAdditionalAmount.</p>
+
+<p>type : class <a href="../Classes/Trading_AmountType.html">Trading_AmountType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_CalculatedHandlingDiscountType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/eachAdditionalOffAmount" title="eachAdditionalOffAmount"></a>
+	<h3 class="subsubtitle method-title">eachAdditionalOffAmount</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The amount by which to reduce the packaging/handling cost for each item beyond<br/>
+the first item (where the item with the highest packaging/handling cost is<br/>
+selected by eBay as the first item). Let&rsquo;s say the buyer purchases three<br/>
+items, each assigned a packaging/handling cost of $8, and the seller set<br/>
+EachAdditionalAmountOff to $2.  The packaging/handling cost for three items<br/>
+would normally be $24, but since the seller specified $2, the total<br/>
+packaging/handling cost would be $24 - (two additional items x $2), or $20.<br/>
+This field is mutually exclusive with the other amount and percentage<br/>
+fields within this type.<br/>
+This field only applies when DiscountName is EachAdditionalOffAmount.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_AmountType *eachAdditionalOffAmount</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The amount by which to reduce the packaging/handling cost for each item beyond<br/>
+the first item (where the item with the highest packaging/handling cost is<br/>
+selected by eBay as the first item). Let&rsquo;s say the buyer purchases three<br/>
+items, each assigned a packaging/handling cost of $8, and the seller set<br/>
+EachAdditionalAmountOff to $2.  The packaging/handling cost for three items<br/>
+would normally be $24, but since the seller specified $2, the total<br/>
+packaging/handling cost would be $24 - (two additional items x $2), or $20.<br/>
+This field is mutually exclusive with the other amount and percentage<br/>
+fields within this type.<br/>
+This field only applies when DiscountName is EachAdditionalOffAmount.</p>
+
+<p>type : class <a href="../Classes/Trading_AmountType.html">Trading_AmountType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_CalculatedHandlingDiscountType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/eachAdditionalPercentOff" title="eachAdditionalPercentOff"></a>
+	<h3 class="subsubtitle method-title">eachAdditionalPercentOff</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The percentage by which to reduce the packaging/handling cost for each item<br/>
+beyond the first item (where the item with the highest packaging/handling cost<br/>
+is selected by eBay as the first item). Let&rsquo;s say the buyer purchases three<br/>
+items, each assigned a packaging/handling cost of $8, and the seller set<br/>
+EachAdditionalPercentOff to 0.25.  The packaging/handling cost for three items<br/>
+would normally be $24, but since the seller specified 0.25 ($2 out of 8), the<br/>
+total packaging/handling cost would be $24 - (two additional items x $2), or<br/>
+$20.<br/>
+This field is mutually exclusive with the amount fields within this type.<br/>
+This field only applies when DiscountName is EachAdditionalPercentOff.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSNumber *eachAdditionalPercentOff</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The percentage by which to reduce the packaging/handling cost for each item<br/>
+beyond the first item (where the item with the highest packaging/handling cost<br/>
+is selected by eBay as the first item). Let&rsquo;s say the buyer purchases three<br/>
+items, each assigned a packaging/handling cost of $8, and the seller set<br/>
+EachAdditionalPercentOff to 0.25.  The packaging/handling cost for three items<br/>
+would normally be $24, but since the seller specified 0.25 ($2 out of 8), the<br/>
+total packaging/handling cost would be $24 - (two additional items x $2), or<br/>
+$20.<br/>
+This field is mutually exclusive with the amount fields within this type.<br/>
+This field only applies when DiscountName is EachAdditionalPercentOff.</p>
+
+<p>type : NSNumber, wrapper for primitive float</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_CalculatedHandlingDiscountType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/orderHandlingAmount" title="orderHandlingAmount"></a>
+	<h3 class="subsubtitle method-title">orderHandlingAmount</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>If specified, this is the fixed shipping cost to charge for an order,<br/>
+regardless of the number of items in the order.<br/>
+This field is mutually exclusive with the other amount and percentage<br/>
+fields within this type.<br/>
+This field only applies when DiscountName is CombinedHandlingFee.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_AmountType *orderHandlingAmount</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>If specified, this is the fixed shipping cost to charge for an order,<br/>
+regardless of the number of items in the order.<br/>
+This field is mutually exclusive with the other amount and percentage<br/>
+fields within this type.<br/>
+This field only applies when DiscountName is CombinedHandlingFee.</p>
+
+<p>type : class <a href="../Classes/Trading_AmountType.html">Trading_AmountType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_CalculatedHandlingDiscountType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 LeanSoft Technology. All rights reserved. (Last updated: 2013-03-31)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.1 (build 858)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

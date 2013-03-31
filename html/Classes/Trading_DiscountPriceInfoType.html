@@ -1,0 +1,825 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>Trading_DiscountPriceInfoType Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.1 (build 858)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">PicoEBayTradingClient </a></h1>
+				<a id="developerHome" href="../index.html">LeanSoft Technology</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">Trading_DiscountPriceInfoType Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/any">&nbsp;&nbsp;&nbsp;&nbsp;any</option>
+	
+	<option value="//api/name/madeForOutletComparisonPrice">&nbsp;&nbsp;&nbsp;&nbsp;madeForOutletComparisonPrice</option>
+	
+	<option value="//api/name/minimumAdvertisedPrice">&nbsp;&nbsp;&nbsp;&nbsp;minimumAdvertisedPrice</option>
+	
+	<option value="//api/name/minimumAdvertisedPriceExposure">&nbsp;&nbsp;&nbsp;&nbsp;minimumAdvertisedPriceExposure</option>
+	
+	<option value="//api/name/originalRetailPrice">&nbsp;&nbsp;&nbsp;&nbsp;originalRetailPrice</option>
+	
+	<option value="//api/name/pricingTreatment">&nbsp;&nbsp;&nbsp;&nbsp;pricingTreatment</option>
+	
+	<option value="//api/name/soldOffeBay">&nbsp;&nbsp;&nbsp;&nbsp;soldOffeBay</option>
+	
+	<option value="//api/name/soldOneBay">&nbsp;&nbsp;&nbsp;&nbsp;soldOneBay</option>
+	
+	
+	
+	
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/any">any</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/madeForOutletComparisonPrice">madeForOutletComparisonPrice</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/minimumAdvertisedPrice">minimumAdvertisedPrice</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/minimumAdvertisedPriceExposure">minimumAdvertisedPriceExposure</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/originalRetailPrice">originalRetailPrice</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/pricingTreatment">pricingTreatment</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/soldOffeBay">soldOffeBay</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/soldOneBay">soldOneBay</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="Trading_DiscountPriceInfoType Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">Trading_DiscountPriceInfoType Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value">PicoBindable</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">Trading_DiscountPriceInfoType.h<br />Trading_DiscountPriceInfoType.m</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>Using this container, a seller can supply original retail price and<br/>
+discount price for an item to clarify the discount treatment (also known<br/>
+as strike-through pricing). This only applies to fixed-price listings and auction listings with the Buy It Now<br/>
+option. This feature is available for large enterprise sellers via<br/>
+white list. A seller can provide discount treatment regardless of<br/>
+whether the listing includes a SKU.</p>
+
+<p>@ingroup EBayAPIInterface</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/originalRetailPrice">&nbsp;&nbsp;originalRetailPrice</a></code>
+		<span class="tooltip"><p>The actual retail price set by the manufacturer (OEM).<br/>
+eBay does not maintain or validate the OriginalRetailPrice supplied<br/>
+by the seller. OriginalRetailPrice should always be more than<br/>
+StartPrice. Compare the StartPrice/BuyItNowPrice to<br/>
+OriginalRetailPrice to determine the amount of savings to the buyer.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/minimumAdvertisedPrice">&nbsp;&nbsp;minimumAdvertisedPrice</a></code>
+		<span class="tooltip"><p>Minimum Advertised Price (MAP) is an agreement between suppliers (or<br/>
+manufacturers (OEM)) and the retailers (sellers) stipulating<br/>
+the lowest price an item is allowed to be advertised at.<br/>
+Sellers can offer prices below MAP by means of other discounts.<br/>
+This only applies to fixed-price listings and auction listings with the Buy It Now option.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/minimumAdvertisedPriceExposure">&nbsp;&nbsp;minimumAdvertisedPriceExposure</a></code>
+		<span class="tooltip"><p>For MinimumAdvertisedPrice (MAP) listings only.<br/>
+A seller cannot show the actual discounted price on eBay&rsquo;s View Item<br/>
+page. Instead, the buyer can either click on a pop-up on eBay's<br/>
+View Item page, or the discount price will be shown during checkout.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/pricingTreatment">&nbsp;&nbsp;pricingTreatment</a></code>
+		<span class="tooltip"><p>Based on OriginalRetailPrice,<br/>
+MinimumAdvertisedPrice, and StartPrice values, eBay identifies<br/>
+whether the listing falls under MAP or STP (aka<br/>
+OriginalRetailPrice). GetItem returns this for items listed with one<br/>
+of these discount pricing treatments. GetSellerList returns the<br/>
+DiscountPriceInfo container. This field is not applicable for Add/Revise/Relist calls.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/soldOneBay">&nbsp;&nbsp;soldOneBay</a></code>
+		<span class="tooltip"><p>Used by the eBay UK and eBay Germ<a href="#//api/name/any">any</a> (DE) sites, this flag indicates that the discount<br/>
+price (specified as StartPrice) is the price for which the seller offered the same (or<br/>
+similar) item for sale on eBay within the previous 30 days. The discount price is always<br/>
+in reference to the seller&rsquo;s own price for the item.<br/>
+<br><br><br/>
+If this field is set to &lsquo;true&rsquo;, eBay displays &lsquo;Was&rsquo; in the UK and &lsquo;Ursprunglich&rsquo; in Germ<a href="#//api/name/any">any</a>, next<br/>
+to the discounted price of the item. In the event both SoldOffeBay and SoldOneBay fields<br/>
+are set to &lsquo;true&rsquo;, SoldOneBay takes precedence.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/soldOffeBay">&nbsp;&nbsp;soldOffeBay</a></code>
+		<span class="tooltip"><p>Used by the eBay UK and eBay Germ<a href="#//api/name/any">any</a> (DE) sites, this flag indicates that the discount<br/>
+price (specified as StartPrice) is the price for which the seller offered the same (or<br/>
+similar) item for sale on a Web site or offline store other than eBay in the previous 30<br/>
+days. The discount price is always in reference to the seller&rsquo;s own price for the item.<br/>
+<br><br><br/>
+If this field is set to &lsquo;true&rsquo;, eBay displays &lsquo;Was<em>&rsquo; in the UK and &lsquo;Ursprunglich</em>&rsquo; in Germ<a href="#//api/name/any">any</a>,<br/>
+next to the discounted price of the item. In the event both SoldOffeBay and SoldOneBay<br/>
+fields are set, SoldOneBay takes precedence.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/madeForOutletComparisonPrice">&nbsp;&nbsp;madeForOutletComparisonPrice</a></code>
+		<span class="tooltip"><p>Applicable only if the item was specifically made for sale through dedicated eBay outlet pages (e.g., eBay Fashion Outlet).<br><br/>
+<br><br/>
+The comparison price is the price of a comparable product sold<br/>
+through non-outlet channels on eBay (or elsewhere), or not<br/>
+specifically made for the outlet.<br><br/>
+<br><br/>
+In fashion, a &ldquo;comparable&rdquo; product shares the same design, but is<br/>
+not considered an identical product. Some products are specifically<br/>
+made for outlets, and may have a different SKU than the &ldquo;comparable"<br/>
+product. These made-for-outlet products may be manufactured in a<br/>
+different place, with different materials, or according to different<br/>
+specifications (i.e. different stitch pattern, seam reinforcement,<br/>
+button quality, etc.)</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/any">&nbsp;&nbsp;any</a></code>
+		<span class="tooltip"><p>(public property)</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/any" title="any"></a>
+	<h3 class="subsubtitle method-title">any</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>(public property)</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSMutableArray *any</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>(public property)</p>
+
+<p>entry type : PicoAnyElement, wrapper for primitive anyelement</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_DiscountPriceInfoType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/madeForOutletComparisonPrice" title="madeForOutletComparisonPrice"></a>
+	<h3 class="subsubtitle method-title">madeForOutletComparisonPrice</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Applicable only if the item was specifically made for sale through dedicated eBay outlet pages (e.g., eBay Fashion Outlet).<br><br/>
+<br><br/>
+The comparison price is the price of a comparable product sold<br/>
+through non-outlet channels on eBay (or elsewhere), or not<br/>
+specifically made for the outlet.<br><br/>
+<br><br/>
+In fashion, a &ldquo;comparable&rdquo; product shares the same design, but is<br/>
+not considered an identical product. Some products are specifically<br/>
+made for outlets, and may have a different SKU than the &ldquo;comparable"<br/>
+product. These made-for-outlet products may be manufactured in a<br/>
+different place, with different materials, or according to different<br/>
+specifications (i.e. different stitch pattern, seam reinforcement,<br/>
+button quality, etc.)</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_AmountType *madeForOutletComparisonPrice</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Applicable only if the item was specifically made for sale through dedicated eBay outlet pages (e.g., eBay Fashion Outlet).<br><br/>
+<br><br/>
+The comparison price is the price of a comparable product sold<br/>
+through non-outlet channels on eBay (or elsewhere), or not<br/>
+specifically made for the outlet.<br><br/>
+<br><br/>
+In fashion, a &ldquo;comparable&rdquo; product shares the same design, but is<br/>
+not considered an identical product. Some products are specifically<br/>
+made for outlets, and may have a different SKU than the &ldquo;comparable"<br/>
+product. These made-for-outlet products may be manufactured in a<br/>
+different place, with different materials, or according to different<br/>
+specifications (i.e. different stitch pattern, seam reinforcement,<br/>
+button quality, etc.)</p>
+
+<p>type : class <a href="../Classes/Trading_AmountType.html">Trading_AmountType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_DiscountPriceInfoType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/minimumAdvertisedPrice" title="minimumAdvertisedPrice"></a>
+	<h3 class="subsubtitle method-title">minimumAdvertisedPrice</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Minimum Advertised Price (MAP) is an agreement between suppliers (or<br/>
+manufacturers (OEM)) and the retailers (sellers) stipulating<br/>
+the lowest price an item is allowed to be advertised at.<br/>
+Sellers can offer prices below MAP by means of other discounts.<br/>
+This only applies to fixed-price listings and auction listings with the Buy It Now option.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_AmountType *minimumAdvertisedPrice</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Minimum Advertised Price (MAP) is an agreement between suppliers (or<br/>
+manufacturers (OEM)) and the retailers (sellers) stipulating<br/>
+the lowest price an item is allowed to be advertised at.<br/>
+Sellers can offer prices below MAP by means of other discounts.<br/>
+This only applies to fixed-price listings and auction listings with the Buy It Now option.</p>
+
+<p>type : class <a href="../Classes/Trading_AmountType.html">Trading_AmountType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_DiscountPriceInfoType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/minimumAdvertisedPriceExposure" title="minimumAdvertisedPriceExposure"></a>
+	<h3 class="subsubtitle method-title">minimumAdvertisedPriceExposure</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>For MinimumAdvertisedPrice (MAP) listings only.<br/>
+A seller cannot show the actual discounted price on eBay&rsquo;s View Item<br/>
+page. Instead, the buyer can either click on a pop-up on eBay's<br/>
+View Item page, or the discount price will be shown during checkout.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *minimumAdvertisedPriceExposure</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>For MinimumAdvertisedPrice (MAP) listings only.<br/>
+A seller cannot show the actual discounted price on eBay&rsquo;s View Item<br/>
+page. Instead, the buyer can either click on a pop-up on eBay's<br/>
+View Item page, or the discount price will be shown during checkout.</p>
+
+<p>type: string constant in Trading_MinimumAdvertisedPriceExposureCodeType.h</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_DiscountPriceInfoType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/originalRetailPrice" title="originalRetailPrice"></a>
+	<h3 class="subsubtitle method-title">originalRetailPrice</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The actual retail price set by the manufacturer (OEM).<br/>
+eBay does not maintain or validate the OriginalRetailPrice supplied<br/>
+by the seller. OriginalRetailPrice should always be more than<br/>
+StartPrice. Compare the StartPrice/BuyItNowPrice to<br/>
+OriginalRetailPrice to determine the amount of savings to the buyer.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_AmountType *originalRetailPrice</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The actual retail price set by the manufacturer (OEM).<br/>
+eBay does not maintain or validate the OriginalRetailPrice supplied<br/>
+by the seller. OriginalRetailPrice should always be more than<br/>
+StartPrice. Compare the StartPrice/BuyItNowPrice to<br/>
+OriginalRetailPrice to determine the amount of savings to the buyer.</p>
+
+<p>type : class <a href="../Classes/Trading_AmountType.html">Trading_AmountType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_DiscountPriceInfoType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/pricingTreatment" title="pricingTreatment"></a>
+	<h3 class="subsubtitle method-title">pricingTreatment</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Based on OriginalRetailPrice,<br/>
+MinimumAdvertisedPrice, and StartPrice values, eBay identifies<br/>
+whether the listing falls under MAP or STP (aka<br/>
+OriginalRetailPrice). GetItem returns this for items listed with one<br/>
+of these discount pricing treatments. GetSellerList returns the<br/>
+DiscountPriceInfo container. This field is not applicable for Add/Revise/Relist calls.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *pricingTreatment</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Based on OriginalRetailPrice,<br/>
+MinimumAdvertisedPrice, and StartPrice values, eBay identifies<br/>
+whether the listing falls under MAP or STP (aka<br/>
+OriginalRetailPrice). GetItem returns this for items listed with one<br/>
+of these discount pricing treatments. GetSellerList returns the<br/>
+DiscountPriceInfo container. This field is not applicable for Add/Revise/Relist calls.</p>
+
+<p>type: string constant in Trading_PricingTreatmentCodeType.h</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_DiscountPriceInfoType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/soldOffeBay" title="soldOffeBay"></a>
+	<h3 class="subsubtitle method-title">soldOffeBay</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Used by the eBay UK and eBay Germ<a href="#//api/name/any">any</a> (DE) sites, this flag indicates that the discount<br/>
+price (specified as StartPrice) is the price for which the seller offered the same (or<br/>
+similar) item for sale on a Web site or offline store other than eBay in the previous 30<br/>
+days. The discount price is always in reference to the seller&rsquo;s own price for the item.<br/>
+<br><br><br/>
+If this field is set to &lsquo;true&rsquo;, eBay displays &lsquo;Was<em>&rsquo; in the UK and &lsquo;Ursprunglich</em>&rsquo; in Germ<a href="#//api/name/any">any</a>,<br/>
+next to the discounted price of the item. In the event both SoldOffeBay and SoldOneBay<br/>
+fields are set, SoldOneBay takes precedence.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSNumber *soldOffeBay</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Used by the eBay UK and eBay Germ<a href="#//api/name/any">any</a> (DE) sites, this flag indicates that the discount<br/>
+price (specified as StartPrice) is the price for which the seller offered the same (or<br/>
+similar) item for sale on a Web site or offline store other than eBay in the previous 30<br/>
+days. The discount price is always in reference to the seller&rsquo;s own price for the item.<br/>
+<br><br><br/>
+If this field is set to &lsquo;true&rsquo;, eBay displays &lsquo;Was<em>&rsquo; in the UK and &lsquo;Ursprunglich</em>&rsquo; in Germ<a href="#//api/name/any">any</a>,<br/>
+next to the discounted price of the item. In the event both SoldOffeBay and SoldOneBay<br/>
+fields are set, SoldOneBay takes precedence.</p>
+
+<p>type : NSNumber, wrapper for primitive bool</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_DiscountPriceInfoType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/soldOneBay" title="soldOneBay"></a>
+	<h3 class="subsubtitle method-title">soldOneBay</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Used by the eBay UK and eBay Germ<a href="#//api/name/any">any</a> (DE) sites, this flag indicates that the discount<br/>
+price (specified as StartPrice) is the price for which the seller offered the same (or<br/>
+similar) item for sale on eBay within the previous 30 days. The discount price is always<br/>
+in reference to the seller&rsquo;s own price for the item.<br/>
+<br><br><br/>
+If this field is set to &lsquo;true&rsquo;, eBay displays &lsquo;Was&rsquo; in the UK and &lsquo;Ursprunglich&rsquo; in Germ<a href="#//api/name/any">any</a>, next<br/>
+to the discounted price of the item. In the event both SoldOffeBay and SoldOneBay fields<br/>
+are set to &lsquo;true&rsquo;, SoldOneBay takes precedence.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSNumber *soldOneBay</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Used by the eBay UK and eBay Germ<a href="#//api/name/any">any</a> (DE) sites, this flag indicates that the discount<br/>
+price (specified as StartPrice) is the price for which the seller offered the same (or<br/>
+similar) item for sale on eBay within the previous 30 days. The discount price is always<br/>
+in reference to the seller&rsquo;s own price for the item.<br/>
+<br><br><br/>
+If this field is set to &lsquo;true&rsquo;, eBay displays &lsquo;Was&rsquo; in the UK and &lsquo;Ursprunglich&rsquo; in Germ<a href="#//api/name/any">any</a>, next<br/>
+to the discounted price of the item. In the event both SoldOffeBay and SoldOneBay fields<br/>
+are set to &lsquo;true&rsquo;, SoldOneBay takes precedence.</p>
+
+<p>type : NSNumber, wrapper for primitive bool</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_DiscountPriceInfoType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 LeanSoft Technology. All rights reserved. (Last updated: 2013-03-31)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.1 (build 858)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

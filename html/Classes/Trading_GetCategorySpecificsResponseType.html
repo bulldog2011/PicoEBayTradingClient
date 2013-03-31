@@ -1,0 +1,532 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>Trading_GetCategorySpecificsResponseType Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.1 (build 858)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">PicoEBayTradingClient </a></h1>
+				<a id="developerHome" href="../index.html">LeanSoft Technology</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">Trading_GetCategorySpecificsResponseType Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/fileReferenceID">&nbsp;&nbsp;&nbsp;&nbsp;fileReferenceID</option>
+	
+	<option value="//api/name/recommendations">&nbsp;&nbsp;&nbsp;&nbsp;recommendations</option>
+	
+	<option value="//api/name/taskReferenceID">&nbsp;&nbsp;&nbsp;&nbsp;taskReferenceID</option>
+	
+	
+	
+	
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/fileReferenceID">fileReferenceID</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/recommendations">recommendations</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/taskReferenceID">taskReferenceID</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="Trading_GetCategorySpecificsResponseType Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">Trading_GetCategorySpecificsResponseType Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value"><a href="../Classes/Trading_AbstractResponseType.html">Trading_AbstractResponseType</a> : NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">Trading_GetCategorySpecificsResponseType.h<br />Trading_GetCategorySpecificsResponseType.m</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>Calls made form seller or buyer find out what the most relevant tags and values are for a given category</p>
+
+<p>@ingroup EBayAPIInterface</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/recommendations">&nbsp;&nbsp;recommendations</a></code>
+		<span class="tooltip"><p>Returned with request version 609 and higher. <br><br/>
+<br><br/>
+Contains the most popular Item Specifics, if any, for a category<br/>
+specified in the request, or contains information about whether<br/>
+the recommendations have changed for that category since<br/>
+the LastUpdateTime you requested. <br><br/>
+<br><br/>
+The most relevant Item Specifics (as determined by eBay)<br/>
+are returned first. In many cases, the values are returned in<br/>
+alphabetical order.<br><br/>
+<br><br/>
+This node returns empty (or it&rsquo;s not returned) for a category if<br/>
+there is no applicable data (such as when you request a parent category, a category that has no popular Item Specifics yet,<br/>
+or a duplicate category that was already returned).<br/>
+If you pass in the CategoryID and Name fields together, but no<br/>
+matching values are found for the name, eBay returns the name<br/>
+with no values (even if the name is not recommended).<br><br/>
+<br><br/>
+If GetCategoryFeatures indicates that custom Item Specifics are<br/>
+enabled for a leaf category, but GetCategorySpecifics doesn't<br/>
+return any recommendations for that category, the seller can still<br/>
+specify their own custom Item Specifics in that category.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/taskReferenceID">&nbsp;&nbsp;taskReferenceID</a></code>
+		<span class="tooltip"><p>Use TaskReferenceID and FileReferenceID as inputs to the<br/>
+downloadFile call in the eBay File Transfer API. That API lets<br/>
+you retrieve a single (bulk) GetCategorySpecifics response with<br/>
+all the Item Specifics <a href="#//api/name/recommendations">recommendations</a> available for the<br/>
+requested site ID. (The downloadFile call downloads a .zip file<br/>
+as an attachment.)<br><br/>
+<br><br/>
+Only returned when CategorySpecificsFileInfo is passed in the<br/>
+request.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/fileReferenceID">&nbsp;&nbsp;fileReferenceID</a></code>
+		<span class="tooltip"><p>Use TaskReferenceID and FileReferenceID as inputs to the<br/>
+downloadFile call in the eBay File Transfer API. That API lets<br/>
+you retrieve a single (bulk) GetCategorySpecifics response with<br/>
+all the Item Specifics <a href="#//api/name/recommendations">recommendations</a> available for the<br/>
+requested site ID. (The downloadFile call downloads a .zip file<br/>
+as an attachment.)<br><br/>
+<br><br/>
+Only returned when CategorySpecificsFileInfo is passed in the<br/>
+request.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/fileReferenceID" title="fileReferenceID"></a>
+	<h3 class="subsubtitle method-title">fileReferenceID</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Use TaskReferenceID and FileReferenceID as inputs to the<br/>
+downloadFile call in the eBay File Transfer API. That API lets<br/>
+you retrieve a single (bulk) GetCategorySpecifics response with<br/>
+all the Item Specifics <a href="#//api/name/recommendations">recommendations</a> available for the<br/>
+requested site ID. (The downloadFile call downloads a .zip file<br/>
+as an attachment.)<br><br/>
+<br><br/>
+Only returned when CategorySpecificsFileInfo is passed in the<br/>
+request.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *fileReferenceID</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Use TaskReferenceID and FileReferenceID as inputs to the<br/>
+downloadFile call in the eBay File Transfer API. That API lets<br/>
+you retrieve a single (bulk) GetCategorySpecifics response with<br/>
+all the Item Specifics <a href="#//api/name/recommendations">recommendations</a> available for the<br/>
+requested site ID. (The downloadFile call downloads a .zip file<br/>
+as an attachment.)<br><br/>
+<br><br/>
+Only returned when CategorySpecificsFileInfo is passed in the<br/>
+request.</p>
+
+<p>type : NSString, wrapper for primitive string</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_GetCategorySpecificsResponseType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/recommendations" title="recommendations"></a>
+	<h3 class="subsubtitle method-title">recommendations</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returned with request version 609 and higher. <br><br/>
+<br><br/>
+Contains the most popular Item Specifics, if any, for a category<br/>
+specified in the request, or contains information about whether<br/>
+the recommendations have changed for that category since<br/>
+the LastUpdateTime you requested. <br><br/>
+<br><br/>
+The most relevant Item Specifics (as determined by eBay)<br/>
+are returned first. In many cases, the values are returned in<br/>
+alphabetical order.<br><br/>
+<br><br/>
+This node returns empty (or it&rsquo;s not returned) for a category if<br/>
+there is no applicable data (such as when you request a parent category, a category that has no popular Item Specifics yet,<br/>
+or a duplicate category that was already returned).<br/>
+If you pass in the CategoryID and Name fields together, but no<br/>
+matching values are found for the name, eBay returns the name<br/>
+with no values (even if the name is not recommended).<br><br/>
+<br><br/>
+If GetCategoryFeatures indicates that custom Item Specifics are<br/>
+enabled for a leaf category, but GetCategorySpecifics doesn't<br/>
+return any recommendations for that category, the seller can still<br/>
+specify their own custom Item Specifics in that category.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSMutableArray *recommendations</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Returned with request version 609 and higher. <br><br/>
+<br><br/>
+Contains the most popular Item Specifics, if any, for a category<br/>
+specified in the request, or contains information about whether<br/>
+the recommendations have changed for that category since<br/>
+the LastUpdateTime you requested. <br><br/>
+<br><br/>
+The most relevant Item Specifics (as determined by eBay)<br/>
+are returned first. In many cases, the values are returned in<br/>
+alphabetical order.<br><br/>
+<br><br/>
+This node returns empty (or it&rsquo;s not returned) for a category if<br/>
+there is no applicable data (such as when you request a parent category, a category that has no popular Item Specifics yet,<br/>
+or a duplicate category that was already returned).<br/>
+If you pass in the CategoryID and Name fields together, but no<br/>
+matching values are found for the name, eBay returns the name<br/>
+with no values (even if the name is not recommended).<br><br/>
+<br><br/>
+If GetCategoryFeatures indicates that custom Item Specifics are<br/>
+enabled for a leaf category, but GetCategorySpecifics doesn't<br/>
+return any recommendations for that category, the seller can still<br/>
+specify their own custom Item Specifics in that category.</p>
+
+<p>entry type : class <a href="../Classes/Trading_RecommendationsType.html">Trading_RecommendationsType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_GetCategorySpecificsResponseType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/taskReferenceID" title="taskReferenceID"></a>
+	<h3 class="subsubtitle method-title">taskReferenceID</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Use TaskReferenceID and FileReferenceID as inputs to the<br/>
+downloadFile call in the eBay File Transfer API. That API lets<br/>
+you retrieve a single (bulk) GetCategorySpecifics response with<br/>
+all the Item Specifics <a href="#//api/name/recommendations">recommendations</a> available for the<br/>
+requested site ID. (The downloadFile call downloads a .zip file<br/>
+as an attachment.)<br><br/>
+<br><br/>
+Only returned when CategorySpecificsFileInfo is passed in the<br/>
+request.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *taskReferenceID</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Use TaskReferenceID and FileReferenceID as inputs to the<br/>
+downloadFile call in the eBay File Transfer API. That API lets<br/>
+you retrieve a single (bulk) GetCategorySpecifics response with<br/>
+all the Item Specifics <a href="#//api/name/recommendations">recommendations</a> available for the<br/>
+requested site ID. (The downloadFile call downloads a .zip file<br/>
+as an attachment.)<br><br/>
+<br><br/>
+Only returned when CategorySpecificsFileInfo is passed in the<br/>
+request.</p>
+
+<p>type : NSString, wrapper for primitive string</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_GetCategorySpecificsResponseType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 LeanSoft Technology. All rights reserved. (Last updated: 2013-03-31)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.1 (build 858)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

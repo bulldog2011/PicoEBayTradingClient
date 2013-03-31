@@ -1,0 +1,4140 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>Trading_TransactionType Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.1 (build 858)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">PicoEBayTradingClient </a></h1>
+				<a id="developerHome" href="../index.html">LeanSoft Technology</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">Trading_TransactionType Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/actualHandlingCost">&nbsp;&nbsp;&nbsp;&nbsp;actualHandlingCost</option>
+	
+	<option value="//api/name/actualShippingCost">&nbsp;&nbsp;&nbsp;&nbsp;actualShippingCost</option>
+	
+	<option value="//api/name/adjustmentAmount">&nbsp;&nbsp;&nbsp;&nbsp;adjustmentAmount</option>
+	
+	<option value="//api/name/amountPaid">&nbsp;&nbsp;&nbsp;&nbsp;amountPaid</option>
+	
+	<option value="//api/name/any">&nbsp;&nbsp;&nbsp;&nbsp;any</option>
+	
+	<option value="//api/name/bestOfferSale">&nbsp;&nbsp;&nbsp;&nbsp;bestOfferSale</option>
+	
+	<option value="//api/name/bundlePurchase">&nbsp;&nbsp;&nbsp;&nbsp;bundlePurchase</option>
+	
+	<option value="//api/name/buyer">&nbsp;&nbsp;&nbsp;&nbsp;buyer</option>
+	
+	<option value="//api/name/buyerCheckoutMessage">&nbsp;&nbsp;&nbsp;&nbsp;buyerCheckoutMessage</option>
+	
+	<option value="//api/name/buyerGuaranteePrice">&nbsp;&nbsp;&nbsp;&nbsp;buyerGuaranteePrice</option>
+	
+	<option value="//api/name/buyerMessage">&nbsp;&nbsp;&nbsp;&nbsp;buyerMessage</option>
+	
+	<option value="//api/name/buyerPaidStatus">&nbsp;&nbsp;&nbsp;&nbsp;buyerPaidStatus</option>
+	
+	<option value="//api/name/cartID">&nbsp;&nbsp;&nbsp;&nbsp;cartID</option>
+	
+	<option value="//api/name/codiceFiscale">&nbsp;&nbsp;&nbsp;&nbsp;codiceFiscale</option>
+	
+	<option value="//api/name/containingOrder">&nbsp;&nbsp;&nbsp;&nbsp;containingOrder</option>
+	
+	<option value="//api/name/convertedAdjustmentAmount">&nbsp;&nbsp;&nbsp;&nbsp;convertedAdjustmentAmount</option>
+	
+	<option value="//api/name/convertedAmountPaid">&nbsp;&nbsp;&nbsp;&nbsp;convertedAmountPaid</option>
+	
+	<option value="//api/name/convertedTransactionPrice">&nbsp;&nbsp;&nbsp;&nbsp;convertedTransactionPrice</option>
+	
+	<option value="//api/name/createdDate">&nbsp;&nbsp;&nbsp;&nbsp;createdDate</option>
+	
+	<option value="//api/name/depositType">&nbsp;&nbsp;&nbsp;&nbsp;depositType</option>
+	
+	<option value="//api/name/dutchAuctionBid">&nbsp;&nbsp;&nbsp;&nbsp;dutchAuctionBid</option>
+	
+	<option value="//api/name/externalTransaction">&nbsp;&nbsp;&nbsp;&nbsp;externalTransaction</option>
+	
+	<option value="//api/name/feedbackLeft">&nbsp;&nbsp;&nbsp;&nbsp;feedbackLeft</option>
+	
+	<option value="//api/name/feedbackReceived">&nbsp;&nbsp;&nbsp;&nbsp;feedbackReceived</option>
+	
+	<option value="//api/name/finalValueFee">&nbsp;&nbsp;&nbsp;&nbsp;finalValueFee</option>
+	
+	<option value="//api/name/intangibleItem">&nbsp;&nbsp;&nbsp;&nbsp;intangibleItem</option>
+	
+	<option value="//api/name/invoiceSentTime">&nbsp;&nbsp;&nbsp;&nbsp;invoiceSentTime</option>
+	
+	<option value="//api/name/isMultiLegShipping">&nbsp;&nbsp;&nbsp;&nbsp;isMultiLegShipping</option>
+	
+	<option value="//api/name/item">&nbsp;&nbsp;&nbsp;&nbsp;item</option>
+	
+	<option value="//api/name/listingCheckoutRedirectPreference">&nbsp;&nbsp;&nbsp;&nbsp;listingCheckoutRedirectPreference</option>
+	
+	<option value="//api/name/multiLegShippingDetails">&nbsp;&nbsp;&nbsp;&nbsp;multiLegShippingDetails</option>
+	
+	<option value="//api/name/orderLineItemID">&nbsp;&nbsp;&nbsp;&nbsp;orderLineItemID</option>
+	
+	<option value="//api/name/paidTime">&nbsp;&nbsp;&nbsp;&nbsp;paidTime</option>
+	
+	<option value="//api/name/paisaPayID">&nbsp;&nbsp;&nbsp;&nbsp;paisaPayID</option>
+	
+	<option value="//api/name/payPalEmailAddress">&nbsp;&nbsp;&nbsp;&nbsp;payPalEmailAddress</option>
+	
+	<option value="//api/name/paymentHoldDetails">&nbsp;&nbsp;&nbsp;&nbsp;paymentHoldDetails</option>
+	
+	<option value="//api/name/platform">&nbsp;&nbsp;&nbsp;&nbsp;platform</option>
+	
+	<option value="//api/name/quantityPurchased">&nbsp;&nbsp;&nbsp;&nbsp;quantityPurchased</option>
+	
+	<option value="//api/name/refundAmount">&nbsp;&nbsp;&nbsp;&nbsp;refundAmount</option>
+	
+	<option value="//api/name/refundArray">&nbsp;&nbsp;&nbsp;&nbsp;refundArray</option>
+	
+	<option value="//api/name/refundStatus">&nbsp;&nbsp;&nbsp;&nbsp;refundStatus</option>
+	
+	<option value="//api/name/sellerContactBuyerByEmail">&nbsp;&nbsp;&nbsp;&nbsp;sellerContactBuyerByEmail</option>
+	
+	<option value="//api/name/sellerDiscounts">&nbsp;&nbsp;&nbsp;&nbsp;sellerDiscounts</option>
+	
+	<option value="//api/name/sellerPaidStatus">&nbsp;&nbsp;&nbsp;&nbsp;sellerPaidStatus</option>
+	
+	<option value="//api/name/sellingManagerProductDetails">&nbsp;&nbsp;&nbsp;&nbsp;sellingManagerProductDetails</option>
+	
+	<option value="//api/name/shippedTime">&nbsp;&nbsp;&nbsp;&nbsp;shippedTime</option>
+	
+	<option value="//api/name/shippingDetails">&nbsp;&nbsp;&nbsp;&nbsp;shippingDetails</option>
+	
+	<option value="//api/name/shippingServiceSelected">&nbsp;&nbsp;&nbsp;&nbsp;shippingServiceSelected</option>
+	
+	<option value="//api/name/status">&nbsp;&nbsp;&nbsp;&nbsp;status</option>
+	
+	<option value="//api/name/taxes">&nbsp;&nbsp;&nbsp;&nbsp;taxes</option>
+	
+	<option value="//api/name/totalPrice">&nbsp;&nbsp;&nbsp;&nbsp;totalPrice</option>
+	
+	<option value="//api/name/totalTransactionPrice">&nbsp;&nbsp;&nbsp;&nbsp;totalTransactionPrice</option>
+	
+	<option value="//api/name/transactionID">&nbsp;&nbsp;&nbsp;&nbsp;transactionID</option>
+	
+	<option value="//api/name/transactionPrice">&nbsp;&nbsp;&nbsp;&nbsp;transactionPrice</option>
+	
+	<option value="//api/name/transactionSiteID">&nbsp;&nbsp;&nbsp;&nbsp;transactionSiteID</option>
+	
+	<option value="//api/name/unpaidItem">&nbsp;&nbsp;&nbsp;&nbsp;unpaidItem</option>
+	
+	<option value="//api/name/variation">&nbsp;&nbsp;&nbsp;&nbsp;variation</option>
+	
+	<option value="//api/name/vatPercent">&nbsp;&nbsp;&nbsp;&nbsp;vatPercent</option>
+	
+	
+	
+	
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/actualHandlingCost">actualHandlingCost</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/actualShippingCost">actualShippingCost</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/adjustmentAmount">adjustmentAmount</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/amountPaid">amountPaid</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/any">any</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/bestOfferSale">bestOfferSale</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/bundlePurchase">bundlePurchase</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/buyer">buyer</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/buyerCheckoutMessage">buyerCheckoutMessage</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/buyerGuaranteePrice">buyerGuaranteePrice</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/buyerMessage">buyerMessage</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/buyerPaidStatus">buyerPaidStatus</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/cartID">cartID</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/codiceFiscale">codiceFiscale</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/containingOrder">containingOrder</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/convertedAdjustmentAmount">convertedAdjustmentAmount</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/convertedAmountPaid">convertedAmountPaid</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/convertedTransactionPrice">convertedTransactionPrice</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/createdDate">createdDate</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/depositType">depositType</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/dutchAuctionBid">dutchAuctionBid</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/externalTransaction">externalTransaction</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/feedbackLeft">feedbackLeft</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/feedbackReceived">feedbackReceived</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/finalValueFee">finalValueFee</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/intangibleItem">intangibleItem</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/invoiceSentTime">invoiceSentTime</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/isMultiLegShipping">isMultiLegShipping</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/item">item</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/listingCheckoutRedirectPreference">listingCheckoutRedirectPreference</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/multiLegShippingDetails">multiLegShippingDetails</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/orderLineItemID">orderLineItemID</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/paidTime">paidTime</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/paisaPayID">paisaPayID</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/payPalEmailAddress">payPalEmailAddress</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/paymentHoldDetails">paymentHoldDetails</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/platform">platform</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/quantityPurchased">quantityPurchased</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/refundAmount">refundAmount</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/refundArray">refundArray</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/refundStatus">refundStatus</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/sellerContactBuyerByEmail">sellerContactBuyerByEmail</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/sellerDiscounts">sellerDiscounts</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/sellerPaidStatus">sellerPaidStatus</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/sellingManagerProductDetails">sellingManagerProductDetails</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/shippedTime">shippedTime</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/shippingDetails">shippingDetails</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/shippingServiceSelected">shippingServiceSelected</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/status">status</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/taxes">taxes</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/totalPrice">totalPrice</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/totalTransactionPrice">totalTransactionPrice</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/transactionID">transactionID</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/transactionPrice">transactionPrice</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/transactionSiteID">transactionSiteID</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/unpaidItem">unpaidItem</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/variation">variation</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/vatPercent">vatPercent</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="Trading_TransactionType Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">Trading_TransactionType Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value">PicoBindable</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">Trading_TransactionType.h<br />Trading_TransactionType.m</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>This type defines the Transaction container, which consists of detailed information<br/>
+about a single line <a href="#//api/name/item">item</a> in an order. The eBay system creates an order line <a href="#//api/name/item">item</a><br/>
+when a <a href="#//api/name/buyer">buyer</a> has committed to make a purchase in an auction or fixed-price listing.<br/>
+A multiple-quantity, fixed-priced listing can spawn one or more order line items.<br/>
+Auction listings and single-quantity, fixed-price listings can only spawn one order<br/>
+line <a href="#//api/name/item">item</a>.</p>
+
+<p><br></p>
+
+<p>@ingroup EBayAPIInterface</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/amountPaid">&nbsp;&nbsp;amountPaid</a></code>
+		<span class="tooltip"><p>This value indicates the total amount of the line <a href="#//api/name/item">item</a>. This amount includes<br/>
+the sale price, shipping and handling charges, shipping<br/>
+insurance (if offered and selected by the <a href="#//api/name/buyer">buyer</a>), additional services, and <a href="#//api/name/any">any</a><br/>
+applied sales tax. This value is returned after the <a href="#//api/name/buyer">buyer</a> has completed<br/>
+checkout (the <b>CheckoutStatus.Status</b> output field reads &ldquo;Complete&rdquo;). If the<br/>
+seller allowed the <a href="#//api/name/buyer">buyer</a> to change the total for an order, the <a href="#//api/name/buyer">buyer</a> is<br/>
+able to change the total up until the time when checkout <a href="#//api/name/status">status</a> is<br/>
+Complete. Determine whether the <a href="#//api/name/buyer">buyer</a> changed the amount by retrieving the<br/>
+order line <a href="#//api/name/item">item</a> data and comparing the <b>AmountPaid</b> value to<br/>
+what the seller expected. If multiple order line items<br/>
+between the same <a href="#//api/name/buyer">buyer</a> and seller have been combined into a Combined<br/>
+Payment order, the <b>AmountPaid</b> value returned in <b>GetSellerTransactions</b> and<br/>
+<b>GetItemTransactions</b> reflects the amount paid for the Combined Payment order<br/>
+and not the individual order line <a href="#//api/name/item">item</a>. You can determine the<br/>
+order line items that belong to the same Combined Payment order by checking<br/>
+to see if the <b>ContainingOrder.OrderID</b> value is the same. For Motors items,<br/>
+<b>AmountPaid</b> is the amount paid by the <a href="#//api/name/buyer">buyer</a> for the deposit.<br/><br/>
+<br /><br/>
+Not applicable to Half.com.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/adjustmentAmount">&nbsp;&nbsp;adjustmentAmount</a></code>
+		<span class="tooltip"><p>This value indicates the dollar amount by which the <a href="#//api/name/buyer">buyer</a> has adjusted the<br/>
+order total. Adjustments to order costs may include shipping and handling,<br/>
+shipping insurance, <a href="#//api/name/buyer">buyer</a> discounts, or added services. A positive amount<br/>
+indicates the amount is an extra charge being paid to the seller by the <a href="#//api/name/buyer">buyer</a>.<br/>
+A negative value indicates this amount is a credit given to the <a href="#//api/name/buyer">buyer</a> by the<br/>
+seller.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/convertedAdjustmentAmount">&nbsp;&nbsp;convertedAdjustmentAmount</a></code>
+		<span class="tooltip"><p>This value indicates the converted value of <b>AdjustmentAmount</b> in the currency of the site that<br/>
+returned the response. Refresh this value every 24 hours to pick up the<br/>
+current conversion rates.<br/>
+<br /><br/>
+<br /><br/>
+Not applicable to Half.com.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/buyer">&nbsp;&nbsp;buyer</a></code>
+		<span class="tooltip"><p>UserType container consisting of eBay user data for the buyer. See<br/>
+<b>UserType</b> for its child elements. Returned by<br/>
+<b>GetItemsAwaitingFeedback</b> if the seller is making the request.<br/>
+<br><br><br/>
+Applicable to Half.com (for <b>GetOrders</b> only).</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/shippingDetails">&nbsp;&nbsp;shippingDetails</a></code>
+		<span class="tooltip"><p>Container consisting of shipping-related details for an order. Shipping<br/>
+details include shipping rates, package dimensions, handling costs,<br/>
+excluded shipping locations (if specified), shipping service options,<br/>
+shipping insurance information, sales tax information (if applicable), and<br/>
+shipment tracking details (if shipped).<br/>
+<br><br><br/>
+For <b>GetSellerTransactions</b> and <b>GetItemTransactions</b>, the <b>ShippingDetails</b><br/>
+container is returned in the <b>Transaction</b> container. For <b>GetOrders</b> and<br/>
+<b>GetOrderTransactions</b>, the <b>ShippingDetails</b> container is returned at the<br/>
+Order level.<br/>
+<br><br><br/>
+Applicable to Half.com (for <b>GetOrders</b> only).</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/convertedAmountPaid">&nbsp;&nbsp;convertedAmountPaid</a></code>
+		<span class="tooltip"><p>This value indicates the converted value of <b>AmountPaid</b> in the currency of the site that returned the<br/>
+response. Refresh this value every 24 hours to pick up the current<br/>
+conversion rates.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/convertedTransactionPrice">&nbsp;&nbsp;convertedTransactionPrice</a></code>
+		<span class="tooltip"><p>This value indicates the converted value of <b>TransactionPrice</b> in the currency of the site that<br/>
+returned the response. Refresh this value every 24 hours to pick up the<br/>
+current conversion rates.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/createdDate">&nbsp;&nbsp;createdDate</a></code>
+		<span class="tooltip"><p>Indicates the creation time of the order line <a href="#//api/name/item">item</a>. For<br/>
+auction listings, an order line <a href="#//api/name/item">item</a> is created when that<br/>
+listing ends with a high bidder whose bid meets or exceeds the Reserve<br/>
+Price (if set). For a fixed-price listing or a Buy It Now auction listing,<br/>
+an order line <a href="#//api/name/item">item</a> is created once the <a href="#//api/name/buyer">buyer</a> clicks the Buy<br/>
+button.<br/>
+<br><br><br/>
+Applicable to Half.com (for <b>GetOrders</b> only).</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/depositType">&nbsp;&nbsp;depositType</a></code>
+		<span class="tooltip"><p>This value indicates whether or not the seller requires a deposit for the<br/>
+vehicle. This field is only applicable to US eBay Motors Vehicle listings.<br/>
+Otherwise, this field is returned as an empty value.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/item">&nbsp;&nbsp;item</a></code>
+		<span class="tooltip"><p>Container consisting of details about an item in a listing. The child<br/>
+fields returned are dependent on the call, the type of item or listing, and<br/>
+the listing site.<br/>
+<br><br><br/>
+Applicable to Half.com (for <b>GetOrders</b>).</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/quantityPurchased">&nbsp;&nbsp;quantityPurchased</a></code>
+		<span class="tooltip"><p>This value indicates the number of identical items purchased at the same<br/>
+time by the same <a href="#//api/name/buyer">buyer</a> from one listing. For auction listings, this value<br/>
+is always 1. For fixed-price, non<a href="#//api/name/variation">variation</a> listings, this value can be<br/>
+greater than 1. In either case, this field is tied to the same order line<br/>
+<a href="#//api/name/item">item</a>.<br/>
+<br><br><br/>
+Applicable to Half.com (for <b>GetOrders</b>).</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/status">&nbsp;&nbsp;status</a></code>
+		<span class="tooltip"><p>Container consisting of status details of an order line <a href="#//api/name/item">item</a>,<br/>
+including payment information. Several of these fields change values during<br/>
+the checkout flow. See <b>TransactionStatusType</b> for its child elements.<br/>
+<br><br><br/>
+For <b>GetOrders</b>, only the <b><br/>
+IntegratedMerchantCreditCardEnabled</b> and<br/>
+<b>PaymentMethodUsed</b> child elements are returned.<br/>
+The <b>PaymentHoldStatus</b> container will be returned for those sellers subject to the new eBay payment process.  The fields indicating the status of the order are<br/>
+actually found in the <b>OrderArray.Order.CheckoutStatus</b><br/>
+container. <br><br><br/>
+Not applicable to Half.com.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/transactionID">&nbsp;&nbsp;transactionID</a></code>
+		<span class="tooltip"><p>Unique identifier for an eBay order line <a href="#//api/name/item">item</a>. An order line<br/>
+<a href="#//api/name/item">item</a> is created once there is a commitment from a <a href="#//api/name/buyer">buyer</a> to<br/>
+purchase an <a href="#//api/name/item">item</a>. Since an auction listing can only have one order line<br/>
+<a href="#//api/name/item">item</a> during the duration of the listing, the <b>TransactionID</b><br/>
+for auction listings is always 0. Along with its corresponding <b>ItemID</b>, a<br/>
+<b>TransactionID</b> is used and referenced during an order checkout flow and<br/>
+after checkout has been completed.<br/>
+<br><br><br/>
+Applicable to Half.com (for <b>GetOrders</b> only).</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/transactionPrice">&nbsp;&nbsp;transactionPrice</a></code>
+		<span class="tooltip"><p>The price of one order line <a href="#//api/name/item">item</a>.<br/>
+<br><br><br/>
+This price is returned only for Best Offer items. This amount does not take into account shipping, sales tax, and other costs related to the order line <a href="#//api/name/item">item</a>. If multiple units were purchased through Best Offer, this value is the per-unit price.<br/>
+<br><br><br/>
+                   For eBay Motors Vehicle listings, <b>TransactionPrice</b> is the deposit amount. <br/>
+<br><br><br/>
+Applicable to Half.com (for <b>GetOrders</b>).</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/bestOfferSale">&nbsp;&nbsp;bestOfferSale</a></code>
+		<span class="tooltip"><p>Indicates whether or not the order line <a href="#//api/name/item">item</a> was created<br/>
+as the result of the seller accepting a Best Offer from a <a href="#//api/name/buyer">buyer</a>.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/vatPercent">&nbsp;&nbsp;vatPercent</a></code>
+		<span class="tooltip"><p>VAT rate for the <a href="#//api/name/item">item</a>. When the <b>VATPercent</b> is specified, the item&rsquo;s VAT<br/>
+information appears on the item&rsquo;s listing page. In addition, the seller<br/>
+can choose to print an invoice that includes the item&rsquo;s net price, VAT<br/>
+percent, VAT amount, and total price. Since VAT rates vary depending on the<br/>
+<a href="#//api/name/item">item</a> and on the user&rsquo;s country of residence, a seller is responsible for<br/>
+entering the correct VAT rate; it is not calculated by eBay. To specify a<br/>
+<b>VATPercent</b>, a seller must have a VAT-ID registered with eBay and must be<br/>
+listing the <a href="#//api/name/item">item</a> on a VAT-enabled site. Max precision 3 decimal places. Max<br/>
+length 5 characters. Note: The View Item page displays the precision to 2<br/>
+decimal places with no trailing zeros. However, the full value you send in is<br/>
+stored.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/externalTransaction">&nbsp;&nbsp;externalTransaction</a></code>
+		<span class="tooltip"><p>Container consisting of details for the electronic payment of an eBay order line <a href="#//api/name/item">item</a>.<br/>
+PayPal transactions may include a <a href="#//api/name/buyer">buyer</a> payment or refund, or a fee or credit applied<br/>
+to the seller&rsquo;s account. This field is only returned after payment for the order line<br/>
+<a href="#//api/name/item">item</a> has occurred. For DE and AT orders going through the new eBay payment process,<br/>
+the <b>PaymentHoldDetails</b> container and <b>PaymentHoldStatus</b><br/>
+field will be returned instead of the <b>ExternalTransaction</b> container.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/sellingManagerProductDetails">&nbsp;&nbsp;sellingManagerProductDetails</a></code>
+		<span class="tooltip"><p>This container consists of Selling Manager product details and is only<br/>
+returned if the <a href="#//api/name/item">item</a> was listed through Selling Manager.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/shippingServiceSelected">&nbsp;&nbsp;shippingServiceSelected</a></code>
+		<span class="tooltip"><p>Container consisting of details about the domestic or international shipping<br/>
+service selected by the <a href="#//api/name/buyer">buyer</a>.<br/>
+       <br/><br/><br/>
+                   <span class="tablenote"><br/>
+                   <strong>Note:</strong> For GetItemTransactions and GetSellerTransactions, this container does not return accurate shipping service and cost information for multiple line <a href="#//api/name/item">item</a> orders. Use GetOrders instead, and provide the order&rsquo;s combined <strong>OrderID</strong> to retrieve this information.<br/>
+                   </span><br/>
+<br><br><br/>
+Not applicable to Half.com.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/buyerMessage">&nbsp;&nbsp;buyerMessage</a></code>
+		<span class="tooltip"><p>Display message from <a href="#//api/name/buyer">buyer</a>. This field holds transient data that is only<br/>
+being returned in Checkout related notifications.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/dutchAuctionBid">&nbsp;&nbsp;dutchAuctionBid</a></code>
+		<span class="tooltip"><p>Dutch auctions are deprecated.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/buyerPaidStatus">&nbsp;&nbsp;buyerPaidStatus</a></code>
+		<span class="tooltip"><p>This value indicates the payment <a href="#//api/name/status">status</a> of an order. This field is only returned for items that have actually<br/>
+been purchased (fixed-price or Buy It Now) or won (auction listings) and not auction listings that have just<br/>
+been bid on.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/sellerPaidStatus">&nbsp;&nbsp;sellerPaidStatus</a></code>
+		<span class="tooltip"><p>Specifies the paid <a href="#//api/name/status">status</a> of the order.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/paidTime">&nbsp;&nbsp;paidTime</a></code>
+		<span class="tooltip"><p>Indicates the time when the order was marked paid. This value will only be<br/>
+visible to the user on either side of the order. An order can be marked as<br/>
+paid in the following ways:</p>
+
+<ul>  
+<li>Automatically when a payment is made via PayPal </li>  
+<li>Seller marks the [item](#//api/name/item) as paid in My eBay or through Selling Manager Pro </li>  
+<li>Programmatically by the seller through the <b>ReviseCheckoutStatus</b> or <b>CompleteSale</b> calls.</li>  
+</ul>
+
+
+<p>
+<br><br><br/>
+Not applicable to Half.com.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/shippedTime">&nbsp;&nbsp;shippedTime</a></code>
+		<span class="tooltip"><p>Indicates the time when the <a href="#//api/name/item">item</a>(s) associated with the order were marked<br/>
+as shipped. This value will only be visible to the user on either side of<br/>
+the order. An order can be marked as shipped in My eBay or through Selling<br/>
+Manager Pro, or programmatically by the seller through the <b>CompleteSale</b><br/>
+call.<br/>
+<br><br><br/>
+Applicable to Half.com (for <b>GetOrders</b> only).</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/totalPrice">&nbsp;&nbsp;totalPrice</a></code>
+		<span class="tooltip"><p>This field indicates the total price for an order line <a href="#//api/name/item">item</a>.<br/>
+<br><br><br/>
+For <strong>GetMyeBaySelling</strong>, with Global Shipping Program orders, the value of this field depends on order <a href="#//api/name/status">status</a> and the number of transactions in the order. For orders awaiting payment, the field contains the purchase price of the order line <a href="#//api/name/item">item</a>; for paid orders, it contains the purchase price of the order line <a href="#//api/name/item">item</a> plus the cost of domestic shipping to the international shipping provider&rsquo;s warehouse. With single-transaction orders, this field is returned under the <strong>OrderTransaction.Transaction</strong> container; with multiple-transaction orders, it&rsquo;s returned under the <strong>OrderTransaction.Order.TransactionArray.Transaction</strong> container.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/feedbackLeft">&nbsp;&nbsp;feedbackLeft</a></code>
+		<span class="tooltip"><p>This container consists of Feedback left by the caller for their order<br/>
+partner. This container is only returned if the order is complete and<br/>
+feedback on the order line <a href="#//api/name/item">item</a> has been left by the caller.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/feedbackReceived">&nbsp;&nbsp;feedbackReceived</a></code>
+		<span class="tooltip"><p>This container consists of Feedback received by the caller from their<br/>
+order partner. This container is only returned if the order is complete and<br/>
+feedback on the order line <a href="#//api/name/item">item</a> has been received by the<br/>
+caller.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/containingOrder">&nbsp;&nbsp;containingOrder</a></code>
+		<span class="tooltip"><p>The Combined Payment order to which the order line <a href="#//api/name/item">item</a><br/>
+belongs. This container is only returned if <b>IncludeContainingOrder</b> is<br/>
+included and set to true in a <b>GetItemTransactions</b> or <b>GetSellerTransactions</b><br/>
+request.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/finalValueFee">&nbsp;&nbsp;finalValueFee</a></code>
+		<span class="tooltip"><p>A Final Value Fee is calculated and charged to a seller&rsquo;s account<br/>
+immediately upon creation of an order line <a href="#//api/name/item">item</a>. Note that this fee is created<br/>
+before the <a href="#//api/name/buyer">buyer</a> makes a payment.The Final Value Fee for each order line<br/>
+<a href="#//api/name/item">item</a> is returned by <b>GetSellerTransactions</b>, <b>GetItemTransactions</b>, <b>GetOrders</b>,<br/>
+and <b>GetOrderTransactions</b>, regardless of the checkout <a href="#//api/name/status">status</a>.<br/>
+<br><br><br/>
+If a seller requests a Final Value Fee credit, the value of<br/>
+<b>Transaction.FinalValueFee</b> will not change if a credit is<br/>
+issued. The credit only appears in the seller&rsquo;s account data.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/listingCheckoutRedirectPreference">&nbsp;&nbsp;listingCheckoutRedirectPreference</a></code>
+		<span class="tooltip"><p>ProStores listing level preferences regarding the store to which<br/>
+checkout should be redirected for the listing if <b>Item.ThirdPartyCheckout</b><br/>
+is true.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/refundArray">&nbsp;&nbsp;refundArray</a></code>
+		<span class="tooltip"><p>Container consisting of one or more refund transactions to Half.com buyers.<br/>
+Container consisting of one or more refund transactions for eBay&rsquo;s new payment process.<br/>
+This container is only returned if a refund to a Half.com <a href="#//api/name/buyer">buyer</a> has occurred or an refund was issued through eBay&rsquo;s new payment process</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/transactionSiteID">&nbsp;&nbsp;transactionSiteID</a></code>
+		<span class="tooltip"><p>The site upon which the order line <a href="#//api/name/item">item</a> (transaction) was created.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/platform">&nbsp;&nbsp;platform</a></code>
+		<span class="tooltip"><p>Name of the eBay co-branded site upon which the order line <a href="#//api/name/item">item</a><br/>
+(transaction) was created.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/cartID">&nbsp;&nbsp;cartID</a></code>
+		<span class="tooltip"><p>Unique identifier for an instance of Shopping.com shopping cart. This field is only<br/>
+returned for Shopping.com order line items (transactions).</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/sellerContactBuyerByEmail">&nbsp;&nbsp;sellerContactBuyerByEmail</a></code>
+		<span class="tooltip"><p>Indicates whether the <a href="#//api/name/buyer">buyer</a> has opted to accept emails from all the selling<br/>
+partners on Shopping.com. This field is only returned for order line items<br/>
+purchased through the Shopping.com shopping cart.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/payPalEmailAddress">&nbsp;&nbsp;payPalEmailAddress</a></code>
+		<span class="tooltip"><p>The seller&rsquo;s Paypal email address. This value is only revealed if it is the<br/>
+seller making the call.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/paisaPayID">&nbsp;&nbsp;paisaPayID</a></code>
+		<span class="tooltip"><p>Unique identifier for a PaisaPay transaction. Only applicable for the India<br/>
+site (203) if PaisaPay was the payment method used.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/buyerGuaranteePrice">&nbsp;&nbsp;buyerGuaranteePrice</a></code>
+		<span class="tooltip"><p>For the Australia site, <b>BuyerGuaranteePrice</b> is the PayPal Buyer Protection coverage,<br/>
+offered for the <a href="#//api/name/item">item</a> at the time of purchase. Details of coverage are in the<br/>
+following sections of the View Item page: the Buy Safely section and the Payment<br/>
+Details section.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/variation">&nbsp;&nbsp;variation</a></code>
+		<span class="tooltip"><p>  In a fixed-priced listing, a seller can offer variations of the same <a href="#//api/name/item">item</a>.<br/>
+  For example, the seller could create a fixed-priced listing for a t-shirt<br/>
+  design and offer the shirt in different colors and sizes. In this case, each<br/>
+  color and size combination is a separate variation. Each variation can have<br/>
+  a different quantity and price. Due to the possible price differentiation,<br/>
+  buyers can buy multiple items from this listing at the same time, but all of<br/>
+  the items must be of the same variation. One order line <a href="#//api/name/item">item</a> is created<br/>
+  whether one or multiple items of the same variation are purchased.<br/>
+  <br><br><br/>
+  The <b>Variation</b> node contains information about which variation<br/>
+  was purchased. Therefore, applications that process orders<br/>
+  should always check to see if this node is present.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/buyerCheckoutMessage">&nbsp;&nbsp;buyerCheckoutMessage</a></code>
+		<span class="tooltip"><p>This field is returned if a <a href="#//api/name/buyer">buyer</a> left a comment for the seller during the<br/>
+left by <a href="#//api/name/buyer">buyer</a> during the checkout flow.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/totalTransactionPrice">&nbsp;&nbsp;totalTransactionPrice</a></code>
+		<span class="tooltip"><p>The price of one order line <a href="#//api/name/item">item</a>. This amount does not take into account shipping, sales tax, and other costs related to the order line <a href="#//api/name/item">item</a>.<br/>
+                   <br/><br/><br/>
+                   If multiple units were purchased through a non<a href="#//api/name/variation">variation</a>, fixed-price listing, consider this value the per-unit price. To get the total amount, multiply <strong>TotalTransactionPrice</strong> by the <strong>Transaction.QuantityPurchased</strong> value. <br/>
+                   <br/><br/><br/>
+                   For eBay Motors Vehicle listings, <strong>TotalTransactionPrice</strong> is the deposit amount. <br/>
+                   <br/><br/><br/>
+                   Applicable to Half.com (for GetOrders).</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/taxes">&nbsp;&nbsp;taxes</a></code>
+		<span class="tooltip"><p>type : class <a href="../Classes/Trading_TaxesType.html">Trading_TaxesType</a></p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/bundlePurchase">&nbsp;&nbsp;bundlePurchase</a></code>
+		<span class="tooltip"><p>Boolean value indicating whether or not an order line <a href="#//api/name/item">item</a> is<br/>
+part of a bundle purchase using Product Configurator.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/actualShippingCost">&nbsp;&nbsp;actualShippingCost</a></code>
+		<span class="tooltip"><p>The shipping cost charged to the <a href="#//api/name/buyer">buyer</a> for the order line <a href="#//api/name/item">item</a>.<br/>
+<br/><br/><br/>
+For <strong>GetOrders</strong>, this field is returned only after checkout is completed on the order. A value of <code>0.00</code> indicates free shipping.<br/>
+<br/><br/><br/>
+For other calls, this field is always returned but defaults to <code>0.00</code> until payment has been made on the order.<br/>
+<br/><br/><br/>
+<span class="tablenote"><br/>
+                   <strong>Note:</strong> This is different from the field of the same name returned by <strong>GetSellingManagerSaleRecord</strong> and <strong>ReviseSellingManagerSaleRecord</strong>, which contains the actual shipping cost paid by the seller.<br/>
+                   </span></p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/actualHandlingCost">&nbsp;&nbsp;actualHandlingCost</a></code>
+		<span class="tooltip"><p>The handling cost for the order line <a href="#//api/name/item">item</a>. The value of this field is<br/>
+returned as zero dollars if the seller did not specify a handling cost for<br/>
+the listing. It also will show as 0.00 dollars until payment has been made<br/>
+on the order.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/orderLineItemID">&nbsp;&nbsp;orderLineItemID</a></code>
+		<span class="tooltip"><p>A unique identifier for an eBay order line <a href="#//api/name/item">item</a>. This field is created as<br/>
+soon as there is a commitment to buy from the seller, and its value is<br/>
+based upon the concatenation of <b>ItemID</b> and <b>TransactionID</b>, with a hyphen in<br/>
+between these two IDs.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/paymentHoldDetails">&nbsp;&nbsp;paymentHoldDetails</a></code>
+		<span class="tooltip"><p>Shipping hold details</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/sellerDiscounts">&nbsp;&nbsp;sellerDiscounts</a></code>
+		<span class="tooltip"><p>Seller Discounts</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/refundAmount">&nbsp;&nbsp;refundAmount</a></code>
+		<span class="tooltip"><p>Partial or Full refund amount from seller to the <a href="#//api/name/buyer">buyer</a></p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/refundStatus">&nbsp;&nbsp;refundStatus</a></code>
+		<span class="tooltip"><p>Refund Status Notification to Seller (Success, Failure, Pending)</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/codiceFiscale">&nbsp;&nbsp;codiceFiscale</a></code>
+		<span class="tooltip"><p>This field is returned if the <b>IncludeCodeFiscale</b> flag is<br/>
+included in the request and set to &lsquo;true&rsquo;, and if the <a href="#//api/name/buyer">buyer</a> has provided this value<br/>
+at checkout time.<br/>
+<br/><br/><br/>
+This field is only applicable to Italian sellers. The Codice Fiscale number is<br/>
+unique for each Italian citizen and is used for tax purposes.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/isMultiLegShipping">&nbsp;&nbsp;isMultiLegShipping</a></code>
+		<span class="tooltip"><p>If <strong>IsMultilegShipping</strong> is true, the order or transaction uses the Global Shipping Program, in which the shipment has a domestic leg and an international leg. The buyer&rsquo;s shipping address is in a country other than the country where the items were listed, and the Get family of calls will return <code>InternationalPriorityShipping</code> as the default international shipping service in the listings of all the items in the order.<br/>
+<br/><br/><br/>
+If <strong>IsMultilegShipping</strong> is false, the order or transaction does not use the Global Shipping Program. The shipment might use a different international shipping service, or it might be domestic.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/multiLegShippingDetails">&nbsp;&nbsp;multiLegShippingDetails</a></code>
+		<span class="tooltip"><p>Contains details about the domestic leg of a Global Shipping Program shipment.<br/>
+<br/><br/><br/>
+This information is not returned if <strong>IsMultilegShipping</strong> is false.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/invoiceSentTime">&nbsp;&nbsp;invoiceSentTime</a></code>
+		<span class="tooltip"><p>This field indicates the date/time that an order invoice was sent from the seller<br/>
+to the <a href="#//api/name/buyer">buyer</a>. This field is only returned if an invoice (containing the order<br/>
+line <a href="#//api/name/item">item</a>) was sent to the <a href="#//api/name/buyer">buyer</a>.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/unpaidItem">&nbsp;&nbsp;unpaidItem</a></code>
+		<span class="tooltip"><p>Container consisting of details related to the type and <a href="#//api/name/status">status</a> of an Unpaid<br/>
+Item case. This container is only returned if there is an open or closed<br/>
+Unpaid Item case associated with the order line <a href="#//api/name/item">item</a>.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/intangibleItem">&nbsp;&nbsp;intangibleItem</a></code>
+		<span class="tooltip"><p>   This flag indicates whether or not the order line <a href="#//api/name/item">item</a> is an<br/>
+intangible good such as an MP3 track or a mobile phone ringtone. Intangible items<br/>
+are not eligible for PayPal&rsquo;s Seller Protection program, so the seller will not be<br/>
+able to open an Unpaid Item case against the <a href="#//api/name/buyer">buyer</a>.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/any">&nbsp;&nbsp;any</a></code>
+		<span class="tooltip"><p>(public property)</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/actualHandlingCost" title="actualHandlingCost"></a>
+	<h3 class="subsubtitle method-title">actualHandlingCost</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The handling cost for the order line <a href="#//api/name/item">item</a>. The value of this field is<br/>
+returned as zero dollars if the seller did not specify a handling cost for<br/>
+the listing. It also will show as 0.00 dollars until payment has been made<br/>
+on the order.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_AmountType *actualHandlingCost</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The handling cost for the order line <a href="#//api/name/item">item</a>. The value of this field is<br/>
+returned as zero dollars if the seller did not specify a handling cost for<br/>
+the listing. It also will show as 0.00 dollars until payment has been made<br/>
+on the order.</p>
+
+<p>type : class <a href="../Classes/Trading_AmountType.html">Trading_AmountType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_TransactionType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/actualShippingCost" title="actualShippingCost"></a>
+	<h3 class="subsubtitle method-title">actualShippingCost</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The shipping cost charged to the <a href="#//api/name/buyer">buyer</a> for the order line <a href="#//api/name/item">item</a>.<br/>
+<br/><br/><br/>
+For <strong>GetOrders</strong>, this field is returned only after checkout is completed on the order. A value of <code>0.00</code> indicates free shipping.<br/>
+<br/><br/><br/>
+For other calls, this field is always returned but defaults to <code>0.00</code> until payment has been made on the order.<br/>
+<br/><br/><br/>
+<span class="tablenote"><br/>
+                   <strong>Note:</strong> This is different from the field of the same name returned by <strong>GetSellingManagerSaleRecord</strong> and <strong>ReviseSellingManagerSaleRecord</strong>, which contains the actual shipping cost paid by the seller.<br/>
+                   </span></p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_AmountType *actualShippingCost</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The shipping cost charged to the <a href="#//api/name/buyer">buyer</a> for the order line <a href="#//api/name/item">item</a>.<br/>
+<br/><br/><br/>
+For <strong>GetOrders</strong>, this field is returned only after checkout is completed on the order. A value of <code>0.00</code> indicates free shipping.<br/>
+<br/><br/><br/>
+For other calls, this field is always returned but defaults to <code>0.00</code> until payment has been made on the order.<br/>
+<br/><br/><br/>
+<span class="tablenote"><br/>
+                   <strong>Note:</strong> This is different from the field of the same name returned by <strong>GetSellingManagerSaleRecord</strong> and <strong>ReviseSellingManagerSaleRecord</strong>, which contains the actual shipping cost paid by the seller.<br/>
+                   </span></p>
+
+<p>type : class <a href="../Classes/Trading_AmountType.html">Trading_AmountType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_TransactionType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/adjustmentAmount" title="adjustmentAmount"></a>
+	<h3 class="subsubtitle method-title">adjustmentAmount</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>This value indicates the dollar amount by which the <a href="#//api/name/buyer">buyer</a> has adjusted the<br/>
+order total. Adjustments to order costs may include shipping and handling,<br/>
+shipping insurance, <a href="#//api/name/buyer">buyer</a> discounts, or added services. A positive amount<br/>
+indicates the amount is an extra charge being paid to the seller by the <a href="#//api/name/buyer">buyer</a>.<br/>
+A negative value indicates this amount is a credit given to the <a href="#//api/name/buyer">buyer</a> by the<br/>
+seller.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_AmountType *adjustmentAmount</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>This value indicates the dollar amount by which the <a href="#//api/name/buyer">buyer</a> has adjusted the<br/>
+order total. Adjustments to order costs may include shipping and handling,<br/>
+shipping insurance, <a href="#//api/name/buyer">buyer</a> discounts, or added services. A positive amount<br/>
+indicates the amount is an extra charge being paid to the seller by the <a href="#//api/name/buyer">buyer</a>.<br/>
+A negative value indicates this amount is a credit given to the <a href="#//api/name/buyer">buyer</a> by the<br/>
+seller.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p>
+
+<p>type : class <a href="../Classes/Trading_AmountType.html">Trading_AmountType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_TransactionType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/amountPaid" title="amountPaid"></a>
+	<h3 class="subsubtitle method-title">amountPaid</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>This value indicates the total amount of the line <a href="#//api/name/item">item</a>. This amount includes<br/>
+the sale price, shipping and handling charges, shipping<br/>
+insurance (if offered and selected by the <a href="#//api/name/buyer">buyer</a>), additional services, and <a href="#//api/name/any">any</a><br/>
+applied sales tax. This value is returned after the <a href="#//api/name/buyer">buyer</a> has completed<br/>
+checkout (the <b>CheckoutStatus.Status</b> output field reads &ldquo;Complete&rdquo;). If the<br/>
+seller allowed the <a href="#//api/name/buyer">buyer</a> to change the total for an order, the <a href="#//api/name/buyer">buyer</a> is<br/>
+able to change the total up until the time when checkout <a href="#//api/name/status">status</a> is<br/>
+Complete. Determine whether the <a href="#//api/name/buyer">buyer</a> changed the amount by retrieving the<br/>
+order line <a href="#//api/name/item">item</a> data and comparing the <b>AmountPaid</b> value to<br/>
+what the seller expected. If multiple order line items<br/>
+between the same <a href="#//api/name/buyer">buyer</a> and seller have been combined into a Combined<br/>
+Payment order, the <b>AmountPaid</b> value returned in <b>GetSellerTransactions</b> and<br/>
+<b>GetItemTransactions</b> reflects the amount paid for the Combined Payment order<br/>
+and not the individual order line <a href="#//api/name/item">item</a>. You can determine the<br/>
+order line items that belong to the same Combined Payment order by checking<br/>
+to see if the <b>ContainingOrder.OrderID</b> value is the same. For Motors items,<br/>
+<b>AmountPaid</b> is the amount paid by the <a href="#//api/name/buyer">buyer</a> for the deposit.<br/><br/>
+<br /><br/>
+Not applicable to Half.com.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_AmountType *amountPaid</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>This value indicates the total amount of the line <a href="#//api/name/item">item</a>. This amount includes<br/>
+the sale price, shipping and handling charges, shipping<br/>
+insurance (if offered and selected by the <a href="#//api/name/buyer">buyer</a>), additional services, and <a href="#//api/name/any">any</a><br/>
+applied sales tax. This value is returned after the <a href="#//api/name/buyer">buyer</a> has completed<br/>
+checkout (the <b>CheckoutStatus.Status</b> output field reads &ldquo;Complete&rdquo;). If the<br/>
+seller allowed the <a href="#//api/name/buyer">buyer</a> to change the total for an order, the <a href="#//api/name/buyer">buyer</a> is<br/>
+able to change the total up until the time when checkout <a href="#//api/name/status">status</a> is<br/>
+Complete. Determine whether the <a href="#//api/name/buyer">buyer</a> changed the amount by retrieving the<br/>
+order line <a href="#//api/name/item">item</a> data and comparing the <b>AmountPaid</b> value to<br/>
+what the seller expected. If multiple order line items<br/>
+between the same <a href="#//api/name/buyer">buyer</a> and seller have been combined into a Combined<br/>
+Payment order, the <b>AmountPaid</b> value returned in <b>GetSellerTransactions</b> and<br/>
+<b>GetItemTransactions</b> reflects the amount paid for the Combined Payment order<br/>
+and not the individual order line <a href="#//api/name/item">item</a>. You can determine the<br/>
+order line items that belong to the same Combined Payment order by checking<br/>
+to see if the <b>ContainingOrder.OrderID</b> value is the same. For Motors items,<br/>
+<b>AmountPaid</b> is the amount paid by the <a href="#//api/name/buyer">buyer</a> for the deposit.<br/><br/>
+<br /><br/>
+Not applicable to Half.com.</p>
+
+<p>type : class <a href="../Classes/Trading_AmountType.html">Trading_AmountType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_TransactionType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/any" title="any"></a>
+	<h3 class="subsubtitle method-title">any</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>(public property)</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSMutableArray *any</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>(public property)</p>
+
+<p>entry type : PicoAnyElement, wrapper for primitive anyelement</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_TransactionType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/bestOfferSale" title="bestOfferSale"></a>
+	<h3 class="subsubtitle method-title">bestOfferSale</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Indicates whether or not the order line <a href="#//api/name/item">item</a> was created<br/>
+as the result of the seller accepting a Best Offer from a <a href="#//api/name/buyer">buyer</a>.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSNumber *bestOfferSale</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Indicates whether or not the order line <a href="#//api/name/item">item</a> was created<br/>
+as the result of the seller accepting a Best Offer from a <a href="#//api/name/buyer">buyer</a>.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p>
+
+<p>type : NSNumber, wrapper for primitive bool</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_TransactionType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/bundlePurchase" title="bundlePurchase"></a>
+	<h3 class="subsubtitle method-title">bundlePurchase</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Boolean value indicating whether or not an order line <a href="#//api/name/item">item</a> is<br/>
+part of a bundle purchase using Product Configurator.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSNumber *bundlePurchase</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Boolean value indicating whether or not an order line <a href="#//api/name/item">item</a> is<br/>
+part of a bundle purchase using Product Configurator.</p>
+
+<p>type : NSNumber, wrapper for primitive bool</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_TransactionType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/buyer" title="buyer"></a>
+	<h3 class="subsubtitle method-title">buyer</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>UserType container consisting of eBay user data for the buyer. See<br/>
+<b>UserType</b> for its child elements. Returned by<br/>
+<b>GetItemsAwaitingFeedback</b> if the seller is making the request.<br/>
+<br><br><br/>
+Applicable to Half.com (for <b>GetOrders</b> only).</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_UserType *buyer</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>UserType container consisting of eBay user data for the buyer. See<br/>
+<b>UserType</b> for its child elements. Returned by<br/>
+<b>GetItemsAwaitingFeedback</b> if the seller is making the request.<br/>
+<br><br><br/>
+Applicable to Half.com (for <b>GetOrders</b> only).</p>
+
+<p>type : class <a href="../Classes/Trading_UserType.html">Trading_UserType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_TransactionType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/buyerCheckoutMessage" title="buyerCheckoutMessage"></a>
+	<h3 class="subsubtitle method-title">buyerCheckoutMessage</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>This field is returned if a <a href="#//api/name/buyer">buyer</a> left a comment for the seller during the<br/>
+left by <a href="#//api/name/buyer">buyer</a> during the checkout flow.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *buyerCheckoutMessage</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>This field is returned if a <a href="#//api/name/buyer">buyer</a> left a comment for the seller during the<br/>
+left by <a href="#//api/name/buyer">buyer</a> during the checkout flow.</p>
+
+<p>type : NSString, wrapper for primitive string</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_TransactionType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/buyerGuaranteePrice" title="buyerGuaranteePrice"></a>
+	<h3 class="subsubtitle method-title">buyerGuaranteePrice</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>For the Australia site, <b>BuyerGuaranteePrice</b> is the PayPal Buyer Protection coverage,<br/>
+offered for the <a href="#//api/name/item">item</a> at the time of purchase. Details of coverage are in the<br/>
+following sections of the View Item page: the Buy Safely section and the Payment<br/>
+Details section.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_AmountType *buyerGuaranteePrice</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>For the Australia site, <b>BuyerGuaranteePrice</b> is the PayPal Buyer Protection coverage,<br/>
+offered for the <a href="#//api/name/item">item</a> at the time of purchase. Details of coverage are in the<br/>
+following sections of the View Item page: the Buy Safely section and the Payment<br/>
+Details section.</p>
+
+<p>type : class <a href="../Classes/Trading_AmountType.html">Trading_AmountType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_TransactionType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/buyerMessage" title="buyerMessage"></a>
+	<h3 class="subsubtitle method-title">buyerMessage</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Display message from <a href="#//api/name/buyer">buyer</a>. This field holds transient data that is only<br/>
+being returned in Checkout related notifications.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *buyerMessage</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Display message from <a href="#//api/name/buyer">buyer</a>. This field holds transient data that is only<br/>
+being returned in Checkout related notifications.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p>
+
+<p>type : NSString, wrapper for primitive string</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_TransactionType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/buyerPaidStatus" title="buyerPaidStatus"></a>
+	<h3 class="subsubtitle method-title">buyerPaidStatus</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>This value indicates the payment <a href="#//api/name/status">status</a> of an order. This field is only returned for items that have actually<br/>
+been purchased (fixed-price or Buy It Now) or won (auction listings) and not auction listings that have just<br/>
+been bid on.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *buyerPaidStatus</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>This value indicates the payment <a href="#//api/name/status">status</a> of an order. This field is only returned for items that have actually<br/>
+been purchased (fixed-price or Buy It Now) or won (auction listings) and not auction listings that have just<br/>
+been bid on.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p>
+
+<p>type: string constant in Trading_PaidStatusCodeType.h</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_TransactionType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/cartID" title="cartID"></a>
+	<h3 class="subsubtitle method-title">cartID</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Unique identifier for an instance of Shopping.com shopping cart. This field is only<br/>
+returned for Shopping.com order line items (transactions).</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *cartID</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Unique identifier for an instance of Shopping.com shopping cart. This field is only<br/>
+returned for Shopping.com order line items (transactions).</p>
+
+<p>type : NSString, wrapper for primitive string</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_TransactionType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/codiceFiscale" title="codiceFiscale"></a>
+	<h3 class="subsubtitle method-title">codiceFiscale</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>This field is returned if the <b>IncludeCodeFiscale</b> flag is<br/>
+included in the request and set to &lsquo;true&rsquo;, and if the <a href="#//api/name/buyer">buyer</a> has provided this value<br/>
+at checkout time.<br/>
+<br/><br/><br/>
+This field is only applicable to Italian sellers. The Codice Fiscale number is<br/>
+unique for each Italian citizen and is used for tax purposes.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *codiceFiscale</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>This field is returned if the <b>IncludeCodeFiscale</b> flag is<br/>
+included in the request and set to &lsquo;true&rsquo;, and if the <a href="#//api/name/buyer">buyer</a> has provided this value<br/>
+at checkout time.<br/>
+<br/><br/><br/>
+This field is only applicable to Italian sellers. The Codice Fiscale number is<br/>
+unique for each Italian citizen and is used for tax purposes.</p>
+
+<p>type : NSString, wrapper for primitive string</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_TransactionType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/containingOrder" title="containingOrder"></a>
+	<h3 class="subsubtitle method-title">containingOrder</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The Combined Payment order to which the order line <a href="#//api/name/item">item</a><br/>
+belongs. This container is only returned if <b>IncludeContainingOrder</b> is<br/>
+included and set to true in a <b>GetItemTransactions</b> or <b>GetSellerTransactions</b><br/>
+request.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_OrderType *containingOrder</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The Combined Payment order to which the order line <a href="#//api/name/item">item</a><br/>
+belongs. This container is only returned if <b>IncludeContainingOrder</b> is<br/>
+included and set to true in a <b>GetItemTransactions</b> or <b>GetSellerTransactions</b><br/>
+request.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p>
+
+<p>type : class <a href="../Classes/Trading_OrderType.html">Trading_OrderType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_TransactionType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/convertedAdjustmentAmount" title="convertedAdjustmentAmount"></a>
+	<h3 class="subsubtitle method-title">convertedAdjustmentAmount</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>This value indicates the converted value of <b>AdjustmentAmount</b> in the currency of the site that<br/>
+returned the response. Refresh this value every 24 hours to pick up the<br/>
+current conversion rates.<br/>
+<br /><br/>
+<br /><br/>
+Not applicable to Half.com.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_AmountType *convertedAdjustmentAmount</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>This value indicates the converted value of <b>AdjustmentAmount</b> in the currency of the site that<br/>
+returned the response. Refresh this value every 24 hours to pick up the<br/>
+current conversion rates.<br/>
+<br /><br/>
+<br /><br/>
+Not applicable to Half.com.</p>
+
+<p>type : class <a href="../Classes/Trading_AmountType.html">Trading_AmountType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_TransactionType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/convertedAmountPaid" title="convertedAmountPaid"></a>
+	<h3 class="subsubtitle method-title">convertedAmountPaid</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>This value indicates the converted value of <b>AmountPaid</b> in the currency of the site that returned the<br/>
+response. Refresh this value every 24 hours to pick up the current<br/>
+conversion rates.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_AmountType *convertedAmountPaid</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>This value indicates the converted value of <b>AmountPaid</b> in the currency of the site that returned the<br/>
+response. Refresh this value every 24 hours to pick up the current<br/>
+conversion rates.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p>
+
+<p>type : class <a href="../Classes/Trading_AmountType.html">Trading_AmountType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_TransactionType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/convertedTransactionPrice" title="convertedTransactionPrice"></a>
+	<h3 class="subsubtitle method-title">convertedTransactionPrice</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>This value indicates the converted value of <b>TransactionPrice</b> in the currency of the site that<br/>
+returned the response. Refresh this value every 24 hours to pick up the<br/>
+current conversion rates.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_AmountType *convertedTransactionPrice</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>This value indicates the converted value of <b>TransactionPrice</b> in the currency of the site that<br/>
+returned the response. Refresh this value every 24 hours to pick up the<br/>
+current conversion rates.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p>
+
+<p>type : class <a href="../Classes/Trading_AmountType.html">Trading_AmountType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_TransactionType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/createdDate" title="createdDate"></a>
+	<h3 class="subsubtitle method-title">createdDate</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Indicates the creation time of the order line <a href="#//api/name/item">item</a>. For<br/>
+auction listings, an order line <a href="#//api/name/item">item</a> is created when that<br/>
+listing ends with a high bidder whose bid meets or exceeds the Reserve<br/>
+Price (if set). For a fixed-price listing or a Buy It Now auction listing,<br/>
+an order line <a href="#//api/name/item">item</a> is created once the <a href="#//api/name/buyer">buyer</a> clicks the Buy<br/>
+button.<br/>
+<br><br><br/>
+Applicable to Half.com (for <b>GetOrders</b> only).</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSDate *createdDate</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Indicates the creation time of the order line <a href="#//api/name/item">item</a>. For<br/>
+auction listings, an order line <a href="#//api/name/item">item</a> is created when that<br/>
+listing ends with a high bidder whose bid meets or exceeds the Reserve<br/>
+Price (if set). For a fixed-price listing or a Buy It Now auction listing,<br/>
+an order line <a href="#//api/name/item">item</a> is created once the <a href="#//api/name/buyer">buyer</a> clicks the Buy<br/>
+button.<br/>
+<br><br><br/>
+Applicable to Half.com (for <b>GetOrders</b> only).</p>
+
+<p>type : NSDate, wrapper for primitive date</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_TransactionType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/depositType" title="depositType"></a>
+	<h3 class="subsubtitle method-title">depositType</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>This value indicates whether or not the seller requires a deposit for the<br/>
+vehicle. This field is only applicable to US eBay Motors Vehicle listings.<br/>
+Otherwise, this field is returned as an empty value.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *depositType</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>This value indicates whether or not the seller requires a deposit for the<br/>
+vehicle. This field is only applicable to US eBay Motors Vehicle listings.<br/>
+Otherwise, this field is returned as an empty value.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p>
+
+<p>type: string constant in Trading_DepositTypeCodeType.h</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_TransactionType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/dutchAuctionBid" title="dutchAuctionBid"></a>
+	<h3 class="subsubtitle method-title">dutchAuctionBid</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Dutch auctions are deprecated.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_AmountType *dutchAuctionBid</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Dutch auctions are deprecated.</p>
+
+<p>type : class <a href="../Classes/Trading_AmountType.html">Trading_AmountType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_TransactionType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/externalTransaction" title="externalTransaction"></a>
+	<h3 class="subsubtitle method-title">externalTransaction</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Container consisting of details for the electronic payment of an eBay order line <a href="#//api/name/item">item</a>.<br/>
+PayPal transactions may include a <a href="#//api/name/buyer">buyer</a> payment or refund, or a fee or credit applied<br/>
+to the seller&rsquo;s account. This field is only returned after payment for the order line<br/>
+<a href="#//api/name/item">item</a> has occurred. For DE and AT orders going through the new eBay payment process,<br/>
+the <b>PaymentHoldDetails</b> container and <b>PaymentHoldStatus</b><br/>
+field will be returned instead of the <b>ExternalTransaction</b> container.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSMutableArray *externalTransaction</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Container consisting of details for the electronic payment of an eBay order line <a href="#//api/name/item">item</a>.<br/>
+PayPal transactions may include a <a href="#//api/name/buyer">buyer</a> payment or refund, or a fee or credit applied<br/>
+to the seller&rsquo;s account. This field is only returned after payment for the order line<br/>
+<a href="#//api/name/item">item</a> has occurred. For DE and AT orders going through the new eBay payment process,<br/>
+the <b>PaymentHoldDetails</b> container and <b>PaymentHoldStatus</b><br/>
+field will be returned instead of the <b>ExternalTransaction</b> container.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p>
+
+<p>entry type : class <a href="../Classes/Trading_ExternalTransactionType.html">Trading_ExternalTransactionType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_TransactionType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/feedbackLeft" title="feedbackLeft"></a>
+	<h3 class="subsubtitle method-title">feedbackLeft</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>This container consists of Feedback left by the caller for their order<br/>
+partner. This container is only returned if the order is complete and<br/>
+feedback on the order line <a href="#//api/name/item">item</a> has been left by the caller.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_FeedbackInfoType *feedbackLeft</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>This container consists of Feedback left by the caller for their order<br/>
+partner. This container is only returned if the order is complete and<br/>
+feedback on the order line <a href="#//api/name/item">item</a> has been left by the caller.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p>
+
+<p>type : class <a href="../Classes/Trading_FeedbackInfoType.html">Trading_FeedbackInfoType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_TransactionType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/feedbackReceived" title="feedbackReceived"></a>
+	<h3 class="subsubtitle method-title">feedbackReceived</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>This container consists of Feedback received by the caller from their<br/>
+order partner. This container is only returned if the order is complete and<br/>
+feedback on the order line <a href="#//api/name/item">item</a> has been received by the<br/>
+caller.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_FeedbackInfoType *feedbackReceived</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>This container consists of Feedback received by the caller from their<br/>
+order partner. This container is only returned if the order is complete and<br/>
+feedback on the order line <a href="#//api/name/item">item</a> has been received by the<br/>
+caller.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p>
+
+<p>type : class <a href="../Classes/Trading_FeedbackInfoType.html">Trading_FeedbackInfoType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_TransactionType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/finalValueFee" title="finalValueFee"></a>
+	<h3 class="subsubtitle method-title">finalValueFee</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>A Final Value Fee is calculated and charged to a seller&rsquo;s account<br/>
+immediately upon creation of an order line <a href="#//api/name/item">item</a>. Note that this fee is created<br/>
+before the <a href="#//api/name/buyer">buyer</a> makes a payment.The Final Value Fee for each order line<br/>
+<a href="#//api/name/item">item</a> is returned by <b>GetSellerTransactions</b>, <b>GetItemTransactions</b>, <b>GetOrders</b>,<br/>
+and <b>GetOrderTransactions</b>, regardless of the checkout <a href="#//api/name/status">status</a>.<br/>
+<br><br><br/>
+If a seller requests a Final Value Fee credit, the value of<br/>
+<b>Transaction.FinalValueFee</b> will not change if a credit is<br/>
+issued. The credit only appears in the seller&rsquo;s account data.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_AmountType *finalValueFee</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>A Final Value Fee is calculated and charged to a seller&rsquo;s account<br/>
+immediately upon creation of an order line <a href="#//api/name/item">item</a>. Note that this fee is created<br/>
+before the <a href="#//api/name/buyer">buyer</a> makes a payment.The Final Value Fee for each order line<br/>
+<a href="#//api/name/item">item</a> is returned by <b>GetSellerTransactions</b>, <b>GetItemTransactions</b>, <b>GetOrders</b>,<br/>
+and <b>GetOrderTransactions</b>, regardless of the checkout <a href="#//api/name/status">status</a>.<br/>
+<br><br><br/>
+If a seller requests a Final Value Fee credit, the value of<br/>
+<b>Transaction.FinalValueFee</b> will not change if a credit is<br/>
+issued. The credit only appears in the seller&rsquo;s account data.</p>
+
+<p><br><br><br/>
+Not applicable to Half.com.</p>
+
+<p>type : class <a href="../Classes/Trading_AmountType.html">Trading_AmountType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_TransactionType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/intangibleItem" title="intangibleItem"></a>
+	<h3 class="subsubtitle method-title">intangibleItem</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>   This flag indicates whether or not the order line <a href="#//api/name/item">item</a> is an<br/>
+intangible good such as an MP3 track or a mobile phone ringtone. Intangible items<br/>
+are not eligible for PayPal&rsquo;s Seller Protection program, so the seller will not be<br/>
+able to open an Unpaid Item case against the <a href="#//api/name/buyer">buyer</a>.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSNumber *intangibleItem</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>   This flag indicates whether or not the order line <a href="#//api/name/item">item</a> is an<br/>
+intangible good such as an MP3 track or a mobile phone ringtone. Intangible items<br/>
+are not eligible for PayPal&rsquo;s Seller Protection program, so the seller will not be<br/>
+able to open an Unpaid Item case against the <a href="#//api/name/buyer">buyer</a>.</p>
+
+<p>type : NSNumber, wrapper for primitive bool</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_TransactionType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/invoiceSentTime" title="invoiceSentTime"></a>
+	<h3 class="subsubtitle method-title">invoiceSentTime</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>This field indicates the date/time that an order invoice was sent from the seller<br/>
+to the <a href="#//api/name/buyer">buyer</a>. This field is only returned if an invoice (containing the order<br/>
+line <a href="#//api/name/item">item</a>) was sent to the <a href="#//api/name/buyer">buyer</a>.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSDate *invoiceSentTime</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>This field indicates the date/time that an order invoice was sent from the seller<br/>
+to the <a href="#//api/name/buyer">buyer</a>. This field is only returned if an invoice (containing the order<br/>
+line <a href="#//api/name/item">item</a>) was sent to the <a href="#//api/name/buyer">buyer</a>.</p>
+
+<p>type : NSDate, wrapper for primitive date</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_TransactionType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/isMultiLegShipping" title="isMultiLegShipping"></a>
+	<h3 class="subsubtitle method-title">isMultiLegShipping</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>If <strong>IsMultilegShipping</strong> is true, the order or transaction uses the Global Shipping Program, in which the shipment has a domestic leg and an international leg. The buyer&rsquo;s shipping address is in a country other than the country where the items were listed, and the Get family of calls will return <code>InternationalPriorityShipping</code> as the default international shipping service in the listings of all the items in the order.<br/>
+<br/><br/><br/>
+If <strong>IsMultilegShipping</strong> is false, the order or transaction does not use the Global Shipping Program. The shipment might use a different international shipping service, or it might be domestic.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSNumber *isMultiLegShipping</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>If <strong>IsMultilegShipping</strong> is true, the order or transaction uses the Global Shipping Program, in which the shipment has a domestic leg and an international leg. The buyer&rsquo;s shipping address is in a country other than the country where the items were listed, and the Get family of calls will return <code>InternationalPriorityShipping</code> as the default international shipping service in the listings of all the items in the order.<br/>
+<br/><br/><br/>
+If <strong>IsMultilegShipping</strong> is false, the order or transaction does not use the Global Shipping Program. The shipment might use a different international shipping service, or it might be domestic.</p>
+
+<p>type : NSNumber, wrapper for primitive bool</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_TransactionType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/item" title="item"></a>
+	<h3 class="subsubtitle method-title">item</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Container consisting of details about an item in a listing. The child<br/>
+fields returned are dependent on the call, the type of item or listing, and<br/>
+the listing site.<br/>
+<br><br><br/>
+Applicable to Half.com (for <b>GetOrders</b>).</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_ItemType *item</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Container consisting of details about an item in a listing. The child<br/>
+fields returned are dependent on the call, the type of item or listing, and<br/>
+the listing site.<br/>
+<br><br><br/>
+Applicable to Half.com (for <b>GetOrders</b>).</p>
+
+<p>type : class <a href="../Classes/Trading_ItemType.html">Trading_ItemType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_TransactionType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/listingCheckoutRedirectPreference" title="listingCheckoutRedirectPreference"></a>
+	<h3 class="subsubtitle method-title">listingCheckoutRedirectPreference</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>ProStores listing level preferences regarding the store to which<br/>
+checkout should be redirected for the listing if <b>Item.ThirdPartyCheckout</b><br/>
+is true.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_ListingCheckoutRedirectPreferenceType *listingCheckoutRedirectPreference</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>ProStores listing level preferences regarding the store to which<br/>
+checkout should be redirected for the listing if <b>Item.ThirdPartyCheckout</b><br/>
+is true.</p>
+
+<p>type : class <a href="../Classes/Trading_ListingCheckoutRedirectPreferenceType.html">Trading_ListingCheckoutRedirectPreferenceType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_TransactionType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/multiLegShippingDetails" title="multiLegShippingDetails"></a>
+	<h3 class="subsubtitle method-title">multiLegShippingDetails</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Contains details about the domestic leg of a Global Shipping Program shipment.<br/>
+<br/><br/><br/>
+This information is not returned if <strong>IsMultilegShipping</strong> is false.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_MultiLegShippingDetailsType *multiLegShippingDetails</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Contains details about the domestic leg of a Global Shipping Program shipment.<br/>
+<br/><br/><br/>
+This information is not returned if <strong>IsMultilegShipping</strong> is false.</p>
+
+<p>type : class <a href="../Classes/Trading_MultiLegShippingDetailsType.html">Trading_MultiLegShippingDetailsType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_TransactionType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/orderLineItemID" title="orderLineItemID"></a>
+	<h3 class="subsubtitle method-title">orderLineItemID</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>A unique identifier for an eBay order line <a href="#//api/name/item">item</a>. This field is created as<br/>
+soon as there is a commitment to buy from the seller, and its value is<br/>
+based upon the concatenation of <b>ItemID</b> and <b>TransactionID</b>, with a hyphen in<br/>
+between these two IDs.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *orderLineItemID</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>A unique identifier for an eBay order line <a href="#//api/name/item">item</a>. This field is created as<br/>
+soon as there is a commitment to buy from the seller, and its value is<br/>
+based upon the concatenation of <b>ItemID</b> and <b>TransactionID</b>, with a hyphen in<br/>
+between these two IDs.</p>
+
+<p>type : NSString, wrapper for primitive string</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_TransactionType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/paidTime" title="paidTime"></a>
+	<h3 class="subsubtitle method-title">paidTime</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Indicates the time when the order was marked paid. This value will only be<br/>
+visible to the user on either side of the order. An order can be marked as<br/>
+paid in the following ways:</p>
+
+<ul>  
+<li>Automatically when a payment is made via PayPal </li>  
+<li>Seller marks the [item](#//api/name/item) as paid in My eBay or through Selling Manager Pro </li>  
+<li>Programmatically by the seller through the <b>ReviseCheckoutStatus</b> or <b>CompleteSale</b> calls.</li>  
+</ul>
+
+
+<p>
+<br><br><br/>
+Not applicable to Half.com.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSDate *paidTime</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Indicates the time when the order was marked paid. This value will only be<br/>
+visible to the user on either side of the order. An order can be marked as<br/>
+paid in the following ways:</p>
+
+<ul>  
+<li>Automatically when a payment is made via PayPal </li>  
+<li>Seller marks the [item](#//api/name/item) as paid in My eBay or through Selling Manager Pro </li>  
+<li>Programmatically by the seller through the <b>ReviseCheckoutStatus</b> or <b>CompleteSale</b> calls.</li>  
+</ul>
+
+
+<p>
+<br><br><br/>
+Not applicable to Half.com.</p>
+
+<p>type : NSDate, wrapper for primitive date</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_TransactionType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/paisaPayID" title="paisaPayID"></a>
+	<h3 class="subsubtitle method-title">paisaPayID</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Unique identifier for a PaisaPay transaction. Only applicable for the India<br/>
+site (203) if PaisaPay was the payment method used.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *paisaPayID</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Unique identifier for a PaisaPay transaction. Only applicable for the India<br/>
+site (203) if PaisaPay was the payment method used.</p>
+
+<p>type : NSString, wrapper for primitive string</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_TransactionType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/payPalEmailAddress" title="payPalEmailAddress"></a>
+	<h3 class="subsubtitle method-title">payPalEmailAddress</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The seller&rsquo;s Paypal email address. This value is only revealed if it is the<br/>
+seller making the call.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *payPalEmailAddress</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The seller&rsquo;s Paypal email address. This value is only revealed if it is the<br/>
+seller making the call.</p>
+
+<p>type : NSString, wrapper for primitive string</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_TransactionType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/paymentHoldDetails" title="paymentHoldDetails"></a>
+	<h3 class="subsubtitle method-title">paymentHoldDetails</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Shipping hold details</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_PaymentHoldDetailType *paymentHoldDetails</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Shipping hold details</p>
+
+<p>type : class <a href="../Classes/Trading_PaymentHoldDetailType.html">Trading_PaymentHoldDetailType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_TransactionType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/platform" title="platform"></a>
+	<h3 class="subsubtitle method-title">platform</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Name of the eBay co-branded site upon which the order line <a href="#//api/name/item">item</a><br/>
+(transaction) was created.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *platform</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Name of the eBay co-branded site upon which the order line <a href="#//api/name/item">item</a><br/>
+(transaction) was created.</p>
+
+<p>type: string constant in Trading_TransactionPlatformCodeType.h</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_TransactionType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/quantityPurchased" title="quantityPurchased"></a>
+	<h3 class="subsubtitle method-title">quantityPurchased</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>This value indicates the number of identical items purchased at the same<br/>
+time by the same <a href="#//api/name/buyer">buyer</a> from one listing. For auction listings, this value<br/>
+is always 1. For fixed-price, non<a href="#//api/name/variation">variation</a> listings, this value can be<br/>
+greater than 1. In either case, this field is tied to the same order line<br/>
+<a href="#//api/name/item">item</a>.<br/>
+<br><br><br/>
+Applicable to Half.com (for <b>GetOrders</b>).</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSNumber *quantityPurchased</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>This value indicates the number of identical items purchased at the same<br/>
+time by the same <a href="#//api/name/buyer">buyer</a> from one listing. For auction listings, this value<br/>
+is always 1. For fixed-price, non<a href="#//api/name/variation">variation</a> listings, this value can be<br/>
+greater than 1. In either case, this field is tied to the same order line<br/>
+<a href="#//api/name/item">item</a>.<br/>
+<br><br><br/>
+Applicable to Half.com (for <b>GetOrders</b>).</p>
+
+<p>type : NSNumber, wrapper for primitive int</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_TransactionType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/refundAmount" title="refundAmount"></a>
+	<h3 class="subsubtitle method-title">refundAmount</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Partial or Full refund amount from seller to the <a href="#//api/name/buyer">buyer</a></p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_AmountType *refundAmount</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Partial or Full refund amount from seller to the <a href="#//api/name/buyer">buyer</a></p>
+
+<p>type : class <a href="../Classes/Trading_AmountType.html">Trading_AmountType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_TransactionType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/refundArray" title="refundArray"></a>
+	<h3 class="subsubtitle method-title">refundArray</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Container consisting of one or more refund transactions to Half.com buyers.<br/>
+Container consisting of one or more refund transactions for eBay&rsquo;s new payment process.<br/>
+This container is only returned if a refund to a Half.com <a href="#//api/name/buyer">buyer</a> has occurred or an refund was issued through eBay&rsquo;s new payment process</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_RefundArrayType *refundArray</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Container consisting of one or more refund transactions to Half.com buyers.<br/>
+Container consisting of one or more refund transactions for eBay&rsquo;s new payment process.<br/>
+This container is only returned if a refund to a Half.com <a href="#//api/name/buyer">buyer</a> has occurred or an refund was issued through eBay&rsquo;s new payment process</p>
+
+<p>type : class <a href="../Classes/Trading_RefundArrayType.html">Trading_RefundArrayType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_TransactionType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/refundStatus" title="refundStatus"></a>
+	<h3 class="subsubtitle method-title">refundStatus</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Refund Status Notification to Seller (Success, Failure, Pending)</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *refundStatus</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Refund Status Notification to Seller (Success, Failure, Pending)</p>
+
+<p>type : NSString, wrapper for primitive string</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_TransactionType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/sellerContactBuyerByEmail" title="sellerContactBuyerByEmail"></a>
+	<h3 class="subsubtitle method-title">sellerContactBuyerByEmail</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Indicates whether the <a href="#//api/name/buyer">buyer</a> has opted to accept emails from all the selling<br/>
+partners on Shopping.com. This field is only returned for order line items<br/>
+purchased through the Shopping.com shopping cart.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSNumber *sellerContactBuyerByEmail</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Indicates whether the <a href="#//api/name/buyer">buyer</a> has opted to accept emails from all the selling<br/>
+partners on Shopping.com. This field is only returned for order line items<br/>
+purchased through the Shopping.com shopping cart.</p>
+
+<p>type : NSNumber, wrapper for primitive bool</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_TransactionType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/sellerDiscounts" title="sellerDiscounts"></a>
+	<h3 class="subsubtitle method-title">sellerDiscounts</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Seller Discounts</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_SellerDiscountsType *sellerDiscounts</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Seller Discounts</p>
+
+<p>type : class <a href="../Classes/Trading_SellerDiscountsType.html">Trading_SellerDiscountsType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_TransactionType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/sellerPaidStatus" title="sellerPaidStatus"></a>
+	<h3 class="subsubtitle method-title">sellerPaidStatus</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Specifies the paid <a href="#//api/name/status">status</a> of the order.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *sellerPaidStatus</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Specifies the paid <a href="#//api/name/status">status</a> of the order.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p>
+
+<p>type: string constant in Trading_PaidStatusCodeType.h</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_TransactionType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/sellingManagerProductDetails" title="sellingManagerProductDetails"></a>
+	<h3 class="subsubtitle method-title">sellingManagerProductDetails</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>This container consists of Selling Manager product details and is only<br/>
+returned if the <a href="#//api/name/item">item</a> was listed through Selling Manager.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_SellingManagerProductDetailsType *sellingManagerProductDetails</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>This container consists of Selling Manager product details and is only<br/>
+returned if the <a href="#//api/name/item">item</a> was listed through Selling Manager.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p>
+
+<p>type : class <a href="../Classes/Trading_SellingManagerProductDetailsType.html">Trading_SellingManagerProductDetailsType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_TransactionType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/shippedTime" title="shippedTime"></a>
+	<h3 class="subsubtitle method-title">shippedTime</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Indicates the time when the <a href="#//api/name/item">item</a>(s) associated with the order were marked<br/>
+as shipped. This value will only be visible to the user on either side of<br/>
+the order. An order can be marked as shipped in My eBay or through Selling<br/>
+Manager Pro, or programmatically by the seller through the <b>CompleteSale</b><br/>
+call.<br/>
+<br><br><br/>
+Applicable to Half.com (for <b>GetOrders</b> only).</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSDate *shippedTime</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Indicates the time when the <a href="#//api/name/item">item</a>(s) associated with the order were marked<br/>
+as shipped. This value will only be visible to the user on either side of<br/>
+the order. An order can be marked as shipped in My eBay or through Selling<br/>
+Manager Pro, or programmatically by the seller through the <b>CompleteSale</b><br/>
+call.<br/>
+<br><br><br/>
+Applicable to Half.com (for <b>GetOrders</b> only).</p>
+
+<p>type : NSDate, wrapper for primitive date</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_TransactionType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/shippingDetails" title="shippingDetails"></a>
+	<h3 class="subsubtitle method-title">shippingDetails</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Container consisting of shipping-related details for an order. Shipping<br/>
+details include shipping rates, package dimensions, handling costs,<br/>
+excluded shipping locations (if specified), shipping service options,<br/>
+shipping insurance information, sales tax information (if applicable), and<br/>
+shipment tracking details (if shipped).<br/>
+<br><br><br/>
+For <b>GetSellerTransactions</b> and <b>GetItemTransactions</b>, the <b>ShippingDetails</b><br/>
+container is returned in the <b>Transaction</b> container. For <b>GetOrders</b> and<br/>
+<b>GetOrderTransactions</b>, the <b>ShippingDetails</b> container is returned at the<br/>
+Order level.<br/>
+<br><br><br/>
+Applicable to Half.com (for <b>GetOrders</b> only).</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_ShippingDetailsType *shippingDetails</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Container consisting of shipping-related details for an order. Shipping<br/>
+details include shipping rates, package dimensions, handling costs,<br/>
+excluded shipping locations (if specified), shipping service options,<br/>
+shipping insurance information, sales tax information (if applicable), and<br/>
+shipment tracking details (if shipped).<br/>
+<br><br><br/>
+For <b>GetSellerTransactions</b> and <b>GetItemTransactions</b>, the <b>ShippingDetails</b><br/>
+container is returned in the <b>Transaction</b> container. For <b>GetOrders</b> and<br/>
+<b>GetOrderTransactions</b>, the <b>ShippingDetails</b> container is returned at the<br/>
+Order level.<br/>
+<br><br><br/>
+Applicable to Half.com (for <b>GetOrders</b> only).</p>
+
+<p>type : class <a href="../Classes/Trading_ShippingDetailsType.html">Trading_ShippingDetailsType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_TransactionType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/shippingServiceSelected" title="shippingServiceSelected"></a>
+	<h3 class="subsubtitle method-title">shippingServiceSelected</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Container consisting of details about the domestic or international shipping<br/>
+service selected by the <a href="#//api/name/buyer">buyer</a>.<br/>
+       <br/><br/><br/>
+                   <span class="tablenote"><br/>
+                   <strong>Note:</strong> For GetItemTransactions and GetSellerTransactions, this container does not return accurate shipping service and cost information for multiple line <a href="#//api/name/item">item</a> orders. Use GetOrders instead, and provide the order&rsquo;s combined <strong>OrderID</strong> to retrieve this information.<br/>
+                   </span><br/>
+<br><br><br/>
+Not applicable to Half.com.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_ShippingServiceOptionsType *shippingServiceSelected</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Container consisting of details about the domestic or international shipping<br/>
+service selected by the <a href="#//api/name/buyer">buyer</a>.<br/>
+       <br/><br/><br/>
+                   <span class="tablenote"><br/>
+                   <strong>Note:</strong> For GetItemTransactions and GetSellerTransactions, this container does not return accurate shipping service and cost information for multiple line <a href="#//api/name/item">item</a> orders. Use GetOrders instead, and provide the order&rsquo;s combined <strong>OrderID</strong> to retrieve this information.<br/>
+                   </span><br/>
+<br><br><br/>
+Not applicable to Half.com.</p>
+
+<p>type : class <a href="../Classes/Trading_ShippingServiceOptionsType.html">Trading_ShippingServiceOptionsType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_TransactionType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/status" title="status"></a>
+	<h3 class="subsubtitle method-title">status</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Container consisting of status details of an order line <a href="#//api/name/item">item</a>,<br/>
+including payment information. Several of these fields change values during<br/>
+the checkout flow. See <b>TransactionStatusType</b> for its child elements.<br/>
+<br><br><br/>
+For <b>GetOrders</b>, only the <b><br/>
+IntegratedMerchantCreditCardEnabled</b> and<br/>
+<b>PaymentMethodUsed</b> child elements are returned.<br/>
+The <b>PaymentHoldStatus</b> container will be returned for those sellers subject to the new eBay payment process.  The fields indicating the status of the order are<br/>
+actually found in the <b>OrderArray.Order.CheckoutStatus</b><br/>
+container. <br><br><br/>
+Not applicable to Half.com.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_TransactionStatusType *status</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Container consisting of status details of an order line <a href="#//api/name/item">item</a>,<br/>
+including payment information. Several of these fields change values during<br/>
+the checkout flow. See <b>TransactionStatusType</b> for its child elements.<br/>
+<br><br><br/>
+For <b>GetOrders</b>, only the <b><br/>
+IntegratedMerchantCreditCardEnabled</b> and<br/>
+<b>PaymentMethodUsed</b> child elements are returned.<br/>
+The <b>PaymentHoldStatus</b> container will be returned for those sellers subject to the new eBay payment process.  The fields indicating the status of the order are<br/>
+actually found in the <b>OrderArray.Order.CheckoutStatus</b><br/>
+container. <br><br><br/>
+Not applicable to Half.com.</p>
+
+<p>type : class <a href="../Classes/Trading_TransactionStatusType.html">Trading_TransactionStatusType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_TransactionType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/taxes" title="taxes"></a>
+	<h3 class="subsubtitle method-title">taxes</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>type : class <a href="../Classes/Trading_TaxesType.html">Trading_TaxesType</a></p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_TaxesType *taxes</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>type : class <a href="../Classes/Trading_TaxesType.html">Trading_TaxesType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_TransactionType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/totalPrice" title="totalPrice"></a>
+	<h3 class="subsubtitle method-title">totalPrice</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>This field indicates the total price for an order line <a href="#//api/name/item">item</a>.<br/>
+<br><br><br/>
+For <strong>GetMyeBaySelling</strong>, with Global Shipping Program orders, the value of this field depends on order <a href="#//api/name/status">status</a> and the number of transactions in the order. For orders awaiting payment, the field contains the purchase price of the order line <a href="#//api/name/item">item</a>; for paid orders, it contains the purchase price of the order line <a href="#//api/name/item">item</a> plus the cost of domestic shipping to the international shipping provider&rsquo;s warehouse. With single-transaction orders, this field is returned under the <strong>OrderTransaction.Transaction</strong> container; with multiple-transaction orders, it&rsquo;s returned under the <strong>OrderTransaction.Order.TransactionArray.Transaction</strong> container.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_AmountType *totalPrice</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>This field indicates the total price for an order line <a href="#//api/name/item">item</a>.<br/>
+<br><br><br/>
+For <strong>GetMyeBaySelling</strong>, with Global Shipping Program orders, the value of this field depends on order <a href="#//api/name/status">status</a> and the number of transactions in the order. For orders awaiting payment, the field contains the purchase price of the order line <a href="#//api/name/item">item</a>; for paid orders, it contains the purchase price of the order line <a href="#//api/name/item">item</a> plus the cost of domestic shipping to the international shipping provider&rsquo;s warehouse. With single-transaction orders, this field is returned under the <strong>OrderTransaction.Transaction</strong> container; with multiple-transaction orders, it&rsquo;s returned under the <strong>OrderTransaction.Order.TransactionArray.Transaction</strong> container.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p>
+
+<p>type : class <a href="../Classes/Trading_AmountType.html">Trading_AmountType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_TransactionType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/totalTransactionPrice" title="totalTransactionPrice"></a>
+	<h3 class="subsubtitle method-title">totalTransactionPrice</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The price of one order line <a href="#//api/name/item">item</a>. This amount does not take into account shipping, sales tax, and other costs related to the order line <a href="#//api/name/item">item</a>.<br/>
+                   <br/><br/><br/>
+                   If multiple units were purchased through a non<a href="#//api/name/variation">variation</a>, fixed-price listing, consider this value the per-unit price. To get the total amount, multiply <strong>TotalTransactionPrice</strong> by the <strong>Transaction.QuantityPurchased</strong> value. <br/>
+                   <br/><br/><br/>
+                   For eBay Motors Vehicle listings, <strong>TotalTransactionPrice</strong> is the deposit amount. <br/>
+                   <br/><br/><br/>
+                   Applicable to Half.com (for GetOrders).</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_AmountType *totalTransactionPrice</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The price of one order line <a href="#//api/name/item">item</a>. This amount does not take into account shipping, sales tax, and other costs related to the order line <a href="#//api/name/item">item</a>.<br/>
+                   <br/><br/><br/>
+                   If multiple units were purchased through a non<a href="#//api/name/variation">variation</a>, fixed-price listing, consider this value the per-unit price. To get the total amount, multiply <strong>TotalTransactionPrice</strong> by the <strong>Transaction.QuantityPurchased</strong> value. <br/>
+                   <br/><br/><br/>
+                   For eBay Motors Vehicle listings, <strong>TotalTransactionPrice</strong> is the deposit amount. <br/>
+                   <br/><br/><br/>
+                   Applicable to Half.com (for GetOrders).</p>
+
+<p>type : class <a href="../Classes/Trading_AmountType.html">Trading_AmountType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_TransactionType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/transactionID" title="transactionID"></a>
+	<h3 class="subsubtitle method-title">transactionID</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Unique identifier for an eBay order line <a href="#//api/name/item">item</a>. An order line<br/>
+<a href="#//api/name/item">item</a> is created once there is a commitment from a <a href="#//api/name/buyer">buyer</a> to<br/>
+purchase an <a href="#//api/name/item">item</a>. Since an auction listing can only have one order line<br/>
+<a href="#//api/name/item">item</a> during the duration of the listing, the <b>TransactionID</b><br/>
+for auction listings is always 0. Along with its corresponding <b>ItemID</b>, a<br/>
+<b>TransactionID</b> is used and referenced during an order checkout flow and<br/>
+after checkout has been completed.<br/>
+<br><br><br/>
+Applicable to Half.com (for <b>GetOrders</b> only).</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *transactionID</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Unique identifier for an eBay order line <a href="#//api/name/item">item</a>. An order line<br/>
+<a href="#//api/name/item">item</a> is created once there is a commitment from a <a href="#//api/name/buyer">buyer</a> to<br/>
+purchase an <a href="#//api/name/item">item</a>. Since an auction listing can only have one order line<br/>
+<a href="#//api/name/item">item</a> during the duration of the listing, the <b>TransactionID</b><br/>
+for auction listings is always 0. Along with its corresponding <b>ItemID</b>, a<br/>
+<b>TransactionID</b> is used and referenced during an order checkout flow and<br/>
+after checkout has been completed.<br/>
+<br><br><br/>
+Applicable to Half.com (for <b>GetOrders</b> only).</p>
+
+<p>type : NSString, wrapper for primitive string</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_TransactionType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/transactionPrice" title="transactionPrice"></a>
+	<h3 class="subsubtitle method-title">transactionPrice</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The price of one order line <a href="#//api/name/item">item</a>.<br/>
+<br><br><br/>
+This price is returned only for Best Offer items. This amount does not take into account shipping, sales tax, and other costs related to the order line <a href="#//api/name/item">item</a>. If multiple units were purchased through Best Offer, this value is the per-unit price.<br/>
+<br><br><br/>
+                   For eBay Motors Vehicle listings, <b>TransactionPrice</b> is the deposit amount. <br/>
+<br><br><br/>
+Applicable to Half.com (for <b>GetOrders</b>).</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_AmountType *transactionPrice</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The price of one order line <a href="#//api/name/item">item</a>.<br/>
+<br><br><br/>
+This price is returned only for Best Offer items. This amount does not take into account shipping, sales tax, and other costs related to the order line <a href="#//api/name/item">item</a>. If multiple units were purchased through Best Offer, this value is the per-unit price.<br/>
+<br><br><br/>
+                   For eBay Motors Vehicle listings, <b>TransactionPrice</b> is the deposit amount. <br/>
+<br><br><br/>
+Applicable to Half.com (for <b>GetOrders</b>).</p>
+
+<p>type : class <a href="../Classes/Trading_AmountType.html">Trading_AmountType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_TransactionType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/transactionSiteID" title="transactionSiteID"></a>
+	<h3 class="subsubtitle method-title">transactionSiteID</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The site upon which the order line <a href="#//api/name/item">item</a> (transaction) was created.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *transactionSiteID</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The site upon which the order line <a href="#//api/name/item">item</a> (transaction) was created.</p>
+
+<p>type: string constant in Trading_SiteCodeType.h</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_TransactionType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/unpaidItem" title="unpaidItem"></a>
+	<h3 class="subsubtitle method-title">unpaidItem</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Container consisting of details related to the type and <a href="#//api/name/status">status</a> of an Unpaid<br/>
+Item case. This container is only returned if there is an open or closed<br/>
+Unpaid Item case associated with the order line <a href="#//api/name/item">item</a>.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_UnpaidItemType *unpaidItem</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Container consisting of details related to the type and <a href="#//api/name/status">status</a> of an Unpaid<br/>
+Item case. This container is only returned if there is an open or closed<br/>
+Unpaid Item case associated with the order line <a href="#//api/name/item">item</a>.</p>
+
+<p>type : class <a href="../Classes/Trading_UnpaidItemType.html">Trading_UnpaidItemType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_TransactionType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/variation" title="variation"></a>
+	<h3 class="subsubtitle method-title">variation</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>  In a fixed-priced listing, a seller can offer variations of the same <a href="#//api/name/item">item</a>.<br/>
+  For example, the seller could create a fixed-priced listing for a t-shirt<br/>
+  design and offer the shirt in different colors and sizes. In this case, each<br/>
+  color and size combination is a separate variation. Each variation can have<br/>
+  a different quantity and price. Due to the possible price differentiation,<br/>
+  buyers can buy multiple items from this listing at the same time, but all of<br/>
+  the items must be of the same variation. One order line <a href="#//api/name/item">item</a> is created<br/>
+  whether one or multiple items of the same variation are purchased.<br/>
+  <br><br><br/>
+  The <b>Variation</b> node contains information about which variation<br/>
+  was purchased. Therefore, applications that process orders<br/>
+  should always check to see if this node is present.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_VariationType *variation</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>  In a fixed-priced listing, a seller can offer variations of the same <a href="#//api/name/item">item</a>.<br/>
+  For example, the seller could create a fixed-priced listing for a t-shirt<br/>
+  design and offer the shirt in different colors and sizes. In this case, each<br/>
+  color and size combination is a separate variation. Each variation can have<br/>
+  a different quantity and price. Due to the possible price differentiation,<br/>
+  buyers can buy multiple items from this listing at the same time, but all of<br/>
+  the items must be of the same variation. One order line <a href="#//api/name/item">item</a> is created<br/>
+  whether one or multiple items of the same variation are purchased.<br/>
+  <br><br><br/>
+  The <b>Variation</b> node contains information about which variation<br/>
+  was purchased. Therefore, applications that process orders<br/>
+  should always check to see if this node is present.</p>
+
+<p>type : class <a href="../Classes/Trading_VariationType.html">Trading_VariationType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_TransactionType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/vatPercent" title="vatPercent"></a>
+	<h3 class="subsubtitle method-title">vatPercent</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>VAT rate for the <a href="#//api/name/item">item</a>. When the <b>VATPercent</b> is specified, the item&rsquo;s VAT<br/>
+information appears on the item&rsquo;s listing page. In addition, the seller<br/>
+can choose to print an invoice that includes the item&rsquo;s net price, VAT<br/>
+percent, VAT amount, and total price. Since VAT rates vary depending on the<br/>
+<a href="#//api/name/item">item</a> and on the user&rsquo;s country of residence, a seller is responsible for<br/>
+entering the correct VAT rate; it is not calculated by eBay. To specify a<br/>
+<b>VATPercent</b>, a seller must have a VAT-ID registered with eBay and must be<br/>
+listing the <a href="#//api/name/item">item</a> on a VAT-enabled site. Max precision 3 decimal places. Max<br/>
+length 5 characters. Note: The View Item page displays the precision to 2<br/>
+decimal places with no trailing zeros. However, the full value you send in is<br/>
+stored.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSNumber *vatPercent</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>VAT rate for the <a href="#//api/name/item">item</a>. When the <b>VATPercent</b> is specified, the item&rsquo;s VAT<br/>
+information appears on the item&rsquo;s listing page. In addition, the seller<br/>
+can choose to print an invoice that includes the item&rsquo;s net price, VAT<br/>
+percent, VAT amount, and total price. Since VAT rates vary depending on the<br/>
+<a href="#//api/name/item">item</a> and on the user&rsquo;s country of residence, a seller is responsible for<br/>
+entering the correct VAT rate; it is not calculated by eBay. To specify a<br/>
+<b>VATPercent</b>, a seller must have a VAT-ID registered with eBay and must be<br/>
+listing the <a href="#//api/name/item">item</a> on a VAT-enabled site. Max precision 3 decimal places. Max<br/>
+length 5 characters. Note: The View Item page displays the precision to 2<br/>
+decimal places with no trailing zeros. However, the full value you send in is<br/>
+stored.<br/>
+<br><br><br/>
+Not applicable to Half.com.</p>
+
+<p>type : NSNumber, wrapper for primitive double</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_TransactionType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 LeanSoft Technology. All rights reserved. (Last updated: 2013-03-31)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.1 (build 858)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

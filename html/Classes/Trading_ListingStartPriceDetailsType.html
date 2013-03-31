@@ -1,0 +1,696 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>Trading_ListingStartPriceDetailsType Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.1 (build 858)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">PicoEBayTradingClient </a></h1>
+				<a id="developerHome" href="../index.html">LeanSoft Technology</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">Trading_ListingStartPriceDetailsType Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/any">&nbsp;&nbsp;&nbsp;&nbsp;any</option>
+	
+	<option value="//api/name/description">&nbsp;&nbsp;&nbsp;&nbsp;description</option>
+	
+	<option value="//api/name/detailVersion">&nbsp;&nbsp;&nbsp;&nbsp;detailVersion</option>
+	
+	<option value="//api/name/listingType">&nbsp;&nbsp;&nbsp;&nbsp;listingType</option>
+	
+	<option value="//api/name/minBuyItNowPricePercent">&nbsp;&nbsp;&nbsp;&nbsp;minBuyItNowPricePercent</option>
+	
+	<option value="//api/name/startPrice">&nbsp;&nbsp;&nbsp;&nbsp;startPrice</option>
+	
+	<option value="//api/name/updateTime">&nbsp;&nbsp;&nbsp;&nbsp;updateTime</option>
+	
+	
+	
+	
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/any">any</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/description">description</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/detailVersion">detailVersion</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/listingType">listingType</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/minBuyItNowPricePercent">minBuyItNowPricePercent</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/startPrice">startPrice</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/updateTime">updateTime</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="Trading_ListingStartPriceDetailsType Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">Trading_ListingStartPriceDetailsType Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value">PicoBindable</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">Trading_ListingStartPriceDetailsType.h<br />Trading_ListingStartPriceDetailsType.m</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>Type defining the <b>ListingStartPriceDetails</b> container returned in<br/>
+<b>GeteBayDetails</b>. The <b>ListingStartPriceDetails</b><br/>
+container lists the minimum start price for auction listings, the minimum sale price<br/>
+for fixed-price listings, and the minimum percentage value that a Buy It Now price for<br/>
+an auction listing must be above the minimum start price for that same listing.<br/>
+<br><br><br/>
+The <b>ListingStartPriceDetails</b> container is returned if<br/>
+<b>ListingStartPriceDetails</b> is included as a <b>DetailName</b><br/>
+filter in the request, or if no lt;b>DetailName</b> filters are used in the request.</p>
+
+<p>@ingroup EBayAPIInterface</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/description">&nbsp;&nbsp;description</a></code>
+		<span class="tooltip"><p>This value is a string description of the listing type for which the pricing data<br/>
+is intended, such as &ldquo;Pricing for the auction-like listings&rdquo;.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/listingType">&nbsp;&nbsp;listingType</a></code>
+		<span class="tooltip"><p>This value indicates the listing type of the listing, and is a value defined in<br/>
+<b>ListingTypeCodeType</b> enumerated type. The only possible values for<br/>
+this field are &lsquo;Chinese&rsquo; (auction listing) and &lsquo;FixedPriceItem&rsquo;.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/startPrice">&nbsp;&nbsp;startPrice</a></code>
+		<span class="tooltip"><p>For auction listings, the <b>StartPrice</b> indicates the lowest dollar<br/>
+value that can be set for the item&rsquo;s Starting bid.<br/>
+<br><br><br/>
+For fixed-price listings, the <b>StartPrice</b> indicates the lowest<br/>
+dollar value that can be set for the item&rsquo;s sale price.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/detailVersion">&nbsp;&nbsp;detailVersion</a></code>
+		<span class="tooltip"><p>Returns the latest version number for this field. The version can be used to<br/>
+determine if and when to refresh cached client data.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/updateTime">&nbsp;&nbsp;updateTime</a></code>
+		<span class="tooltip"><p>Gives the time in GMT that the feature flags for the<br/>
+details were last updated. This timestamp can be used to determine<br/>
+if and when to refresh cached client data.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/minBuyItNowPricePercent">&nbsp;&nbsp;minBuyItNowPricePercent</a></code>
+		<span class="tooltip"><p>This field is only returned and applicable for auction listings.<br/>
+<br><br><br/>
+This float value indicates the minimum percentage value that a Buy It Now price for<br/>
+an auction listing must be above the Starting bid price for that same listing.<br/>
+<br><br><br/>
+On the US eBay Motors site (Site ID 100), this field only applies to the Parts and<br/>
+Accessories categories.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/any">&nbsp;&nbsp;any</a></code>
+		<span class="tooltip"><p>(public property)</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/any" title="any"></a>
+	<h3 class="subsubtitle method-title">any</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>(public property)</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSMutableArray *any</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>(public property)</p>
+
+<p>entry type : PicoAnyElement, wrapper for primitive anyelement</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_ListingStartPriceDetailsType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/description" title="description"></a>
+	<h3 class="subsubtitle method-title">description</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>This value is a string description of the listing type for which the pricing data<br/>
+is intended, such as &ldquo;Pricing for the auction-like listings&rdquo;.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *description</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>This value is a string description of the listing type for which the pricing data<br/>
+is intended, such as &ldquo;Pricing for the auction-like listings&rdquo;.</p>
+
+<p>type : NSString, wrapper for primitive string</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_ListingStartPriceDetailsType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/detailVersion" title="detailVersion"></a>
+	<h3 class="subsubtitle method-title">detailVersion</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns the latest version number for this field. The version can be used to<br/>
+determine if and when to refresh cached client data.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *detailVersion</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Returns the latest version number for this field. The version can be used to<br/>
+determine if and when to refresh cached client data.</p>
+
+<p>type : NSString, wrapper for primitive string</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_ListingStartPriceDetailsType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/listingType" title="listingType"></a>
+	<h3 class="subsubtitle method-title">listingType</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>This value indicates the listing type of the listing, and is a value defined in<br/>
+<b>ListingTypeCodeType</b> enumerated type. The only possible values for<br/>
+this field are &lsquo;Chinese&rsquo; (auction listing) and &lsquo;FixedPriceItem&rsquo;.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *listingType</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>This value indicates the listing type of the listing, and is a value defined in<br/>
+<b>ListingTypeCodeType</b> enumerated type. The only possible values for<br/>
+this field are &lsquo;Chinese&rsquo; (auction listing) and &lsquo;FixedPriceItem&rsquo;.</p>
+
+<p>type: string constant in Trading_ListingTypeCodeType.h</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_ListingStartPriceDetailsType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/minBuyItNowPricePercent" title="minBuyItNowPricePercent"></a>
+	<h3 class="subsubtitle method-title">minBuyItNowPricePercent</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>This field is only returned and applicable for auction listings.<br/>
+<br><br><br/>
+This float value indicates the minimum percentage value that a Buy It Now price for<br/>
+an auction listing must be above the Starting bid price for that same listing.<br/>
+<br><br><br/>
+On the US eBay Motors site (Site ID 100), this field only applies to the Parts and<br/>
+Accessories categories.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSNumber *minBuyItNowPricePercent</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>This field is only returned and applicable for auction listings.<br/>
+<br><br><br/>
+This float value indicates the minimum percentage value that a Buy It Now price for<br/>
+an auction listing must be above the Starting bid price for that same listing.<br/>
+<br><br><br/>
+On the US eBay Motors site (Site ID 100), this field only applies to the Parts and<br/>
+Accessories categories.</p>
+
+<p>type : NSNumber, wrapper for primitive float</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_ListingStartPriceDetailsType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/startPrice" title="startPrice"></a>
+	<h3 class="subsubtitle method-title">startPrice</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>For auction listings, the <b>StartPrice</b> indicates the lowest dollar<br/>
+value that can be set for the item&rsquo;s Starting bid.<br/>
+<br><br><br/>
+For fixed-price listings, the <b>StartPrice</b> indicates the lowest<br/>
+dollar value that can be set for the item&rsquo;s sale price.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_AmountType *startPrice</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>For auction listings, the <b>StartPrice</b> indicates the lowest dollar<br/>
+value that can be set for the item&rsquo;s Starting bid.<br/>
+<br><br><br/>
+For fixed-price listings, the <b>StartPrice</b> indicates the lowest<br/>
+dollar value that can be set for the item&rsquo;s sale price.</p>
+
+<p>type : class <a href="../Classes/Trading_AmountType.html">Trading_AmountType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_ListingStartPriceDetailsType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/updateTime" title="updateTime"></a>
+	<h3 class="subsubtitle method-title">updateTime</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Gives the time in GMT that the feature flags for the<br/>
+details were last updated. This timestamp can be used to determine<br/>
+if and when to refresh cached client data.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSDate *updateTime</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Gives the time in GMT that the feature flags for the<br/>
+details were last updated. This timestamp can be used to determine<br/>
+if and when to refresh cached client data.</p>
+
+<p>type : NSDate, wrapper for primitive date</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_ListingStartPriceDetailsType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 LeanSoft Technology. All rights reserved. (Last updated: 2013-03-31)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.1 (build 858)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

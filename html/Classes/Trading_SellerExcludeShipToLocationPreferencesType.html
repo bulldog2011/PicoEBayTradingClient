@@ -1,0 +1,472 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>Trading_SellerExcludeShipToLocationPreferencesType Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.1 (build 858)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">PicoEBayTradingClient </a></h1>
+				<a id="developerHome" href="../index.html">LeanSoft Technology</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">Trading_SellerExcludeShipToLocationPreferencesType Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/any">&nbsp;&nbsp;&nbsp;&nbsp;any</option>
+	
+	<option value="//api/name/excludeShipToLocation">&nbsp;&nbsp;&nbsp;&nbsp;excludeShipToLocation</option>
+	
+	
+	
+	
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/any">any</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/excludeShipToLocation">excludeShipToLocation</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="Trading_SellerExcludeShipToLocationPreferencesType Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">Trading_SellerExcludeShipToLocationPreferencesType Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value">PicoBindable</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">Trading_SellerExcludeShipToLocationPreferencesType.h<br />Trading_SellerExcludeShipToLocationPreferencesType.m</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>Container consisting for the list of locations to where the seller will not ship items.</p>
+
+<p>@ingroup EBayAPIInterface</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/excludeShipToLocation">&nbsp;&nbsp;excludeShipToLocation</a></code>
+		<span class="tooltip"><p>One ExcludeShipToLocation field is returned for each region or country excluded<br/>
+as a possible shipping location in the seller&rsquo;s My eBay Shipping Preferences.<br/>
+Sellers can also exclude Alaska/Hawaii and Army Post Office/Fleet Post Office as<br/>
+possible shipping locations. For excluded countries, &ldquo;<a href="http://www.iso.org/iso/country">http://www.iso.org/iso/country</a><em>codes/iso_3166_code_lists/english_country_names_and_code_elements.htm&rdquo;>ISO 3166</a><br/>
+country codes are returned.<br/>
+<br><br><br/>
+Domestically, the seller can specify Alaska/Hawaii, US Protectorates (including<br/>
+American Samoa, Guam, Mariana Island, Marshall Islands, Micronesia, Palau,<br/>
+Puerto Rico, and U.S. Virgin Islands) as places he/she will not ship to.<br/>
+Internationally, the sellers can exclude entire regions (including Africa, Asia,<br/>
+Central America and Caribbean, Europe, Middle East, North America, Oceania,<br/>
+Southeast Asia, and South America) or specific countries within those regions.<br/>
+<br><br><br/>
+If a buyer&rsquo;s primary ship-to location is a location that you have listed as<br/>
+an excluded ship-to location (or if the buyer does not have a primary ship-to<br/>
+location), they will receive an error message if they attempt to buy or place<br/>
+a bid on your item.<br/>
+<br><br><br/>
+To see the valid exclude ship-to locations for a specified site, call<br/>
+GeteBayDetails with DetailName set to ExcludeShippingLocationDetails. Repeat<br/>
+GeteBayDetails for each site on which you list.<br/>
+<br><br><br/>
+<span class="tablenote"><strong>Note:</strong><br/>
+To enable your default Exclude Ship-To List, you must enable Exclude<br/>
+Shipping Locations and Buyer Requirements in your My eBay Site Preferences.<br/>
+For details, see the KnowledgeBase Article &lt;a href=<br/>
+&ldquo;<a href="https://ebay.custhelp.com/cgi-bin/ebay.cfg/php/enduser/std">https://ebay.custhelp.com/cgi-bin/ebay.cfg/php/enduser/std</a></em>adp.php?p_faqid=1495&rdquo;</p>
+
+<blockquote><p>HowTo: ExcludeShipToLocation</a>.<br/>
+</span><br/>
+Code denoting a location to where the seller will not ship.<br/>
+<br><br/>
+The codes reflect the <a href=
+"[http://www.iso.org/iso/country](http://www.iso.org/iso/country)_codes/iso_3166_code_lists/english_country_names_and_code_elements.htm"
+ISO 3166</a> location codes.</p></blockquote></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/any">&nbsp;&nbsp;any</a></code>
+		<span class="tooltip"><p>(public property)</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/any" title="any"></a>
+	<h3 class="subsubtitle method-title">any</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>(public property)</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSMutableArray *any</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>(public property)</p>
+
+<p>entry type : PicoAnyElement, wrapper for primitive anyelement</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_SellerExcludeShipToLocationPreferencesType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/excludeShipToLocation" title="excludeShipToLocation"></a>
+	<h3 class="subsubtitle method-title">excludeShipToLocation</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>One ExcludeShipToLocation field is returned for each region or country excluded<br/>
+as a possible shipping location in the seller&rsquo;s My eBay Shipping Preferences.<br/>
+Sellers can also exclude Alaska/Hawaii and Army Post Office/Fleet Post Office as<br/>
+possible shipping locations. For excluded countries, &ldquo;<a href="http://www.iso.org/iso/country">http://www.iso.org/iso/country</a><em>codes/iso_3166_code_lists/english_country_names_and_code_elements.htm&rdquo;>ISO 3166</a><br/>
+country codes are returned.<br/>
+<br><br><br/>
+Domestically, the seller can specify Alaska/Hawaii, US Protectorates (including<br/>
+American Samoa, Guam, Mariana Island, Marshall Islands, Micronesia, Palau,<br/>
+Puerto Rico, and U.S. Virgin Islands) as places he/she will not ship to.<br/>
+Internationally, the sellers can exclude entire regions (including Africa, Asia,<br/>
+Central America and Caribbean, Europe, Middle East, North America, Oceania,<br/>
+Southeast Asia, and South America) or specific countries within those regions.<br/>
+<br><br><br/>
+If a buyer&rsquo;s primary ship-to location is a location that you have listed as<br/>
+an excluded ship-to location (or if the buyer does not have a primary ship-to<br/>
+location), they will receive an error message if they attempt to buy or place<br/>
+a bid on your item.<br/>
+<br><br><br/>
+To see the valid exclude ship-to locations for a specified site, call<br/>
+GeteBayDetails with DetailName set to ExcludeShippingLocationDetails. Repeat<br/>
+GeteBayDetails for each site on which you list.<br/>
+<br><br><br/>
+<span class="tablenote"><strong>Note:</strong><br/>
+To enable your default Exclude Ship-To List, you must enable Exclude<br/>
+Shipping Locations and Buyer Requirements in your My eBay Site Preferences.<br/>
+For details, see the KnowledgeBase Article &lt;a href=<br/>
+&ldquo;<a href="https://ebay.custhelp.com/cgi-bin/ebay.cfg/php/enduser/std">https://ebay.custhelp.com/cgi-bin/ebay.cfg/php/enduser/std</a></em>adp.php?p_faqid=1495&rdquo;</p>
+
+<blockquote><p>HowTo: ExcludeShipToLocation</a>.<br/>
+</span><br/>
+Code denoting a location to where the seller will not ship.<br/>
+<br><br/>
+The codes reflect the <a href=
+"[http://www.iso.org/iso/country](http://www.iso.org/iso/country)_codes/iso_3166_code_lists/english_country_names_and_code_elements.htm"
+ISO 3166</a> location codes.</p></blockquote>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSMutableArray *excludeShipToLocation</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>One ExcludeShipToLocation field is returned for each region or country excluded<br/>
+as a possible shipping location in the seller&rsquo;s My eBay Shipping Preferences.<br/>
+Sellers can also exclude Alaska/Hawaii and Army Post Office/Fleet Post Office as<br/>
+possible shipping locations. For excluded countries, &ldquo;<a href="http://www.iso.org/iso/country">http://www.iso.org/iso/country</a><em>codes/iso_3166_code_lists/english_country_names_and_code_elements.htm&rdquo;>ISO 3166</a><br/>
+country codes are returned.<br/>
+<br><br><br/>
+Domestically, the seller can specify Alaska/Hawaii, US Protectorates (including<br/>
+American Samoa, Guam, Mariana Island, Marshall Islands, Micronesia, Palau,<br/>
+Puerto Rico, and U.S. Virgin Islands) as places he/she will not ship to.<br/>
+Internationally, the sellers can exclude entire regions (including Africa, Asia,<br/>
+Central America and Caribbean, Europe, Middle East, North America, Oceania,<br/>
+Southeast Asia, and South America) or specific countries within those regions.<br/>
+<br><br><br/>
+If a buyer&rsquo;s primary ship-to location is a location that you have listed as<br/>
+an excluded ship-to location (or if the buyer does not have a primary ship-to<br/>
+location), they will receive an error message if they attempt to buy or place<br/>
+a bid on your item.<br/>
+<br><br><br/>
+To see the valid exclude ship-to locations for a specified site, call<br/>
+GeteBayDetails with DetailName set to ExcludeShippingLocationDetails. Repeat<br/>
+GeteBayDetails for each site on which you list.<br/>
+<br><br><br/>
+<span class="tablenote"><strong>Note:</strong><br/>
+To enable your default Exclude Ship-To List, you must enable Exclude<br/>
+Shipping Locations and Buyer Requirements in your My eBay Site Preferences.<br/>
+For details, see the KnowledgeBase Article &lt;a href=<br/>
+&ldquo;<a href="https://ebay.custhelp.com/cgi-bin/ebay.cfg/php/enduser/std">https://ebay.custhelp.com/cgi-bin/ebay.cfg/php/enduser/std</a></em>adp.php?p_faqid=1495&rdquo;</p>
+
+<blockquote><p>HowTo: ExcludeShipToLocation</a>.<br/>
+</span><br/>
+Code denoting a location to where the seller will not ship.<br/>
+<br><br/>
+The codes reflect the <a href=
+"[http://www.iso.org/iso/country](http://www.iso.org/iso/country)_codes/iso_3166_code_lists/english_country_names_and_code_elements.htm"
+ISO 3166</a> location codes.</p></blockquote>
+
+<p>entry type : NSString, wrapper for primitive string</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_SellerExcludeShipToLocationPreferencesType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 LeanSoft Technology. All rights reserved. (Last updated: 2013-03-31)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.1 (build 858)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

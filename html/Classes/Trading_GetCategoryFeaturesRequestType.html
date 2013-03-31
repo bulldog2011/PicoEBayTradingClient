@@ -1,0 +1,650 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>Trading_GetCategoryFeaturesRequestType Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.1 (build 858)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">PicoEBayTradingClient </a></h1>
+				<a id="developerHome" href="../index.html">LeanSoft Technology</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">Trading_GetCategoryFeaturesRequestType Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/allFeaturesForCategory">&nbsp;&nbsp;&nbsp;&nbsp;allFeaturesForCategory</option>
+	
+	<option value="//api/name/categoryID">&nbsp;&nbsp;&nbsp;&nbsp;categoryID</option>
+	
+	<option value="//api/name/featureID">&nbsp;&nbsp;&nbsp;&nbsp;featureID</option>
+	
+	<option value="//api/name/levelLimit">&nbsp;&nbsp;&nbsp;&nbsp;levelLimit</option>
+	
+	<option value="//api/name/viewAllNodes">&nbsp;&nbsp;&nbsp;&nbsp;viewAllNodes</option>
+	
+	
+	
+	
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/allFeaturesForCategory">allFeaturesForCategory</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/categoryID">categoryID</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/featureID">featureID</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/levelLimit">levelLimit</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/viewAllNodes">viewAllNodes</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="Trading_GetCategoryFeaturesRequestType Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">Trading_GetCategoryFeaturesRequestType Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value"><a href="../Classes/Trading_AbstractRequestType.html">Trading_AbstractRequestType</a> : NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">Trading_GetCategoryFeaturesRequestType.h<br />Trading_GetCategoryFeaturesRequestType.m</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>Returns information about the features that are applicable to different categories,<br/>
+such as listing durations, shipping term requirements, and Best Offer support.</p>
+
+<p>@ingroup EBayAPIInterface</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/categoryID">&nbsp;&nbsp;categoryID</a></code>
+		<span class="tooltip"><p>Specifies the category for which you want to retrieve the feature settings.<br/>
+<br><br><br/>
+Specify a CategoryID, set DetailLevel to ReturnAll, and set<br/>
+ViewAllNodes to true to return the default site settings, the<br/>
+overrides for the specified category, plus all the child<br/>
+categories that have overrides on the features they inherit.<br/>
+<br><br><br/>
+If you also set AllFeaturesForCategory to true, eBay returns the site<br/>
+defaults, plus all the settings for the specified category. Child<br/>
+category information is not returned in this case.<br/>
+<br><br><br/>
+If CategoryID is not specified, eBay returns the feature settings for<br/>
+the site. To return details on all categories that have overrides on<br/>
+the properties they inherit, set DetailLevel to ReturnAll, and set<br/>
+ViewAllNodes to true. If you also set AllFeaturesForCategory to true,<br/>
+eBay returns only the site defaults with no child category information.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/levelLimit">&nbsp;&nbsp;levelLimit</a></code>
+		<span class="tooltip"><p>A level of depth in the category hierarchy. Retrieves all category<br/>
+nodes with a CategoryLevel less than or equal to the LevelLimit<br/>
+value.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/viewAllNodes">&nbsp;&nbsp;viewAllNodes</a></code>
+		<span class="tooltip"><p>You must set DetailLevel to ReturnAll in order to correctly populate the<br/>
+response when you set ViewAllNodes to true. In this case, eBay returns the<br/>
+site defaults along with all the categories that override the feature<br/>
+settings they inherit. Here, each Category container shows only the<br/>
+features that it has overridden from its parent node.<br/>
+<br><br><br/>
+If you also specify a CategoryID, eBay returns the details for that category,<br/>
+along with containers for each of its child categories that have feature<br/>
+overrides.<br/>
+<br><br><br/>
+Note that if ViewAllNodes is set to false (the default) and DetailLevel is<br/>
+set to ReturnAll, eBay returns only the leaf categories that have features<br/>
+that override the settings they inherit. In this case, the call will not<br/>
+return leaf categories that do not have overrides.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/featureID">&nbsp;&nbsp;featureID</a></code>
+		<span class="tooltip"><p>Use this field if you want to know if specific features are enabled at the site<br/>
+or root category level. Multiple <b>FeatureID</b> elements can be<br/>
+used in the request. If no <b>FeatureID</b> elements are used, the<br/>
+call retrieves data for all features, as applicable to the other request<br/>
+parameters.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/allFeaturesForCategory">&nbsp;&nbsp;allFeaturesForCategory</a></code>
+		<span class="tooltip"><p>Use this switch to view all of the feature settings for a specific category.<br/>
+All feature settings are returned, regardless of the site default settings.<br/>
+This element works in conjunction with CategoryID&ndash;refer to the notes for<br/>
+that element for more details.<br/>
+<br><br><br/>
+If you also set FeatureID, eBay returns the status of the specified<br/>
+features only, for the specified category.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/allFeaturesForCategory" title="allFeaturesForCategory"></a>
+	<h3 class="subsubtitle method-title">allFeaturesForCategory</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Use this switch to view all of the feature settings for a specific category.<br/>
+All feature settings are returned, regardless of the site default settings.<br/>
+This element works in conjunction with CategoryID&ndash;refer to the notes for<br/>
+that element for more details.<br/>
+<br><br><br/>
+If you also set FeatureID, eBay returns the status of the specified<br/>
+features only, for the specified category.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSNumber *allFeaturesForCategory</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Use this switch to view all of the feature settings for a specific category.<br/>
+All feature settings are returned, regardless of the site default settings.<br/>
+This element works in conjunction with CategoryID&ndash;refer to the notes for<br/>
+that element for more details.<br/>
+<br><br><br/>
+If you also set FeatureID, eBay returns the status of the specified<br/>
+features only, for the specified category.</p>
+
+<p>type : NSNumber, wrapper for primitive bool</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_GetCategoryFeaturesRequestType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/categoryID" title="categoryID"></a>
+	<h3 class="subsubtitle method-title">categoryID</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Specifies the category for which you want to retrieve the feature settings.<br/>
+<br><br><br/>
+Specify a CategoryID, set DetailLevel to ReturnAll, and set<br/>
+ViewAllNodes to true to return the default site settings, the<br/>
+overrides for the specified category, plus all the child<br/>
+categories that have overrides on the features they inherit.<br/>
+<br><br><br/>
+If you also set AllFeaturesForCategory to true, eBay returns the site<br/>
+defaults, plus all the settings for the specified category. Child<br/>
+category information is not returned in this case.<br/>
+<br><br><br/>
+If CategoryID is not specified, eBay returns the feature settings for<br/>
+the site. To return details on all categories that have overrides on<br/>
+the properties they inherit, set DetailLevel to ReturnAll, and set<br/>
+ViewAllNodes to true. If you also set AllFeaturesForCategory to true,<br/>
+eBay returns only the site defaults with no child category information.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *categoryID</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Specifies the category for which you want to retrieve the feature settings.<br/>
+<br><br><br/>
+Specify a CategoryID, set DetailLevel to ReturnAll, and set<br/>
+ViewAllNodes to true to return the default site settings, the<br/>
+overrides for the specified category, plus all the child<br/>
+categories that have overrides on the features they inherit.<br/>
+<br><br><br/>
+If you also set AllFeaturesForCategory to true, eBay returns the site<br/>
+defaults, plus all the settings for the specified category. Child<br/>
+category information is not returned in this case.<br/>
+<br><br><br/>
+If CategoryID is not specified, eBay returns the feature settings for<br/>
+the site. To return details on all categories that have overrides on<br/>
+the properties they inherit, set DetailLevel to ReturnAll, and set<br/>
+ViewAllNodes to true. If you also set AllFeaturesForCategory to true,<br/>
+eBay returns only the site defaults with no child category information.</p>
+
+<p>type : NSString, wrapper for primitive string</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_GetCategoryFeaturesRequestType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/featureID" title="featureID"></a>
+	<h3 class="subsubtitle method-title">featureID</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Use this field if you want to know if specific features are enabled at the site<br/>
+or root category level. Multiple <b>FeatureID</b> elements can be<br/>
+used in the request. If no <b>FeatureID</b> elements are used, the<br/>
+call retrieves data for all features, as applicable to the other request<br/>
+parameters.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSMutableArray *featureID</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Use this field if you want to know if specific features are enabled at the site<br/>
+or root category level. Multiple <b>FeatureID</b> elements can be<br/>
+used in the request. If no <b>FeatureID</b> elements are used, the<br/>
+call retrieves data for all features, as applicable to the other request<br/>
+parameters.</p>
+
+<p>entry type : string constant in Trading_FeatureIDCodeType.h</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_GetCategoryFeaturesRequestType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/levelLimit" title="levelLimit"></a>
+	<h3 class="subsubtitle method-title">levelLimit</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>A level of depth in the category hierarchy. Retrieves all category<br/>
+nodes with a CategoryLevel less than or equal to the LevelLimit<br/>
+value.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSNumber *levelLimit</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>A level of depth in the category hierarchy. Retrieves all category<br/>
+nodes with a CategoryLevel less than or equal to the LevelLimit<br/>
+value.</p>
+
+<p>type : NSNumber, wrapper for primitive int</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_GetCategoryFeaturesRequestType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/viewAllNodes" title="viewAllNodes"></a>
+	<h3 class="subsubtitle method-title">viewAllNodes</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>You must set DetailLevel to ReturnAll in order to correctly populate the<br/>
+response when you set ViewAllNodes to true. In this case, eBay returns the<br/>
+site defaults along with all the categories that override the feature<br/>
+settings they inherit. Here, each Category container shows only the<br/>
+features that it has overridden from its parent node.<br/>
+<br><br><br/>
+If you also specify a CategoryID, eBay returns the details for that category,<br/>
+along with containers for each of its child categories that have feature<br/>
+overrides.<br/>
+<br><br><br/>
+Note that if ViewAllNodes is set to false (the default) and DetailLevel is<br/>
+set to ReturnAll, eBay returns only the leaf categories that have features<br/>
+that override the settings they inherit. In this case, the call will not<br/>
+return leaf categories that do not have overrides.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSNumber *viewAllNodes</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>You must set DetailLevel to ReturnAll in order to correctly populate the<br/>
+response when you set ViewAllNodes to true. In this case, eBay returns the<br/>
+site defaults along with all the categories that override the feature<br/>
+settings they inherit. Here, each Category container shows only the<br/>
+features that it has overridden from its parent node.<br/>
+<br><br><br/>
+If you also specify a CategoryID, eBay returns the details for that category,<br/>
+along with containers for each of its child categories that have feature<br/>
+overrides.<br/>
+<br><br><br/>
+Note that if ViewAllNodes is set to false (the default) and DetailLevel is<br/>
+set to ReturnAll, eBay returns only the leaf categories that have features<br/>
+that override the settings they inherit. In this case, the call will not<br/>
+return leaf categories that do not have overrides.</p>
+
+<p>type : NSNumber, wrapper for primitive bool</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_GetCategoryFeaturesRequestType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 LeanSoft Technology. All rights reserved. (Last updated: 2013-03-31)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.1 (build 858)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

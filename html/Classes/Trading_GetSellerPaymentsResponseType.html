@@ -1,0 +1,671 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>Trading_GetSellerPaymentsResponseType Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.1 (build 858)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">PicoEBayTradingClient </a></h1>
+				<a id="developerHome" href="../index.html">LeanSoft Technology</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">Trading_GetSellerPaymentsResponseType Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/hasMorePayments">&nbsp;&nbsp;&nbsp;&nbsp;hasMorePayments</option>
+	
+	<option value="//api/name/pageNumber">&nbsp;&nbsp;&nbsp;&nbsp;pageNumber</option>
+	
+	<option value="//api/name/paginationResult">&nbsp;&nbsp;&nbsp;&nbsp;paginationResult</option>
+	
+	<option value="//api/name/paymentsPerPage">&nbsp;&nbsp;&nbsp;&nbsp;paymentsPerPage</option>
+	
+	<option value="//api/name/returnedPaymentCountActual">&nbsp;&nbsp;&nbsp;&nbsp;returnedPaymentCountActual</option>
+	
+	<option value="//api/name/sellerPayment">&nbsp;&nbsp;&nbsp;&nbsp;sellerPayment</option>
+	
+	
+	
+	
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/hasMorePayments">hasMorePayments</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/pageNumber">pageNumber</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/paginationResult">paginationResult</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/paymentsPerPage">paymentsPerPage</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/returnedPaymentCountActual">returnedPaymentCountActual</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/sellerPayment">sellerPayment</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="Trading_GetSellerPaymentsResponseType Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">Trading_GetSellerPaymentsResponseType Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value"><a href="../Classes/Trading_AbstractResponseType.html">Trading_AbstractResponseType</a> : NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">Trading_GetSellerPaymentsResponseType.h<br />Trading_GetSellerPaymentsResponseType.m</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>Returns a summary of pending or paid payments that Half.com created for the seller<br/>
+identified by the authentication token in the request. Only returns payments that<br/>
+occurred within a particular pay period. Each payment is for one transaction for<br/>
+one item in one order. An order can contain transactions for multiple items from<br/>
+multiple sellers, but this call only retrieves payments that are relevant to one<br/>
+seller. Payments are only issued for items and transactions that the seller has<br/>
+confirmed (see the Half.com online help for details). The financial value of a<br/>
+payment is typically based on an amount that a buyer paid to Half.com for a<br/>
+transaction, plus the shipping cost the buyer paid to Half.com for the item, minus<br/>
+Half.com&rsquo;s commission. For most sellers, each month contains two pay periods: One<br/>
+from the 1st to the 15th of the month, and one from the 16th to the last day of<br/>
+the month. Payments are submitted to the seller&rsquo;s financial institution a certain<br/>
+number of days after the current pay period ends (see the Half.com online help for<br/>
+details).</p>
+
+<p>@ingroup EBayAPIInterface</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/paginationResult">&nbsp;&nbsp;paginationResult</a></code>
+		<span class="tooltip"><p>Contains information regarding the pagination of data (if pagination is used),<br/>
+including total number of pages and total number of entries.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/hasMorePayments">&nbsp;&nbsp;hasMorePayments</a></code>
+		<span class="tooltip"><p>If true, there are more payments yet to be retrieved. Additional<br/>
+GetSellerPayments calls with higher page numbers or more entries per page<br/>
+must be made to retrieve these payments. If false, no more payments are<br/>
+available or no payments match the request (based on the payment status<br/>
+and time filter).</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/sellerPayment">&nbsp;&nbsp;sellerPayment</a></code>
+		<span class="tooltip"><p>Information about a single payment that matches the criteria in the<br/>
+request. A payment is between Half.com and a seller. Each payment is for<br/>
+one transaction for one item in one order. An order can contain<br/>
+transactions for multiple items from multiple sellers, but this call only<br/>
+retrieves payments that are relevant to one seller. The financial value of<br/>
+a payment is typically based on an amount that a buyer paid to Half.com<br/>
+for a transaction, plus the shipping cost the buyer paid for the item,<br/>
+minus Half.com&rsquo;s commission. Payments can also describe refunds that the<br/>
+seller has issued. Multiple SellerPayment entries can be returned per page<br/>
+of results. Typically, they are returned in reverse chronological order<br/>
+(most recent PaidTime first). Only returned if payments exist that match<br/>
+the request.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/paymentsPerPage">&nbsp;&nbsp;paymentsPerPage</a></code>
+		<span class="tooltip"><p>Indicates the number of payments that can be returned per page of data<br/>
+(i.e., per call). This is the same as the value specified in the<br/>
+Pagination.EntriesPerPage input (or the default value, if EntriesPerPage<br/>
+was not specified). This is not necessarily the actual number of payments<br/>
+returned per page (see ReturnedPaymentCountActual).</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/pageNumber">&nbsp;&nbsp;pageNumber</a></code>
+		<span class="tooltip"><p>Indicates which page of data holds the current result set. Will be the<br/>
+same as the value specified in the Pagination.PageNumber input. (If the<br/>
+input is higher than the total number of pages, the call fails with an<br/>
+error.) If no payments are returned, the value is 0. If payments are<br/>
+returned, the first page number is 1.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/returnedPaymentCountActual">&nbsp;&nbsp;returnedPaymentCountActual</a></code>
+		<span class="tooltip"><p>Indicates the total number of payments returned (i.e., the number of<br/>
+SellerPayment entries returned.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/hasMorePayments" title="hasMorePayments"></a>
+	<h3 class="subsubtitle method-title">hasMorePayments</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>If true, there are more payments yet to be retrieved. Additional<br/>
+GetSellerPayments calls with higher page numbers or more entries per page<br/>
+must be made to retrieve these payments. If false, no more payments are<br/>
+available or no payments match the request (based on the payment status<br/>
+and time filter).</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSNumber *hasMorePayments</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>If true, there are more payments yet to be retrieved. Additional<br/>
+GetSellerPayments calls with higher page numbers or more entries per page<br/>
+must be made to retrieve these payments. If false, no more payments are<br/>
+available or no payments match the request (based on the payment status<br/>
+and time filter).</p>
+
+<p>type : NSNumber, wrapper for primitive bool</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_GetSellerPaymentsResponseType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/pageNumber" title="pageNumber"></a>
+	<h3 class="subsubtitle method-title">pageNumber</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Indicates which page of data holds the current result set. Will be the<br/>
+same as the value specified in the Pagination.PageNumber input. (If the<br/>
+input is higher than the total number of pages, the call fails with an<br/>
+error.) If no payments are returned, the value is 0. If payments are<br/>
+returned, the first page number is 1.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSNumber *pageNumber</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Indicates which page of data holds the current result set. Will be the<br/>
+same as the value specified in the Pagination.PageNumber input. (If the<br/>
+input is higher than the total number of pages, the call fails with an<br/>
+error.) If no payments are returned, the value is 0. If payments are<br/>
+returned, the first page number is 1.</p>
+
+<p>type : NSNumber, wrapper for primitive int</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_GetSellerPaymentsResponseType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/paginationResult" title="paginationResult"></a>
+	<h3 class="subsubtitle method-title">paginationResult</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Contains information regarding the pagination of data (if pagination is used),<br/>
+including total number of pages and total number of entries.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_PaginationResultType *paginationResult</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Contains information regarding the pagination of data (if pagination is used),<br/>
+including total number of pages and total number of entries.</p>
+
+<p>type : class <a href="../Classes/Trading_PaginationResultType.html">Trading_PaginationResultType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_GetSellerPaymentsResponseType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/paymentsPerPage" title="paymentsPerPage"></a>
+	<h3 class="subsubtitle method-title">paymentsPerPage</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Indicates the number of payments that can be returned per page of data<br/>
+(i.e., per call). This is the same as the value specified in the<br/>
+Pagination.EntriesPerPage input (or the default value, if EntriesPerPage<br/>
+was not specified). This is not necessarily the actual number of payments<br/>
+returned per page (see ReturnedPaymentCountActual).</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSNumber *paymentsPerPage</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Indicates the number of payments that can be returned per page of data<br/>
+(i.e., per call). This is the same as the value specified in the<br/>
+Pagination.EntriesPerPage input (or the default value, if EntriesPerPage<br/>
+was not specified). This is not necessarily the actual number of payments<br/>
+returned per page (see ReturnedPaymentCountActual).</p>
+
+<p>type : NSNumber, wrapper for primitive int</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_GetSellerPaymentsResponseType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/returnedPaymentCountActual" title="returnedPaymentCountActual"></a>
+	<h3 class="subsubtitle method-title">returnedPaymentCountActual</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Indicates the total number of payments returned (i.e., the number of<br/>
+SellerPayment entries returned.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSNumber *returnedPaymentCountActual</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Indicates the total number of payments returned (i.e., the number of<br/>
+SellerPayment entries returned.</p>
+
+<p>type : NSNumber, wrapper for primitive int</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_GetSellerPaymentsResponseType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/sellerPayment" title="sellerPayment"></a>
+	<h3 class="subsubtitle method-title">sellerPayment</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Information about a single payment that matches the criteria in the<br/>
+request. A payment is between Half.com and a seller. Each payment is for<br/>
+one transaction for one item in one order. An order can contain<br/>
+transactions for multiple items from multiple sellers, but this call only<br/>
+retrieves payments that are relevant to one seller. The financial value of<br/>
+a payment is typically based on an amount that a buyer paid to Half.com<br/>
+for a transaction, plus the shipping cost the buyer paid for the item,<br/>
+minus Half.com&rsquo;s commission. Payments can also describe refunds that the<br/>
+seller has issued. Multiple SellerPayment entries can be returned per page<br/>
+of results. Typically, they are returned in reverse chronological order<br/>
+(most recent PaidTime first). Only returned if payments exist that match<br/>
+the request.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSMutableArray *sellerPayment</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Information about a single payment that matches the criteria in the<br/>
+request. A payment is between Half.com and a seller. Each payment is for<br/>
+one transaction for one item in one order. An order can contain<br/>
+transactions for multiple items from multiple sellers, but this call only<br/>
+retrieves payments that are relevant to one seller. The financial value of<br/>
+a payment is typically based on an amount that a buyer paid to Half.com<br/>
+for a transaction, plus the shipping cost the buyer paid for the item,<br/>
+minus Half.com&rsquo;s commission. Payments can also describe refunds that the<br/>
+seller has issued. Multiple SellerPayment entries can be returned per page<br/>
+of results. Typically, they are returned in reverse chronological order<br/>
+(most recent PaidTime first). Only returned if payments exist that match<br/>
+the request.</p>
+
+<p>entry type : class <a href="../Classes/Trading_SellerPaymentType.html">Trading_SellerPaymentType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_GetSellerPaymentsResponseType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 LeanSoft Technology. All rights reserved. (Last updated: 2013-03-31)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.1 (build 858)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

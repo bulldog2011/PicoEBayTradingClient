@@ -1,0 +1,908 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>Trading_GetRecommendationsRequestContainerType Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.1 (build 858)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">PicoEBayTradingClient </a></h1>
+				<a id="developerHome" href="../index.html">LeanSoft Technology</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">Trading_GetRecommendationsRequestContainerType Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/any">&nbsp;&nbsp;&nbsp;&nbsp;any</option>
+	
+	<option value="//api/name/correlationID">&nbsp;&nbsp;&nbsp;&nbsp;correlationID</option>
+	
+	<option value="//api/name/deletedField">&nbsp;&nbsp;&nbsp;&nbsp;deletedField</option>
+	
+	<option value="//api/name/excludeRelationships">&nbsp;&nbsp;&nbsp;&nbsp;excludeRelationships</option>
+	
+	<option value="//api/name/includeConfidence">&nbsp;&nbsp;&nbsp;&nbsp;includeConfidence</option>
+	
+	<option value="//api/name/item">&nbsp;&nbsp;&nbsp;&nbsp;item</option>
+	
+	<option value="//api/name/listingFlow">&nbsp;&nbsp;&nbsp;&nbsp;listingFlow</option>
+	
+	<option value="//api/name/query">&nbsp;&nbsp;&nbsp;&nbsp;query</option>
+	
+	<option value="//api/name/recommendationEngine">&nbsp;&nbsp;&nbsp;&nbsp;recommendationEngine</option>
+	
+	
+	
+	
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/any">any</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/correlationID">correlationID</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deletedField">deletedField</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/excludeRelationships">excludeRelationships</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/includeConfidence">includeConfidence</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/item">item</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/listingFlow">listingFlow</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/query">query</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/recommendationEngine">recommendationEngine</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="Trading_GetRecommendationsRequestContainerType Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">Trading_GetRecommendationsRequestContainerType Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value">PicoBindable</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">Trading_GetRecommendationsRequestContainerType.h<br />Trading_GetRecommendationsRequestContainerType.m</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>Specifies the data for a single <a href="#//api/name/item">item</a> and configures the recommendation engines to use<br/>
+when processing the <a href="#//api/name/item">item</a> with GetItemRecommendations.</p>
+
+<p>@ingroup EBayAPIInterface</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/listingFlow">&nbsp;&nbsp;listingFlow</a></code>
+		<span class="tooltip"><p>The listing flow for which the seller is seeking Listing Analyzer recommendations.<br/>
+Not applicable to results from other recommendation engines<br/>
+(i.e., the Suggested Attributes engine or the Product Pricing engine).<br/>
+The default flow is AddItem.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/item">&nbsp;&nbsp;item</a></code>
+		<span class="tooltip"><p>Contains fields that describe the item for which you are seeking recommendations. <br><br/>
+<br><br/>
+If the Listing Analyzer recommendation engine is run, the applicable fields are<br/>
+the same as the fields for AddItem, ReviseItem, or RelistItem<br/>
+requests, as determined by the value specified in ListingFlow.<br/>
+The item ID (Item.ItemID) is required when the ListingFlow is ReviseItem or RelistItem,<br/>
+and it is not applicable when the ListingFlow is AddItem.<br/>
+All other item fields are optional, even if listed as required for other calls.<br/>
+However, as some tips are dependent on the properties of the item, and as some properties<br/>
+have dependencies on other properties, we strongly recommend that you include all the item properties<br/>
+that will be included in the AddItem, ReviseItem, or RelistItem request.<br/>
+When the Listing Analyzer engine is run, tips will only be returned for fields that are specfied on the item.<br><br/>
+<br><br/>
+When the Product Pricing engine is run, pricing data will be based on the catalog product you specify.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/recommendationEngine">&nbsp;&nbsp;recommendationEngine</a></code>
+		<span class="tooltip"><p>A recommendation engine to run. If no engines are specified, all available<br/>
+recommendation engines will run. Some engines require additional fields,<br/>
+such as Item.PrimaryCategory.CategoryID, to be specified.<br/>
+If the ProductPricing engine is specified but Item.ProductListingDetails is not specified,<br/>
+no Product Pricing engine results are returned.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/query">&nbsp;&nbsp;query</a></code>
+		<span class="tooltip"><p>One or more keywords to search for when using the Suggested Attributes engine.<br/>
+Required when SuggestedAttributes is specified as the recommendation engine<br/>
+(including when no recommendation engines are specified). Only the listing title<br/>
+is searched. The words &ldquo;and&rdquo; and &ldquo;or&rdquo; are treated like <a href="#//api/name/any">any</a> other word.<br/>
+Blank searches are not allowed (and result in a warning).</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/correlationID">&nbsp;&nbsp;correlationID</a></code>
+		<span class="tooltip"><p>Unique key to identify the response that matches this recommendation request container.<br/>
+Use this key to distinguish between responses when multiple<br/>
+recommendation containers are specified (i.e., for batch requests).<br/>
+You define the key. To be useful, each correlation ID should be unique within<br/>
+the same call. That is, define a different correlation ID for each recommendation<br/>
+request container. (eBay does not validate the uniqueness of these IDs.)<br/>
+If specified, the same correlation ID will be returned in the corresponding<br/>
+recommendation response (or error response).<br/>
+We recommend that you use this when retrieving recommendations for multiple items at once.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deletedField">&nbsp;&nbsp;deletedField</a></code>
+		<span class="tooltip"><p>Specifies the name of the field to remove from a listing.<br/>
+Applicable when the ListingFlow is ReviseItem or RelistItem.<br/>
+See ReviseItem and RelistItem for applicable values.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/excludeRelationships">&nbsp;&nbsp;excludeRelationships</a></code>
+		<span class="tooltip"><p>If true, the Relationship node is not returned for <a href="#//api/name/any">any</a><br/>
+recommendations. Relationship recommendations tell you whether<br/>
+an Item Specific value has a logical dependency on another<br/>
+Item Specific.<br><br/>
+<br><br/>
+For example, in a clothing category, Size Type could be<br/>
+recommended as a parent of Size, because Size=Small would<br/>
+mean something different to buyers depending on whether<br/>
+Size Type=Petite or Size Type=Plus.<br><br/>
+<br><br/>
+In general, it is a good idea to retrieve and use relationship<br/>
+recommendations, as this data can help buyers find the items<br/>
+they want more easily.<br><br/>
+<br><br/>
+Only applicable when RecommendationEngine=ItemSpecifics.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/includeConfidence">&nbsp;&nbsp;includeConfidence</a></code>
+		<span class="tooltip"><p>If true, returns eBay&rsquo;s level of confidence for each<br/>
+name and value. Some sellers may find this useful when choosing<br/>
+whether to use eBay&rsquo;s recommendation or their own name or value.<br/>
+<br><br/>
+<br><br/>
+Only applicable when RecommendationEngine=ItemSpecifics.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/any">&nbsp;&nbsp;any</a></code>
+		<span class="tooltip"><p>(public property)</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/any" title="any"></a>
+	<h3 class="subsubtitle method-title">any</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>(public property)</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSMutableArray *any</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>(public property)</p>
+
+<p>entry type : PicoAnyElement, wrapper for primitive anyelement</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_GetRecommendationsRequestContainerType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/correlationID" title="correlationID"></a>
+	<h3 class="subsubtitle method-title">correlationID</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Unique key to identify the response that matches this recommendation request container.<br/>
+Use this key to distinguish between responses when multiple<br/>
+recommendation containers are specified (i.e., for batch requests).<br/>
+You define the key. To be useful, each correlation ID should be unique within<br/>
+the same call. That is, define a different correlation ID for each recommendation<br/>
+request container. (eBay does not validate the uniqueness of these IDs.)<br/>
+If specified, the same correlation ID will be returned in the corresponding<br/>
+recommendation response (or error response).<br/>
+We recommend that you use this when retrieving recommendations for multiple items at once.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *correlationID</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Unique key to identify the response that matches this recommendation request container.<br/>
+Use this key to distinguish between responses when multiple<br/>
+recommendation containers are specified (i.e., for batch requests).<br/>
+You define the key. To be useful, each correlation ID should be unique within<br/>
+the same call. That is, define a different correlation ID for each recommendation<br/>
+request container. (eBay does not validate the uniqueness of these IDs.)<br/>
+If specified, the same correlation ID will be returned in the corresponding<br/>
+recommendation response (or error response).<br/>
+We recommend that you use this when retrieving recommendations for multiple items at once.</p>
+
+<p>type : NSString, wrapper for primitive string</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_GetRecommendationsRequestContainerType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/deletedField" title="deletedField"></a>
+	<h3 class="subsubtitle method-title">deletedField</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Specifies the name of the field to remove from a listing.<br/>
+Applicable when the ListingFlow is ReviseItem or RelistItem.<br/>
+See ReviseItem and RelistItem for applicable values.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSMutableArray *deletedField</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Specifies the name of the field to remove from a listing.<br/>
+Applicable when the ListingFlow is ReviseItem or RelistItem.<br/>
+See ReviseItem and RelistItem for applicable values.</p>
+
+<p>entry type : NSString, wrapper for primitive string</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_GetRecommendationsRequestContainerType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/excludeRelationships" title="excludeRelationships"></a>
+	<h3 class="subsubtitle method-title">excludeRelationships</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>If true, the Relationship node is not returned for <a href="#//api/name/any">any</a><br/>
+recommendations. Relationship recommendations tell you whether<br/>
+an Item Specific value has a logical dependency on another<br/>
+Item Specific.<br><br/>
+<br><br/>
+For example, in a clothing category, Size Type could be<br/>
+recommended as a parent of Size, because Size=Small would<br/>
+mean something different to buyers depending on whether<br/>
+Size Type=Petite or Size Type=Plus.<br><br/>
+<br><br/>
+In general, it is a good idea to retrieve and use relationship<br/>
+recommendations, as this data can help buyers find the items<br/>
+they want more easily.<br><br/>
+<br><br/>
+Only applicable when RecommendationEngine=ItemSpecifics.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSNumber *excludeRelationships</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>If true, the Relationship node is not returned for <a href="#//api/name/any">any</a><br/>
+recommendations. Relationship recommendations tell you whether<br/>
+an Item Specific value has a logical dependency on another<br/>
+Item Specific.<br><br/>
+<br><br/>
+For example, in a clothing category, Size Type could be<br/>
+recommended as a parent of Size, because Size=Small would<br/>
+mean something different to buyers depending on whether<br/>
+Size Type=Petite or Size Type=Plus.<br><br/>
+<br><br/>
+In general, it is a good idea to retrieve and use relationship<br/>
+recommendations, as this data can help buyers find the items<br/>
+they want more easily.<br><br/>
+<br><br/>
+Only applicable when RecommendationEngine=ItemSpecifics.</p>
+
+<p>type : NSNumber, wrapper for primitive bool</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_GetRecommendationsRequestContainerType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/includeConfidence" title="includeConfidence"></a>
+	<h3 class="subsubtitle method-title">includeConfidence</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>If true, returns eBay&rsquo;s level of confidence for each<br/>
+name and value. Some sellers may find this useful when choosing<br/>
+whether to use eBay&rsquo;s recommendation or their own name or value.<br/>
+<br><br/>
+<br><br/>
+Only applicable when RecommendationEngine=ItemSpecifics.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSNumber *includeConfidence</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>If true, returns eBay&rsquo;s level of confidence for each<br/>
+name and value. Some sellers may find this useful when choosing<br/>
+whether to use eBay&rsquo;s recommendation or their own name or value.<br/>
+<br><br/>
+<br><br/>
+Only applicable when RecommendationEngine=ItemSpecifics.</p>
+
+<p>type : NSNumber, wrapper for primitive bool</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_GetRecommendationsRequestContainerType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/item" title="item"></a>
+	<h3 class="subsubtitle method-title">item</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Contains fields that describe the item for which you are seeking recommendations. <br><br/>
+<br><br/>
+If the Listing Analyzer recommendation engine is run, the applicable fields are<br/>
+the same as the fields for AddItem, ReviseItem, or RelistItem<br/>
+requests, as determined by the value specified in ListingFlow.<br/>
+The item ID (Item.ItemID) is required when the ListingFlow is ReviseItem or RelistItem,<br/>
+and it is not applicable when the ListingFlow is AddItem.<br/>
+All other item fields are optional, even if listed as required for other calls.<br/>
+However, as some tips are dependent on the properties of the item, and as some properties<br/>
+have dependencies on other properties, we strongly recommend that you include all the item properties<br/>
+that will be included in the AddItem, ReviseItem, or RelistItem request.<br/>
+When the Listing Analyzer engine is run, tips will only be returned for fields that are specfied on the item.<br><br/>
+<br><br/>
+When the Product Pricing engine is run, pricing data will be based on the catalog product you specify.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_ItemType *item</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Contains fields that describe the item for which you are seeking recommendations. <br><br/>
+<br><br/>
+If the Listing Analyzer recommendation engine is run, the applicable fields are<br/>
+the same as the fields for AddItem, ReviseItem, or RelistItem<br/>
+requests, as determined by the value specified in ListingFlow.<br/>
+The item ID (Item.ItemID) is required when the ListingFlow is ReviseItem or RelistItem,<br/>
+and it is not applicable when the ListingFlow is AddItem.<br/>
+All other item fields are optional, even if listed as required for other calls.<br/>
+However, as some tips are dependent on the properties of the item, and as some properties<br/>
+have dependencies on other properties, we strongly recommend that you include all the item properties<br/>
+that will be included in the AddItem, ReviseItem, or RelistItem request.<br/>
+When the Listing Analyzer engine is run, tips will only be returned for fields that are specfied on the item.<br><br/>
+<br><br/>
+When the Product Pricing engine is run, pricing data will be based on the catalog product you specify.</p>
+
+<p>type : class <a href="../Classes/Trading_ItemType.html">Trading_ItemType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_GetRecommendationsRequestContainerType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/listingFlow" title="listingFlow"></a>
+	<h3 class="subsubtitle method-title">listingFlow</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The listing flow for which the seller is seeking Listing Analyzer recommendations.<br/>
+Not applicable to results from other recommendation engines<br/>
+(i.e., the Suggested Attributes engine or the Product Pricing engine).<br/>
+The default flow is AddItem.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *listingFlow</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The listing flow for which the seller is seeking Listing Analyzer recommendations.<br/>
+Not applicable to results from other recommendation engines<br/>
+(i.e., the Suggested Attributes engine or the Product Pricing engine).<br/>
+The default flow is AddItem.</p>
+
+<p>type: string constant in Trading_ListingFlowCodeType.h</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_GetRecommendationsRequestContainerType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/query" title="query"></a>
+	<h3 class="subsubtitle method-title">query</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>One or more keywords to search for when using the Suggested Attributes engine.<br/>
+Required when SuggestedAttributes is specified as the recommendation engine<br/>
+(including when no recommendation engines are specified). Only the listing title<br/>
+is searched. The words &ldquo;and&rdquo; and &ldquo;or&rdquo; are treated like <a href="#//api/name/any">any</a> other word.<br/>
+Blank searches are not allowed (and result in a warning).</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *query</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>One or more keywords to search for when using the Suggested Attributes engine.<br/>
+Required when SuggestedAttributes is specified as the recommendation engine<br/>
+(including when no recommendation engines are specified). Only the listing title<br/>
+is searched. The words &ldquo;and&rdquo; and &ldquo;or&rdquo; are treated like <a href="#//api/name/any">any</a> other word.<br/>
+Blank searches are not allowed (and result in a warning).</p>
+
+<p>type : NSString, wrapper for primitive string</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_GetRecommendationsRequestContainerType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/recommendationEngine" title="recommendationEngine"></a>
+	<h3 class="subsubtitle method-title">recommendationEngine</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>A recommendation engine to run. If no engines are specified, all available<br/>
+recommendation engines will run. Some engines require additional fields,<br/>
+such as Item.PrimaryCategory.CategoryID, to be specified.<br/>
+If the ProductPricing engine is specified but Item.ProductListingDetails is not specified,<br/>
+no Product Pricing engine results are returned.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSMutableArray *recommendationEngine</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>A recommendation engine to run. If no engines are specified, all available<br/>
+recommendation engines will run. Some engines require additional fields,<br/>
+such as Item.PrimaryCategory.CategoryID, to be specified.<br/>
+If the ProductPricing engine is specified but Item.ProductListingDetails is not specified,<br/>
+no Product Pricing engine results are returned.</p>
+
+<p>entry type : string constant in Trading_RecommendationEngineCodeType.h</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_GetRecommendationsRequestContainerType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 LeanSoft Technology. All rights reserved. (Last updated: 2013-03-31)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.1 (build 858)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

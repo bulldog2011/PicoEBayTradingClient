@@ -1,0 +1,638 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>Trading_GetSellerPaymentsRequestType Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.1 (build 858)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">PicoEBayTradingClient </a></h1>
+				<a id="developerHome" href="../index.html">LeanSoft Technology</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">Trading_GetSellerPaymentsRequestType Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/pagination">&nbsp;&nbsp;&nbsp;&nbsp;pagination</option>
+	
+	<option value="//api/name/paymentStatus">&nbsp;&nbsp;&nbsp;&nbsp;paymentStatus</option>
+	
+	<option value="//api/name/paymentTimeFrom">&nbsp;&nbsp;&nbsp;&nbsp;paymentTimeFrom</option>
+	
+	<option value="//api/name/paymentTimeTo">&nbsp;&nbsp;&nbsp;&nbsp;paymentTimeTo</option>
+	
+	
+	
+	
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/pagination">pagination</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/paymentStatus">paymentStatus</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/paymentTimeFrom">paymentTimeFrom</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/paymentTimeTo">paymentTimeTo</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="Trading_GetSellerPaymentsRequestType Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">Trading_GetSellerPaymentsRequestType Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value"><a href="../Classes/Trading_AbstractRequestType.html">Trading_AbstractRequestType</a> : NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">Trading_GetSellerPaymentsRequestType.h<br />Trading_GetSellerPaymentsRequestType.m</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p><b>Half.com only.</b>&nbsp;Retrieves a summary of pending or paid payments that Half.com created for the<br/>
+seller identified by the authentication token in the request. Only retrieves<br/>
+payments that occurred within a particular pay period. Each payment is for one<br/>
+order line item in one order. An order can contain order line items for<br/>
+multiple items from multiple sellers, but this call only retrieves payments that<br/>
+are relevant to one seller. The financial value of a payment is typically based on<br/>
+an amount that a buyer paid to Half.com for an order line item, with adjustments for<br/>
+shipping costs and Half.com&rsquo;s commission. For most sellers, each month contains<br/>
+two pay periods: One from the 1st to the 15th of the month, and one from the 16th<br/>
+to the last day of the month. Sellers can refer to their account information on<br/>
+the Half.com site to determine their pay periods. (You cannot retrieve a seller's<br/>
+pay periods by using eBay Web Services.) When a buyer makes a purchase and an<br/>
+order is created, Half.com creates a payment for the seller and marks it as<br/>
+Pending in the seller&rsquo;s Half.com account. Within a certain number of days after<br/>
+the pay period ends, Half.com settles payments for that period and marks each<br/>
+completed payment as Paid. See the Half.com Web site online help for more<br/>
+information about how payments are managed.</p>
+
+<p>@ingroup EBayAPIInterface</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/paymentStatus">&nbsp;&nbsp;paymentStatus</a></code>
+		<span class="tooltip"><p>Filter to retrieve only items with the specified payment status (Paid or<br/>
+Pending). &ldquo;Pending payments&rdquo; are payments that Half.com has created but<br/>
+that have not yet been sent to the seller&rsquo;s financial institution. Pending<br/>
+payments are typically available once a buyer pays for an order. As<br/>
+Half.com processes payments by using periodic batch jobs, the<br/>
+GetSellerPayments response might not include an order line item&rsquo;s payment for<br/>
+up to 20 minutes after the buyer has paid. You can retrieve pending<br/>
+payments for the current pay period. Pending payments that have not been<br/>
+settled yet can also be retrieved for previous pay periods. &ldquo;Paid<br/>
+payments&rdquo; are payments that Half.com processed during previous pay<br/>
+periods. Paid payments might not appear in the seller&rsquo;s financial<br/>
+institution account balance until a certain number of days after the<br/>
+current pay period ends (see the Half.com online help for details). You<br/>
+can only retrieve paid payments for one previous pay period at a time.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/paymentTimeFrom">&nbsp;&nbsp;paymentTimeFrom</a></code>
+		<span class="tooltip"><p>Time range filter that retrieves Half.com payments that were created within<br/>
+a single pay period. Sellers can refer to the Half.com site to determine<br/>
+their pay periods. PaymentTimeFrom is the earliest (oldest) time and<br/>
+PaymentTimeTo is the latest (most recent) time in the range. Half.com pay<br/>
+periods start and end at midnight Pacific time, but the time values are<br/>
+stored in the database in GMT (not Pacific time). See &ldquo;Time Values&rdquo; in the<br/>
+eBay Web Services guide for information about converting between GMT and<br/>
+Pacific time. <br><br/>
+<br><br/>
+If you specify a PaymentStatus of Pending, add a buffer of one hour (or one<br/>
+day) to both ends of the time range to retrieve more data than you need, and<br/>
+then filter the results on the client side as needed. If any pending<br/>
+payments match the request, the response may include all payments since the<br/>
+beginning of the period. <br><br/>
+<br><br/>
+If you specify a PaymentStatus of Paid, the time range must contain one<br/>
+full pay period. That is, PaymentTimeFrom must be earlier or equal the<br/>
+start time of the pay period, and PaymentTimeTo must be later than or<br/>
+equal to the end time of the pay period. Otherwise, no paid payments are<br/>
+returned. For example, if the pay period starts on 2005-09-16 and ends on<br/>
+2005-09-30, you could specify an earlier PaymentTimeFrom value of<br/>
+2005-09-16T00:00:00.000Z and a later PaymentTimeTo value of<br/>
+2005-10-01T12:00:00.000Z. <br><br/>
+<br><br/>
+If you specify a time range that covers two pay periods, only the payments<br/>
+from the most recent pay period are returned. The earliest time you can<br/>
+specify is 18 months ago.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/paymentTimeTo">&nbsp;&nbsp;paymentTimeTo</a></code>
+		<span class="tooltip"><p>Time range filter that retrieves Half.com payments for a single pay<br/>
+period. See the description of PaymentTimeTo for details about using this<br/>
+time range filter. For paid payments, this value should be equal to or<br/>
+later than the end of the last day of the pay period, where the time is<br/>
+converted to GMT. For example, if the period ends on 2005-09-30, you could<br/>
+specify 2005-10-01T09:00:00.000Z, which is later than the end of the last<br/>
+day.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/pagination">&nbsp;&nbsp;pagination</a></code>
+		<span class="tooltip"><p>If many payments are available, you may need to call GetSellerPayments<br/>
+multiple times to retrieve all the data. Each result set is returned as a<br/>
+page of entries. Use this Pagination information to indicate the maximum<br/>
+number of entries to retrieve per page (i.e., per call), the page number<br/>
+to retrieve, and other data.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/pagination" title="pagination"></a>
+	<h3 class="subsubtitle method-title">pagination</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>If many payments are available, you may need to call GetSellerPayments<br/>
+multiple times to retrieve all the data. Each result set is returned as a<br/>
+page of entries. Use this Pagination information to indicate the maximum<br/>
+number of entries to retrieve per page (i.e., per call), the page number<br/>
+to retrieve, and other data.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_PaginationType *pagination</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>If many payments are available, you may need to call GetSellerPayments<br/>
+multiple times to retrieve all the data. Each result set is returned as a<br/>
+page of entries. Use this Pagination information to indicate the maximum<br/>
+number of entries to retrieve per page (i.e., per call), the page number<br/>
+to retrieve, and other data.</p>
+
+<p>type : class <a href="../Classes/Trading_PaginationType.html">Trading_PaginationType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_GetSellerPaymentsRequestType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/paymentStatus" title="paymentStatus"></a>
+	<h3 class="subsubtitle method-title">paymentStatus</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Filter to retrieve only items with the specified payment status (Paid or<br/>
+Pending). &ldquo;Pending payments&rdquo; are payments that Half.com has created but<br/>
+that have not yet been sent to the seller&rsquo;s financial institution. Pending<br/>
+payments are typically available once a buyer pays for an order. As<br/>
+Half.com processes payments by using periodic batch jobs, the<br/>
+GetSellerPayments response might not include an order line item&rsquo;s payment for<br/>
+up to 20 minutes after the buyer has paid. You can retrieve pending<br/>
+payments for the current pay period. Pending payments that have not been<br/>
+settled yet can also be retrieved for previous pay periods. &ldquo;Paid<br/>
+payments&rdquo; are payments that Half.com processed during previous pay<br/>
+periods. Paid payments might not appear in the seller&rsquo;s financial<br/>
+institution account balance until a certain number of days after the<br/>
+current pay period ends (see the Half.com online help for details). You<br/>
+can only retrieve paid payments for one previous pay period at a time.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *paymentStatus</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Filter to retrieve only items with the specified payment status (Paid or<br/>
+Pending). &ldquo;Pending payments&rdquo; are payments that Half.com has created but<br/>
+that have not yet been sent to the seller&rsquo;s financial institution. Pending<br/>
+payments are typically available once a buyer pays for an order. As<br/>
+Half.com processes payments by using periodic batch jobs, the<br/>
+GetSellerPayments response might not include an order line item&rsquo;s payment for<br/>
+up to 20 minutes after the buyer has paid. You can retrieve pending<br/>
+payments for the current pay period. Pending payments that have not been<br/>
+settled yet can also be retrieved for previous pay periods. &ldquo;Paid<br/>
+payments&rdquo; are payments that Half.com processed during previous pay<br/>
+periods. Paid payments might not appear in the seller&rsquo;s financial<br/>
+institution account balance until a certain number of days after the<br/>
+current pay period ends (see the Half.com online help for details). You<br/>
+can only retrieve paid payments for one previous pay period at a time.</p>
+
+<p>type: string constant in Trading_RCSPaymentStatusCodeType.h</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_GetSellerPaymentsRequestType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/paymentTimeFrom" title="paymentTimeFrom"></a>
+	<h3 class="subsubtitle method-title">paymentTimeFrom</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Time range filter that retrieves Half.com payments that were created within<br/>
+a single pay period. Sellers can refer to the Half.com site to determine<br/>
+their pay periods. PaymentTimeFrom is the earliest (oldest) time and<br/>
+PaymentTimeTo is the latest (most recent) time in the range. Half.com pay<br/>
+periods start and end at midnight Pacific time, but the time values are<br/>
+stored in the database in GMT (not Pacific time). See &ldquo;Time Values&rdquo; in the<br/>
+eBay Web Services guide for information about converting between GMT and<br/>
+Pacific time. <br><br/>
+<br><br/>
+If you specify a PaymentStatus of Pending, add a buffer of one hour (or one<br/>
+day) to both ends of the time range to retrieve more data than you need, and<br/>
+then filter the results on the client side as needed. If any pending<br/>
+payments match the request, the response may include all payments since the<br/>
+beginning of the period. <br><br/>
+<br><br/>
+If you specify a PaymentStatus of Paid, the time range must contain one<br/>
+full pay period. That is, PaymentTimeFrom must be earlier or equal the<br/>
+start time of the pay period, and PaymentTimeTo must be later than or<br/>
+equal to the end time of the pay period. Otherwise, no paid payments are<br/>
+returned. For example, if the pay period starts on 2005-09-16 and ends on<br/>
+2005-09-30, you could specify an earlier PaymentTimeFrom value of<br/>
+2005-09-16T00:00:00.000Z and a later PaymentTimeTo value of<br/>
+2005-10-01T12:00:00.000Z. <br><br/>
+<br><br/>
+If you specify a time range that covers two pay periods, only the payments<br/>
+from the most recent pay period are returned. The earliest time you can<br/>
+specify is 18 months ago.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSDate *paymentTimeFrom</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Time range filter that retrieves Half.com payments that were created within<br/>
+a single pay period. Sellers can refer to the Half.com site to determine<br/>
+their pay periods. PaymentTimeFrom is the earliest (oldest) time and<br/>
+PaymentTimeTo is the latest (most recent) time in the range. Half.com pay<br/>
+periods start and end at midnight Pacific time, but the time values are<br/>
+stored in the database in GMT (not Pacific time). See &ldquo;Time Values&rdquo; in the<br/>
+eBay Web Services guide for information about converting between GMT and<br/>
+Pacific time. <br><br/>
+<br><br/>
+If you specify a PaymentStatus of Pending, add a buffer of one hour (or one<br/>
+day) to both ends of the time range to retrieve more data than you need, and<br/>
+then filter the results on the client side as needed. If any pending<br/>
+payments match the request, the response may include all payments since the<br/>
+beginning of the period. <br><br/>
+<br><br/>
+If you specify a PaymentStatus of Paid, the time range must contain one<br/>
+full pay period. That is, PaymentTimeFrom must be earlier or equal the<br/>
+start time of the pay period, and PaymentTimeTo must be later than or<br/>
+equal to the end time of the pay period. Otherwise, no paid payments are<br/>
+returned. For example, if the pay period starts on 2005-09-16 and ends on<br/>
+2005-09-30, you could specify an earlier PaymentTimeFrom value of<br/>
+2005-09-16T00:00:00.000Z and a later PaymentTimeTo value of<br/>
+2005-10-01T12:00:00.000Z. <br><br/>
+<br><br/>
+If you specify a time range that covers two pay periods, only the payments<br/>
+from the most recent pay period are returned. The earliest time you can<br/>
+specify is 18 months ago.</p>
+
+<p>type : NSDate, wrapper for primitive date</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_GetSellerPaymentsRequestType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/paymentTimeTo" title="paymentTimeTo"></a>
+	<h3 class="subsubtitle method-title">paymentTimeTo</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Time range filter that retrieves Half.com payments for a single pay<br/>
+period. See the description of PaymentTimeTo for details about using this<br/>
+time range filter. For paid payments, this value should be equal to or<br/>
+later than the end of the last day of the pay period, where the time is<br/>
+converted to GMT. For example, if the period ends on 2005-09-30, you could<br/>
+specify 2005-10-01T09:00:00.000Z, which is later than the end of the last<br/>
+day.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSDate *paymentTimeTo</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Time range filter that retrieves Half.com payments for a single pay<br/>
+period. See the description of PaymentTimeTo for details about using this<br/>
+time range filter. For paid payments, this value should be equal to or<br/>
+later than the end of the last day of the pay period, where the time is<br/>
+converted to GMT. For example, if the period ends on 2005-09-30, you could<br/>
+specify 2005-10-01T09:00:00.000Z, which is later than the end of the last<br/>
+day.</p>
+
+<p>type : NSDate, wrapper for primitive date</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_GetSellerPaymentsRequestType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 LeanSoft Technology. All rights reserved. (Last updated: 2013-03-31)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.1 (build 858)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

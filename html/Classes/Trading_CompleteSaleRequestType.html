@@ -1,0 +1,1068 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>Trading_CompleteSaleRequestType Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.1 (build 858)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">PicoEBayTradingClient </a></h1>
+				<a id="developerHome" href="../index.html">LeanSoft Technology</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">Trading_CompleteSaleRequestType Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/feedbackInfo">&nbsp;&nbsp;&nbsp;&nbsp;feedbackInfo</option>
+	
+	<option value="//api/name/itemID">&nbsp;&nbsp;&nbsp;&nbsp;itemID</option>
+	
+	<option value="//api/name/listingType">&nbsp;&nbsp;&nbsp;&nbsp;listingType</option>
+	
+	<option value="//api/name/orderID">&nbsp;&nbsp;&nbsp;&nbsp;orderID</option>
+	
+	<option value="//api/name/orderLineItemID">&nbsp;&nbsp;&nbsp;&nbsp;orderLineItemID</option>
+	
+	<option value="//api/name/paid">&nbsp;&nbsp;&nbsp;&nbsp;paid</option>
+	
+	<option value="//api/name/shipment">&nbsp;&nbsp;&nbsp;&nbsp;shipment</option>
+	
+	<option value="//api/name/shipped">&nbsp;&nbsp;&nbsp;&nbsp;shipped</option>
+	
+	<option value="//api/name/transactionID">&nbsp;&nbsp;&nbsp;&nbsp;transactionID</option>
+	
+	
+	
+	
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/feedbackInfo">feedbackInfo</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/itemID">itemID</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/listingType">listingType</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/orderID">orderID</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/orderLineItemID">orderLineItemID</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/paid">paid</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/shipment">shipment</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/shipped">shipped</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/transactionID">transactionID</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="Trading_CompleteSaleRequestType Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">Trading_CompleteSaleRequestType Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value"><a href="../Classes/Trading_AbstractRequestType.html">Trading_AbstractRequestType</a> : NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">Trading_CompleteSaleRequestType.h<br />Trading_CompleteSaleRequestType.m</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>Enables a seller to do various tasks after the creation of a single line item or<br/>
+multiple line item order. Typically, this call is used after the<br/>
+buyer has <a href="#//api/name/paid">paid</a> for the order, but it can be called by the<br/>
+seller beforehand. Typical post-payment tasks available to this call include<br/>
+marking the order as <a href="#//api/name/paid">paid</a>, marking the order as <a href="#//api/name/shipped">shipped</a>, providing <a href="#//api/name/shipment">shipment</a> tracking<br/>
+details, and leaving feedback for the buyer.</p>
+
+<p>@ingroup EBayAPIInterface</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/itemID">&nbsp;&nbsp;itemID</a></code>
+		<span class="tooltip"><p>Unique identifier for an eBay item listing. An <b>ItemID</b> can be paired up<br/>
+with a corresponding <b>TransactionID</b> and used in the <b>CompleteSale</b> request<br/>
+to identify a single line item order.<br/>
+<br><br><br/>
+Unless an <b>OrderLineItemID</b> is used to identify a single line item order,<br/>
+or the <b>OrderID</b> is used to identify a single or multiple line item<br/>
+  order, the <b>ItemID</b>/<b>TransactionID</b> pair must be<br/>
+specified. For a multiple line item order, <b>OrderID</b><br/>
+must be used. If <b>OrderID</b> or <b>OrderLineItemID</b> are specified, the<br/>
+<b>ItemID</b>/<b>TransactionID</b> pair is ignored if present in the same request.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/transactionID">&nbsp;&nbsp;transactionID</a></code>
+		<span class="tooltip"><p>Unique identifier for an eBay order line item (transaction). The<br/>
+<b>TransactionID</b> can be paired up with the corresponding <b>ItemID</b> and used in<br/>
+the <b>CompleteSale</b> request to identify a single line item order.<br/>
+<br><br><br/>
+Unless an <b>OrderLineItemID</b> is used to identify a single line item order,<br/>
+or the <b>OrderID</b> is used to identify a single or multiple line item<br/>
+  order, the <b>ItemID</b>/<b>TransactionID</b> pair must be<br/>
+specified. For a multiple line item order, <b>OrderID</b><br/>
+must be used. If <b>OrderID</b> or <b>OrderLineItemID</b> are specified, the<br/>
+<b>ItemID</b>/<b>TransactionID</b> pair is ignored if present in the same request.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/feedbackInfo">&nbsp;&nbsp;feedbackInfo</a></code>
+		<span class="tooltip"><p>This container is used by the seller to leave feedback for the buyer for the<br/>
+order line item identified in the call request. The seller must include and<br/>
+specify all fields of this type, including the buyer&rsquo;s eBay User ID, the<br/>
+Feedback rating (a seller can only leave a buyer a &ldquo;Positive&rdquo; rating), and a<br/>
+comment, which helps justify the Feedback rating. The eBay User ID must match<br/>
+the buyer who bought the order line item, or an error will occur. An error will<br/>
+also occur if Feedback has already been left for the buyer (either through API<br/>
+or the Web flow).<br/>
+<br><br><br/>
+To determine if Feedback has already been left for an order line item, you can<br/>
+call <b class="con">GetFeedback</b>, passing in the<br/>
+<b class="con">OrderLineItemID</b> value in the call request.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/shipped">&nbsp;&nbsp;shipped</a></code>
+		<span class="tooltip"><p>The seller includes and sets this field to true if the order has been<br/>
+shipped. If the call is successful, the order line item(s) are marked as<br/>
+Shipped in My eBay.<br/>
+<br><br><br/>
+If the seller includes and sets this field to false, the order line item(s)<br/>
+are marked (or remain) as Not Shipped in My eBay.<br/>
+<br><br><br/>
+If this field is not included, the shipped status of the order line<br/>
+item(s) remain unchanged in My eBay.<br/>
+<br><br><br/>
+If <a href="#//api/name/shipment">shipment</a> tracking information is provided for an order line item through<br/>
+the Shipment container in the same request, the order line item is marked as<br/>
+shipped automatically and the <b>Shipped</b> field is not<br/>
+required.<br/>
+<br><br><br/>
+For orders going through the new payment process, DE and AT sellers mark an<br/>
+order as shipped to expedite the seller payout process.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/paid">&nbsp;&nbsp;paid</a></code>
+		<span class="tooltip"><p>The seller includes and sets this field to true if the buyer has paid for<br/>
+the order. If the call is successful, the<br/>
+order line item(s) are marked as Paid in My eBay.<br/>
+<br><br><br/>
+If the seller includes and sets this field to false, the order line item(s)<br/>
+are marked (or remain) as Not Paid in My eBay.<br/>
+<br><br><br/>
+If this field is not included, the paid status of the order line<br/>
+item(s) remain unchanged in My eBay.<br/>
+<br><br><br/>
+If an order is going through the new eBay payment process, DE and AT sellers<br/>
+cannot use this field to mark the order as paid, as this can only be<br/>
+done by eBay.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/listingType">&nbsp;&nbsp;listingType</a></code>
+		<span class="tooltip"><p>This field is required if <b>CompleteSale</b> is being used for a Half.com<br/>
+order. The value should be set to <i>Half</i>, which is the only applicable<br/>
+<b>ListingType</b> value for this call.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/shipment">&nbsp;&nbsp;shipment</a></code>
+		<span class="tooltip"><p>Container consisting of shipment tracking information, shipped time, and an<br/>
+optional text field to provide additional details to the buyer. Setting the<br/>
+tracking number and shipping carrier automatically marks the item as shipped<br/>
+and the <b>Shipped</b> field is not required.<br/>
+<br><br><br/>
+(If you supply <b>ShipmentTrackingNumber</b> you must also supply<br/>
+<b>ShippingCarrierUsed</b>, otherwise you will get an error.<br/>
+<br><br><br/>
+To modify the shipping tracking number and/or carrier, supply the new number<br/>
+in <b>ShipmentTrackingNumber</b> or supply the value for<br/>
+<b>ShippingCarrierUsed</b> or both. The old number and carrier<br/>
+are deleted and the new ones are added.<br/>
+<br><br><br/>
+To simply delete the current tracking details altogether, supply empty<br/>
+<b>Shipment</b> tags.<br/>
+<br><br/>
+<br><br/>
+<span class="tablenote"><b>Note:</b><br/>
+Top-rated sellers must have a record of uploading shipment tracking<br/>
+information (through site or through API) for at least 90 percent of their order line<br/>
+items (purchased by U.S. buyers) to keep their status as Top-rated sellers. For more<br/>
+information on changes to eBay&rsquo;s Top-rated seller program, see the<br/>
+<a href="[http://pages.ebay.com/sellerinformation/news/fallupdate2012/newetrsbadge.html](http://pages.ebay.com/sellerinformation/news/fallupdate2012/newetrsbadge.html)">2012 Fall Seller Update</a> page.<br/>
+</span><br/>
+<br></p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/orderID">&nbsp;&nbsp;orderID</a></code>
+		<span class="tooltip"><p>A unique identifier that identifies a single line item or multiple line<br/>
+item order.<br/>
+<br><br><br/>
+For a single line item order, the <b>OrderID</b> value is identical to the<br/>
+<b>OrderLineItemID</b> value that is generated upon creation of the order line<br/>
+item. For multiple line item orders, the <b>OrderID</b> value is created by eBay<br/>
+when the buyer is purchasing multiple order line items from the same seller at the same time.<br/>
+For multiple line item orders not going through the eBay Cart flow, a Combined Payment order can be created by the seller<br/>
+through the <b>AddOrder</b> call. The <b>OrderID</b> can be used in the <b>CompleteSale</b><br/>
+request to identify a single or multiple line item order.<br/>
+<br><br><br/>
+<b>OrderID</b> overrides an <b>OrderLineItemID</b> or <b>ItemID</b>/<b>TransactionID</b> pair if<br/>
+these fields are also specified in the same request.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/orderLineItemID">&nbsp;&nbsp;orderLineItemID</a></code>
+		<span class="tooltip"><p><b>OrderLineItemID</b> is a unique identifier for an eBay order line item and<br/>
+is based upon the concatenation of <b>ItemID</b> and <b>TransactionID</b>, with a<br/>
+hyphen in between these two IDs. For a single line item order, the<br/>
+<b>OrderLineItemID</b> value can be passed into the <b>OrderID</b> field in the<br/>
+<b>CompleteSale</b> request.<br/>
+<br><br><br/>
+Unless an <b>ItemID</b>/<b>TransactionID</b> pair is used to identify a single line<br/>
+item order, or the <b>OrderID</b> is used to identify a single or multiple line<br/>
+item order, the <b>OrderLineItemID</b> must be specified.<br/>
+For a multiple line item order, <b>OrderID</b> must be<br/>
+used. If <b>OrderLineItemID</b> is specified, the <b>ItemID</b>/<b>TransactionID</b> pair are<br/>
+ignored if present in the same request.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/feedbackInfo" title="feedbackInfo"></a>
+	<h3 class="subsubtitle method-title">feedbackInfo</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>This container is used by the seller to leave feedback for the buyer for the<br/>
+order line item identified in the call request. The seller must include and<br/>
+specify all fields of this type, including the buyer&rsquo;s eBay User ID, the<br/>
+Feedback rating (a seller can only leave a buyer a &ldquo;Positive&rdquo; rating), and a<br/>
+comment, which helps justify the Feedback rating. The eBay User ID must match<br/>
+the buyer who bought the order line item, or an error will occur. An error will<br/>
+also occur if Feedback has already been left for the buyer (either through API<br/>
+or the Web flow).<br/>
+<br><br><br/>
+To determine if Feedback has already been left for an order line item, you can<br/>
+call <b class="con">GetFeedback</b>, passing in the<br/>
+<b class="con">OrderLineItemID</b> value in the call request.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_FeedbackInfoType *feedbackInfo</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>This container is used by the seller to leave feedback for the buyer for the<br/>
+order line item identified in the call request. The seller must include and<br/>
+specify all fields of this type, including the buyer&rsquo;s eBay User ID, the<br/>
+Feedback rating (a seller can only leave a buyer a &ldquo;Positive&rdquo; rating), and a<br/>
+comment, which helps justify the Feedback rating. The eBay User ID must match<br/>
+the buyer who bought the order line item, or an error will occur. An error will<br/>
+also occur if Feedback has already been left for the buyer (either through API<br/>
+or the Web flow).<br/>
+<br><br><br/>
+To determine if Feedback has already been left for an order line item, you can<br/>
+call <b class="con">GetFeedback</b>, passing in the<br/>
+<b class="con">OrderLineItemID</b> value in the call request.</p>
+
+<p>type : class <a href="../Classes/Trading_FeedbackInfoType.html">Trading_FeedbackInfoType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_CompleteSaleRequestType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/itemID" title="itemID"></a>
+	<h3 class="subsubtitle method-title">itemID</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Unique identifier for an eBay item listing. An <b>ItemID</b> can be paired up<br/>
+with a corresponding <b>TransactionID</b> and used in the <b>CompleteSale</b> request<br/>
+to identify a single line item order.<br/>
+<br><br><br/>
+Unless an <b>OrderLineItemID</b> is used to identify a single line item order,<br/>
+or the <b>OrderID</b> is used to identify a single or multiple line item<br/>
+  order, the <b>ItemID</b>/<b>TransactionID</b> pair must be<br/>
+specified. For a multiple line item order, <b>OrderID</b><br/>
+must be used. If <b>OrderID</b> or <b>OrderLineItemID</b> are specified, the<br/>
+<b>ItemID</b>/<b>TransactionID</b> pair is ignored if present in the same request.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *itemID</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Unique identifier for an eBay item listing. An <b>ItemID</b> can be paired up<br/>
+with a corresponding <b>TransactionID</b> and used in the <b>CompleteSale</b> request<br/>
+to identify a single line item order.<br/>
+<br><br><br/>
+Unless an <b>OrderLineItemID</b> is used to identify a single line item order,<br/>
+or the <b>OrderID</b> is used to identify a single or multiple line item<br/>
+  order, the <b>ItemID</b>/<b>TransactionID</b> pair must be<br/>
+specified. For a multiple line item order, <b>OrderID</b><br/>
+must be used. If <b>OrderID</b> or <b>OrderLineItemID</b> are specified, the<br/>
+<b>ItemID</b>/<b>TransactionID</b> pair is ignored if present in the same request.</p>
+
+<p>type : NSString, wrapper for primitive string</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_CompleteSaleRequestType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/listingType" title="listingType"></a>
+	<h3 class="subsubtitle method-title">listingType</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>This field is required if <b>CompleteSale</b> is being used for a Half.com<br/>
+order. The value should be set to <i>Half</i>, which is the only applicable<br/>
+<b>ListingType</b> value for this call.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *listingType</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>This field is required if <b>CompleteSale</b> is being used for a Half.com<br/>
+order. The value should be set to <i>Half</i>, which is the only applicable<br/>
+<b>ListingType</b> value for this call.</p>
+
+<p>type: string constant in Trading_ListingTypeCodeType.h</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_CompleteSaleRequestType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/orderID" title="orderID"></a>
+	<h3 class="subsubtitle method-title">orderID</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>A unique identifier that identifies a single line item or multiple line<br/>
+item order.<br/>
+<br><br><br/>
+For a single line item order, the <b>OrderID</b> value is identical to the<br/>
+<b>OrderLineItemID</b> value that is generated upon creation of the order line<br/>
+item. For multiple line item orders, the <b>OrderID</b> value is created by eBay<br/>
+when the buyer is purchasing multiple order line items from the same seller at the same time.<br/>
+For multiple line item orders not going through the eBay Cart flow, a Combined Payment order can be created by the seller<br/>
+through the <b>AddOrder</b> call. The <b>OrderID</b> can be used in the <b>CompleteSale</b><br/>
+request to identify a single or multiple line item order.<br/>
+<br><br><br/>
+<b>OrderID</b> overrides an <b>OrderLineItemID</b> or <b>ItemID</b>/<b>TransactionID</b> pair if<br/>
+these fields are also specified in the same request.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *orderID</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>A unique identifier that identifies a single line item or multiple line<br/>
+item order.<br/>
+<br><br><br/>
+For a single line item order, the <b>OrderID</b> value is identical to the<br/>
+<b>OrderLineItemID</b> value that is generated upon creation of the order line<br/>
+item. For multiple line item orders, the <b>OrderID</b> value is created by eBay<br/>
+when the buyer is purchasing multiple order line items from the same seller at the same time.<br/>
+For multiple line item orders not going through the eBay Cart flow, a Combined Payment order can be created by the seller<br/>
+through the <b>AddOrder</b> call. The <b>OrderID</b> can be used in the <b>CompleteSale</b><br/>
+request to identify a single or multiple line item order.<br/>
+<br><br><br/>
+<b>OrderID</b> overrides an <b>OrderLineItemID</b> or <b>ItemID</b>/<b>TransactionID</b> pair if<br/>
+these fields are also specified in the same request.</p>
+
+<p>type : NSString, wrapper for primitive string</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_CompleteSaleRequestType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/orderLineItemID" title="orderLineItemID"></a>
+	<h3 class="subsubtitle method-title">orderLineItemID</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p><b>OrderLineItemID</b> is a unique identifier for an eBay order line item and<br/>
+is based upon the concatenation of <b>ItemID</b> and <b>TransactionID</b>, with a<br/>
+hyphen in between these two IDs. For a single line item order, the<br/>
+<b>OrderLineItemID</b> value can be passed into the <b>OrderID</b> field in the<br/>
+<b>CompleteSale</b> request.<br/>
+<br><br><br/>
+Unless an <b>ItemID</b>/<b>TransactionID</b> pair is used to identify a single line<br/>
+item order, or the <b>OrderID</b> is used to identify a single or multiple line<br/>
+item order, the <b>OrderLineItemID</b> must be specified.<br/>
+For a multiple line item order, <b>OrderID</b> must be<br/>
+used. If <b>OrderLineItemID</b> is specified, the <b>ItemID</b>/<b>TransactionID</b> pair are<br/>
+ignored if present in the same request.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *orderLineItemID</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p><b>OrderLineItemID</b> is a unique identifier for an eBay order line item and<br/>
+is based upon the concatenation of <b>ItemID</b> and <b>TransactionID</b>, with a<br/>
+hyphen in between these two IDs. For a single line item order, the<br/>
+<b>OrderLineItemID</b> value can be passed into the <b>OrderID</b> field in the<br/>
+<b>CompleteSale</b> request.<br/>
+<br><br><br/>
+Unless an <b>ItemID</b>/<b>TransactionID</b> pair is used to identify a single line<br/>
+item order, or the <b>OrderID</b> is used to identify a single or multiple line<br/>
+item order, the <b>OrderLineItemID</b> must be specified.<br/>
+For a multiple line item order, <b>OrderID</b> must be<br/>
+used. If <b>OrderLineItemID</b> is specified, the <b>ItemID</b>/<b>TransactionID</b> pair are<br/>
+ignored if present in the same request.</p>
+
+<p>type : NSString, wrapper for primitive string</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_CompleteSaleRequestType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/paid" title="paid"></a>
+	<h3 class="subsubtitle method-title">paid</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The seller includes and sets this field to true if the buyer has paid for<br/>
+the order. If the call is successful, the<br/>
+order line item(s) are marked as Paid in My eBay.<br/>
+<br><br><br/>
+If the seller includes and sets this field to false, the order line item(s)<br/>
+are marked (or remain) as Not Paid in My eBay.<br/>
+<br><br><br/>
+If this field is not included, the paid status of the order line<br/>
+item(s) remain unchanged in My eBay.<br/>
+<br><br><br/>
+If an order is going through the new eBay payment process, DE and AT sellers<br/>
+cannot use this field to mark the order as paid, as this can only be<br/>
+done by eBay.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSNumber *paid</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The seller includes and sets this field to true if the buyer has paid for<br/>
+the order. If the call is successful, the<br/>
+order line item(s) are marked as Paid in My eBay.<br/>
+<br><br><br/>
+If the seller includes and sets this field to false, the order line item(s)<br/>
+are marked (or remain) as Not Paid in My eBay.<br/>
+<br><br><br/>
+If this field is not included, the paid status of the order line<br/>
+item(s) remain unchanged in My eBay.<br/>
+<br><br><br/>
+If an order is going through the new eBay payment process, DE and AT sellers<br/>
+cannot use this field to mark the order as paid, as this can only be<br/>
+done by eBay.</p>
+
+<p>type : NSNumber, wrapper for primitive bool</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_CompleteSaleRequestType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/shipment" title="shipment"></a>
+	<h3 class="subsubtitle method-title">shipment</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Container consisting of shipment tracking information, shipped time, and an<br/>
+optional text field to provide additional details to the buyer. Setting the<br/>
+tracking number and shipping carrier automatically marks the item as shipped<br/>
+and the <b>Shipped</b> field is not required.<br/>
+<br><br><br/>
+(If you supply <b>ShipmentTrackingNumber</b> you must also supply<br/>
+<b>ShippingCarrierUsed</b>, otherwise you will get an error.<br/>
+<br><br><br/>
+To modify the shipping tracking number and/or carrier, supply the new number<br/>
+in <b>ShipmentTrackingNumber</b> or supply the value for<br/>
+<b>ShippingCarrierUsed</b> or both. The old number and carrier<br/>
+are deleted and the new ones are added.<br/>
+<br><br><br/>
+To simply delete the current tracking details altogether, supply empty<br/>
+<b>Shipment</b> tags.<br/>
+<br><br/>
+<br><br/>
+<span class="tablenote"><b>Note:</b><br/>
+Top-rated sellers must have a record of uploading shipment tracking<br/>
+information (through site or through API) for at least 90 percent of their order line<br/>
+items (purchased by U.S. buyers) to keep their status as Top-rated sellers. For more<br/>
+information on changes to eBay&rsquo;s Top-rated seller program, see the<br/>
+<a href="[http://pages.ebay.com/sellerinformation/news/fallupdate2012/newetrsbadge.html](http://pages.ebay.com/sellerinformation/news/fallupdate2012/newetrsbadge.html)">2012 Fall Seller Update</a> page.<br/>
+</span><br/>
+<br></p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_ShipmentType *shipment</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Container consisting of shipment tracking information, shipped time, and an<br/>
+optional text field to provide additional details to the buyer. Setting the<br/>
+tracking number and shipping carrier automatically marks the item as shipped<br/>
+and the <b>Shipped</b> field is not required.<br/>
+<br><br><br/>
+(If you supply <b>ShipmentTrackingNumber</b> you must also supply<br/>
+<b>ShippingCarrierUsed</b>, otherwise you will get an error.<br/>
+<br><br><br/>
+To modify the shipping tracking number and/or carrier, supply the new number<br/>
+in <b>ShipmentTrackingNumber</b> or supply the value for<br/>
+<b>ShippingCarrierUsed</b> or both. The old number and carrier<br/>
+are deleted and the new ones are added.<br/>
+<br><br><br/>
+To simply delete the current tracking details altogether, supply empty<br/>
+<b>Shipment</b> tags.<br/>
+<br><br/>
+<br><br/>
+<span class="tablenote"><b>Note:</b><br/>
+Top-rated sellers must have a record of uploading shipment tracking<br/>
+information (through site or through API) for at least 90 percent of their order line<br/>
+items (purchased by U.S. buyers) to keep their status as Top-rated sellers. For more<br/>
+information on changes to eBay&rsquo;s Top-rated seller program, see the<br/>
+<a href="[http://pages.ebay.com/sellerinformation/news/fallupdate2012/newetrsbadge.html](http://pages.ebay.com/sellerinformation/news/fallupdate2012/newetrsbadge.html)">2012 Fall Seller Update</a> page.<br/>
+</span><br/>
+<br></p>
+
+<p>type : class <a href="../Classes/Trading_ShipmentType.html">Trading_ShipmentType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_CompleteSaleRequestType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/shipped" title="shipped"></a>
+	<h3 class="subsubtitle method-title">shipped</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The seller includes and sets this field to true if the order has been<br/>
+shipped. If the call is successful, the order line item(s) are marked as<br/>
+Shipped in My eBay.<br/>
+<br><br><br/>
+If the seller includes and sets this field to false, the order line item(s)<br/>
+are marked (or remain) as Not Shipped in My eBay.<br/>
+<br><br><br/>
+If this field is not included, the shipped status of the order line<br/>
+item(s) remain unchanged in My eBay.<br/>
+<br><br><br/>
+If <a href="#//api/name/shipment">shipment</a> tracking information is provided for an order line item through<br/>
+the Shipment container in the same request, the order line item is marked as<br/>
+shipped automatically and the <b>Shipped</b> field is not<br/>
+required.<br/>
+<br><br><br/>
+For orders going through the new payment process, DE and AT sellers mark an<br/>
+order as shipped to expedite the seller payout process.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSNumber *shipped</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The seller includes and sets this field to true if the order has been<br/>
+shipped. If the call is successful, the order line item(s) are marked as<br/>
+Shipped in My eBay.<br/>
+<br><br><br/>
+If the seller includes and sets this field to false, the order line item(s)<br/>
+are marked (or remain) as Not Shipped in My eBay.<br/>
+<br><br><br/>
+If this field is not included, the shipped status of the order line<br/>
+item(s) remain unchanged in My eBay.<br/>
+<br><br><br/>
+If <a href="#//api/name/shipment">shipment</a> tracking information is provided for an order line item through<br/>
+the Shipment container in the same request, the order line item is marked as<br/>
+shipped automatically and the <b>Shipped</b> field is not<br/>
+required.<br/>
+<br><br><br/>
+For orders going through the new payment process, DE and AT sellers mark an<br/>
+order as shipped to expedite the seller payout process.</p>
+
+<p>type : NSNumber, wrapper for primitive bool</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_CompleteSaleRequestType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/transactionID" title="transactionID"></a>
+	<h3 class="subsubtitle method-title">transactionID</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Unique identifier for an eBay order line item (transaction). The<br/>
+<b>TransactionID</b> can be paired up with the corresponding <b>ItemID</b> and used in<br/>
+the <b>CompleteSale</b> request to identify a single line item order.<br/>
+<br><br><br/>
+Unless an <b>OrderLineItemID</b> is used to identify a single line item order,<br/>
+or the <b>OrderID</b> is used to identify a single or multiple line item<br/>
+  order, the <b>ItemID</b>/<b>TransactionID</b> pair must be<br/>
+specified. For a multiple line item order, <b>OrderID</b><br/>
+must be used. If <b>OrderID</b> or <b>OrderLineItemID</b> are specified, the<br/>
+<b>ItemID</b>/<b>TransactionID</b> pair is ignored if present in the same request.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *transactionID</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Unique identifier for an eBay order line item (transaction). The<br/>
+<b>TransactionID</b> can be paired up with the corresponding <b>ItemID</b> and used in<br/>
+the <b>CompleteSale</b> request to identify a single line item order.<br/>
+<br><br><br/>
+Unless an <b>OrderLineItemID</b> is used to identify a single line item order,<br/>
+or the <b>OrderID</b> is used to identify a single or multiple line item<br/>
+  order, the <b>ItemID</b>/<b>TransactionID</b> pair must be<br/>
+specified. For a multiple line item order, <b>OrderID</b><br/>
+must be used. If <b>OrderID</b> or <b>OrderLineItemID</b> are specified, the<br/>
+<b>ItemID</b>/<b>TransactionID</b> pair is ignored if present in the same request.</p>
+
+<p>type : NSString, wrapper for primitive string</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_CompleteSaleRequestType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 LeanSoft Technology. All rights reserved. (Last updated: 2013-03-31)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.1 (build 858)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

@@ -1,0 +1,736 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>Trading_BiddingDetailsType Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.1 (build 858)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">PicoEBayTradingClient </a></h1>
+				<a id="developerHome" href="../index.html">LeanSoft Technology</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">Trading_BiddingDetailsType Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/any">&nbsp;&nbsp;&nbsp;&nbsp;any</option>
+	
+	<option value="//api/name/bidAssistant">&nbsp;&nbsp;&nbsp;&nbsp;bidAssistant</option>
+	
+	<option value="//api/name/convertedMaxBid">&nbsp;&nbsp;&nbsp;&nbsp;convertedMaxBid</option>
+	
+	<option value="//api/name/maxBid">&nbsp;&nbsp;&nbsp;&nbsp;maxBid</option>
+	
+	<option value="//api/name/quantityBid">&nbsp;&nbsp;&nbsp;&nbsp;quantityBid</option>
+	
+	<option value="//api/name/quantityWon">&nbsp;&nbsp;&nbsp;&nbsp;quantityWon</option>
+	
+	<option value="//api/name/winning">&nbsp;&nbsp;&nbsp;&nbsp;winning</option>
+	
+	
+	
+	
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/any">any</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/bidAssistant">bidAssistant</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/convertedMaxBid">convertedMaxBid</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/maxBid">maxBid</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/quantityBid">quantityBid</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/quantityWon">quantityWon</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/winning">winning</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="Trading_BiddingDetailsType Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">Trading_BiddingDetailsType Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value">PicoBindable</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">Trading_BiddingDetailsType.h<br />Trading_BiddingDetailsType.m</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>Contains detailed information about a bid.</p>
+
+<p>@ingroup EBayAPIInterface</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/convertedMaxBid">&nbsp;&nbsp;convertedMaxBid</a></code>
+		<span class="tooltip"><p>Converted value of the amount in MaxBidAmount, in the currency<br/>
+indicated by SiteCurrency.<br/>
+For active items, refresh the listing&rsquo;s data every 24 hours to<br/>
+pick up the current conversion rates. Under conditions where this<br/>
+value would be inapplicable on the eBay site, this element is not returned<br/>
+at all.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/maxBid">&nbsp;&nbsp;maxBid</a></code>
+		<span class="tooltip"><p>Indicates the maximum amount the user has agreed to pay for the item when the<br/>
+user last submitted a bid. Under conditions where this value would be<br/>
+N/A on the eBay site, this element is not returned at all.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/quantityBid">&nbsp;&nbsp;quantityBid</a></code>
+		<span class="tooltip"><p>Number of items from the listing the user agreed to purchase with a bid. For<br/>
+single-item listings, always 1. For multi-item (Dutch) listings, the value will be<br/>
+between 1 and the number of items offered in the auction, indicating the<br/>
+number of items purchased so far.<br/>
+<br><br><br/>
+<span class="tablenote"><strong>Note:</strong><br/>
+As of version 619, Dutch-style (multi-item) competitive-bid auctions are deprecated.<br/>
+eBay throws an error if you submit a Dutch item listing with AddItem<br/>
+or VerifyAddItem. If you use RelistItem to update a Dutch auction listing,<br/>
+eBay generates a warning and resets the Quantity value to 1.<br/>
+</span><br/>
+<br></p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/quantityWon">&nbsp;&nbsp;quantityWon</a></code>
+		<span class="tooltip"><p>Used mainly for multi-item auctions (Dutch). For an active listing, indicates the<br/>
+number of items the user stands to win if their bid wins. For a listing that has<br/>
+ended, indicates the number of items the user actually won. In both cases, the number<br/>
+may be less than that returned in QuantityBid, the user with the lowest <a href="#//api/name/winning">winning</a> bid in<br/>
+a Dutch auction might not win all the items on which they bid.<br/>
+<br><br><br/>
+<span class="tablenote"><strong>Note:</strong><br/>
+As of version 619, Dutch-style (multi-item) competitive-bid auctions are deprecated.<br/>
+eBay throws an error if you submit a Dutch item listing with AddItem<br/>
+or VerifyAddItem. If you use RelistItem to update a Dutch auction listing,<br/>
+eBay generates a warning and resets the Quantity value to 1.<br/>
+</span><br/>
+<br></p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/winning">&nbsp;&nbsp;winning</a></code>
+		<span class="tooltip"><p>(GetMyeBay only) Indicates whether the user is the current<br/>
+high bidder in a currently active listing.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/bidAssistant">&nbsp;&nbsp;bidAssistant</a></code>
+		<span class="tooltip"><p>Indicates whether the current bid was placed by BidAssistant.<br/>
+Only returns if true.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/any">&nbsp;&nbsp;any</a></code>
+		<span class="tooltip"><p>(public property)</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/any" title="any"></a>
+	<h3 class="subsubtitle method-title">any</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>(public property)</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSMutableArray *any</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>(public property)</p>
+
+<p>entry type : PicoAnyElement, wrapper for primitive anyelement</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_BiddingDetailsType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/bidAssistant" title="bidAssistant"></a>
+	<h3 class="subsubtitle method-title">bidAssistant</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Indicates whether the current bid was placed by BidAssistant.<br/>
+Only returns if true.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSNumber *bidAssistant</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Indicates whether the current bid was placed by BidAssistant.<br/>
+Only returns if true.</p>
+
+<p>type : NSNumber, wrapper for primitive bool</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_BiddingDetailsType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/convertedMaxBid" title="convertedMaxBid"></a>
+	<h3 class="subsubtitle method-title">convertedMaxBid</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Converted value of the amount in MaxBidAmount, in the currency<br/>
+indicated by SiteCurrency.<br/>
+For active items, refresh the listing&rsquo;s data every 24 hours to<br/>
+pick up the current conversion rates. Under conditions where this<br/>
+value would be inapplicable on the eBay site, this element is not returned<br/>
+at all.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_AmountType *convertedMaxBid</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Converted value of the amount in MaxBidAmount, in the currency<br/>
+indicated by SiteCurrency.<br/>
+For active items, refresh the listing&rsquo;s data every 24 hours to<br/>
+pick up the current conversion rates. Under conditions where this<br/>
+value would be inapplicable on the eBay site, this element is not returned<br/>
+at all.</p>
+
+<p>type : class <a href="../Classes/Trading_AmountType.html">Trading_AmountType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_BiddingDetailsType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/maxBid" title="maxBid"></a>
+	<h3 class="subsubtitle method-title">maxBid</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Indicates the maximum amount the user has agreed to pay for the item when the<br/>
+user last submitted a bid. Under conditions where this value would be<br/>
+N/A on the eBay site, this element is not returned at all.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_AmountType *maxBid</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Indicates the maximum amount the user has agreed to pay for the item when the<br/>
+user last submitted a bid. Under conditions where this value would be<br/>
+N/A on the eBay site, this element is not returned at all.</p>
+
+<p>type : class <a href="../Classes/Trading_AmountType.html">Trading_AmountType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_BiddingDetailsType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/quantityBid" title="quantityBid"></a>
+	<h3 class="subsubtitle method-title">quantityBid</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Number of items from the listing the user agreed to purchase with a bid. For<br/>
+single-item listings, always 1. For multi-item (Dutch) listings, the value will be<br/>
+between 1 and the number of items offered in the auction, indicating the<br/>
+number of items purchased so far.<br/>
+<br><br><br/>
+<span class="tablenote"><strong>Note:</strong><br/>
+As of version 619, Dutch-style (multi-item) competitive-bid auctions are deprecated.<br/>
+eBay throws an error if you submit a Dutch item listing with AddItem<br/>
+or VerifyAddItem. If you use RelistItem to update a Dutch auction listing,<br/>
+eBay generates a warning and resets the Quantity value to 1.<br/>
+</span><br/>
+<br></p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSNumber *quantityBid</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Number of items from the listing the user agreed to purchase with a bid. For<br/>
+single-item listings, always 1. For multi-item (Dutch) listings, the value will be<br/>
+between 1 and the number of items offered in the auction, indicating the<br/>
+number of items purchased so far.<br/>
+<br><br><br/>
+<span class="tablenote"><strong>Note:</strong><br/>
+As of version 619, Dutch-style (multi-item) competitive-bid auctions are deprecated.<br/>
+eBay throws an error if you submit a Dutch item listing with AddItem<br/>
+or VerifyAddItem. If you use RelistItem to update a Dutch auction listing,<br/>
+eBay generates a warning and resets the Quantity value to 1.<br/>
+</span><br/>
+<br></p>
+
+<p>type : NSNumber, wrapper for primitive int</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_BiddingDetailsType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/quantityWon" title="quantityWon"></a>
+	<h3 class="subsubtitle method-title">quantityWon</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Used mainly for multi-item auctions (Dutch). For an active listing, indicates the<br/>
+number of items the user stands to win if their bid wins. For a listing that has<br/>
+ended, indicates the number of items the user actually won. In both cases, the number<br/>
+may be less than that returned in QuantityBid, the user with the lowest <a href="#//api/name/winning">winning</a> bid in<br/>
+a Dutch auction might not win all the items on which they bid.<br/>
+<br><br><br/>
+<span class="tablenote"><strong>Note:</strong><br/>
+As of version 619, Dutch-style (multi-item) competitive-bid auctions are deprecated.<br/>
+eBay throws an error if you submit a Dutch item listing with AddItem<br/>
+or VerifyAddItem. If you use RelistItem to update a Dutch auction listing,<br/>
+eBay generates a warning and resets the Quantity value to 1.<br/>
+</span><br/>
+<br></p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSNumber *quantityWon</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Used mainly for multi-item auctions (Dutch). For an active listing, indicates the<br/>
+number of items the user stands to win if their bid wins. For a listing that has<br/>
+ended, indicates the number of items the user actually won. In both cases, the number<br/>
+may be less than that returned in QuantityBid, the user with the lowest <a href="#//api/name/winning">winning</a> bid in<br/>
+a Dutch auction might not win all the items on which they bid.<br/>
+<br><br><br/>
+<span class="tablenote"><strong>Note:</strong><br/>
+As of version 619, Dutch-style (multi-item) competitive-bid auctions are deprecated.<br/>
+eBay throws an error if you submit a Dutch item listing with AddItem<br/>
+or VerifyAddItem. If you use RelistItem to update a Dutch auction listing,<br/>
+eBay generates a warning and resets the Quantity value to 1.<br/>
+</span><br/>
+<br></p>
+
+<p>type : NSNumber, wrapper for primitive int</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_BiddingDetailsType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/winning" title="winning"></a>
+	<h3 class="subsubtitle method-title">winning</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>(GetMyeBay only) Indicates whether the user is the current<br/>
+high bidder in a currently active listing.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSNumber *winning</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>(GetMyeBay only) Indicates whether the user is the current<br/>
+high bidder in a currently active listing.</p>
+
+<p>type : NSNumber, wrapper for primitive bool</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_BiddingDetailsType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 LeanSoft Technology. All rights reserved. (Last updated: 2013-03-31)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.1 (build 858)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

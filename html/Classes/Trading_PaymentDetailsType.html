@@ -1,0 +1,682 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>Trading_PaymentDetailsType Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.1 (build 858)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">PicoEBayTradingClient </a></h1>
+				<a id="developerHome" href="../index.html">LeanSoft Technology</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">Trading_PaymentDetailsType Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/any">&nbsp;&nbsp;&nbsp;&nbsp;any</option>
+	
+	<option value="//api/name/daysToFullPayment">&nbsp;&nbsp;&nbsp;&nbsp;daysToFullPayment</option>
+	
+	<option value="//api/name/depositAmount">&nbsp;&nbsp;&nbsp;&nbsp;depositAmount</option>
+	
+	<option value="//api/name/depositType">&nbsp;&nbsp;&nbsp;&nbsp;depositType</option>
+	
+	<option value="//api/name/hoursToDeposit">&nbsp;&nbsp;&nbsp;&nbsp;hoursToDeposit</option>
+	
+	
+	
+	
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/any">any</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/daysToFullPayment">daysToFullPayment</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/depositAmount">depositAmount</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/depositType">depositType</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/hoursToDeposit">hoursToDeposit</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="Trading_PaymentDetailsType Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">Trading_PaymentDetailsType Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value">PicoBindable</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">Trading_PaymentDetailsType.h<br />Trading_PaymentDetailsType.m</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>Type defining the <b>PaymentDetails</b> container, which is used by the seller to<br/>
+specify amounts and due dates for deposits and full payment on motor vehicle listings.</p>
+
+<p>@ingroup EBayAPIInterface</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/hoursToDeposit">&nbsp;&nbsp;hoursToDeposit</a></code>
+		<span class="tooltip"><p>This integer value indicates the number of hours that a buyer has (after he/she commits to<br/>
+buy) to make a deposit to the seller as a down payment on a motor vehicle. Valid values are<br/>
+&lsquo;24&rsquo;, &lsquo;48&rsquo; (default), and &lsquo;72&rsquo;.<br/>
+<br/><br/><br/>
+The deposit amount is specified in the <b>DepositAmount</b> field. If not<br/>
+specified, the <b>DepositAmount</b> value defaults to 0.0, in which case, a<br/>
+deposit on the vehicle is not required.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/daysToFullPayment">&nbsp;&nbsp;daysToFullPayment</a></code>
+		<span class="tooltip"><p>This integer value indicates the number of days that a buyer has (after he/she commits to<br/>
+buy) to make full payment to the seller and close the remaining balance on a motor vehicle.<br/>
+Valid values are &lsquo;3&rsquo;, &lsquo;7&rsquo; (default), &lsquo;10&rsquo;, and &lsquo;14&rsquo;.<br/>
+<br/><br/><br/>
+In order for a buyer to make a full payment on an US or CA motor vehicle, at least one of<br/>
+the following <b>PaymentMethods</b> values must be specified for the<br/>
+listing:</p>
+
+<ul>  
+<li>CashInPerson</li>  
+<li>LoanCheck</li>  
+<li>MOCC (money order or cashier's check)</li>  
+<li>PaymentSeeDescription (indicates to prospective buyers that payment instructions  
+are in the item's description</li>  
+<li>PersonalCheck</li>  
+</ul>
+</span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/depositAmount">&nbsp;&nbsp;depositAmount</a></code>
+		<span class="tooltip"><p>This dollar value indicates the amount of the deposit that a buyer must make on a purchased<br/>
+motor vehicle (eBay Motors US and CA). The deposit amount can be as high as $2,000.00. If not<br/>
+specified, this value defaults to &lsquo;0.0&rsquo;. If the seller is requiring that the buyer put down<br/>
+a deposit on the vehicle, the seller must include and set the <b>DepositType</b><br/>
+field to &lsquo;OtherMethod&rsquo; and specify an HoursToDeposit value.<br/>
+If specified, then also specify <b>HoursToDeposit</b><br/>
+<br><br/>
+<br><br/>
+Deposits can only be paid using PayPal, so if <b>DepositAmount</b> is<br/>
+specified (and not &lsquo;0.0&rsquo;), then the listing must offer<br/>
+&lsquo;PayPal&rsquo; as a payment method (in addition to the payment methods<br/>
+offered for the full payment). Unlike other listings, PayPal is not<br/>
+automatically added to a Motors listing even if the seller has a<br/>
+PayPal preference set in My eBay. The seller also needs to have a<br/>
+linked PayPal account in order to require a deposit.<br><br/>
+<br><br/>
+The deposit amount appears in the shipping, payment details and return policy section of the<br/>
+View Item page.<br><br/>
+<br><br/>
+<b>For ReviseItem and related calls</b>: If the listing<br/>
+has no bids, the seller can add or lower a deposit; and they can<br/>
+increase the deposit if the listing doesn&rsquo;t require Immediate Payment.<br/>
+The seller can also remove the Immediate Payment option (if <a href="#//api/name/any">any</a>).<br/>
+If the listing has bids, the seller can only lower an existing<br/>
+deposit; but not add or increase a deposit. The seller can&rsquo;t remove<br/>
+Immediate Payment when a listing with a deposit has bids.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/depositType">&nbsp;&nbsp;depositType</a></code>
+		<span class="tooltip"><p>This field applies to eBay Motors (US and CA) vehicles listings. If the seller is requiring<br/>
+that the buyer make a deposit on the vehicle, the <b>DepositType</b> value must be<br/>
+included and set to &lsquo;OtherMethod&rsquo;. Otherwise, specify &lsquo;None&rsquo; (or don&rsquo;t pass in <b>DepositType</b>).</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/any">&nbsp;&nbsp;any</a></code>
+		<span class="tooltip"><p>(public property)</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/any" title="any"></a>
+	<h3 class="subsubtitle method-title">any</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>(public property)</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSMutableArray *any</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>(public property)</p>
+
+<p>entry type : PicoAnyElement, wrapper for primitive anyelement</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_PaymentDetailsType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/daysToFullPayment" title="daysToFullPayment"></a>
+	<h3 class="subsubtitle method-title">daysToFullPayment</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>This integer value indicates the number of days that a buyer has (after he/she commits to<br/>
+buy) to make full payment to the seller and close the remaining balance on a motor vehicle.<br/>
+Valid values are &lsquo;3&rsquo;, &lsquo;7&rsquo; (default), &lsquo;10&rsquo;, and &lsquo;14&rsquo;.<br/>
+<br/><br/><br/>
+In order for a buyer to make a full payment on an US or CA motor vehicle, at least one of<br/>
+the following <b>PaymentMethods</b> values must be specified for the<br/>
+listing:</p>
+
+<ul>  
+<li>CashInPerson</li>  
+<li>LoanCheck</li>  
+<li>MOCC (money order or cashier's check)</li>  
+<li>PaymentSeeDescription (indicates to prospective buyers that payment instructions  
+are in the item's description</li>  
+<li>PersonalCheck</li>  
+</ul>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSNumber *daysToFullPayment</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>This integer value indicates the number of days that a buyer has (after he/she commits to<br/>
+buy) to make full payment to the seller and close the remaining balance on a motor vehicle.<br/>
+Valid values are &lsquo;3&rsquo;, &lsquo;7&rsquo; (default), &lsquo;10&rsquo;, and &lsquo;14&rsquo;.<br/>
+<br/><br/><br/>
+In order for a buyer to make a full payment on an US or CA motor vehicle, at least one of<br/>
+the following <b>PaymentMethods</b> values must be specified for the<br/>
+listing:</p>
+
+<ul>  
+<li>CashInPerson</li>  
+<li>LoanCheck</li>  
+<li>MOCC (money order or cashier's check)</li>  
+<li>PaymentSeeDescription (indicates to prospective buyers that payment instructions  
+are in the item's description</li>  
+<li>PersonalCheck</li>  
+</ul>
+
+
+<p></p>
+
+<p>type : NSNumber, wrapper for primitive int</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_PaymentDetailsType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/depositAmount" title="depositAmount"></a>
+	<h3 class="subsubtitle method-title">depositAmount</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>This dollar value indicates the amount of the deposit that a buyer must make on a purchased<br/>
+motor vehicle (eBay Motors US and CA). The deposit amount can be as high as $2,000.00. If not<br/>
+specified, this value defaults to &lsquo;0.0&rsquo;. If the seller is requiring that the buyer put down<br/>
+a deposit on the vehicle, the seller must include and set the <b>DepositType</b><br/>
+field to &lsquo;OtherMethod&rsquo; and specify an HoursToDeposit value.<br/>
+If specified, then also specify <b>HoursToDeposit</b><br/>
+<br><br/>
+<br><br/>
+Deposits can only be paid using PayPal, so if <b>DepositAmount</b> is<br/>
+specified (and not &lsquo;0.0&rsquo;), then the listing must offer<br/>
+&lsquo;PayPal&rsquo; as a payment method (in addition to the payment methods<br/>
+offered for the full payment). Unlike other listings, PayPal is not<br/>
+automatically added to a Motors listing even if the seller has a<br/>
+PayPal preference set in My eBay. The seller also needs to have a<br/>
+linked PayPal account in order to require a deposit.<br><br/>
+<br><br/>
+The deposit amount appears in the shipping, payment details and return policy section of the<br/>
+View Item page.<br><br/>
+<br><br/>
+<b>For ReviseItem and related calls</b>: If the listing<br/>
+has no bids, the seller can add or lower a deposit; and they can<br/>
+increase the deposit if the listing doesn&rsquo;t require Immediate Payment.<br/>
+The seller can also remove the Immediate Payment option (if <a href="#//api/name/any">any</a>).<br/>
+If the listing has bids, the seller can only lower an existing<br/>
+deposit; but not add or increase a deposit. The seller can&rsquo;t remove<br/>
+Immediate Payment when a listing with a deposit has bids.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) Trading_AmountType *depositAmount</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>This dollar value indicates the amount of the deposit that a buyer must make on a purchased<br/>
+motor vehicle (eBay Motors US and CA). The deposit amount can be as high as $2,000.00. If not<br/>
+specified, this value defaults to &lsquo;0.0&rsquo;. If the seller is requiring that the buyer put down<br/>
+a deposit on the vehicle, the seller must include and set the <b>DepositType</b><br/>
+field to &lsquo;OtherMethod&rsquo; and specify an HoursToDeposit value.<br/>
+If specified, then also specify <b>HoursToDeposit</b><br/>
+<br><br/>
+<br><br/>
+Deposits can only be paid using PayPal, so if <b>DepositAmount</b> is<br/>
+specified (and not &lsquo;0.0&rsquo;), then the listing must offer<br/>
+&lsquo;PayPal&rsquo; as a payment method (in addition to the payment methods<br/>
+offered for the full payment). Unlike other listings, PayPal is not<br/>
+automatically added to a Motors listing even if the seller has a<br/>
+PayPal preference set in My eBay. The seller also needs to have a<br/>
+linked PayPal account in order to require a deposit.<br><br/>
+<br><br/>
+The deposit amount appears in the shipping, payment details and return policy section of the<br/>
+View Item page.<br><br/>
+<br><br/>
+<b>For ReviseItem and related calls</b>: If the listing<br/>
+has no bids, the seller can add or lower a deposit; and they can<br/>
+increase the deposit if the listing doesn&rsquo;t require Immediate Payment.<br/>
+The seller can also remove the Immediate Payment option (if <a href="#//api/name/any">any</a>).<br/>
+If the listing has bids, the seller can only lower an existing<br/>
+deposit; but not add or increase a deposit. The seller can&rsquo;t remove<br/>
+Immediate Payment when a listing with a deposit has bids.</p>
+
+<p>type : class <a href="../Classes/Trading_AmountType.html">Trading_AmountType</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_PaymentDetailsType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/depositType" title="depositType"></a>
+	<h3 class="subsubtitle method-title">depositType</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>This field applies to eBay Motors (US and CA) vehicles listings. If the seller is requiring<br/>
+that the buyer make a deposit on the vehicle, the <b>DepositType</b> value must be<br/>
+included and set to &lsquo;OtherMethod&rsquo;. Otherwise, specify &lsquo;None&rsquo; (or don&rsquo;t pass in <b>DepositType</b>).</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *depositType</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>This field applies to eBay Motors (US and CA) vehicles listings. If the seller is requiring<br/>
+that the buyer make a deposit on the vehicle, the <b>DepositType</b> value must be<br/>
+included and set to &lsquo;OtherMethod&rsquo;. Otherwise, specify &lsquo;None&rsquo; (or don&rsquo;t pass in <b>DepositType</b>).</p>
+
+<p>type: string constant in Trading_DepositTypeCodeType.h</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_PaymentDetailsType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/hoursToDeposit" title="hoursToDeposit"></a>
+	<h3 class="subsubtitle method-title">hoursToDeposit</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>This integer value indicates the number of hours that a buyer has (after he/she commits to<br/>
+buy) to make a deposit to the seller as a down payment on a motor vehicle. Valid values are<br/>
+&lsquo;24&rsquo;, &lsquo;48&rsquo; (default), and &lsquo;72&rsquo;.<br/>
+<br/><br/><br/>
+The deposit amount is specified in the <b>DepositAmount</b> field. If not<br/>
+specified, the <b>DepositAmount</b> value defaults to 0.0, in which case, a<br/>
+deposit on the vehicle is not required.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSNumber *hoursToDeposit</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>This integer value indicates the number of hours that a buyer has (after he/she commits to<br/>
+buy) to make a deposit to the seller as a down payment on a motor vehicle. Valid values are<br/>
+&lsquo;24&rsquo;, &lsquo;48&rsquo; (default), and &lsquo;72&rsquo;.<br/>
+<br/><br/><br/>
+The deposit amount is specified in the <b>DepositAmount</b> field. If not<br/>
+specified, the <b>DepositAmount</b> value defaults to 0.0, in which case, a<br/>
+deposit on the vehicle is not required.</p>
+
+<p>type : NSNumber, wrapper for primitive int</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Trading_PaymentDetailsType.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 LeanSoft Technology. All rights reserved. (Last updated: 2013-03-31)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.1 (build 858)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>
