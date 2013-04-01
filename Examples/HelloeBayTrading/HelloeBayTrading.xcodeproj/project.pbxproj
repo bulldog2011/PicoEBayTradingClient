@@ -528,6 +528,7 @@
 				CE3FCBF7170929F60090DEAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
