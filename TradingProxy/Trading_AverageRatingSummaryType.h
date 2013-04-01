@@ -11,7 +11,7 @@
 @class Trading_AverageRatingDetailsType;
 
 /**
-  
+ 
  Container for average detailed seller ratings.
  If a seller has detailed ratings, they are displayed
  in the Feedback Profile of the seller.
@@ -43,7 +43,7 @@
  Applicable to sites that support the Detailed Seller Ratings feature.
  The AverageRatingDetails container has information about
  average detailed seller ratings.
- When buyers leave an overall Feedback rating (positive, neutral, or negative) for a seller, they also can leave ratings in four areas: item as described, communication, shipping time, and charges for shipping and handling. Users retrieve detailed ratings as averages of the ratings left by buyers. 
+ When buyers leave an overall Feedback rating (positive, neutral, or negative) for a seller, they also can leave ratings in four areas: item as described, communication, shipping time, and charges for shipping and handling. Users retrieve detailed ratings as averages of the ratings left by buyers.
  
  
  entry type : class Trading_AverageRatingDetailsType

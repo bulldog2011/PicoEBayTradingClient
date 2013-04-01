@@ -44,9 +44,9 @@
  
  The Country of Manufacture for the order line item; this is required for customs. This should identify the country in which more than 50% of the value of the item was created.
  <br/><br/>
- This value must conform to the ISO 3166 two-letter country code standard. 
- To see the list of currently supported codes, and the English names associated with each code 
- (e.g., KY="Cayman Islands"), call <b>GeteBayDetails</b> 
+ This value must conform to the ISO 3166 two-letter country code standard.
+ To see the list of currently supported codes, and the English names associated with each code
+ (e.g., KY="Cayman Islands"), call <b>GeteBayDetails</b>
  with <b>DetailName</b> set to <b>CountryDetails</b>.
  
  

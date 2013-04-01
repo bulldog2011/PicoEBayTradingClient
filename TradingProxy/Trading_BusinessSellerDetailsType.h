@@ -13,9 +13,9 @@
 
 /**
  
-   Displays the seller's information (in a business card format) 
-   as part of the data returned in the GetItem call if the seller's SellerBusinessCodeType is set to 'Commercial'. Note that this 
-   option is only available for sites that have Business Seller 
+   Displays the seller's information (in a business card format)
+   as part of the data returned in the GetItem call if the seller's SellerBusinessCodeType is set to 'Commercial'. Note that this
+   option is only available for sites that have Business Seller
    options enabled.
  
  
@@ -39,9 +39,9 @@
 
 /**
  
- Displays the Address of the seller (in a business card 
- format) as part of the data returned in the GetItem 
- call if the seller's SellerBusinessCodeType is set 
+ Displays the Address of the seller (in a business card
+ format) as part of the data returned in the GetItem
+ call if the seller's SellerBusinessCodeType is set
  to 'Commercial'.
  
  
@@ -51,9 +51,9 @@
 
 /**
  
- Displays the fax number of the seller (in a business 
- card format) as part of the data returned in the 
- GetItem call if the seller's SellerBusinessCodeType 
+ Displays the fax number of the seller (in a business
+ card format) as part of the data returned in the
+ GetItem call if the seller's SellerBusinessCodeType
  is set to 'Commercial'.
  
  
@@ -63,9 +63,9 @@
 
 /**
  
- Displays the email address of the seller (in a business 
- card format) as part of the data returned in the GetItem 
- call if the seller's SellerBusinessCodeType is set to 
+ Displays the email address of the seller (in a business
+ card format) as part of the data returned in the GetItem
+ call if the seller's SellerBusinessCodeType is set to
  'Commercial'.
  
  
@@ -75,9 +75,9 @@
 
 /**
  
- Displays the AdditionalContactInformation of the seller 
- (in a business card format) as part of the data returned 
- in the GetItem call if the seller's SellerBusinessCodeType 
+ Displays the AdditionalContactInformation of the seller
+ (in a business card format) as part of the data returned
+ in the GetItem call if the seller's SellerBusinessCodeType
  is set to 'Commercial'.
  
  
@@ -87,8 +87,8 @@
 
 /**
  
- Displays the TradeRegistrationNumber of the seller (in a business 
- card format) as part of the data returned in the GetItem call if 
+ Displays the TradeRegistrationNumber of the seller (in a business
+ card format) as part of the data returned in the GetItem call if
  the seller's SellerBusinessCodeType is set to 'Commercial'.
  
  
@@ -98,9 +98,9 @@
 
 /**
  
- Displays the LegalInvoice of the seller (in a business 
- card format) as part of the data returned in the GetItem 
- call if the seller's SellerBusinessCodeType is set to 
+ Displays the LegalInvoice of the seller (in a business
+ card format) as part of the data returned in the GetItem
+ call if the seller's SellerBusinessCodeType is set to
  'Commercial'.
  
  
@@ -110,9 +110,9 @@
 
 /**
  
- Displays the TermsAndConditions of the seller (in a business 
- card format) as part of the data returned in the GetItem 
- call if the seller's SellerBusinessCodeType is set to 
+ Displays the TermsAndConditions of the seller (in a business
+ card format) as part of the data returned in the GetItem
+ call if the seller's SellerBusinessCodeType is set to
  'Commercial'.
  
  
@@ -122,9 +122,9 @@
 
 /**
  
- Displays the VATDetails of the seller (in a business 
- card format) as part of the data returned in the 
- GetItem call if the seller's SellerBusinessCodeType 
+ Displays the VATDetails of the seller (in a business
+ card format) as part of the data returned in the
+ GetItem call if the seller's SellerBusinessCodeType
  is set to 'Commercial'.
  
  

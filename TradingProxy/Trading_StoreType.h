@@ -185,13 +185,13 @@
 
 /**
  
- Container consisting of an array of one or more <b>CustomCategory</b> 
- containers. Each <b>CustomCategory</b> container consists of details 
+ Container consisting of an array of one or more <b>CustomCategory</b>
+ containers. Each <b>CustomCategory</b> container consists of details
  related to an eBay Store custom category.
  <br>
  <br>
- To modify an eBay Store's custom categories, an eBay Store owner would use the 
- <b>StoreCategories</b> container in the request of a 
+ To modify an eBay Store's custom categories, an eBay Store owner would use the
+ <b>StoreCategories</b> container in the request of a
  <b>SetStoreCategories</b> call.
  
  

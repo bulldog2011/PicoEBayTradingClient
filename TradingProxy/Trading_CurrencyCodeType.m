@@ -6,19 +6,52 @@
 /**
  @file
  
- Defines the standard 3-letter ISO 4217 currency code set.
- However, only certain currency codes are currently valid for use on eBay.
- The valid codes are documented below with the notation "(in/out)".
- Other codes in this list are for future use.
- The documentation below specifies English names for each currency.
- To retrieve the names programmatically, call <b>GeteBayDetails</b> 
- with <b>DetailName</b> set to <b>Currency</b>.
- A reference: http://www.xe.com/iso4217.htm
+ This enumeration type contains a list of standard 3-digit ISO 4217 currency codes for
+ currency used in countries around the world.
+ <br/><br/>
+ When adding an item through <b>AddItem</b> (or related API call), the
+ <b>Item.Currency</b> value will default to the currency used on the listing
+ site. Otherwise, only the following currency types may be specified through an add listing
+ call:
+ <ul>
+ <li>USD - US Dollar</li>
+ <li>CAD - Canadian Dollar</li>
+ <li>GBP - British Pound</li>
+ <li>AUD - Australian Dollar</li>
+ <li>EUR - Euro</li>
+ <li>CHF - Swiss Franc</li>
+ <li>CNY - Chinese Renminbi</li>
+ <li>HKD - Hong Kong Dollar</li>
+ <li>PHP - Philippines Peso</li>
+ <li>PLN - Polish Zloty</li>
+ <li>SEK - Sweden Krona</li>
+ <li>SGD - Singapore Dollar</li>
+ <li>TWD - Taiwanese Dollar</li>
+ <li>INR - Indian Rupee</li>
+ <li>MYR - Malaysian Ringgit</li>
+ </ul>
+ <br/>
+ Other currency codes in this enumerated type may be returned in
+ <b>GetAccount</b> (and other calls) based on the buyer's and/or seller's
+ registration country. However, only the values listed above will be returned if you
+ call <b>GeteBayDetails</b> with <b>DetailName</b> set to
+ <b>CurrencyDetails</b>.
+ http://www.xe.com/iso4217.htm
  
 */
 
+/**
+ 
+ This value is a 3-digit code for Afghani, a currency used in Afghanistan.
+ 
+*/
 NSString *const Trading_CurrencyCodeType_AFA = @"AFA";
 
+/**
+ 
+ This value is a 3-digit code for Lek, a currency used in Albania.
+ 
+*/
 NSString *const Trading_CurrencyCodeType_ALL = @"ALL";
 
 NSString *const Trading_CurrencyCodeType_DZD = @"DZD";

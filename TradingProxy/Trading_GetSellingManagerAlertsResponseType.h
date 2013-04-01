@@ -13,7 +13,7 @@
 
 /**
  
- Type defining the call-specific response fields for the <b>GetSellingManagerAlerts</b> 
+ Type defining the call-specific response fields for the <b>GetSellingManagerAlerts</b>
  call.
  
  
@@ -29,8 +29,8 @@
 
 /**
  
- Container consisting of details related to a Selling Manager alert. Alert types 
- include listing automation, inventory, PaisaPay (India only), item sold, and 
+ Container consisting of details related to a Selling Manager alert. Alert types
+ include listing automation, inventory, PaisaPay (India only), item sold, and
  a general alert.
  
  

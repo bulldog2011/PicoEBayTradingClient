@@ -10,9 +10,9 @@
 
 
 /**
-  
+ 
  Applicable to sites that support the Detailed Seller Ratings feature.
- The ItemRatingDetailsType contains detailed seller ratings for an order line item in one area. When buyers leave an overall Feedback rating (positive, neutral, or negative) for a seller, they also can leave ratings in four areas: item as described, communication, shipping time, and charges for shipping and handling. Users retrieve detailed ratings as averages of the ratings left by buyers. 
+ The ItemRatingDetailsType contains detailed seller ratings for an order line item in one area. When buyers leave an overall Feedback rating (positive, neutral, or negative) for a seller, they also can leave ratings in four areas: item as described, communication, shipping time, and charges for shipping and handling. Users retrieve detailed ratings as averages of the ratings left by buyers.
  
  
  @ingroup EBayAPIInterface
@@ -32,7 +32,7 @@
  The area of a specific detailed seller rating for an order line item.
  When buyers leave an overall Feedback rating (positive, neutral, or negative)
  for a seller, they also can leave ratings in four areas: item as described,
- communication, shipping time, and charges for shipping and handling. 
+ communication, shipping time, and charges for shipping and handling.
  
  
  type: string constant in Trading_FeedbackRatingDetailCodeType.h
@@ -40,7 +40,7 @@
 @property (nonatomic, retain) NSString *ratingDetail;
 
 /**
-  
+ 
  A detailed seller rating for an order line item applied to the area
  in the corresponding RatingDetail field. Valid input values are
  numerical integers 1 though 5.

@@ -30,7 +30,7 @@
  One ExcludeShipToLocation field is returned for each region or country excluded
  as a possible shipping location in the seller's My eBay Shipping Preferences.
  Sellers can also exclude Alaska/Hawaii and Army Post Office/Fleet Post Office as
- possible shipping locations. For excluded countries, "http://www.iso.org/iso/country_codes/iso_3166_code_lists/english_country_names_and_code_elements.htm">ISO 3166</a> 
+ possible shipping locations. For excluded countries, "http://www.iso.org/iso/country_codes/iso_3166_code_lists/english_country_names_and_code_elements.htm">ISO 3166</a>
  country codes are returned.
  <br><br>
  Domestically, the seller can specify Alaska/Hawaii, US Protectorates (including

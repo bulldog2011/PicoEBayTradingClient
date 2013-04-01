@@ -22,7 +22,7 @@ NSString *const Trading_PayoutMethodType_PAYPAL = @"PAYPAL";
 
 /**
  
- This value indicates that the seller wants eBay to distribute payouts to their bank account via EFT 
+ This value indicates that the seller wants eBay to distribute payouts to their bank account via EFT
  (Electronic Funds Transfer).
  
 */

@@ -109,7 +109,7 @@
  track of how well you are providing members with positive buying
  experiences.
  <br><br>
- This element is not returned for all sites. 
+ This element is not returned for all sites.
  
  
  type : class Trading_BuyerSatisfactionDashboardType

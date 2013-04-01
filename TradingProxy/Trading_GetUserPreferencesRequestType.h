@@ -36,6 +36,7 @@
     NSNumber *_showSellerProfilePreferences;
     NSNumber *_showSellerReturnPreferences;
     NSNumber *_showGlobalShippingProgramPreference;
+    NSNumber *_showDispatchCutoffTimePreferences;
 
 }
 
@@ -246,6 +247,15 @@
  type : NSNumber, wrapper for primitive bool
 */
 @property (nonatomic, retain) NSNumber *showGlobalShippingProgramPreference;
+
+/**
+ 
+ If this flag is included and set to true, the seller's same day handling cut off time is returned in <strong>DispatchCutoffTimePreference</strong>.
+ 
+ 
+ type : NSNumber, wrapper for primitive bool
+*/
+@property (nonatomic, retain) NSNumber *showDispatchCutoffTimePreferences;
 
 
 @end

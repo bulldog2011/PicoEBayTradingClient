@@ -101,7 +101,7 @@
 /**
  
  The user name of the person involved in the dispute who
- is not taking action or requesting information. 
+ is not taking action or requesting information.
  
  
  type : NSString, wrapper for primitive string
@@ -152,7 +152,7 @@
 /**
  
  Container consisting of high-level details about the item involved in the
- dispute. 
+ dispute.
  
  
  type : class Trading_ItemType
@@ -183,13 +183,11 @@
 
 /**
  
- A value to indicate whether or not the seller is currently eligible for a Final Value Fee credit. This tag
- only indicates credit eligibility and does not mean that the case can be
- closed. (Credit eligibility determines whether the seller gets the Final Value
- Fee back when the dispute is closed.) The value is usually eligible until 4
- days (for new flow) or 7 days (for old flow) after the dispute was created
- unless the dispute is closed with buyer payment or Final Value Fee credit has
- already been granted.
+ A value to indicate whether or not the seller is currently eligible for a
+ Final Value Fee credit. The seller becomes eligible for a Final Value Fee
+ credit after filing and winning an Unpaid Item case. This tag only
+ indicates credit eligibility and does not mean that the case can be closed.
+ The seller can open a UPI case as soon as 2 days after the listing ends.
  
  
  type: string constant in Trading_DisputeCreditEligibilityCodeType.h

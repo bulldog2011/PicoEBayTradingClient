@@ -12,7 +12,7 @@
 
 /**
  
- Type that defines the <b>SellerDiscount</b> container, which contains the ID, 
+ Type that defines the <b>SellerDiscount</b> container, which contains the ID,
  name, and amount of the seller discount.
  
  
@@ -33,7 +33,7 @@
 /**
  
   Unique identifier for a seller discount campaign. This ID is automatically
-  created when the seller creates the discount campaign. This field is always returned 
+  created when the seller creates the discount campaign. This field is always returned
   with the <b>SellerDiscount</b> container.
  
  
@@ -43,9 +43,12 @@
 
 /**
  
-  The name of the seller discount campaign. This name is created by the seller. The name 
-  for a discount campaign is optional, so this field will only be returned with the 
-  <b>SellerDiscount</b> container if defined for the discount campaign.
+  The name of the seller discount campaign. A name can be associated with a seller discount
+  campaign when the seller uses the <b>createCampaigns</b> or
+  <b>updateCampaigns</b> calls of the Order Size Discounts API.
+  The name for a discount campaign is optional, so this field will only be
+  returned with the <b>SellerDiscount</b> container if defined
+  for the seller discount campaign.
  
  
  type : NSString, wrapper for primitive string
@@ -55,7 +58,9 @@
 /**
  
   The dollar amount of the order line item discount. The original purchase price (denoted
-  in <b>OriginalItemPrice</b>) will be reduced by this value.
+  in <b>OriginalItemPrice</b>) will be reduced by this value. The amount of the
+  item discount will depend on the rules defined in the the seller discount
+  campaign.
  
  
  type : class Trading_AmountType
@@ -65,7 +70,7 @@
 /**
  
  The dollar amount of the shipping discount applied to the order line item. Note that
- shipping discounts have not yet been enabled for seller discount campaigns, so this 
+ shipping discounts have not yet been enabled for seller discount campaigns, so this
  field will not be returned until shipping discounts are enabled.
  
  

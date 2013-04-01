@@ -72,29 +72,29 @@
  
  This dollar value indicates the amount of the deposit that a buyer must make on a purchased
  motor vehicle (eBay Motors US and CA). The deposit amount can be as high as $2,000.00. If not
- specified, this value defaults to '0.0'. If the seller is requiring that the buyer put down 
- a deposit on the vehicle, the seller must include and set the <b>DepositType</b> 
+ specified, this value defaults to '0.0'. If the seller is requiring that the buyer put down
+ a deposit on the vehicle, the seller must include and set the <b>DepositType</b>
  field to 'OtherMethod' and specify an HoursToDeposit value.
- If specified, then also specify <b>HoursToDeposit</b> 
+ If specified, then also specify <b>HoursToDeposit</b>
  <br>
  <br>
- Deposits can only be paid using PayPal, so if <b>DepositAmount</b> is 
+ Deposits can only be paid using PayPal, so if <b>DepositAmount</b> is
  specified (and not '0.0'), then the listing must offer
  'PayPal' as a payment method (in addition to the payment methods
- offered for the full payment). Unlike other listings, PayPal is not 
- automatically added to a Motors listing even if the seller has a 
- PayPal preference set in My eBay. The seller also needs to have a 
+ offered for the full payment). Unlike other listings, PayPal is not
+ automatically added to a Motors listing even if the seller has a
+ PayPal preference set in My eBay. The seller also needs to have a
  linked PayPal account in order to require a deposit.<br>
  <br>
- The deposit amount appears in the shipping, payment details and return policy section of the 
+ The deposit amount appears in the shipping, payment details and return policy section of the
  View Item page.<br>
  <br>
  <b>For ReviseItem and related calls</b>: If the listing
- has no bids, the seller can add or lower a deposit; and they can 
+ has no bids, the seller can add or lower a deposit; and they can
  increase the deposit if the listing doesn't require Immediate Payment.
  The seller can also remove the Immediate Payment option (if any).
- If the listing has bids, the seller can only lower an existing 
- deposit; but not add or increase a deposit. The seller can't remove 
+ If the listing has bids, the seller can only lower an existing
+ deposit; but not add or increase a deposit. The seller can't remove
  Immediate Payment when a listing with a deposit has bids.
  
  

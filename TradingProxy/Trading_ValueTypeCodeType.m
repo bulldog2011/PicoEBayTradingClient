@@ -14,7 +14,7 @@ NSString *const Trading_ValueTypeCodeType_DECIMAL = @"Decimal";
 
 /**
  
- Free-form text. This is the default. 
+ Free-form text. This is the default.
  Max length 50.
  
 */
@@ -46,7 +46,7 @@ NSString *const Trading_ValueTypeCodeType_EAN = @"EAN";
 /**
  
  A Date value, which can assume one of these formats:
- YYYYMMDD, YYYYMM, or YYYY. See ValueFormat for the 
+ YYYYMMDD, YYYYMM, or YYYY. See ValueFormat for the
  recommended format to use in listings.
  
 */

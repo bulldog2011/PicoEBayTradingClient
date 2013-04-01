@@ -11,7 +11,7 @@
 
 /**
  
- Indicates which address option the category supports for Classified Ad 
+ Indicates which address option the category supports for Classified Ad
  format listings.
  Added for Local Market users.
  

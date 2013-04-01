@@ -11,18 +11,18 @@
 
 /**
  
- Type defining the <b>SellerReturnProfile</b> container, which is used in an 
+ Type defining the <b>SellerReturnProfile</b> container, which is used in an
  Add/Revise/Relist Trading API call to reference a Business Policies return policy profile.
- Business Policies return policy profiles contain detailed information on 
+ Business Policies return policy profiles contain detailed information on
  the seller's return policy, including the refund option, how many days the buyer has
  to return the item for a refund, warranty information, and restocking fee (if any).
  <br/><br/>
- Business Policies return policy profiles are also returned in 
- <b>GetItem</b>, <b>GetMyeBaySelling</b>, and other 
+ Business Policies return policy profiles are also returned in
+ <b>GetItem</b>, <b>GetMyeBaySelling</b>, and other
  Trading calls that retrieve Item data.
  <br/><br/>
  <span class="tablenote"><b>Note:</b>
- Business Policies are not yet available for use on the eBay platform. 
+ Business Policies are not yet available for use on the eBay platform.
  <span/>
  
  
@@ -40,18 +40,18 @@
 
 /**
  
- The unique identifier of a Business Policies return policy profile. A <b>ReturnProfileID</b> 
+ The unique identifier of a Business Policies return policy profile. A <b>ReturnProfileID</b>
  and/or a <b>ReturnProfileName</b> value is used in the Add/Revise/Relist
  call to reference and use the payment policy values of a Business Policies return policy
- profile. If both fields are provided and their values don't match, the <b>ReturnProfileID</b> 
+ profile. If both fields are provided and their values don't match, the <b>ReturnProfileID</b>
  takes precedence.
  <br/><br/>
  In the "Get" calls, the <b>ReturnProfileID</b> value will always be
- returned if the listing is using a Business Policies return policy profile, and the <b>ReturnProfileName</b> 
+ returned if the listing is using a Business Policies return policy profile, and the <b>ReturnProfileName</b>
  value will be returned if a name is assigned to the return policy profile.
  <br/><br/>
  <span class="tablenote"><b>Note:</b>
- Business Policies are not yet available for use on the eBay platform. 
+ Business Policies are not yet available for use on the eBay platform.
  <span/>
  
  
@@ -61,18 +61,18 @@
 
 /**
  
- The name of a Business Policies return policy profile. A <b>ReturnProfileID</b> 
+ The name of a Business Policies return policy profile. A <b>ReturnProfileID</b>
  and/or a <b>ReturnProfileName</b> value is used in the Add/Revise/Relist
  call to reference and use the return policy values of a Business Policies return policy
- profile. If both fields are provided and their values don't match, the <b>ReturnProfileID</b> 
+ profile. If both fields are provided and their values don't match, the <b>ReturnProfileID</b>
  takes precedence.
  <br/><br/>
  In the "Get" calls, the <b>ReturnProfileID</b> value will always be
- returned if the listing is using a Business Policies return policy profile, and the <b>ReturnProfileName</b> 
+ returned if the listing is using a Business Policies return policy profile, and the <b>ReturnProfileName</b>
  value will be returned if a name is assigned to the return policy profile.
  <br/><br/>
  <span class="tablenote"><b>Note:</b>
- Business Policies are not yet available for use on the eBay platform. 
+ Business Policies are not yet available for use on the eBay platform.
  <span/>
  
  

@@ -194,7 +194,7 @@
 
 /**
  
- The shipping cost paid by the seller to ship the order line item. 
+ The shipping cost paid by the seller to ship the order line item.
                    <br/><br/>
  For multiple line item orders, it is possible that one order line item will have the shipping cost and the value for the other order line item will be 0.00.
  <br/><br/>

@@ -67,16 +67,16 @@
 /**
  
  A shipping service option being offered by the seller to ship an item to a
- buyer. For a list of valid ShippingService values, <b>GeteBayDetails</b> 
+ buyer. For a list of valid ShippingService values, <b>GeteBayDetails</b>
  with <b>DetailName</b> set to <b>ShippingServiceDetails</b>. The
  ShippingServiceDetails.ValidForSellingFlow flag must also be present. Otherwise,
  that particular shipping service option is no longer valid and cannot be offered
  to buyers through a listing.
  <br><br>
- To view the full list of domestic shipping service options in the response, look for the 
- ShippingServiceDetails.ShippingService fields. Domestic shipping service options will 
- not have a InternationalService=true field, as this indicates that the ShippingService 
- value is an International shipping service option. 
+ To view the full list of domestic shipping service options in the response, look for the
+ ShippingServiceDetails.ShippingService fields. Domestic shipping service options will
+ not have a InternationalService=true field, as this indicates that the ShippingService
+ value is an International shipping service option.
  <br><br>
  For flat and calculated shipping.
  Also applicable to Half.com (for GetOrders).

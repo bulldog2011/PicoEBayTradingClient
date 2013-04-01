@@ -137,7 +137,7 @@
 /**
  
  Container consisting of the allowed values (and a text description of each
- value) that may be specified in the 
+ value) that may be specified in the
  <b>RestockingFeeValueOption</b> field of an Add/Revise/Relist
  API call.
  

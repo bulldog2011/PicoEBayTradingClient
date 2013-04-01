@@ -39,7 +39,7 @@
  order line items (transactions), but only one <b>ItemID</b>. To identify a
  specific order line item for which to disable the Unpaid Item Assistant
  mechanism, either an <b>ItemID</b>/<b>TransactionID</b> pair, an <b>OrderLineItemID</b>, or a
- <b>DisputeID</b> (if a dispute record already exists) is required in the request. 
+ <b>DisputeID</b> (if a dispute record already exists) is required in the request.
  
  
  type : NSString, wrapper for primitive string

@@ -12,8 +12,8 @@
 
 /**
  
- Type defining the <b>BuyerSatisfaction</b> container returned in the 
- <b>GetSellerDashboard</b> response. The <b>BuyerSatisfaction</b> 
+ Type defining the <b>BuyerSatisfaction</b> container returned in the
+ <b>GetSellerDashboard</b> response. The <b>BuyerSatisfaction</b>
  container consists of the seller's buyer satisfaction rating, as well as any alerts
  related to customer service.
  

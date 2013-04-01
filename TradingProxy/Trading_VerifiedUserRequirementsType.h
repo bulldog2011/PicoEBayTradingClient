@@ -11,8 +11,8 @@
 
 /**
  
- Type defining the <b>VerifiedUserRequirements</b> container, which is used by the 
- seller to block prospective buyers who do not pass a verified user check. Verified users are 
+ Type defining the <b>VerifiedUserRequirements</b> container, which is used by the
+ seller to block prospective buyers who do not pass a verified user check. Verified users are
  applicable to the Australia, France, India, Ireland, Spain, and UK sites.
  
  
@@ -30,9 +30,9 @@
 /**
  
  To block non-verified users from buying/bidding on their items, the seller should include
- this field and set its value to 'true'. The default value of this field is 'false', so, if 
- it is not included, non-verified users on the Australia, France, India, Ireland, Spain, and 
- UK will be able to buy/bid on the seller's items. 
+ this field and set its value to 'true'. The default value of this field is 'false', so, if
+ it is not included, non-verified users on the Australia, France, India, Ireland, Spain, and
+ UK will be able to buy/bid on the seller's items.
  
  
  type : NSNumber, wrapper for primitive bool
@@ -41,14 +41,14 @@
 
 /**
  
- This field is ignored unless the <b>VerifiedUser</b> field is included and 
- set to 'true'. 
+ This field is ignored unless the <b>VerifiedUser</b> field is included and
+ set to 'true'.
  <br/><br/>
  The seller includes this field as a mechanism to block verified users who have a feedback
- score less than the specified value. 
+ score less than the specified value.
  <br/><br/>
- To see the valid values for your site, call <b>GeteBayDetails</b> with 
- <b>DetailName</b> set to <b>BuyerRequirementDetails</b>, and 
+ To see the valid values for your site, call <b>GeteBayDetails</b> with
+ <b>DetailName</b> set to <b>BuyerRequirementDetails</b>, and
  then look for the BuyerRequirementDetails.VerifiedUserRequirements.FeedbackScore fields.
  
  

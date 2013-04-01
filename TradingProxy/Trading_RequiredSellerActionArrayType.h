@@ -11,8 +11,8 @@
 
 /**
  
- This type defines the RequiredSellerActionArray container, which may contain zero or
- multiple RequiredSellerActionCodeType objects.
+ This type defines the <b>RequiredSellerActionArray</b> container,
+ which may contain one or more <b>RequiredSellerAction</b> fields.
  
  
  @ingroup EBayAPIInterface
@@ -28,8 +28,8 @@
 /**
  
  This field contains a possible action that a seller can take to expedite the
- release of a payment hold. There can be zero or more RequiredSellerAction fields
- in the RequiredSellerActionArray container.
+ release of a payment hold. There can be one or more <b>RequiredSellerAction</b>
+ fields in the <b>RequiredSellerActionArray</b> container.
  
  
  entry type : string constant in Trading_RequiredSellerActionCodeType.h

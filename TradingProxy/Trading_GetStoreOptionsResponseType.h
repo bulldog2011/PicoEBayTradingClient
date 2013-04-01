@@ -46,7 +46,7 @@
 /**
  
  The current set of advances themes. Unlike basic themes, you
- can use any colorscheme with an advanced theme. These themes 
+ can use any colorscheme with an advanced theme. These themes
  are suitable for more advanced customization.
  
  
@@ -65,7 +65,7 @@
 
 /**
  
- The current set of eBay Store subscription tiers and corresponding 
+ The current set of eBay Store subscription tiers and corresponding
  subscription prices.
  
  

@@ -34,7 +34,7 @@
 
 /**
  
- Indicates whether the eBay user is in the Buyer or 
+ Indicates whether the eBay user is in the Buyer or
  Seller role for the corresponding Best Offer.
  
  

@@ -13,7 +13,7 @@
 
 /**
  
- Provides information about an automated listing rule.   
+ Provides information about an automated listing rule.
  Automated listing rules cannot be combined with automated relisting rules.
  A template can have one set of information per automated listing rule specified.
  
@@ -33,9 +33,9 @@
 
 /**
  
- The source template ID for the rule that was retrieved. 
+ The source template ID for the rule that was retrieved.
  In the case of automated listing rules retrieved for an item, even if the item
- does not have an associated automation rule, an automated listing rule is 
+ does not have an associated automation rule, an automated listing rule is
  inherited from the source template.
  
  

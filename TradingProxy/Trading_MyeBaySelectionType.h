@@ -98,9 +98,9 @@
 
 /**
  
- Specifies that only the user defined list whose name matches 
- the given name should be in the returned list.  If the user does 
- not have a matching record, no data is returned.  If this 
+ Specifies that only the user defined list whose name matches
+ the given name should be in the returned list.  If the user does
+ not have a matching record, no data is returned.  If this
  element is omitted, the information for all records is returned.
  For use only within the UserDefinedLists element.
  
@@ -111,9 +111,9 @@
 
 /**
  
- Specify true to return the full user defined list contents in 
- the response's UserDefinedList containers.  A value of 
- false means only a summary of the user defined list will be 
+ Specify true to return the full user defined list contents in
+ the response's UserDefinedList containers.  A value of
+ false means only a summary of the user defined list will be
  returned.  The default value is false.
  
  

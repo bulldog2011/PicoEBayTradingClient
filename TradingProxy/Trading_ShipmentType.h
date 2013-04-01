@@ -17,9 +17,9 @@
 
 /**
  
- Type defining the <b>Shipment</b> container, which is used by 
- the seller in <b>CompleteSale</b> to provide shipping information. The 
- <b>Shipment</b> container is also returned in the  
+ Type defining the <b>Shipment</b> container, which is used by
+ the seller in <b>CompleteSale</b> to provide shipping information. The
+ <b>Shipment</b> container is also returned in the
  <b>GetSellingManagerSaleRecord</b> response.
  
  

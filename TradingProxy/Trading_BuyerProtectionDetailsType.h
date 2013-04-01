@@ -30,7 +30,7 @@
 
 /**
  
- This value indicates the type of buyer protection program applicable for the item. 
+ This value indicates the type of buyer protection program applicable for the item.
  This field is always returned with the <strong>ApplyBuyerProtection</strong> container.
  
  

@@ -145,9 +145,9 @@
 /**
  
  The content of the message is input into this string field. HTML formatting is not
- allowed in the body of the message. If plain HTML is used, an error occurs and the 
- message will not go through. If encoded HTML is used, the message may go through but 
- the formatting will not be successful, and the recipient of the message will just 
+ allowed in the body of the message. If plain HTML is used, an error occurs and the
+ message will not go through. If encoded HTML is used, the message may go through but
+ the formatting will not be successful, and the recipient of the message will just
  see the HTML formatting tags.
  
  

@@ -137,7 +137,7 @@
 /**
  
  
- Indicates whether or not the Bid Assistant feature is being used. 
+ Indicates whether or not the Bid Assistant feature is being used.
  
  
  type : class Trading_BidAssistantListType
@@ -189,7 +189,7 @@
 /**
  
  Returns the user defined lists, which are lists created by the user in the eBay
- UI and filled with items, or sellers, or searches using the 
+ UI and filled with items, or sellers, or searches using the
  "Add to List" feature.
  <br><br>
  Set Include to true to return the default response set.

@@ -44,7 +44,7 @@
 /**
  
  Contains an Item Specific that eBay recommends as popular
- within the specified category. Only returned if recommendations are 
+ within the specified category. Only returned if recommendations are
  found.
  
  

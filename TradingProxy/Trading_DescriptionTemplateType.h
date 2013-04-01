@@ -32,7 +32,7 @@
 
 /**
  
- Unique identifier for the group in which a Theme falls 
+ Unique identifier for the group in which a Theme falls
  (holidays, special events, etc.). Not returned for Layouts.
  
  
@@ -70,7 +70,7 @@
 /**
  
  XML defining the template. Elements you must include
- in your XML: ThemeTop, ThemeUserCellTop, ThemeUserContent, 
+ in your XML: ThemeTop, ThemeUserCellTop, ThemeUserContent,
  ThemeUserCellBottom, ThemeBottom. Not returned for Layouts.
  
  

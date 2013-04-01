@@ -31,8 +31,8 @@
 
 /**
  
- Flag to indicate whether or not a DE or AT seller has set the payout method type on the account. 
- This field is always returned with the <b>SellereBayPaymentProcessConsent</b> container. 
+ Flag to indicate whether or not a DE or AT seller has set the payout method type on the account.
+ This field is always returned with the <b>SellereBayPaymentProcessConsent</b> container.
                  
  
  type : NSNumber, wrapper for primitive bool
@@ -44,7 +44,7 @@
  Enumeration value that indicates the account type that the DE or AT seller has selected as their
  default seller payout account. Once a DE or AT seller has accepted the supplemental user agreement
  for the new eBay payment process, that seller must set the default payout account in My eBay
- preferences. eBay will distribute seller payouts to this account. This field will not be returned if 
+ preferences. eBay will distribute seller payouts to this account. This field will not be returned if
  <b>PayoutMethodSet</b>='false'.
                  
  
@@ -54,12 +54,12 @@
 
 /**
  
-                   Container consisting of details related to the current status of a DE or AT seller signing the required 
-                   supplemental user agreement for the new eBay payment process. This container will always be returned 
-                   to DE and AT sellers and the child values that are returned will be dependent on the current <b>SellereBayPaymentProcessStatus</b> 
+                   Container consisting of details related to the current status of a DE or AT seller signing the required
+                   supplemental user agreement for the new eBay payment process. This container will always be returned
+                   to DE and AT sellers and the child values that are returned will be dependent on the current <b>SellereBayPaymentProcessStatus</b>
                    value for the seller's account.
                    <br><br>
-                   If the seller lists items on both the DE and AT sites, a <b>UserAgreementInfo</b> container 
+                   If the seller lists items on both the DE and AT sites, a <b>UserAgreementInfo</b> container
                    will be returned for each site, with the sites being distinguished by the <b>UserAgreementInfo.Site</b>
  value (either 'Germany' or 'Austria').
                  

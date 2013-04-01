@@ -12,7 +12,7 @@
 
 /**
  
- This is used in ReviseInventoryStatus response to provide the set of 
+ This is used in ReviseInventoryStatus response to provide the set of
  fees associated with each unique ItemID..
  
  

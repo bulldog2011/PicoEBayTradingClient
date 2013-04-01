@@ -34,7 +34,7 @@
 /**
  
  Details for an individual compatible application, consisting of the name-value pair
- and related compatibility notes. When revising or relisting, the 
+ and related compatibility notes. When revising or relisting, the
  <b class="con">Delete</b> field can be used to delete individual compatibility
  nodes.
  

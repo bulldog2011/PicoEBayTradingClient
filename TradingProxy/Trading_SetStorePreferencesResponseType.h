@@ -12,7 +12,7 @@
 
 /**
  
-       Returned after calling SetStorePreferencesRequest. This serves as confirmation that 
+       Returned after calling SetStorePreferencesRequest. This serves as confirmation that
          the Store preferences were successfully submitted.
      
  

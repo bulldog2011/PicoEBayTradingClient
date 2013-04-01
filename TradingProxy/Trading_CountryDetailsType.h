@@ -30,7 +30,7 @@
 
 /**
  
- Two-letter code representing a country. These two-letter codes are typically used 
+ Two-letter code representing a country. These two-letter codes are typically used
  in Add/Revise/Relist calls when referring to a country.<br><br>
  
  

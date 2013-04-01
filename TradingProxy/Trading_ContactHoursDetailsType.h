@@ -39,7 +39,7 @@
  and Hours2From/Hours2To. If you specify a contact hours time range with
  Hours1From and Hours1To, you must provide a local time zone.
  To retrieve a complete list of the TimeZoneID values
- supported by eBay, call <b>GeteBayDetails</b> with <b>DetailName</b> 
+ supported by eBay, call <b>GeteBayDetails</b> with <b>DetailName</b>
  set to <b>TimeZoneDetails</b>.
  
  

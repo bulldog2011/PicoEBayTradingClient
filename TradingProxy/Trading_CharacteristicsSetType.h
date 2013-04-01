@@ -12,8 +12,7 @@
 
 /**
  
- This type is deprecated as the <b>GetProduct*</b> calls are no longer available.
- 
+ No longer applicable to any category.
  
  
  @ingroup EBayAPIInterface
@@ -32,7 +31,6 @@
 
 /**
  
- 
  The well-known name of the characteristic set (e.g., "Tickets" or "Books").
  
  
@@ -41,7 +39,6 @@
 @property (nonatomic, retain) NSString *name;
 
 /**
- 
  
  Numeric value that identifies the characteristic set in a language-independent
  way. Identifies the characteristic set that is mapped to a catalog-enabled
@@ -53,7 +50,6 @@
 @property (nonatomic, retain) NSNumber *attributeSetID;
 
 /**
- 
  
  Version of the characteristics set. Not to be confused with
  AttributeSystemVersion, which can be used to retrieve changes to attribute
@@ -70,7 +66,6 @@
 @property (nonatomic, retain) NSString *attributeSetVersion;
 
 /**
- 
  
  A salient aspect or feature of an item. Used to describe an item in a standard
  way so that buyers can find it more easily. An individual, standardized

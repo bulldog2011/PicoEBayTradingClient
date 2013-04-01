@@ -11,7 +11,7 @@
 
 /**
  
- Contains the data that defines a site-based filter (used when searching for 
+ Contains the data that defines a site-based filter (used when searching for
  items and filtering the search result set).
  
  
@@ -28,9 +28,9 @@
 
 /**
  
- Specifies the criteria for filtering search results by site, where site is 
- determined by the site ID in the SOAP URL or, for Unified Schema XML requests, 
- X-EBAY-API-SITEID HTTP Header. 
+ Specifies the criteria for filtering search results by site, where site is
+ determined by the site ID in the SOAP URL or, for Unified Schema XML requests,
+ X-EBAY-API-SITEID HTTP Header.
  
  
  type: string constant in Trading_SiteIDFilterCodeType.h

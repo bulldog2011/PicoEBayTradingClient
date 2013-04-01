@@ -12,7 +12,7 @@
 
 /**
  
- Defines variation-specific pictures associated with one 
+ Defines variation-specific pictures associated with one
  VariationSpecificName (e.g., Color) whose values differ across variations.
  
  
@@ -30,14 +30,14 @@
 
 /**
  
- One aspect of the variations that will be illustrated in the 
- pictures for all variations. For example, if each variation 
- is visually distinguished by color and the pictures show 
+ One aspect of the variations that will be illustrated in the
+ pictures for all variations. For example, if each variation
+ is visually distinguished by color and the pictures show
  the different colors available, then specify "Color" as the name.
- The name must match one of the names specified in the 
+ The name must match one of the names specified in the
  <b>VariationSpecifics</b> container.
  <br><br>
- This field is required in each <b>Item.Variations.Pictures</b> container that is used. 
+ This field is required in each <b>Item.Variations.Pictures</b> container that is used.
  
  
  type : NSString, wrapper for primitive string
@@ -58,10 +58,10 @@
  hosted outside of eBay. eBay Picture Services and self-hosted images can never
  be combined into the same variation specific picture set.
  <br><br>
- At least one picture set is required if the <b>Pictures</b> node 
- is present in the request. You are not required to provide pictures 
- for all values that correspond to the variation specific name. 
- For example, a listing could have pictures depicting the blue and 
+ At least one picture set is required if the <b>Pictures</b> node
+ is present in the request. You are not required to provide pictures
+ for all values that correspond to the variation specific name.
+ For example, a listing could have pictures depicting the blue and
  black color variations, but not the pink variations.
  
  

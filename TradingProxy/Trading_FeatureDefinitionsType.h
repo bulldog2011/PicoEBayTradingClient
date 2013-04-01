@@ -339,7 +339,7 @@
  eBay throws an error if you submit a Dutch item listing with AddItem
  or VerifyAddItem. If you use RelistItem to update a Dutch auction listing,
  eBay generates a warning and resets the Quantity value to 1.
- </span> 
+ </span>
  <br>
  
  
@@ -860,7 +860,7 @@
 
 /**
  
- The pay-per-lead feature is no longer available, and this field is scheduled to 
+ The pay-per-lead feature is no longer available, and this field is scheduled to
  be removed from the WSDL.
  
  

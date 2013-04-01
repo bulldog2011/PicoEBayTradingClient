@@ -11,7 +11,7 @@
 
 /**
  
- Identifies an individual product suggestion. The product details include the EPID, Title, Stock photo url and if it is 
+ Identifies an individual product suggestion. The product details include the EPID, Title, Stock photo url and if it is
  an exact match.
  
  
@@ -63,7 +63,7 @@
 
 /**
  
- If true, indicates that the product is an exact match, suitable for listing 
+ If true, indicates that the product is an exact match, suitable for listing
  the item.
  
  

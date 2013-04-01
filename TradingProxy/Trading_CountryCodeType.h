@@ -9,7 +9,7 @@
  Defines the 2-letter country code set.
  <br><br>
  Use the GeteBayDetails call to see the list of currently supported codes,
- and the English names associated with each code (e.g., KY="Cayman Islands"), call 
+ and the English names associated with each code (e.g., KY="Cayman Islands"), call
  <b>GeteBayDetails</b> with <b>DetailName</b> set to <b>Country</b>.
  <br><br>
  Most of the codes that eBay uses conform to the ISO 3166 standard, but some of the

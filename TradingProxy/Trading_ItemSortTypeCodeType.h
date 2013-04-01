@@ -545,7 +545,7 @@ extern NSString *const Trading_ItemSortTypeCodeType_NEW_LEAD_COUNT_DESCENDING;
 
 /**
  
- The pay-per-lead feature is no longer available, so this value is no longer 
+ The pay-per-lead feature is no longer available, so this value is no longer
  applicable.
  
 */
@@ -553,7 +553,7 @@ extern NSString *const Trading_ItemSortTypeCodeType_CLASSIFIED_AD_PAY_PER_LEAD_F
 
 /**
  
- The pay-per-lead feature is no longer available, so this value is no longer 
+ The pay-per-lead feature is no longer available, so this value is no longer
  applicable.
  
 */

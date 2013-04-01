@@ -317,11 +317,11 @@
 
 /**
  
- The price of one order line item. 
+ The price of one order line item.
  <br><br>
  This price is returned only for Best Offer items. This amount does not take into account shipping, sales tax, and other costs related to the order line item. If multiple units were purchased through Best Offer, this value is the per-unit price.
  <br><br>
-                   For eBay Motors Vehicle listings, <b>TransactionPrice</b> is the deposit amount. 
+                   For eBay Motors Vehicle listings, <b>TransactionPrice</b> is the deposit amount.
  <br><br>
  Applicable to Half.com (for <b>GetOrders</b>).
  
@@ -365,12 +365,8 @@
 
 /**
  
- Container consisting of details for the electronic payment of an eBay order line item.
- PayPal transactions may include a buyer payment or refund, or a fee or credit applied
- to the seller's account. This field is only returned after payment for the order line
- item has occurred. For DE and AT orders going through the new eBay payment process,
- the <b>PaymentHoldDetails</b> container and <b>PaymentHoldStatus</b>
- field will be returned instead of the <b>ExternalTransaction</b> container.
+ Container consisting of details for the electronic payment of an eBay order line item. PayPal transactions may include a buyer payment or refund, or a fee or credit applied to the seller's account. This field is only returned after payment for the order line item has occurred. For orders in which the seller's funds are being held by PayPal,
+ the <b>PaymentHoldDetails</b> container and <b>PaymentHoldStatus</b> field will be returned instead of the <b>ExternalTransaction</b> container.
  <br><br>
  Not applicable to Half.com.
  
@@ -686,13 +682,13 @@
 
 /**
  
- The price of one order line item. This amount does not take into account shipping, sales tax, and other costs related to the order line item. 
+ The price of one order line item. This amount does not take into account shipping, sales tax, and other costs related to the order line item.
                    <br/><br/>
-                   If multiple units were purchased through a non-variation, fixed-price listing, consider this value the per-unit price. To get the total amount, multiply <strong>TotalTransactionPrice</strong> by the <strong>Transaction.QuantityPurchased</strong> value. 
+                   If multiple units were purchased through a non-variation, fixed-price listing, this value is the total combined price for all units of the order line item. With GetMyeBaySelling, you can also get this value by multiplying <strong>SellingStatus.QuantitySold</strong> by <strong>SellingStatus.CurrentPrice</strong>.
                    <br/><br/>
-                   For eBay Motors Vehicle listings, <strong>TotalTransactionPrice</strong> is the deposit amount. 
+                   For eBay Motors Vehicle listings, <strong>TotalTransactionPrice</strong> is the deposit amount.
                    <br/><br/>
-                   Applicable to Half.com (for GetOrders). 
+                   Applicable to Half.com (for GetOrders).
  
  
  type : class Trading_AmountType
@@ -759,7 +755,19 @@
 
 /**
  
- Shipping hold details
+ This container consists of information related to the payment hold on the
+ order line item, including the reason why the buyer's payment for the
+ order line item is being held, the expected release date of the funds into
+ the seller's account, and possible action(s) the seller can take to
+ expedite the payout of funds into their account. This container is only
+ returned if PayPal has placed a payment hold on the order line item.
+ <br><br>
+ An American seller (selling on US or US Motors sites) and a Canadian
+ seller (selling on CA and CA- FR sites) may be subject to PayPal payment
+ holds (that last from three to 21 days) if that seller is new to selling
+ on eBay or is classified as a "Below Standard" seller. For other reasons
+ why a seller's funds may be held by PayPal, see the
+ <b>PaymentHoldReason</b> field.
  
  
  type : class Trading_PaymentHoldDetailType
@@ -795,7 +803,7 @@
 
 /**
  
- This field is returned if the <b>IncludeCodeFiscale</b> flag is
+ This field is returned if the <b>IncludeCodiceFiscale</b> flag is
  included in the request and set to 'true', and if the buyer has provided this value
  at checkout time.
  <br/><br/>

@@ -11,8 +11,8 @@
 
 /**
  
- Type defining the <b>NonProfitAddress</b> container, which consists of the 
- address (including latitude and longitude) of a nonprofit charity organization. 
+ Type defining the <b>NonProfitAddress</b> container, which consists of the
+ address (including latitude and longitude) of a nonprofit charity organization.
  
  
  @ingroup EBayAPIInterface
@@ -35,7 +35,7 @@
 
 /**
  
- The street address of a nonprofit charity organization. 
+ The street address of a nonprofit charity organization.
  
  
  type : NSString, wrapper for primitive string
@@ -44,7 +44,7 @@
 
 /**
  
- The second line (if needed) of a nonprofit charity organization. This field is often 
+ The second line (if needed) of a nonprofit charity organization. This field is often
  used for a suite number, floor number, or P.O. Box.
  
  
@@ -54,7 +54,7 @@
 
 /**
  
- The city in which a nonprofit charity organization is located. 
+ The city in which a nonprofit charity organization is located.
  
  
  type : NSString, wrapper for primitive string
@@ -63,7 +63,7 @@
 
 /**
  
- The state in which a nonprofit charity organization is located. 
+ The state in which a nonprofit charity organization is located.
  
  
  type : NSString, wrapper for primitive string
@@ -81,9 +81,9 @@
 
 /**
  
- The latitude value of a nonprofit charity organization. Latitude and longitude 
- coordinates pinpoint the location of the organization relative to the earth, and are 
- useful for search purposes. The <b>Latitude</b> and <b>Longitude</b> 
+ The latitude value of a nonprofit charity organization. Latitude and longitude
+ coordinates pinpoint the location of the organization relative to the earth, and are
+ useful for search purposes. The <b>Latitude</b> and <b>Longitude</b>
  fields are only returned in <b>GetCharities</b> if set by the organization.
  
  
@@ -93,9 +93,9 @@
 
 /**
  
- The longitude value of a nonprofit charity organization. Latitude and longitude 
- coordinates pinpoint the location of the organization relative to the earth, and are 
- useful for search purposes. The <b>Latitude</b> and <b>Longitude</b> 
+ The longitude value of a nonprofit charity organization. Latitude and longitude
+ coordinates pinpoint the location of the organization relative to the earth, and are
+ useful for search purposes. The <b>Latitude</b> and <b>Longitude</b>
  fields are only returned in <b>GetCharities</b> if set by the organization.
  
  type : NSNumber, wrapper for primitive double
@@ -104,9 +104,9 @@
 
 /**
  
- Enumeration value that indicates whether or not a nonprofit charity organization is 
- registered with eBay Giving Works. See the <a href="http://pages.ebay.com/help/sell/nonprofit.html#certify">Certifying your 
- organization with MissionFish</a> help topic for more information on registering with 
+ Enumeration value that indicates whether or not a nonprofit charity organization is
+ registered with eBay Giving Works. See the <a href="http://pages.ebay.com/help/sell/nonprofit.html#certify">Certifying your
+ organization with MissionFish</a> help topic for more information on registering with
  MissionFish and the benefits that come with being a registered eBay Giving Works
  organization.
   

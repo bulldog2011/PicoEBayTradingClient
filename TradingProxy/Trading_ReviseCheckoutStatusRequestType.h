@@ -159,10 +159,15 @@
 /**
  
  The current checkout status of the order. Often, the seller or
- application will mark this value as Complete if payment has been made. The <b>CheckoutStatus</b>
+ application will mark this value as 'Complete' if payment has been made. The <b>CheckoutStatus</b>
  value cannot be updated by DE and AT sellers who are subject to the new payment
  process, and an attempt to do so in a <b>ReviseCheckoutStatus</b> call
  will result in a call error.
+ <br>
+ <br>
+ <span class="tablenote"><b>Note:</b>
+ The introduction of the new eBay payment process for the entire German and
+ Austrian eBay marketplace has been delayed until further notice.</span>
  
  
  type: string constant in Trading_CompleteStatusCodeType.h
@@ -198,9 +203,6 @@
 @property (nonatomic, retain) NSNumber *shippingIncludedInTax;
 
 /**
- 
- This field is no longer supported and will be ignored if included in the 
- request.
  
  
  type: string constant in Trading_CheckoutMethodCodeType.h
@@ -348,8 +350,12 @@
 
 /**
  
- Italy site (site ID 101) only.
- Enables you to specify the cash-on-delivery (COD) cost, for COD shipping.
+ This dollar value indicates the money due from the buyer upon delivery of the item.
+ <br><br>
+ This field should only be specified in the <b>ReviseCheckoutStatus</b>
+ request if 'COD' (cash-on-delivery) was the payment method selected by the buyer
+ and it is included as the <b>PaymentMethodUsed</b> value in the same
+ request.
  
  
  type : class Trading_AmountType

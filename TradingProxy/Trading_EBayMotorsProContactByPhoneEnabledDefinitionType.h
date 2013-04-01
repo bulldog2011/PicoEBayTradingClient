@@ -11,7 +11,7 @@
 
 /**
  
- Indicates whether the category supports using the telephone as a 
+ Indicates whether the category supports using the telephone as a
  contact method.
  Added for EbayMotors Pro users.
  

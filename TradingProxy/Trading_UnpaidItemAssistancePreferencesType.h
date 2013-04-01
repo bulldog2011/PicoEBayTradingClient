@@ -85,7 +85,7 @@
  viewed from the Unpaid Item Assistant Preferences in My eBay. Excluded users are
  not subject to the automatic filing of Unpaid Item cases. The seller can still
  open Unpaid Item cases against excluded users, but these cases must be opened
- manually. 
+ manually.
  <br/><br/>
  Users can be added to Exclusion list through the <b>ExcludedUser</b>
  field. The <b>RemoveAllExcludedUsers</b> field is ignored if the
@@ -102,11 +102,11 @@
  
  An eBay User ID for which the Unpaid Item Assistant mechanism is disabled. This
  field is typically used by a seller who would prefer to file an Unpaid Item
- dispute manually for the specified user. 
+ dispute manually for the specified user.
  <br/><br/>
- One or more <b>ExcludedUser</b> fields are used in 
+ One or more <b>ExcludedUser</b> fields are used in
  <b>SetUserPreferences</b> to add users to Unpaid Item Assistant Exclusion
- list. Any and all <b>ExcludedUser</b> fields are ignored if the 
+ list. Any and all <b>ExcludedUser</b> fields are ignored if the
  <b>OptInStatus</b> flag is included and set to false in the request,
  or if the seller is not currently opted into the Unpaid Item Assistant feature
  in Unpaid Item Assistant Preferences on My eBay.
@@ -125,7 +125,7 @@
  Flag to indicate whether or not the seller wants eBay to automatically request
  eBay Giving Works donation refunds after Unpaid Item cases are opened and closed
  through the Unpaid Item Assistant mechanism without payment. This setting is
- only applicable to eBay Charity listings. This field is ignored if the 
+ only applicable to eBay Charity listings. This field is ignored if the
  <b>OptInStatus</b> flag is included and set to false in the request, or if
  the seller is not currently opted into the Unpaid Item Assistant feature in
  Unpaid Item Assistant Preferences on My eBay.

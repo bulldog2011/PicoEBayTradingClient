@@ -34,7 +34,7 @@
  Required if <b>ShipmentTrackingNumber</b> is supplied.
  Name of the shipping carrier used to ship the item. Although this value
  can be any value, since it is not checked by eBay, commonly used shipping
- carriers can be found by calling <b>GeteBayDetails</b> 
+ carriers can be found by calling <b>GeteBayDetails</b>
  with <b>DetailName</b> set to <b>ShippingCarrierDetails</b> and examining the
  returned ShippingCarrierCodeTypes.
  <br><br>

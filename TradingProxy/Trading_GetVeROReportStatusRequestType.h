@@ -13,13 +13,13 @@
 
 /**
  
- Retrieves status information about VeRO reported items you have submitted. You 
- can receive the status of individual items you have reported or, by specifying 
- VeROReportPacketID, you can retrieve status for all items reported with a given 
- VeROReportItems request. You can also retrieve items that were reported during a 
- given time period. If no input parameters are specified, status is returned on all 
+ Retrieves status information about VeRO reported items you have submitted. You
+ can receive the status of individual items you have reported or, by specifying
+ VeROReportPacketID, you can retrieve status for all items reported with a given
+ VeROReportItems request. You can also retrieve items that were reported during a
+ given time period. If no input parameters are specified, status is returned on all
  items you have reported in the last two years.
- You must be a member of the Verified Rights Owner (VeRO) Program to use this 
+ You must be a member of the Verified Rights Owner (VeRO) Program to use this
  call.
  
  
@@ -40,10 +40,10 @@
 
 /**
  
- Packet identifier associated with the reported items for which you want to 
- retrieve status. By default, reported item details are not returned when 
- you specify the packet ID in the request. Applies only to items reported 
- with VeROReportItems. 
+ Packet identifier associated with the reported items for which you want to
+ retrieve status. By default, reported item details are not returned when
+ you specify the packet ID in the request. Applies only to items reported
+ with VeROReportItems.
  
  
  type : NSNumber, wrapper for primitive long
@@ -52,8 +52,8 @@
 
 /**
  
- Item ID for an item reported for alleged infringement. Applies to items 
- reported with VeROReportItems or by other means (e.g., through the 
+ Item ID for an item reported for alleged infringement. Applies to items
+ reported with VeROReportItems or by other means (e.g., through the
  web flow).
  
  
@@ -72,15 +72,15 @@
 
 /**
  
- Limits returned items to only those that were submited on or after the 
- date-time specified. If specified, TimeTo must also be specified. 
+ Limits returned items to only those that were submited on or after the
+ date-time specified. If specified, TimeTo must also be specified.
  Express the date-time in the format YYYY-MM-DD HH:MM:SS, and in GMT.
  (For information on how to convert between your local time zone
- and GMT, see Time Values Note.) Applies to items reported with 
+ and GMT, see Time Values Note.) Applies to items reported with
  VeROReportItems or by other means (e.g., through the web flow).
- Infringement reporting data is maintained for two years after the date of 
- submission. 
- This field is ignored if VeROReportPacketID or ItemID is specified. 
+ Infringement reporting data is maintained for two years after the date of
+ submission.
+ This field is ignored if VeROReportPacketID or ItemID is specified.
  
  
  type : NSDate, wrapper for primitive date
@@ -89,14 +89,14 @@
 
 /**
  
- Limits returned items to only those that were submited on or before the 
- date-time specified. If specified, TimeFrom must also be specified. 
+ Limits returned items to only those that were submited on or before the
+ date-time specified. If specified, TimeFrom must also be specified.
  Express date-time in the format YYYY-MM-DD HH:MM:SS, and in GMT.
  (For information on how to convert between your local time zone
- and GMT, see Time Values Note.) Applies to items reported with 
+ and GMT, see Time Values Note.) Applies to items reported with
  VeROReportItems or by other means (e.g., through the web flow).
- Infringement reporting data is maintained for two years after the date of 
- submission. 
+ Infringement reporting data is maintained for two years after the date of
+ submission.
  This field is ignored if VeROReportPacketID or ItemID is specified.
  
  
@@ -107,7 +107,7 @@
 /**
  
  Contains the data controlling the pagination of the returned values: how
- many items are returned per page of data (per call) and the number of the 
+ many items are returned per page of data (per call) and the number of the
  page to return with the current call.
  
  

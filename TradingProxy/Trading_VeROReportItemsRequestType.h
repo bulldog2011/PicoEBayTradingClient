@@ -13,10 +13,10 @@
 
 /**
  
- Reports items that allegedly infringe your copyright, trademark, or other 
- intellectual property rights. You can report one or more items at a time with this 
- call. You must be a member of the Verified Rights Owner (VeRO) Program to use this 
- call. 
+ Reports items that allegedly infringe your copyright, trademark, or other
+ intellectual property rights. You can report one or more items at a time with this
+ call. You must be a member of the Verified Rights Owner (VeRO) Program to use this
+ call.
  
  
  @ingroup EBayAPIInterface
@@ -41,7 +41,7 @@
 
 /**
  
-  Container (packet) for items being reported. You can report the same item 
+  Container (packet) for items being reported. You can report the same item
   more than once in a packet if a different reason code is used each time.
  
  

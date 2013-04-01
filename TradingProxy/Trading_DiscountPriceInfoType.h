@@ -13,10 +13,10 @@
 /**
  
  Using this container, a seller can supply original retail price and
- discount price for an item to clarify the discount treatment (also known 
- as strike-through pricing). This only applies to fixed-price listings and auction listings with the Buy It Now 
- option. This feature is available for large enterprise sellers via 
- white list. A seller can provide discount treatment regardless of 
+ discount price for an item to clarify the discount treatment (also known
+ as strike-through pricing). This only applies to fixed-price listings and auction listings with the Buy It Now
+ option. This feature is available for large enterprise sellers via
+ white list. A seller can provide discount treatment regardless of
  whether the listing includes a SKU.
  
  
@@ -40,9 +40,9 @@
 /**
  
  The actual retail price set by the manufacturer (OEM).
- eBay does not maintain or validate the OriginalRetailPrice supplied 
- by the seller. OriginalRetailPrice should always be more than 
- StartPrice. Compare the StartPrice/BuyItNowPrice to 
+ eBay does not maintain or validate the OriginalRetailPrice supplied
+ by the seller. OriginalRetailPrice should always be more than
+ StartPrice. Compare the StartPrice/BuyItNowPrice to
  OriginalRetailPrice to determine the amount of savings to the buyer.
  
  
@@ -52,11 +52,11 @@
 
 /**
  
- Minimum Advertised Price (MAP) is an agreement between suppliers (or 
- manufacturers (OEM)) and the retailers (sellers) stipulating 
- the lowest price an item is allowed to be advertised at. 
- Sellers can offer prices below MAP by means of other discounts. 
- This only applies to fixed-price listings and auction listings with the Buy It Now option. 
+ Minimum Advertised Price (MAP) is an agreement between suppliers (or
+ manufacturers (OEM)) and the retailers (sellers) stipulating
+ the lowest price an item is allowed to be advertised at.
+ Sellers can offer prices below MAP by means of other discounts.
+ This only applies to fixed-price listings and auction listings with the Buy It Now option.
  
  
  type : class Trading_AmountType
@@ -65,9 +65,9 @@
 
 /**
  
- For MinimumAdvertisedPrice (MAP) listings only. 
- A seller cannot show the actual discounted price on eBay's View Item 
- page. Instead, the buyer can either click on a pop-up on eBay's 
+ For MinimumAdvertisedPrice (MAP) listings only.
+ A seller cannot show the actual discounted price on eBay's View Item
+ page. Instead, the buyer can either click on a pop-up on eBay's
  View Item page, or the discount price will be shown during checkout.
  
  
@@ -78,10 +78,10 @@
 /**
  
  Based on OriginalRetailPrice,
- MinimumAdvertisedPrice, and StartPrice values, eBay identifies  
- whether the listing falls under MAP or STP (aka 
- OriginalRetailPrice). GetItem returns this for items listed with one 
- of these discount pricing treatments. GetSellerList returns the 
+ MinimumAdvertisedPrice, and StartPrice values, eBay identifies
+ whether the listing falls under MAP or STP (aka
+ OriginalRetailPrice). GetItem returns this for items listed with one
+ of these discount pricing treatments. GetSellerList returns the
  DiscountPriceInfo container. This field is not applicable for Add/Revise/Relist calls.
  
  
@@ -125,16 +125,16 @@
  
  Applicable only if the item was specifically made for sale through dedicated eBay outlet pages (e.g., eBay Fashion Outlet).<br>
  <br>
- The comparison price is the price of a comparable product sold 
- through non-outlet channels on eBay (or elsewhere), or not 
+ The comparison price is the price of a comparable product sold
+ through non-outlet channels on eBay (or elsewhere), or not
  specifically made for the outlet.<br>
  <br>
- In fashion, a "comparable" product shares the same design, but is 
- not considered an identical product. Some products are specifically 
- made for outlets, and may have a different SKU than the "comparable" 
- product. These made-for-outlet products may be manufactured in a 
- different place, with different materials, or according to different 
- specifications (i.e. different stitch pattern, seam reinforcement, 
+ In fashion, a "comparable" product shares the same design, but is
+ not considered an identical product. Some products are specifically
+ made for outlets, and may have a different SKU than the "comparable"
+ product. These made-for-outlet products may be manufactured in a
+ different place, with different materials, or according to different
+ specifications (i.e. different stitch pattern, seam reinforcement,
  button quality, etc.)
  
  

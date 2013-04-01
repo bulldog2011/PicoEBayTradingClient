@@ -6,7 +6,7 @@
 /**
  @file
  
- Used to indicate whether the payment method will be displayed for a category 
+ Used to indicate whether the payment method will be displayed for a category
  belonging to the Lead Generation Format.
  
 */

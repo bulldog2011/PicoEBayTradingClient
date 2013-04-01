@@ -14,7 +14,7 @@
   Type defining the <b>CategoryGroup</b> container, which defines the category
   group to which the corresponding Business Policies profile will be applied, and a flag that
   indicates whether or not that Business Policies profile is the default for that category
-  group. 
+  group.
   <br><br>
  <span class="tablenote"><strong>Note:</strong>
  Business Policies are not yet available for use on the eBay platform.
@@ -38,8 +38,8 @@
   ALL (referring to all non-motor vehicle category groups) or MOTORS_VEHICLE (referring to
   only motor vehicle category groups).
  <br><br>
- The <b>CategoryGroup</b> container is only returned in <b>GetUserPreferences</b> 
- if the <b>ShowSellerProfilePreferences</b> field is included in the request 
+ The <b>CategoryGroup</b> container is only returned in <b>GetUserPreferences</b>
+ if the <b>ShowSellerProfilePreferences</b> field is included in the request
  and set to 'true'.
  <br><br>
  <span class="tablenote"><strong>Note:</strong>
@@ -56,8 +56,8 @@
  Identifies that the corresponding Business Policies profile is the default for the category
  group.
  <br><br>
- The <b>CategoryGroup</b> container is only returned in <b>GetUserPreferences</b> 
- if the <b>ShowSellerProfilePreferences</b> field is included in the request 
+ The <b>CategoryGroup</b> container is only returned in <b>GetUserPreferences</b>
+ if the <b>ShowSellerProfilePreferences</b> field is included in the request
  and set to 'true'.
  <br><br>
  <span class="tablenote"><strong>Note:</strong>

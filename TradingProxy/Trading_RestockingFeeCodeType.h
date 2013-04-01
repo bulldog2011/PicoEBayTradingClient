@@ -6,7 +6,7 @@
 /**
  @file
  
- This enumeration type consist of the applicable values that may be used in the 
+ This enumeration type consist of the applicable values that may be used in the
  <b>RestockingFeeValueOption</b> field of Add/Revise/Relist API calls.
  
  
@@ -15,7 +15,7 @@
 
 /**
  
- This value indicates that the seller will not charge a restocking fee to the 
+ This value indicates that the seller will not charge a restocking fee to the
  buyer if the item is returned.
  
 */
@@ -23,7 +23,7 @@ extern NSString *const Trading_RestockingFeeCodeType_NO_RESTOCKING_FEE;
 
 /**
  
- This value indicates that the seller charges the buyer a restocking fee of 10 
+ This value indicates that the seller charges the buyer a restocking fee of 10
  percent of the item's purchase price if the item is returned.
  
 */
@@ -31,7 +31,7 @@ extern NSString *const Trading_RestockingFeeCodeType_PERCENT_10;
 
 /**
  
- This value indicates that the seller charges the buyer a restocking fee of 15 
+ This value indicates that the seller charges the buyer a restocking fee of 15
  percent of the item's purchase price if the item is returned.
  
 */
@@ -39,7 +39,7 @@ extern NSString *const Trading_RestockingFeeCodeType_PERCENT_15;
 
 /**
  
- This value indicates that the seller charges the buyer a restocking fee of 20 
+ This value indicates that the seller charges the buyer a restocking fee of 20
  percent of the item's purchase price if the item is returned.
  
 */

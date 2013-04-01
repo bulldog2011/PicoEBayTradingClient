@@ -34,7 +34,7 @@
  quantity of items that will exceed this value. Previous purchases made by the buyer
  are taken into account. For example, if <b>MaximumQuantity</b> is set to
  '5' for an item listing, and <em>Buyer1</em> purchases a quantity of
- three, <em>Buyer1</em> is only allowed to purchase an additional 
+ three, <em>Buyer1</em> is only allowed to purchase an additional
  quantity of two in subsequent orders on the same item listing.
  <br/><br/>
  This field is required if the <b>QuantityRestrictionPerBuyer</b>

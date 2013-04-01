@@ -14,7 +14,7 @@
 
 /**
  
-                       This value indicates that the Unpaid Item case was opened automatically 
+                       This value indicates that the Unpaid Item case was opened automatically
                        through eBay's Unpaid Item Assistant feature.
                      
 */
@@ -23,7 +23,7 @@ extern NSString *const Trading_UnpaidItemCaseOpenTypeCodeType_AUTO;
 /**
  
                        This value indicates that the seller opened an Unpaid Item case manually
- through the Resolution Center or by using the Trading API's 
+ through the Resolution Center or by using the Trading API's
  <strong>AddDispute</strong> call.
                      
 */

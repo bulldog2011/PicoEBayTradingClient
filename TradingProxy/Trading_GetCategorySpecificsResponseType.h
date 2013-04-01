@@ -37,8 +37,8 @@
  the recommendations have changed for that category since
  the LastUpdateTime you requested. <br>
  <br>
- The most relevant Item Specifics (as determined by eBay) 
- are returned first. In many cases, the values are returned in 
+ The most relevant Item Specifics (as determined by eBay)
+ are returned first. In many cases, the values are returned in
  alphabetical order.<br>
  <br>
  This node returns empty (or it's not returned) for a category if

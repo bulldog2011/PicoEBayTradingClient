@@ -23,13 +23,14 @@ NSString *const Trading_CompleteStatusCodeType_INCOMPLETE = @"Incomplete";
  The order is complete. Generally speaking, an order is complete when payment
  from the buyer has been initiated and processed.
  <br><br>
- <b>Note</b>: If the PaymentMethod is CashOnPickup, the
- CheckoutStatus.Status value in GetOrders will read Complete right at Checkout,
- even though the seller may not have been officially paid yet. The
- CheckoutStatus.Status value in GetOrders will remain as Complete even if the
- seller uses ReviseCheckoutStatus to change the checkout status to Pending.
- However, the eBayPaymentStatus value in GetOrders will change from
- NoPaymentFailure to PaymentInProcess.
+ <b>Note</b>: If the <b>PaymentMethodUsed</b> is 'CashOnPickup',
+ the <b>CheckoutStatus.Status</b> value in <b>GetOrders</b> will be
+ 'Complete' right at Checkout, even though the seller may not have been officially paid
+ yet. The <b>CheckoutStatus.Status</b> value in <b>GetOrders</b> will
+ remain as 'Complete' even if the seller uses <b>ReviseCheckoutStatus</b> to
+ change the checkout status to Pending. However, the <b>eBayPaymentStatus</b>
+ value in <b>GetOrders</b> will change from 'NoPaymentFailure' to
+ 'PaymentInProcess'.
  
 */
 NSString *const Trading_CompleteStatusCodeType_COMPLETE = @"Complete";

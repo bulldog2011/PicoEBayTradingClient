@@ -15,6 +15,7 @@
 @class Trading_UnpaidItemAssistancePreferencesType;
 @class Trading_EndOfAuctionEmailPreferencesType;
 @class Trading_CombinedPaymentPreferencesType;
+@class Trading_DispatchCutoffTimePreferencesType;
 @class Trading_BidderNoticePreferencesType;
 @class Trading_SellerPaymentPreferencesType;
 
@@ -39,6 +40,7 @@
     Trading_UnpaidItemAssistancePreferencesType *_unpaidItemAssistancePreferences;
     Trading_PurchaseReminderEmailPreferencesType *_purchaseReminderEmailPreferences;
     NSNumber *_sellerThirdPartyCheckoutDisabled;
+    Trading_DispatchCutoffTimePreferencesType *_dispatchCutoffTimePreference;
 
 }
 
@@ -60,10 +62,10 @@
  on multiple orders shared between the same seller and buyer.
  <br><br>
  <span class="tablenote"><strong>Note:</strong>
- Calculated and flat-rate shipping preferences are no longer set using this 
+ Calculated and flat-rate shipping preferences are no longer set using this
  call. Instead, use the <b>SetShippingDiscountProfiles</b> call to
  set the shipping discounts for combined payment orders.
- </span> 
+ </span>
  <br>
  <span class="tablenote"><strong>Note:</strong>
  A seller's combined payment preferences can take up to 7 days to
@@ -106,7 +108,7 @@
  
  Container consisting of the seller's preferences for displaying items on a
  buyer's Favorite Sellers' Items page or Favorite Sellers' Items digest. One
- or more preferences may be set or modified under this field. 
+ or more preferences may be set or modified under this field.
  
  
  type : class Trading_SellerFavoriteItemPreferencesType
@@ -129,7 +131,7 @@
 /**
  
  Flag that controls whether the shipment's tracking number is sent by Email
- from the seller to the buyer. 
+ from the seller to the buyer.
  
  
  type : NSNumber, wrapper for primitive bool
@@ -162,7 +164,7 @@
 /**
  
  Container consisting of a seller's preference for sending a purchase
- reminder email to buyers. 
+ reminder email to buyers.
  
  
  type : class Trading_PurchaseReminderEmailPreferencesType
@@ -174,12 +176,21 @@
  A flag used to disable the use of a third-party application to handle the
  checkout flow for a seller. If set to true, Third-Party Checkout is disabled
  and any checkout flow initiated on the seller's application is redirected to
- the eBay checkout flow. 
+ the eBay checkout flow.
  
  
  type : NSNumber, wrapper for primitive bool
 */
 @property (nonatomic, retain) NSNumber *sellerThirdPartyCheckoutDisabled;
+
+/**
+ 
+                         Contains information about a seller's order cut off time preferences for same day shipping. If the seller specifies a value of <code>0</code> in <strong>Item.DispatchTimeMax</strong> to offer same day handling when listing an item, the seller's shipping time commitment depends on the order cut off time set for the listing site, as indicated by <strong>DispatchCutoffTimePreference.CutoffTime</strong>.
+ 
+ 
+ type : class Trading_DispatchCutoffTimePreferencesType
+*/
+@property (nonatomic, retain) Trading_DispatchCutoffTimePreferencesType *dispatchCutoffTimePreference;
 
 
 @end

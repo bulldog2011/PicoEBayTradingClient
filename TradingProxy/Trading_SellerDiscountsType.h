@@ -14,7 +14,7 @@
 /**
  
  Type defining the <b>SellerDiscounts</b> container, which consists of one or
- more <b>SellerDiscount</b> nodes, as well as the original purchase price and 
+ more <b>SellerDiscount</b> nodes, as well as the original purchase price and
  shipping cost of the order line item.
  
  
@@ -33,7 +33,7 @@
 
 /**
  
- The original purchase price of the order line item (before any seller discounts are 
+ The original purchase price of the order line item (before any seller discounts are
  applied).
  
  
@@ -43,7 +43,7 @@
 
 /**
  
- The original shipping cost for the order line item. Note that shipping discounts have 
+ The original shipping cost for the order line item. Note that shipping discounts have
  not yet been enabled for seller discount campaigns.
  
  
@@ -55,7 +55,8 @@
  
  A container consisting of name and ID of the seller's discount campaign, as well as the
  discount amount that is being applied to the order line item. Note that shipping
- discounts have not yet been enabled for seller discount campaigns.
+ discounts have not yet been enabled for seller discount campaigns. Seller
+ discount campaigns are created through the Order Size Discounts API.
  
  
  entry type : class Trading_SellerDiscountType

@@ -11,7 +11,7 @@
 
 /**
  
- Indicates whether the category supports the use of an address when 
+ Indicates whether the category supports the use of an address when
  contacting the seller for Classified Ad format listings.
  Added for the For Sale By Owner format.
  

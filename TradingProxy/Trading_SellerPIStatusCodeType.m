@@ -17,7 +17,7 @@
  This value indicates that the new DE or AT seller has accepted the user agreement
  related to the new payment process, but the new payment process has yet to be
  fully implemented on the seller's account. The new payment process for the DE and
- AT sites is scheduled to be implemented in late August 2011. 
+ AT sites is scheduled to be implemented in late August 2011.
  
 */
 NSString *const Trading_SellerPIStatusCodeType_ACCEPTED_UA = @"AcceptedUA";

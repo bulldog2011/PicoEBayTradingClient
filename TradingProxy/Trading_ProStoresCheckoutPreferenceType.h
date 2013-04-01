@@ -29,7 +29,7 @@
 /**
  
  
- This field is no longer applicable as all checkouts go through eBay's checkout flow, 
+ This field is no longer applicable as all checkouts go through eBay's checkout flow,
  and there is no longer a checkout flow through ProStores.
  
  

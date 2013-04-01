@@ -41,7 +41,7 @@
 
 /**
  
- The start time of the time interval during which new listings should start. 
+ The start time of the time interval during which new listings should start.
  
  
  type : NSDate, wrapper for primitive date
@@ -50,7 +50,7 @@
 
 /**
  
- The end time of the time interval during which new listings should start. 
+ The end time of the time interval during which new listings should start.
  
  
  type : NSDate, wrapper for primitive date
@@ -59,8 +59,8 @@
 
 /**
  
- Provides a number of minutes for spacing start times of listings. 
- Used when you list multiple items at the same time. Delays subsequent 
+ Provides a number of minutes for spacing start times of listings.
+ Used when you list multiple items at the same time. Delays subsequent
  listings by the specified number of minutes.
  
  

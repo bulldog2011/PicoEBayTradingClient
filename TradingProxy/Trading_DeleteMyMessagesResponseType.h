@@ -12,7 +12,7 @@
 
 /**
  
- The response to DeleteMyMessagesRequestType. If the request was successful, 
+ The response to DeleteMyMessagesRequestType. If the request was successful,
  DeleteMyMessages returns nothing.
  
  

@@ -47,8 +47,8 @@
  State or jurisdiction for which the sales tax is being collected.
  Only returned if the seller specified a value.
  <br><br>
- To see the valid values for your site, call <b>GeteBayDetails</b> with 
- <b>DetailName</b> set to <b>TaxJurisdiction</b>, and then 
+ To see the valid values for your site, call <b>GeteBayDetails</b> with
+ <b>DetailName</b> set to <b>TaxJurisdiction</b>, and then
  look for the TaxJurisdiction.JurisdictionID fields in the response.
  <br><br>
  Applicable to Half.com (for GetOrders).

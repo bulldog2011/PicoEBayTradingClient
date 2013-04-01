@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE3FCBD3170929F60090DEAE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3FCBD2170929F60090DEAE /* UIKit.framework */; };
+		CE3FCBD5170929F60090DEAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3FCBD4170929F60090DEAE /* Foundation.framework */; };
+		CE3FCBD7170929F60090DEAE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3FCBD6170929F60090DEAE /* CoreGraphics.framework */; };
+		CE3FCBDD170929F60090DEAE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE3FCBDB170929F60090DEAE /* InfoPlist.strings */; };
+		CE3FCBDF170929F60090DEAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3FCBDE170929F60090DEAE /* main.m */; };
+		CE3FCBE3170929F60090DEAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3FCBE2170929F60090DEAE /* AppDelegate.m */; };
+		CE3FCBE5170929F60090DEAE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CE3FCBE4170929F60090DEAE /* Default.png */; };
+		CE3FCBE7170929F60090DEAE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE3FCBE6170929F60090DEAE /* Default@2x.png */; };
+		CE3FCBE9170929F60090DEAE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE3FCBE8170929F60090DEAE /* Default-568h@2x.png */; };
+		CE3FCBEC170929F60090DEAE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3FCBEB170929F60090DEAE /* ViewController.m */; };
+		CE3FCBEF170929F60090DEAE /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE3FCBED170929F60090DEAE /* ViewController_iPhone.xib */; };
+		CE3FCBF2170929F60090DEAE /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE3FCBF0170929F60090DEAE /* ViewController_iPad.xib */; };
+		CE3FCC0317092A1F0090DEAE /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3FCC0217092A1F0090DEAE /* libxml2.dylib */; };
+		CE3FDA2617092BB80090DEAE /* Toast+UIView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3FDA2517092BB80090DEAE /* Toast+UIView.m */; };
+		CE3FE84617092E520090DEAE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3FE84517092E520090DEAE /* QuartzCore.framework */; };
+		CE3FE84717092E870090DEAE /* libPico.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3FCC0017092A100090DEAE /* libPico.a */; };
+		CE3FE84A17092F940090DEAE /* EBayTradingServiceClient.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3FE84917092F940090DEAE /* EBayTradingServiceClient.m */; };
+		CE3FF6951709352A0090DEAE /* EBayAPIInterface_SOAPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3FF66C1709352A0090DEAE /* EBayAPIInterface_SOAPClient.m */; };
+		CE3FF6961709352A0090DEAE /* EBayAPIInterface_XMLClient.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3FF66E1709352A0090DEAE /* EBayAPIInterface_XMLClient.m */; };
+		CE3FF6971709352A0090DEAE /* Trading_AbstractRequestType.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3FF6721709352A0090DEAE /* Trading_AbstractRequestType.m */; };
+		CE3FF6981709352A0090DEAE /* Trading_AbstractResponseType.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3FF6741709352A0090DEAE /* Trading_AbstractResponseType.m */; };
+		CE3FF6991709352A0090DEAE /* Trading_AckCodeType.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3FF6761709352A0090DEAE /* Trading_AckCodeType.m */; };
+		CE3FF69A1709352A0090DEAE /* Trading_BotBlockRequestType.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3FF6781709352A0090DEAE /* Trading_BotBlockRequestType.m */; };
+		CE3FF69B1709352A0090DEAE /* Trading_BotBlockResponseType.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3FF67A1709352A0090DEAE /* Trading_BotBlockResponseType.m */; };
+		CE3FF69C1709352A0090DEAE /* Trading_CustomSecurityHeaderType.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3FF67C1709352A0090DEAE /* Trading_CustomSecurityHeaderType.m */; };
+		CE3FF69D1709352A0090DEAE /* Trading_DetailLevelCodeType.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3FF67E1709352A0090DEAE /* Trading_DetailLevelCodeType.m */; };
+		CE3FF69E1709352A0090DEAE /* Trading_DuplicateInvocationDetailsType.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3FF6801709352A0090DEAE /* Trading_DuplicateInvocationDetailsType.m */; };
+		CE3FF69F1709352A0090DEAE /* Trading_ErrorClassificationCodeType.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3FF6821709352A0090DEAE /* Trading_ErrorClassificationCodeType.m */; };
+		CE3FF6A01709352A0090DEAE /* Trading_ErrorHandlingCodeType.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3FF6841709352A0090DEAE /* Trading_ErrorHandlingCodeType.m */; };
+		CE3FF6A11709352A0090DEAE /* Trading_ErrorParameterType.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3FF6861709352A0090DEAE /* Trading_ErrorParameterType.m */; };
+		CE3FF6A21709352A0090DEAE /* Trading_ErrorType.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3FF6881709352A0090DEAE /* Trading_ErrorType.m */; };
+		CE3FF6A31709352A0090DEAE /* Trading_GeteBayOfficialTimeRequestType.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3FF68A1709352A0090DEAE /* Trading_GeteBayOfficialTimeRequestType.m */; };
+		CE3FF6A41709352A0090DEAE /* Trading_GeteBayOfficialTimeResponseType.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3FF68C1709352A0090DEAE /* Trading_GeteBayOfficialTimeResponseType.m */; };
+		CE3FF6A51709352A0090DEAE /* Trading_InvocationStatusType.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3FF68E1709352A0090DEAE /* Trading_InvocationStatusType.m */; };
+		CE3FF6A61709352A0090DEAE /* Trading_SeverityCodeType.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3FF6901709352A0090DEAE /* Trading_SeverityCodeType.m */; };
+		CE3FF6A71709352A0090DEAE /* Trading_UserIdPasswordType.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3FF6921709352A0090DEAE /* Trading_UserIdPasswordType.m */; };
+		CE3FF6A81709352A0090DEAE /* Trading_WarningLevelCodeType.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3FF6941709352A0090DEAE /* Trading_WarningLevelCodeType.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE3FCBFF17092A100090DEAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE3FCBF817092A100090DEAE /* Pico.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CEAA8F1516D9C70E0024B5D7;
+			remoteInfo = Pico;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE3FCBCE170929F60090DEAE /* HelloeBayTrading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloeBayTrading.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE3FCBD2170929F60090DEAE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE3FCBD4170929F60090DEAE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE3FCBD6170929F60090DEAE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE3FCBDA170929F60090DEAE /* HelloeBayTrading-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloeBayTrading-Info.plist"; sourceTree = "<group>"; };
+		CE3FCBDC170929F60090DEAE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE3FCBDE170929F60090DEAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE3FCBE0170929F60090DEAE /* HelloeBayTrading-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloeBayTrading-Prefix.pch"; sourceTree = "<group>"; };
+		CE3FCBE1170929F60090DEAE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE3FCBE2170929F60090DEAE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE3FCBE4170929F60090DEAE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CE3FCBE6170929F60090DEAE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CE3FCBE8170929F60090DEAE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CE3FCBEA170929F60090DEAE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CE3FCBEB170929F60090DEAE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE3FCBEE170929F60090DEAE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		CE3FCBF1170929F60090DEAE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		CE3FCBF817092A100090DEAE /* Pico.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pico.xcodeproj; path = "../../../../pico-space/pico/Pico/Pico.xcodeproj"; sourceTree = "<group>"; };
+		CE3FCC0217092A1F0090DEAE /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		CE3FDA2417092BB80090DEAE /* Toast+UIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Toast+UIView.h"; sourceTree = "<group>"; };
+		CE3FDA2517092BB80090DEAE /* Toast+UIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Toast+UIView.m"; sourceTree = "<group>"; };
+		CE3FE84517092E520090DEAE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CE3FE84817092F940090DEAE /* EBayTradingServiceClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBayTradingServiceClient.h; sourceTree = "<group>"; };
+		CE3FE84917092F940090DEAE /* EBayTradingServiceClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBayTradingServiceClient.m; sourceTree = "<group>"; };
+		CE3FF66B1709352A0090DEAE /* EBayAPIInterface_SOAPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBayAPIInterface_SOAPClient.h; sourceTree = "<group>"; };
+		CE3FF66C1709352A0090DEAE /* EBayAPIInterface_SOAPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBayAPIInterface_SOAPClient.m; sourceTree = "<group>"; };
+		CE3FF66D1709352A0090DEAE /* EBayAPIInterface_XMLClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBayAPIInterface_XMLClient.h; sourceTree = "<group>"; };
+		CE3FF66E1709352A0090DEAE /* EBayAPIInterface_XMLClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBayAPIInterface_XMLClient.m; sourceTree = "<group>"; };
+		CE3FF6701709352A0090DEAE /* Trading_CommonTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trading_CommonTypes.h; sourceTree = "<group>"; };
+		CE3FF6711709352A0090DEAE /* Trading_AbstractRequestType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trading_AbstractRequestType.h; sourceTree = "<group>"; };
+		CE3FF6721709352A0090DEAE /* Trading_AbstractRequestType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trading_AbstractRequestType.m; sourceTree = "<group>"; };
+		CE3FF6731709352A0090DEAE /* Trading_AbstractResponseType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trading_AbstractResponseType.h; sourceTree = "<group>"; };
+		CE3FF6741709352A0090DEAE /* Trading_AbstractResponseType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trading_AbstractResponseType.m; sourceTree = "<group>"; };
+		CE3FF6751709352A0090DEAE /* Trading_AckCodeType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trading_AckCodeType.h; sourceTree = "<group>"; };
+		CE3FF6761709352A0090DEAE /* Trading_AckCodeType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trading_AckCodeType.m; sourceTree = "<group>"; };
+		CE3FF6771709352A0090DEAE /* Trading_BotBlockRequestType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trading_BotBlockRequestType.h; sourceTree = "<group>"; };
+		CE3FF6781709352A0090DEAE /* Trading_BotBlockRequestType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trading_BotBlockRequestType.m; sourceTree = "<group>"; };
+		CE3FF6791709352A0090DEAE /* Trading_BotBlockResponseType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trading_BotBlockResponseType.h; sourceTree = "<group>"; };
+		CE3FF67A1709352A0090DEAE /* Trading_BotBlockResponseType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trading_BotBlockResponseType.m; sourceTree = "<group>"; };
+		CE3FF67B1709352A0090DEAE /* Trading_CustomSecurityHeaderType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trading_CustomSecurityHeaderType.h; sourceTree = "<group>"; };
+		CE3FF67C1709352A0090DEAE /* Trading_CustomSecurityHeaderType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trading_CustomSecurityHeaderType.m; sourceTree = "<group>"; };
+		CE3FF67D1709352A0090DEAE /* Trading_DetailLevelCodeType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trading_DetailLevelCodeType.h; sourceTree = "<group>"; };
+		CE3FF67E1709352A0090DEAE /* Trading_DetailLevelCodeType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trading_DetailLevelCodeType.m; sourceTree = "<group>"; };
+		CE3FF67F1709352A0090DEAE /* Trading_DuplicateInvocationDetailsType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trading_DuplicateInvocationDetailsType.h; sourceTree = "<group>"; };
+		CE3FF6801709352A0090DEAE /* Trading_DuplicateInvocationDetailsType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trading_DuplicateInvocationDetailsType.m; sourceTree = "<group>"; };
+		CE3FF6811709352A0090DEAE /* Trading_ErrorClassificationCodeType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trading_ErrorClassificationCodeType.h; sourceTree = "<group>"; };
+		CE3FF6821709352A0090DEAE /* Trading_ErrorClassificationCodeType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trading_ErrorClassificationCodeType.m; sourceTree = "<group>"; };
+		CE3FF6831709352A0090DEAE /* Trading_ErrorHandlingCodeType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trading_ErrorHandlingCodeType.h; sourceTree = "<group>"; };
+		CE3FF6841709352A0090DEAE /* Trading_ErrorHandlingCodeType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trading_ErrorHandlingCodeType.m; sourceTree = "<group>"; };
+		CE3FF6851709352A0090DEAE /* Trading_ErrorParameterType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trading_ErrorParameterType.h; sourceTree = "<group>"; };
+		CE3FF6861709352A0090DEAE /* Trading_ErrorParameterType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trading_ErrorParameterType.m; sourceTree = "<group>"; };
+		CE3FF6871709352A0090DEAE /* Trading_ErrorType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trading_ErrorType.h; sourceTree = "<group>"; };
+		CE3FF6881709352A0090DEAE /* Trading_ErrorType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trading_ErrorType.m; sourceTree = "<group>"; };
+		CE3FF6891709352A0090DEAE /* Trading_GeteBayOfficialTimeRequestType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trading_GeteBayOfficialTimeRequestType.h; sourceTree = "<group>"; };
+		CE3FF68A1709352A0090DEAE /* Trading_GeteBayOfficialTimeRequestType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trading_GeteBayOfficialTimeRequestType.m; sourceTree = "<group>"; };
+		CE3FF68B1709352A0090DEAE /* Trading_GeteBayOfficialTimeResponseType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trading_GeteBayOfficialTimeResponseType.h; sourceTree = "<group>"; };
+		CE3FF68C1709352A0090DEAE /* Trading_GeteBayOfficialTimeResponseType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trading_GeteBayOfficialTimeResponseType.m; sourceTree = "<group>"; };
+		CE3FF68D1709352A0090DEAE /* Trading_InvocationStatusType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trading_InvocationStatusType.h; sourceTree = "<group>"; };
+		CE3FF68E1709352A0090DEAE /* Trading_InvocationStatusType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trading_InvocationStatusType.m; sourceTree = "<group>"; };
+		CE3FF68F1709352A0090DEAE /* Trading_SeverityCodeType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trading_SeverityCodeType.h; sourceTree = "<group>"; };
+		CE3FF6901709352A0090DEAE /* Trading_SeverityCodeType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trading_SeverityCodeType.m; sourceTree = "<group>"; };
+		CE3FF6911709352A0090DEAE /* Trading_UserIdPasswordType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trading_UserIdPasswordType.h; sourceTree = "<group>"; };
+		CE3FF6921709352A0090DEAE /* Trading_UserIdPasswordType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trading_UserIdPasswordType.m; sourceTree = "<group>"; };
+		CE3FF6931709352A0090DEAE /* Trading_WarningLevelCodeType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trading_WarningLevelCodeType.h; sourceTree = "<group>"; };
+		CE3FF6941709352A0090DEAE /* Trading_WarningLevelCodeType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trading_WarningLevelCodeType.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE3FCBCB170929F60090DEAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3FE84717092E870090DEAE /* libPico.a in Frameworks */,
+				CE3FE84617092E520090DEAE /* QuartzCore.framework in Frameworks */,
+				CE3FCC0317092A1F0090DEAE /* libxml2.dylib in Frameworks */,
+				CE3FCBD3170929F60090DEAE /* UIKit.framework in Frameworks */,
+				CE3FCBD5170929F60090DEAE /* Foundation.framework in Frameworks */,
+				CE3FCBD7170929F60090DEAE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE3FCBC3170929F60090DEAE = {
+			isa = PBXGroup;
+			children = (
+				CE3FCC0217092A1F0090DEAE /* libxml2.dylib */,
+				CE3FCBF817092A100090DEAE /* Pico.xcodeproj */,
+				CE3FCBD8170929F60090DEAE /* HelloeBayTrading */,
+				CE3FCBD1170929F60090DEAE /* Frameworks */,
+				CE3FCBCF170929F60090DEAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE3FCBCF170929F60090DEAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE3FCBCE170929F60090DEAE /* HelloeBayTrading.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE3FCBD1170929F60090DEAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE3FE84517092E520090DEAE /* QuartzCore.framework */,
+				CE3FCBD2170929F60090DEAE /* UIKit.framework */,
+				CE3FCBD4170929F60090DEAE /* Foundation.framework */,
+				CE3FCBD6170929F60090DEAE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE3FCBD8170929F60090DEAE /* HelloeBayTrading */ = {
+			isa = PBXGroup;
+			children = (
+				CE3FF668170935110090DEAE /* TradingProxy */,
+				CE3FE84817092F940090DEAE /* EBayTradingServiceClient.h */,
+				CE3FE84917092F940090DEAE /* EBayTradingServiceClient.m */,
+				CE3FDA2317092BB80090DEAE /* Toast */,
+				CE3FCBE1170929F60090DEAE /* AppDelegate.h */,
+				CE3FCBE2170929F60090DEAE /* AppDelegate.m */,
+				CE3FCBEA170929F60090DEAE /* ViewController.h */,
+				CE3FCBEB170929F60090DEAE /* ViewController.m */,
+				CE3FCBED170929F60090DEAE /* ViewController_iPhone.xib */,
+				CE3FCBF0170929F60090DEAE /* ViewController_iPad.xib */,
+				CE3FCBD9170929F60090DEAE /* Supporting Files */,
+			);
+			path = HelloeBayTrading;
+			sourceTree = "<group>";
+		};
+		CE3FCBD9170929F60090DEAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE3FCBDA170929F60090DEAE /* HelloeBayTrading-Info.plist */,
+				CE3FCBDB170929F60090DEAE /* InfoPlist.strings */,
+				CE3FCBDE170929F60090DEAE /* main.m */,
+				CE3FCBE0170929F60090DEAE /* HelloeBayTrading-Prefix.pch */,
+				CE3FCBE4170929F60090DEAE /* Default.png */,
+				CE3FCBE6170929F60090DEAE /* Default@2x.png */,
+				CE3FCBE8170929F60090DEAE /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE3FCBF917092A100090DEAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE3FCC0017092A100090DEAE /* libPico.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE3FDA2317092BB80090DEAE /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				CE3FDA2417092BB80090DEAE /* Toast+UIView.h */,
+				CE3FDA2517092BB80090DEAE /* Toast+UIView.m */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		CE3FF668170935110090DEAE /* TradingProxy */ = {
+			isa = PBXGroup;
+			children = (
+				CE3FF6691709352A0090DEAE /* eblbasecomponents */,
+			);
+			name = TradingProxy;
+			sourceTree = "<group>";
+		};
+		CE3FF6691709352A0090DEAE /* eblbasecomponents */ = {
+			isa = PBXGroup;
+			children = (
+				CE3FF66A1709352A0090DEAE /* client */,
+				CE3FF66F1709352A0090DEAE /* common */,
+				CE3FF6711709352A0090DEAE /* Trading_AbstractRequestType.h */,
+				CE3FF6721709352A0090DEAE /* Trading_AbstractRequestType.m */,
+				CE3FF6731709352A0090DEAE /* Trading_AbstractResponseType.h */,
+				CE3FF6741709352A0090DEAE /* Trading_AbstractResponseType.m */,
+				CE3FF6751709352A0090DEAE /* Trading_AckCodeType.h */,
+				CE3FF6761709352A0090DEAE /* Trading_AckCodeType.m */,
+				CE3FF6771709352A0090DEAE /* Trading_BotBlockRequestType.h */,
+				CE3FF6781709352A0090DEAE /* Trading_BotBlockRequestType.m */,
+				CE3FF6791709352A0090DEAE /* Trading_BotBlockResponseType.h */,
+				CE3FF67A1709352A0090DEAE /* Trading_BotBlockResponseType.m */,
+				CE3FF67B1709352A0090DEAE /* Trading_CustomSecurityHeaderType.h */,
+				CE3FF67C1709352A0090DEAE /* Trading_CustomSecurityHeaderType.m */,
+				CE3FF67D1709352A0090DEAE /* Trading_DetailLevelCodeType.h */,
+				CE3FF67E1709352A0090DEAE /* Trading_DetailLevelCodeType.m */,
+				CE3FF67F1709352A0090DEAE /* Trading_DuplicateInvocationDetailsType.h */,
+				CE3FF6801709352A0090DEAE /* Trading_DuplicateInvocationDetailsType.m */,
+				CE3FF6811709352A0090DEAE /* Trading_ErrorClassificationCodeType.h */,
+				CE3FF6821709352A0090DEAE /* Trading_ErrorClassificationCodeType.m */,
+				CE3FF6831709352A0090DEAE /* Trading_ErrorHandlingCodeType.h */,
+				CE3FF6841709352A0090DEAE /* Trading_ErrorHandlingCodeType.m */,
+				CE3FF6851709352A0090DEAE /* Trading_ErrorParameterType.h */,
+				CE3FF6861709352A0090DEAE /* Trading_ErrorParameterType.m */,
+				CE3FF6871709352A0090DEAE /* Trading_ErrorType.h */,
+				CE3FF6881709352A0090DEAE /* Trading_ErrorType.m */,
+				CE3FF6891709352A0090DEAE /* Trading_GeteBayOfficialTimeRequestType.h */,
+				CE3FF68A1709352A0090DEAE /* Trading_GeteBayOfficialTimeRequestType.m */,
+				CE3FF68B1709352A0090DEAE /* Trading_GeteBayOfficialTimeResponseType.h */,
+				CE3FF68C1709352A0090DEAE /* Trading_GeteBayOfficialTimeResponseType.m */,
+				CE3FF68D1709352A0090DEAE /* Trading_InvocationStatusType.h */,
+				CE3FF68E1709352A0090DEAE /* Trading_InvocationStatusType.m */,
+				CE3FF68F1709352A0090DEAE /* Trading_SeverityCodeType.h */,
+				CE3FF6901709352A0090DEAE /* Trading_SeverityCodeType.m */,
+				CE3FF6911709352A0090DEAE /* Trading_UserIdPasswordType.h */,
+				CE3FF6921709352A0090DEAE /* Trading_UserIdPasswordType.m */,
+				CE3FF6931709352A0090DEAE /* Trading_WarningLevelCodeType.h */,
+				CE3FF6941709352A0090DEAE /* Trading_WarningLevelCodeType.m */,
+			);
+			path = eblbasecomponents;
+			sourceTree = "<group>";
+		};
+		CE3FF66A1709352A0090DEAE /* client */ = {
+			isa = PBXGroup;
+			children = (
+				CE3FF66B1709352A0090DEAE /* EBayAPIInterface_SOAPClient.h */,
+				CE3FF66C1709352A0090DEAE /* EBayAPIInterface_SOAPClient.m */,
+				CE3FF66D1709352A0090DEAE /* EBayAPIInterface_XMLClient.h */,
+				CE3FF66E1709352A0090DEAE /* EBayAPIInterface_XMLClient.m */,
+			);
+			path = client;
+			sourceTree = "<group>";
+		};
+		CE3FF66F1709352A0090DEAE /* common */ = {
+			isa = PBXGroup;
+			children = (
+				CE3FF6701709352A0090DEAE /* Trading_CommonTypes.h */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE3FCBCD170929F60090DEAE /* HelloeBayTrading */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE3FCBF5170929F60090DEAE /* Build configuration list for PBXNativeTarget "HelloeBayTrading" */;
+			buildPhases = (
+				CE3FCBCA170929F60090DEAE /* Sources */,
+				CE3FCBCB170929F60090DEAE /* Frameworks */,
+				CE3FCBCC170929F60090DEAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloeBayTrading;
+			productName = HelloeBayTrading;
+			productReference = CE3FCBCE170929F60090DEAE /* HelloeBayTrading.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE3FCBC5170929F60090DEAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Leansoft;
+			};
+			buildConfigurationList = CE3FCBC8170929F60090DEAE /* Build configuration list for PBXProject "HelloeBayTrading" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE3FCBC3170929F60090DEAE;
+			productRefGroup = CE3FCBCF170929F60090DEAE /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CE3FCBF917092A100090DEAE /* Products */;
+					ProjectRef = CE3FCBF817092A100090DEAE /* Pico.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				CE3FCBCD170929F60090DEAE /* HelloeBayTrading */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		CE3FCC0017092A100090DEAE /* libPico.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libPico.a;
+			remoteRef = CE3FCBFF17092A100090DEAE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE3FCBCC170929F60090DEAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3FCBDD170929F60090DEAE /* InfoPlist.strings in Resources */,
+				CE3FCBE5170929F60090DEAE /* Default.png in Resources */,
+				CE3FCBE7170929F60090DEAE /* Default@2x.png in Resources */,
+				CE3FCBE9170929F60090DEAE /* Default-568h@2x.png in Resources */,
+				CE3FCBEF170929F60090DEAE /* ViewController_iPhone.xib in Resources */,
+				CE3FCBF2170929F60090DEAE /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE3FCBCA170929F60090DEAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3FCBDF170929F60090DEAE /* main.m in Sources */,
+				CE3FCBE3170929F60090DEAE /* AppDelegate.m in Sources */,
+				CE3FCBEC170929F60090DEAE /* ViewController.m in Sources */,
+				CE3FDA2617092BB80090DEAE /* Toast+UIView.m in Sources */,
+				CE3FE84A17092F940090DEAE /* EBayTradingServiceClient.m in Sources */,
+				CE3FF6951709352A0090DEAE /* EBayAPIInterface_SOAPClient.m in Sources */,
+				CE3FF6961709352A0090DEAE /* EBayAPIInterface_XMLClient.m in Sources */,
+				CE3FF6971709352A0090DEAE /* Trading_AbstractRequestType.m in Sources */,
+				CE3FF6981709352A0090DEAE /* Trading_AbstractResponseType.m in Sources */,
+				CE3FF6991709352A0090DEAE /* Trading_AckCodeType.m in Sources */,
+				CE3FF69A1709352A0090DEAE /* Trading_BotBlockRequestType.m in Sources */,
+				CE3FF69B1709352A0090DEAE /* Trading_BotBlockResponseType.m in Sources */,
+				CE3FF69C1709352A0090DEAE /* Trading_CustomSecurityHeaderType.m in Sources */,
+				CE3FF69D1709352A0090DEAE /* Trading_DetailLevelCodeType.m in Sources */,
+				CE3FF69E1709352A0090DEAE /* Trading_DuplicateInvocationDetailsType.m in Sources */,
+				CE3FF69F1709352A0090DEAE /* Trading_ErrorClassificationCodeType.m in Sources */,
+				CE3FF6A01709352A0090DEAE /* Trading_ErrorHandlingCodeType.m in Sources */,
+				CE3FF6A11709352A0090DEAE /* Trading_ErrorParameterType.m in Sources */,
+				CE3FF6A21709352A0090DEAE /* Trading_ErrorType.m in Sources */,
+				CE3FF6A31709352A0090DEAE /* Trading_GeteBayOfficialTimeRequestType.m in Sources */,
+				CE3FF6A41709352A0090DEAE /* Trading_GeteBayOfficialTimeResponseType.m in Sources */,
+				CE3FF6A51709352A0090DEAE /* Trading_InvocationStatusType.m in Sources */,
+				CE3FF6A61709352A0090DEAE /* Trading_SeverityCodeType.m in Sources */,
+				CE3FF6A71709352A0090DEAE /* Trading_UserIdPasswordType.m in Sources */,
+				CE3FF6A81709352A0090DEAE /* Trading_WarningLevelCodeType.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE3FCBDB170929F60090DEAE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE3FCBDC170929F60090DEAE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE3FCBED170929F60090DEAE /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE3FCBEE170929F60090DEAE /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		CE3FCBF0170929F60090DEAE /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE3FCBF1170929F60090DEAE /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE3FCBF3170929F60090DEAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE3FCBF4170929F60090DEAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE3FCBF6170929F60090DEAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloeBayTrading/HelloeBayTrading-Prefix.pch";
+				INFOPLIST_FILE = "HelloeBayTrading/HelloeBayTrading-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${PICO_SRC}/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE3FCBF7170929F60090DEAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloeBayTrading/HelloeBayTrading-Prefix.pch";
+				INFOPLIST_FILE = "HelloeBayTrading/HelloeBayTrading-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${PICO_SRC}/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE3FCBC8170929F60090DEAE /* Build configuration list for PBXProject "HelloeBayTrading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE3FCBF3170929F60090DEAE /* Debug */,
+				CE3FCBF4170929F60090DEAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE3FCBF5170929F60090DEAE /* Build configuration list for PBXNativeTarget "HelloeBayTrading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE3FCBF6170929F60090DEAE /* Debug */,
+				CE3FCBF7170929F60090DEAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE3FCBC5170929F60090DEAE /* Project object */;
+}

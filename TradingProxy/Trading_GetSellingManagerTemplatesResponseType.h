@@ -13,7 +13,7 @@
 
 /**
  
- Contains the templates requested on input. 
+ Contains the templates requested on input.
  Each SellingManagerTemplateType object in the response contains the data for one
  Selling Manager template.
  
@@ -30,7 +30,7 @@
 
 /**
  
- Contains the data of the templates requested on input. 
+ Contains the data of the templates requested on input.
  A Selling Manager template contains the data needed to list an item.
  Empty if no items are available that match the request.
  

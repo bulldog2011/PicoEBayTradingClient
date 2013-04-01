@@ -12,8 +12,8 @@
 
 /**
  
- Type defining the <b>PolicyCompliance</b> container returned in the 
- <b>GetSellerDashboard</b> response. The <b>PolicyCompliance</b> 
+ Type defining the <b>PolicyCompliance</b> container returned in the
+ <b>GetSellerDashboard</b> response. The <b>PolicyCompliance</b>
  container consist of information related to the seller's current status in terms of risk
  of facing TnS action (i.e., warnings, cancelled listings, restrictions, suspension, and
  violations).

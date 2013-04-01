@@ -10,7 +10,7 @@
 
 
 /**
-  
+ 
  Contains one or more stored comments for use as feedback to buyers.
  
  
@@ -26,8 +26,8 @@
 
 /**
  
- This comment is for use as feedback for buyers. No more than ten (10) 
- comments can be stored. 
+ This comment is for use as feedback for buyers. No more than ten (10)
+ comments can be stored.
  
  
  entry type : NSString, wrapper for primitive string

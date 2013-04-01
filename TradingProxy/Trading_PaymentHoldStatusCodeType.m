@@ -6,7 +6,8 @@
 /**
  @file
  
- Enumerated type that indicates the type and/or status of a payment hold.
+ Enumerated type that contains the list of possible values that can be returned
+ in the PaymentHoldStatus container.
  
 */
 
@@ -47,8 +48,15 @@ NSString *const Trading_PaymentHoldStatusCodeType_NONE = @"None";
 
 /**
  
- This value indicates that there is a "new seller hold" on the item. PayPal may
- hold payments to a new seller for up to 21 days.
+ This value indicates that there is a "new seller hold" on the item. PayPal
+ may hold payments to a new seller for up to 21 days.
+ Sellers are
+ considered "new" until they have met all three criteria below:
+ <ul>
+ <li>More than 90 days have passed since first successful sale</li>
+ <li>More than 25 domestic sales</li>
+ <li>More than $250.00 in total sales</li>
+ </ul>
  
 */
 NSString *const Trading_PaymentHoldStatusCodeType_NEW_SELLER_HOLD = @"NewSellerHold";
@@ -62,8 +70,8 @@ NSString *const Trading_PaymentHoldStatusCodeType_PAYMENT_HOLD = @"PaymentHold";
 
 /**
  
- This value indicates that the release process for orders that were subject to a
- payment hold has been initiated. 
+ This value indicates that the process for the release of funds for the
+ order has been initiated.
  
 */
 NSString *const Trading_PaymentHoldStatusCodeType_RELEASE_PENDING = @"ReleasePending";
@@ -87,7 +95,7 @@ NSString *const Trading_PaymentHoldStatusCodeType_RELEASE_FAILED = @"ReleaseFail
 
 /**
  
- Reserved for internal or future use.
+ This value is reserved for internal or future use.
  
 */
 NSString *const Trading_PaymentHoldStatusCodeType_CUSTOM_CODE = @"CustomCode";

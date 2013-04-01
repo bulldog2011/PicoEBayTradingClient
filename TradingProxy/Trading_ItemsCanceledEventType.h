@@ -13,7 +13,7 @@
 
 /**
  
- This event is not functional. 
+ This event is not functional.
  
  
  @ingroup EBayAPIInterface

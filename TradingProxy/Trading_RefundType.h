@@ -16,7 +16,7 @@
 /**
  
  Contains information about a single refund. A refund contains information about the
- amount refunded for an order line item to a single buyer. 
+ amount refunded for an order line item to a single buyer.
  <br/><br/> <span class="tablenote"><strong>Note:</strong> Three RefundType fields
  (RefundFromSeller, RefundTime and TotalRefundToBuyer) are returned (for GetOrders)
  only if a refund has been issued against a Half.com order line item.</span>
@@ -49,7 +49,7 @@
 /**
  
  Total amount refunded by the seller for this order line item.<br/><br/>
-             <span class="tablenote"><strong>Note:</strong> This field is 
+             <span class="tablenote"><strong>Note:</strong> This field is
              returned (for GetOrders) only if a refund has been issued against a Half.com
  order line item.</span>
  
@@ -61,7 +61,7 @@
 /**
  
  Total amount refunded to the buyer for this order line item.<br/><br/>
-             <span class="tablenote"><strong>Note:</strong> This field is 
+             <span class="tablenote"><strong>Note:</strong> This field is
              returned (for GetOrders) only if a refund has been issued against a Half.com
  order line item.</span>
  
@@ -73,7 +73,7 @@
 /**
  
  The date and time at which the refund was issued.<br/><br/>
-             <span class="tablenote"><strong>Note:</strong> This field is 
+             <span class="tablenote"><strong>Note:</strong> This field is
              returned (for GetOrders) only if a refund has been issued against a Half.com
  order line item.</span>
  
@@ -86,7 +86,7 @@
  
  The refund ID for this refund.<br>
              <br/><br/>
-             <span class="tablenote"><strong>Note:</strong> For eBay orders, 
+             <span class="tablenote"><strong>Note:</strong> For eBay orders,
              Refund containers are only returned for DE/AT orders subject to the new eBay
  payment process.</span>
  
@@ -98,7 +98,7 @@
 /**
  
  A container consisting of details about an order line item against which the seller issued a refund.<br/><br/>
-             <span class="tablenote"><strong>Note:</strong> For eBay orders, 
+             <span class="tablenote"><strong>Note:</strong> For eBay orders,
              Refund containers are only returned for DE/AT orders subject to the new eBay
  payment process.</span>
  
@@ -110,7 +110,7 @@
 /**
  
  The total amount of the refund requested.<br/><br/>
-             <span class="tablenote"><strong>Note:</strong> For eBay orders, 
+             <span class="tablenote"><strong>Note:</strong> For eBay orders,
              Refund containers are only returned for DE/AT orders subject to the new eBay
  payment process.</span>
  
@@ -122,7 +122,7 @@
 /**
  
  A code indicating the status of the refund request.<br/><br/>
-             <span class="tablenote"><strong>Note:</strong> For eBay orders, 
+             <span class="tablenote"><strong>Note:</strong> For eBay orders,
              Refund containers are only returned for DE/AT orders subject to the new eBay
  payment process.</span>
  
@@ -134,7 +134,7 @@
 /**
  
  This describes the reason why a refund was not issued by the seller.<br/><br/>
-             <span class="tablenote"><strong>Note:</strong> For eBay orders, 
+             <span class="tablenote"><strong>Note:</strong> For eBay orders,
              Refund containers are only returned for DE/AT orders subject to the new eBay
  payment process.</span>
  
@@ -146,7 +146,7 @@
 /**
  
  This container lists the funding sources for the refund.<br/><br/>
-             <span class="tablenote"><strong>Note:</strong> For eBay orders, 
+             <span class="tablenote"><strong>Note:</strong> For eBay orders,
              Refund containers are only returned for DE/AT orders subject to the new eBay
  payment process.</span>
  
@@ -158,7 +158,7 @@
 /**
  
  The unique external reference ID that was passed by the seller when requesting the refund. This ID helps to prevent duplication of refund requests.<br/><br/>
-             <span class="tablenote"><strong>Note:</strong> For eBay orders, 
+             <span class="tablenote"><strong>Note:</strong> For eBay orders,
              Refund containers are only returned for DE/AT orders subject to the new eBay
  payment process.</span>
  
@@ -170,7 +170,7 @@
 /**
  
  The date and time when the refund was requested.<br/><br/>
-             <span class="tablenote"><strong>Note:</strong> For eBay orders, 
+             <span class="tablenote"><strong>Note:</strong> For eBay orders,
              Refund containers are only returned for DE/AT orders subject to the new eBay
  payment process.</span>
  
@@ -182,7 +182,7 @@
 /**
  
  The date and time that the refund was completed.<br/><br/>
-             <span class="tablenote"><strong>Note:</strong> For eBay orders, 
+             <span class="tablenote"><strong>Note:</strong> For eBay orders,
              Refund containers are only returned for DE/AT orders subject to the new eBay
  payment process.</span>
  
@@ -194,7 +194,7 @@
 /**
  
  The estimated date and time that the refund is expected to be completed.<br/><br/>
-             <span class="tablenote"><strong>Note:</strong> For eBay orders, 
+             <span class="tablenote"><strong>Note:</strong> For eBay orders,
              Refund containers are only returned for DE/AT orders subject to the new eBay
  payment process.</span>
  
@@ -206,7 +206,7 @@
 /**
  
  Comments made by the the seller to the buyer.<br/><br/>
-             <span class="tablenote"><strong>Note:</strong> For eBay orders, 
+             <span class="tablenote"><strong>Note:</strong> For eBay orders,
              Refund containers are only returned for DE/AT orders subject to the new eBay
  payment process.</span>
  

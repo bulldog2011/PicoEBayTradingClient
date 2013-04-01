@@ -164,8 +164,8 @@
 
 /**
  
- This field is only returned if the shipping service option requires that package 
- dimensions are provided by the seller. If it is returned, it is always returned 
+ This field is only returned if the shipping service option requires that package
+ dimensions are provided by the seller. If it is returned, it is always returned
  as 'true'.
  
  
@@ -206,9 +206,12 @@
 
 /**
  
- Applies to the Italy site (site ID 101) only. Indicates whether the shipping service
- is a Cash On Delivery shipping service.
- Returned only if true.
+ This flag is returned as 'true' if the corresponding
+ <b>ShippingServiceDetails.ShippingService<b> value is a COD (Cash-On-Delivery)
+ service.
+ <br/><br/>
+ COD shipping services are not supported by all sites. This field is only returned if
+ 'true'.
  
  
  type : NSNumber, wrapper for primitive bool

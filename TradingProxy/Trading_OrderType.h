@@ -214,7 +214,7 @@
  <br>
  <span class="tablenote"><b>Note:</b>
  The introduction of the new eBay payment process for the entire German and
- Austrian eBay marketplace has been delayed until further notice.
+ Austrian eBay marketplace has been delayed until further notice.</span>
  <br><br>
  Applicable to Half.com (for <b>GetOrders</b>).
  
@@ -250,7 +250,7 @@
  service selected by the buyer.
        <br/><br/>
                    <span class="tablenote">
-                   <strong>Note:</strong> For GetOrders and GetOrderTransactions, if you provide <strong>OrderLineItemID</strong> values in the <strong>OrderID</strong> field, this container does not return accurate shipping service and cost information for multiple line item orders. You must provide the order's combined <strong>OrderID</strong> value to ensure that the <strong>ShippingService</strong> and <strong>ShippingServiceCost</strong> fields return the correct values for the order. 
+                   <strong>Note:</strong> For GetOrders and GetOrderTransactions, if you provide <strong>OrderLineItemID</strong> values in the <strong>OrderID</strong> field, this container does not return accurate shipping service and cost information for multiple line item orders. You must provide the order's combined <strong>OrderID</strong> value to ensure that the <strong>ShippingService</strong> and <strong>ShippingServiceCost</strong> fields return the correct values for the order.
                    </span>
  <br><br>
  Applicable to Half.com (for <b>GetOrders</b>).
@@ -287,15 +287,10 @@
  Container consisting of payment details for an eBay order. PayPal transactions may
  include a buyer payment or refund, or a fee or credit applied to the seller's
  account. This field is only returned after payment for the order has occurred. For
- DE and AT orders going through the new eBay payment process, the <b>
- PaymentHoldDetails</b> container and <b>PaymentHoldStatus</b>
- field will be returned instead of the <b> ExternalTransaction</b>
- container.
- <br>
- <br>
- <span class="tablenote"><b>Note:</b>
- The introduction of the new eBay payment process for the entire German and
- Austrian eBay marketplace has been delayed until further notice.
+ orders in which the seller's funds are being held by PayPal, the <b>
+ PaymentHoldDetails</b> container and <b>PaymentHoldStatus<
+ /b> field will be returned instead of the
+ <b>ExternalTransaction</b> container.
  <br><br>
  Not applicable to Half.com.
  
@@ -334,7 +329,8 @@
 
 /**
  
- Timestamp indicating the date and time of order payment. This field is not returned until payment has been made and checkout is complete.
+ Timestamp indicating the date and time of order payment. This field is not
+ returned until payment has been made by the buyer.
  <br><br>
  This time is specified in GMT (not Pacific time). See "Time Values" in the eBay Web Services guide for information about converting between GMT and other time zones.
  <br><br>
@@ -411,15 +407,19 @@
 
 /**
  
- This container will be returned for DE and AT orders going through the new eBay
- payment process. This container consists of the expected payout distribution to the
- seller's account, as well as possible actions that a seller can take to expedite the
- payout for the order.
- <br>
- <br>
- <span class="tablenote"><b>Note:</b>
- The introduction of the new eBay payment process for the entire German and
- Austrian eBay marketplace has been delayed until further notice.<br>
+ This container consists of information related to the payment hold
+ on the order, including the reason why the buyer's payment for the order is
+ being held, the expected release date of the funds into the seller's
+ account, and possible action(s) the seller can take to expedite the payout
+ of funds into their account. This container is only returned if PayPal
+ has placed a payment hold on the order.
+ <br><br>
+ An American seller (selling on US or US Motors sites) and a Canadian
+ seller (selling on CA and CA- FR sites) may be subject to PayPal payment
+ holds (that last from three to 21 days) if that seller is new to selling
+ on eBay or is classified as a "Below Standard" seller. For other reasons
+ why a seller's funds may be held by PayPal, see the
+ <b>PaymentHoldReason</b> field.
  
  
  type : class Trading_PaymentHoldDetailType
@@ -430,12 +430,13 @@
  
  Container consisting of one or more refunds for Half.com orders or DE/AT orders
  subject to the new eBay payment process. This container is returned only if a refund
- to a Half.com buyer has occurred or a refund was issued for an order subject to the 
+ to a Half.com buyer has occurred or a refund was issued for an order subject to the
  new eBay payment Process.<br>
  <br>
  <span class="tablenote"><b>Note:</b>
  The introduction of the new eBay payment process for the entire German and
- Austrian eBay marketplace has been delayed until further notice.<br>
+ Austrian eBay marketplace has been delayed until further notice.</span>
+ <br>
  
  
  type : class Trading_RefundArrayType
@@ -451,7 +452,8 @@
  <br>
  <span class="tablenote"><b>Note:</b>
  The introduction of the new eBay payment process for the entire German and
- Austrian eBay marketplace has been delayed until further notice.<br>
+ Austrian eBay marketplace has been delayed until further notice.</span>
+ <br>
  
  
  type : class Trading_AmountType
@@ -466,7 +468,8 @@
  <br>
  <span class="tablenote"><b>Note:</b>
  The introduction of the new eBay payment process for the entire German and
- Austrian eBay marketplace has been delayed until further notice.<br>
+ Austrian eBay marketplace has been delayed until further notice.</span>
+ <br>
  
  
  type : NSString, wrapper for primitive string

@@ -76,7 +76,7 @@
 
 /**
  
- The state of the offer. In the case of 
+ The state of the offer. In the case of
  a PlaceOffer response that specified a Best Offer,
  Status may be "Accepted" if the Best Offer
  was at or above an auto-accept price.
@@ -115,7 +115,7 @@
 
 /**
  
- This value indicates whether the corresponding offer is an original Best Offer, or a counter offer to a Best 
+ This value indicates whether the corresponding offer is an original Best Offer, or a counter offer to a Best
  Offer from the seller or buyer.
  
  

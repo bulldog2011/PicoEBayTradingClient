@@ -6,7 +6,7 @@
 /**
  @file
  
- Used to indicate whether Best Offer is enabled for a category belonging to the 
+ Used to indicate whether Best Offer is enabled for a category belonging to the
  Classified Ad Format.
  
 */

@@ -6,7 +6,7 @@
 /**
  @file
  
- Used to indicate whether the parts compatibility feature is enabled for a 
+ Used to indicate whether the parts compatibility feature is enabled for a
  category.
  
 */
@@ -25,7 +25,7 @@ NSString *const Trading_ItemCompatibilityEnabledCodeType_DISABLED = @"Disabled";
  specific year, make, and model of car) to which the item applies. Parts
  compatibility by application can be specified by listing with a catalog
  product that supports parts compatibility or by specifying parts compatibility
- by application manually (<b 
+ by application manually (<b
  class="con"> Item.ItemCompatibilityList</b>).
  
 */

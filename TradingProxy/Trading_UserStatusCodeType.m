@@ -44,7 +44,7 @@ NSString *const Trading_UserStatusCodeType_CONFIRMED = @"Confirmed";
  sent the confirmation email. Or, if this user began registration
  as a seller but did not complete it, the user will have this status. A seller with
  this status can begin to list an item but cannot complete the listing until the seller
- completes seller registration. (For information on what is needed to complete seller 
+ completes seller registration. (For information on what is needed to complete seller
  registration, see http://pages.ebay.com/help/sell/questions/sell-requirements.html.)
  
 */
@@ -80,7 +80,7 @@ NSString *const Trading_UserStatusCodeType_DELETED = @"Deleted";
  verification of credit card information. A user has this status if this user began registration
  as a seller but did not complete it. A seller with
  this status can begin to list an item but cannot complete the listing until the seller
- completes seller registration. (For information on what is needed to complete seller 
+ completes seller registration. (For information on what is needed to complete seller
  registration, see http://pages.ebay.com/help/sell/questions/sell-requirements.html.)
  
 */
@@ -134,11 +134,11 @@ NSString *const Trading_UserStatusCodeType_UNCONFIRMED_HALF_OPT_IN = @"Unconfirm
  
  User has completed the registration for Half.com and opted
  to automatically also be registered with eBay, but the
- user needs to complete verification of credit card information. 
+ user needs to complete verification of credit card information.
  A user has this status on eBay if this user began registration
  as a seller but did not complete it. A seller with
  this status can begin to list an item but cannot complete the listing until the seller
- completes seller registration. (For information on what is needed to complete seller 
+ completes seller registration. (For information on what is needed to complete seller
  registration, see http://pages.ebay.com/help/sell/questions/sell-requirements.html.)
  
 */

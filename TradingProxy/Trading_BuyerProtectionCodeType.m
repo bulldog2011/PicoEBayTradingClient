@@ -7,15 +7,15 @@
  @file
  
  This enumeration type indicates the item's eligibility status for the buyer protection
- program listed in the 
+ program listed in the
  <strong>ApplyBuyerProtection.BuyerProtectionSource</strong> field.
  
 */
 
 /**
  
- This value indicates that the item is ineligible for buyer protection. In many 
- cases, the item is ineligible for buyer protection due to the category it is listed 
+ This value indicates that the item is ineligible for buyer protection. In many
+ cases, the item is ineligible for buyer protection due to the category it is listed
  under.
  
 */

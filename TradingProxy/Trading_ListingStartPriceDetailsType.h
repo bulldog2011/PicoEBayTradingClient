@@ -13,13 +13,13 @@
 /**
  
  Type defining the <b>ListingStartPriceDetails</b> container returned in
- <b>GeteBayDetails</b>. The <b>ListingStartPriceDetails</b> 
- container lists the minimum start price for auction listings, the minimum sale price 
- for fixed-price listings, and the minimum percentage value that a Buy It Now price for 
+ <b>GeteBayDetails</b>. The <b>ListingStartPriceDetails</b>
+ container lists the minimum start price for auction listings, the minimum sale price
+ for fixed-price listings, and the minimum percentage value that a Buy It Now price for
  an auction listing must be above the minimum start price for that same listing.
  <br><br>
  The <b>ListingStartPriceDetails</b> container is returned if
- <b>ListingStartPriceDetails</b> is included as a <b>DetailName</b> 
+ <b>ListingStartPriceDetails</b> is included as a <b>DetailName</b>
  filter in the request, or if no lt;b>DetailName</b> filters are used in the request.
  
  
@@ -41,7 +41,7 @@
 
 /**
  
- This value is a string description of the listing type for which the pricing data 
+ This value is a string description of the listing type for which the pricing data
  is intended, such as "Pricing for the auction-like listings".
  
  
@@ -51,8 +51,8 @@
 
 /**
  
- This value indicates the listing type of the listing, and is a value defined in 
- <b>ListingTypeCodeType</b> enumerated type. The only possible values for 
+ This value indicates the listing type of the listing, and is a value defined in
+ <b>ListingTypeCodeType</b> enumerated type. The only possible values for
  this field are 'Chinese' (auction listing) and 'FixedPriceItem'.
  
  
@@ -63,7 +63,7 @@
 /**
  
  For auction listings, the <b>StartPrice</b> indicates the lowest dollar
- value that can be set for the item's Starting bid. 
+ value that can be set for the item's Starting bid.
  <br><br>
  For fixed-price listings, the <b>StartPrice</b> indicates the lowest
  dollar value that can be set for the item's sale price.
@@ -99,7 +99,7 @@
  This field is only returned and applicable for auction listings.
  <br><br>
  This float value indicates the minimum percentage value that a Buy It Now price for
- an auction listing must be above the Starting bid price for that same listing. 
+ an auction listing must be above the Starting bid price for that same listing.
  <br><br>
  On the US eBay Motors site (Site ID 100), this field only applies to the Parts and
  Accessories categories.

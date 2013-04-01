@@ -85,11 +85,11 @@
 /**
  
  The two-digit code representing the country whose intellectual property laws are
- being violated. This field can be used more than once if there a multiple 
+ being violated. This field can be used more than once if there a multiple
  countries whose intellectual property laws are being violated.
  <br><br>
- This field is required when the <b>VeROReasonCodeID</b> 
- is 9037 (Item(s) is unlawful importation of product bearing trademark). 
+ This field is required when the <b>VeROReasonCodeID</b>
+ is 9037 (Item(s) is unlawful importation of product bearing trademark).
  
  
  entry type : string constant in Trading_CountryCodeType.h

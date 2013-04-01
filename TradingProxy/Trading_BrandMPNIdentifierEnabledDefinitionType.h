@@ -10,7 +10,7 @@
 
 
 /**
-  
+ 
  This type defines the Brand/Manufacturer Part Number feature, and whether this
  feature is enabled at the site level. An empty BrandMPNIdentifierEnabled field is
  returned under the FeatureDefinitions container in GetCategoryFeatures if the feature

@@ -11,7 +11,7 @@
 
 /**
  
- Indicates if shipping options are available for Classified Ad 
+ Indicates if shipping options are available for Classified Ad
  format listings in the category.
  Added for Local Market users.
  

@@ -12,10 +12,10 @@
 
 /**
  
- Returns the store category structure update status, when a prior 
- SetStoreCategories call was processed asynchronously. If a SetStoreCategories 
- request affects many listings, then the category structure changes will be 
- processed asynchronously. If not many listings are affected by category structure 
+ Returns the store category structure update status, when a prior
+ SetStoreCategories call was processed asynchronously. If a SetStoreCategories
+ request affects many listings, then the category structure changes will be
+ processed asynchronously. If not many listings are affected by category structure
  changes, the status is returned in the SetStoreCategories response.
  
  
@@ -31,8 +31,8 @@
 
 /**
  
- The status (Pending, InProgress, Complete, or Failed) of an update to the 
- store category structure. 
+ The status (Pending, InProgress, Complete, or Failed) of an update to the
+ store category structure.
  
  
  type: string constant in Trading_TaskStatusCodeType.h

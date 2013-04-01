@@ -53,13 +53,14 @@
 
 /**
  
- The CreateTimeFrom and CreateTimeTo fields specify a date range for retrieving
- orders. The CreateTimeFrom field is the starting date range. All eBay orders
- that were created within this date range are returned in the output. The maximum
- date range that may be specified with the CreateTimeFrom and CreateTimeTo fields
- is 90 days. CreateTimeFrom/CreateTimeTo date filters are ignored if the
- NumberOfDays date filter is used in the request, or if one or more order IDs are
- passed in the request.
+ The <b>CreateTimeFrom</b> and <b>CreateTimeTo</b> fields
+ specify a date range for retrieving orders. The <b>CreateTimeFrom</b> field is the
+ starting date range. All eBay orders that were created within this date range are
+ returned in the output. The maximum date range that may be specified with the
+ <b>CreateTimeFrom</b> and <b>CreateTimeTo</b> fields is 90
+ days. <b>CreateTimeFrom</b>/<b>CreateTimeTo</b> date
+ filters are ignored if the <b>NumberOfDays</b> date filter is used in the request, or if
+ one or more order IDs are passed in the request.
  <br>
  Applicable to Half.com.
  
@@ -70,20 +71,20 @@
 
 /**
  
- The CreateTimeFrom and CreateTimeTo fields specify a date range for retrieving
- orders. The CreateTimeTo field is the ending date range. All eBay orders that were
+ The <b>CreateTimeFrom</b> and <b>CreateTimeTo</b> fields specify a date range for retrieving
+ orders. The <b>CreateTimeTo</b> field is the ending date range. All eBay orders that were
  created within this date range are returned in the output. The maximum
- date range that may be specified with the CreateTimeFrom and CreateTimeTo fields
- is 90 days. If the CreateTimeFrom field is used and the
- CreateTimeTo field is omitted, the "TimeTo" value defaults to the present time or
- to 90 days past the CreateTimeFrom value (if CreateTimeFrom value is more than 90
- days in the past). CreateTimeFrom/CreateTimeTo date filters are ignored if the
- NumberOfDays date filter is used in the request, or if one or more order IDs are
+ date range that may be specified with the <b>CreateTimeFrom</b> and <b>CreateTimeTo</b> fields
+ is 90 days. If the <b>CreateTimeFrom</b> field is used and the
+ <b>CreateTimeTo</b> field is omitted, the "TimeTo" value defaults to the present time or
+ to 90 days past the <b>CreateTimeFrom</b> value (if <b>CreateTimeFrom</b> value is more than 90
+ days in the past). <b>CreateTimeFrom</b>/<b>CreateTimeTo</b> date filters are ignored if the
+ <b>NumberOfDays</b> date filter is used in the request, or if one or more order IDs are
  passed in the request.
  <br><br>
  <span class="tablenote"><strong>Note:</strong>
  If a GetOrders call is made within a few seconds after the creation of a multiple
- line item order, the caller runs the risk of retrieiving orders that are in an
+ line item order, the caller runs the risk of retrieving orders that are in an
  inconsistent state, since the order consolidation involved in a multi-line item order
  may not have been completed. For
  this reason, it is recommended that sellers include the
@@ -210,7 +211,7 @@
  This filter specifies the number of days (24-hour periods) in the past to search
  for orders. All eBay orders that were either created or modified within this
  period are returned in the output. This field cannot be used in conjunction with
- the CreateTimeFrom/CreateTimeTo or ModTimeFrom/ModTimeTo date filters. This date 
+ the CreateTimeFrom/CreateTimeTo or ModTimeFrom/ModTimeTo date filters. This date
  filter is ignored if one or more order IDs are passed in the request.
  <br><br>
  Applicable to Half.com.

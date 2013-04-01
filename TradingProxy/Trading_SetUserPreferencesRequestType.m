@@ -9,6 +9,7 @@
 #import "Trading_UnpaidItemAssistancePreferencesType.h"
 #import "Trading_EndOfAuctionEmailPreferencesType.h"
 #import "Trading_CombinedPaymentPreferencesType.h"
+#import "Trading_DispatchCutoffTimePreferencesType.h"
 #import "Trading_BidderNoticePreferencesType.h"
 #import "Trading_SellerPaymentPreferencesType.h"
 
@@ -25,6 +26,7 @@
 @synthesize unpaidItemAssistancePreferences = _unpaidItemAssistancePreferences;
 @synthesize purchaseReminderEmailPreferences = _purchaseReminderEmailPreferences;
 @synthesize sellerThirdPartyCheckoutDisabled = _sellerThirdPartyCheckoutDisabled;
+@synthesize dispatchCutoffTimePreference = _dispatchCutoffTimePreference;
 
 // class meta-data method
 // note: this method is only for internal use, DO NOT CHANGE!
@@ -73,6 +75,9 @@
     ps = [[PicoPropertySchema alloc] initWithKind:PICO_KIND_ELEMENT xmlName:@"SellerThirdPartyCheckoutDisabled" propertyName:@"sellerThirdPartyCheckoutDisabled" type:PICO_TYPE_BOOL clazz:nil];
     [map setObject:ps forKey:@"sellerThirdPartyCheckoutDisabled"];
     [ps release];
+    ps = [[PicoPropertySchema alloc] initWithKind:PICO_KIND_ELEMENT xmlName:@"DispatchCutoffTimePreference" propertyName:@"dispatchCutoffTimePreference" type:PICO_TYPE_OBJECT clazz:[Trading_DispatchCutoffTimePreferencesType class]];
+    [map setObject:ps forKey:@"dispatchCutoffTimePreference"];
+    [ps release];
     
     return map;
 }
@@ -91,6 +96,7 @@
     self.unpaidItemAssistancePreferences = nil;
     self.purchaseReminderEmailPreferences = nil;
     self.sellerThirdPartyCheckoutDisabled = nil;
+    self.dispatchCutoffTimePreference = nil;
     [super dealloc];
 }
 

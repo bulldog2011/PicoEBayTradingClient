@@ -74,7 +74,7 @@
 
 /**
  
- Type of a promotional sale discount for items (for example, percentage). 
+ Type of a promotional sale discount for items (for example, percentage).
  Applies to price discount sales only.
  
  
@@ -84,10 +84,10 @@
 
 /**
  
- Value of a promotional sale discount for items, a percentage discount 
- or a fixed amount reduction. Percentage discounts must be at least 5% and 
- cannot exceed 75% of the original listing price. Fixed amount discounts 
- will be in the currency of the original listing. 
+ Value of a promotional sale discount for items, a percentage discount
+ or a fixed amount reduction. Percentage discounts must be at least 5% and
+ cannot exceed 75% of the original listing price. Fixed amount discounts
+ will be in the currency of the original listing.
  Applies to price discount sales only.
  
  
@@ -100,7 +100,7 @@
  Start date of a promotional sale for items. Promotional sales can start
  immediately or be scheduled to start at a later date. Some sites require
  items to have been listed for a specific duration before they can be added
- to a promotional sale (for example, on the US site, items must have been 
+ to a promotional sale (for example, on the US site, items must have been
  listed for a day before they can be added to a promotional sale).
  
  

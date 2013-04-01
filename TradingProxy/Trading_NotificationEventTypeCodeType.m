@@ -750,7 +750,7 @@ NSString *const Trading_NotificationEventTypeCodeType_READY_TO_SHIP = @"ReadyToS
 
 /**
  
- This notification is sent to a DE or AT seller when a seller payout for an order 
+ This notification is sent to a DE or AT seller when a seller payout for an order
  (subject to the new eBay payment process) is scheduled to be distributed to the seller's
  account in the next disbursement cycle. This notification is triggered and sent
  when the value of PaymentHoldStatus is 'Complete' in GetOrders and other order
@@ -821,7 +821,7 @@ NSString *const Trading_NotificationEventTypeCodeType_RETURN_REFUND_OVERDUE = @"
 /**
  
  This notification is sent to the subscribed buyer or seller (or application)
- when a return is closed. 
+ when a return is closed.
  
 */
 NSString *const Trading_NotificationEventTypeCodeType_RETURN_CLOSED = @"ReturnClosed";
@@ -850,7 +850,7 @@ NSString *const Trading_NotificationEventTypeCodeType_UNMATCHED_PAYMENT_RECEIVED
  A notification type where sellers are notified when voluntary refunds are
  successful.
  <br><br>
- This notification type is only applicable for DE/AT orders going through the new eBay 
+ This notification type is only applicable for DE/AT orders going through the new eBay
  payment process.
  
 */
@@ -860,7 +860,7 @@ NSString *const Trading_NotificationEventTypeCodeType_REFUND_SUCCESS = @"RefundS
  
  A notification type where sellers are notified when voluntary refunds failed.
  <br><br>
- This notification type is only applicable for DE/AT orders going through the new eBay 
+ This notification type is only applicable for DE/AT orders going through the new eBay
  payment process.
  
 */

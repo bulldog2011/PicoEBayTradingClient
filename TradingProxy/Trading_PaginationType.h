@@ -41,10 +41,10 @@
  For GetOrders, the maximum value is 100 and the default value is 25 orders per page.
  <br><br>
  For GetUserDisputes, this value is hard-coded at 200, and any pagination input is
- ignored. 
+ ignored.
  <br><br>
  For GetProducts, the maximum value is 20, and any higher values are
- ignored. 
+ ignored.
  
  
  type : NSNumber, wrapper for primitive int

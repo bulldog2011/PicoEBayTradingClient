@@ -14,7 +14,7 @@
 
 /**
  
- The order line item was created  
+ The order line item was created
  on the main eBay site.
  
 */

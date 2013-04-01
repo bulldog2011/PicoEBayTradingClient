@@ -12,8 +12,8 @@
 
 /**
  
- Type defining the response of the <b>AddDispute</b> call. Upon a successful 
- call, the response contains a newly created DisputeID value, which confirms that the 
+ Type defining the response of the <b>AddDispute</b> call. Upon a successful
+ call, the response contains a newly created DisputeID value, which confirms that the
  the Unpaid Item or Mutually Canceled Transaction case was successfully created.
  
  
@@ -29,7 +29,7 @@
 
 /**
  
- The unique identifier of the Unpaid Item or Mutually Canceled Transaction case 
+ The unique identifier of the Unpaid Item or Mutually Canceled Transaction case
  that was successfully created with the <b>AddDispute</b> call.
  
  

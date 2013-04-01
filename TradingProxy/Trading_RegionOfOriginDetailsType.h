@@ -43,7 +43,7 @@
 /**
  
  
- Full name of the continent, geographic region, or country; useful for display 
+ Full name of the continent, geographic region, or country; useful for display
  purposes.
  
  
@@ -54,7 +54,7 @@
 /**
  
  
- Indicates the status of the Region of Origin value. Only Region of Origin values 
+ Indicates the status of the Region of Origin value. Only Region of Origin values
  in the 'Active' state can be used.
  
  

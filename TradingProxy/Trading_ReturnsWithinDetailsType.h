@@ -32,17 +32,17 @@
 /**
  
  Value indicates the number of days that a buyer has to return an item from the day they
- receive the item. This value can be passed in the Add/Revise/Relist family of API calls. 
+ receive the item. This value can be passed in the Add/Revise/Relist family of API calls.
  <br/>
  <br/>
- <span class="tablenote"><b>Note:</b> 
+ <span class="tablenote"><b>Note:</b>
  As of version 771, listings created, revised, or relisted with
  deprecated <b>RefundOption</b> and/or
  <b>ReturnsWithinOption</b> values (using Add/Revise/Relist family of
  API calls) will be blocked.
  <br/><br/>
- For <b>ReturnsWithinOption</b>, the deprecated values are <b>Days_3</b> 
- and <b>Days_7</b>. Instead of these deprecated values, the seller must offer a 
+ For <b>ReturnsWithinOption</b>, the deprecated values are <b>Days_3</b>
+ and <b>Days_7</b>. Instead of these deprecated values, the seller must offer a
  14-day, 30-day, or 60-day return window.
  </span>
  <br/>

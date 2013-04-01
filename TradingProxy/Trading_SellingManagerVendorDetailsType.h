@@ -26,7 +26,7 @@
 
 /**
  
- Primary vendor name. Vendor information is returned only if it has been set. 
+ Primary vendor name. Vendor information is returned only if it has been set.
  
  
  type : NSString, wrapper for primitive string
@@ -35,7 +35,7 @@
 
 /**
  
- Contact information of vendor. Vendor information is returned only if it has been set. 
+ Contact information of vendor. Vendor information is returned only if it has been set.
  
  
  type : NSString, wrapper for primitive string

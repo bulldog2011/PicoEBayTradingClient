@@ -11,7 +11,7 @@
 @class Trading_BestOfferType;
 
 /**
-  
+ 
  A collection of Best Offers. Empty if there are no best offers.
  
  
@@ -26,7 +26,7 @@
 
 
 /**
-  
+ 
  A container of details about a best offer.
  
  

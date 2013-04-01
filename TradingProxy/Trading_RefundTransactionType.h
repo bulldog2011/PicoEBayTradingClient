@@ -36,8 +36,8 @@
  
  The order against which the refund was issued. The presence of this value indicates that the refund was issued against the entire order.<br/><br/>
  <span class="tablenote">
- <strong>Note:</strong> RefundTransaction containers are returned 
- (for GetOrders and other order retrieval calls) for DE/AT orders subject to the 
+ <strong>Note:</strong> RefundTransaction containers are returned
+ (for GetOrders and other order retrieval calls) for DE/AT orders subject to the
  new eBay payment process.
  </span>
  
@@ -50,8 +50,8 @@
  
  The item against which the refund was issued. This value must be accompanied by a TransactionID value.<br/><br/>
  <span class="tablenote">
- <strong>Note:</strong> RefundTransaction containers are returned 
- (for GetOrders and other order retrieval calls) for DE/AT orders subject to the 
+ <strong>Note:</strong> RefundTransaction containers are returned
+ (for GetOrders and other order retrieval calls) for DE/AT orders subject to the
  new eBay payment process.
  </span>
  
@@ -64,8 +64,8 @@
  
  The transaction against which the refund was issued. This value must be accompanied by an ItemID value.<br/><br/>
  <span class="tablenote">
- <strong>Note:</strong> RefundTransaction containers are returned 
- (for GetOrders and other order retrieval calls) for DE/AT orders subject to the 
+ <strong>Note:</strong> RefundTransaction containers are returned
+ (for GetOrders and other order retrieval calls) for DE/AT orders subject to the
  new eBay payment process.
  </span>
  
@@ -78,8 +78,8 @@
  
  An array of refund lines identifying the order line items against which the refund was issued.<br/><br/>
  <span class="tablenote">
- <strong>Note:</strong> RefundTransaction containers are returned 
- (for GetOrders and other order retrieval calls) for DE/AT orders subject to the 
+ <strong>Note:</strong> RefundTransaction containers are returned
+ (for GetOrders and other order retrieval calls) for DE/AT orders subject to the
  new eBay payment process.
  </span>
  

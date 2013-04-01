@@ -60,9 +60,9 @@
 
 /**
  
- Specifies an eBay category associated with the product, 
- defines Item Specifics that are relevant to the product, 
- and defines variations available for the product 
+ Specifies an eBay category associated with the product,
+ defines Item Specifics that are relevant to the product,
+ and defines variations available for the product
  (which may be used to create mult-variation listings).
  
  

@@ -12,7 +12,7 @@
 
 /**
  
- Type defining the <b>UnitOfMeasurementDetails</b> container, which consists 
+ Type defining the <b>UnitOfMeasurementDetails</b> container, which consists
  of suggested and alternative ways of referring to units of measurement.
  
  

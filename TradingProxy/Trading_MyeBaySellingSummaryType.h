@@ -155,9 +155,9 @@
  The quantity of items that this seller can list. This number refers to the total quantity of items in all listings.
  For example, if the seller's limit was a quantity of 100, this could be 100 listings of one item each, or one listing with a quantity of 100 items.
  The seller will be unable to list additional items or quantities of items for sale in excess of this number for the
- current month unless the seller requests an increase from eBay using the "Request higher selling limits" link in the All Selling section 
+ current month unless the seller requests an increase from eBay using the "Request higher selling limits" link in the All Selling section
  of My eBay. (Under "Selling Limits".) Notice that the amount limit (see AmountLimitRemaining) may be reached
- before the quantity limit is reached. 
+ before the quantity limit is reached.
  
  
  type : NSNumber, wrapper for primitive long
@@ -170,11 +170,11 @@
  specified upon listing. For example, for fixed price listings, this is the total of the fixed price amounts.
  For auction listings, this is the total of the starting prices.
  The seller will be unable to list an item if the amount of the item's fixed price or starting price (for auctions)
- exceeds the amount limit. 
- This is part of the seller limit, which can be increased by requesting an increase from eBay using the 
- "Request higher selling limits" link in the All Selling section 
+ exceeds the amount limit.
+ This is part of the seller limit, which can be increased by requesting an increase from eBay using the
+ "Request higher selling limits" link in the All Selling section
  of My eBay. (Under "Selling Limits".) Notice that the quantity limit (see QuantityLimitRemaining) may be reached
- before the amount limit is reached. 
+ before the amount limit is reached.
  
  
  type : class Trading_AmountType

@@ -42,7 +42,7 @@ NSString *const Trading_StoreItemListSortOrderCodeType_HIGHEST_PRICED = @"Highes
 
 /**
  
- Lists items by combined price and shipping cost in ascending order. The item 
+ Lists items by combined price and shipping cost in ascending order. The item
  with the lowest combined starting price plus shipping cost is listed first.
  
 */
@@ -51,7 +51,7 @@ NSString *const Trading_StoreItemListSortOrderCodeType_LOWEST_PRICED_PLUS_SHIPPI
 /**
  
  Reserved for future use.
- Lists items by combined price and shipping cost in descending order. The item 
+ Lists items by combined price and shipping cost in descending order. The item
  with the highest combined starting price plus shipping cost is listed first.
  
 */

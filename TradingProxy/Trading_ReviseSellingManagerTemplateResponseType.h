@@ -35,8 +35,8 @@
 
 /**
  
- This sale template ID uniquely identifies the template that was revised 
- in the request. This sale template ID should match the 
+ This sale template ID uniquely identifies the template that was revised
+ in the request. This sale template ID should match the
  template ID specified in the request.
  specified for the call.
  
@@ -89,7 +89,7 @@
 
 /**
  
- Instead of revising, only verifies the template. 
+ Instead of revising, only verifies the template.
  
  
  type : NSNumber, wrapper for primitive bool

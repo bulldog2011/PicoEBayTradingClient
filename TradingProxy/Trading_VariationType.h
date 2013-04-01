@@ -104,8 +104,8 @@
  <br>
  For <b>GetItem</b> (and other related calls that retrieve the Item
  object), the <b>Variation.Quantity</b> value indicates the total number
- of items associated with the variation, including the quantity available and the 
- quantity sold. To calculate the quantity available for sale, subtract 
+ of items associated with the variation, including the quantity available and the
+ quantity sold. To calculate the quantity available for sale, subtract
  <b>SellingStatus.QuantitySold</b> from this value.<br>
  <br>
  <b>For ReviseFixedPriceItem:</b>
@@ -139,7 +139,7 @@
  variation must specify Color and Size as names, and no two
  variations can specify the same combination of color and size values.<br>
  <br>
- When you revise a listing that includes variations, you can 
+ When you revise a listing that includes variations, you can
  change names in variation specifics by using ModifyNameList. You can also add, delete, or replace individual variations as needed to match your
  current inventory. Use the Variation.Delete field to delete a variation that has no sales (order line items). If the variation has
  sales, then set the Quantity to 0.<br>
@@ -294,7 +294,7 @@
  <br><br>
  Discount pricing is available to qualified sellers (and their associated developers) who
  participate in the Discount Pricing Program. Once qualified, sellers receive a
- "special account flag" (SAF) that allows them to apply Discount Pricing to both single-variation and multi-variation 
+ "special account flag" (SAF) that allows them to apply Discount Pricing to both single-variation and multi-variation
  items. Sellers should contact their account manager or Customer Service to
  see if they qualify for the Strikethrough Pricing program.
  <br><br>

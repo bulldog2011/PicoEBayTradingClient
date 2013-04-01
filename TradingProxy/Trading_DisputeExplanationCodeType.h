@@ -10,7 +10,7 @@
  against one another. These values are specified in the <b>DisputeExplanation</b>
  field of <b>AddDispute</b>, and are returned in the
  <b>GetUserDisputes</b> and <b>GetDispute</b> calls. The
- <b>DisputeReason</b> value will dictate what 
+ <b>DisputeReason</b> value will dictate what
  <b>DisputeExplanation</b> values that can be used/returned.
  
  
@@ -19,8 +19,8 @@
 
 /**
  
- This value indicates that the buyer has not paid for the order line item, and has 
- not responded to the seller regarding payment. This value is allowed when the 
+ This value indicates that the buyer has not paid for the order line item, and has
+ not responded to the seller regarding payment. This value is allowed when the
  <b>DisputeReason</b> value is <b>BuyerHasNotPaid</b>.
  
 */
@@ -31,7 +31,7 @@ extern NSString *const Trading_DisputeExplanationCodeType_BUYER_HAS_NOT_RESPONDE
  This value indicates that the buyer has not paid for the order line item, and
  according to the seller, has refused to pay for the order line item. This value is
  allowed when the <b>DisputeReason</b> value is
- <b>BuyerHasNotPaid</b>. 
+ <b>BuyerHasNotPaid</b>.
  
 */
 extern NSString *const Trading_DisputeExplanationCodeType_BUYER_REFUSED_TO_PAY;
@@ -41,7 +41,7 @@ extern NSString *const Trading_DisputeExplanationCodeType_BUYER_REFUSED_TO_PAY;
  This value indicates that the buyer has not paid for the order line item, and
  is not cleared by eBay to pay. This value is allowed when the
  <b>DisputeReason</b> value is
- <b>BuyerHasNotPaid</b>. 
+ <b>BuyerHasNotPaid</b>.
  
 */
 extern NSString *const Trading_DisputeExplanationCodeType_BUYER_NOT_CLEARED_TO_PAY;
@@ -68,8 +68,8 @@ extern NSString *const Trading_DisputeExplanationCodeType_UNABLE_TO_RESOLVE_TERM
  
  This value indicates that the buyer no longer wants the item (buyer remorse), and
  the seller is willing to cancel the order line item. This value is allowed when the
- <b>DisputeReason</b> value is 
- <b>TransactionMutuallyCanceled</b>. 
+ <b>DisputeReason</b> value is
+ <b>TransactionMutuallyCanceled</b>.
  
 */
 extern NSString *const Trading_DisputeExplanationCodeType_BUYER_NO_LONGER_WANTS_ITEM;
@@ -78,8 +78,8 @@ extern NSString *const Trading_DisputeExplanationCodeType_BUYER_NO_LONGER_WANTS_
  
  This value indicates that the buyer made a mistake by purchasing the item, and
  the seller is willing to cancel the order line item. This value is allowed when the
- <b>DisputeReason</b> value is 
- <b>TransactionMutuallyCanceled</b>. 
+ <b>DisputeReason</b> value is
+ <b>TransactionMutuallyCanceled</b>.
  
 */
 extern NSString *const Trading_DisputeExplanationCodeType_BUYER_PURCHASING_MISTAKE;
@@ -96,7 +96,7 @@ extern NSString *const Trading_DisputeExplanationCodeType_SHIP_COUNTRY_NOT_SUPPO
  This value indicates that the buyer is requesting shipment of the item to an
  unconfirmed (not on file with eBay) address. This value is allowed when the
  <b>DisputeReason</b> value is <b>BuyerHasNotPaid</b> or
- <b>TransactionMutuallyCanceled</b>. 
+ <b>TransactionMutuallyCanceled</b>.
  
 */
 extern NSString *const Trading_DisputeExplanationCodeType_SHIPPING_ADDRESS_NOT_CONFIRMED;
@@ -128,9 +128,9 @@ extern NSString *const Trading_DisputeExplanationCodeType_OTHER_EXPLANATION;
 
 /**
  
- This value can be used when no other explanation in 
+ This value can be used when no other explanation in
  <b>DisputeExplanationCodeType</b> is appropriate for the situation. This
- value is allowed when the <b>DisputeReason</b> value is 
+ value is allowed when the <b>DisputeReason</b> value is
  <b>ItemNotReceived</b> or <b>SignificantlyNotAsDescribed</b>.
  This value cannot be used in <b>AddDispute</b>.
  
@@ -159,7 +159,7 @@ extern NSString *const Trading_DisputeExplanationCodeType_BUYER_PAYMENT_NOT_RECE
  
  This value indicates that the buyer is requesting shipment of the item to a country
  that is on the seller's ship-to exclusion list. This value is allowed when the
- <b>DisputeReason</b> value is <b>BuyerHasNotPaid</b> or 
+ <b>DisputeReason</b> value is <b>BuyerHasNotPaid</b> or
  <b>TransactionMutuallyCanceled</b>.
  
 */
@@ -168,7 +168,7 @@ extern NSString *const Trading_DisputeExplanationCodeType_SELLER_DOESNT_SHIP_TO_
 /**
  
  This value indicates that the buyer has not paid for the order line item. This value
- is allowed when the <b>DisputeReason</b> value is 
+ is allowed when the <b>DisputeReason</b> value is
  <b>BuyerHasNotPaid</b>.
  
 */
@@ -188,7 +188,7 @@ extern NSString *const Trading_DisputeExplanationCodeType_UPI_ASSISTANCE_DISABLE
  
   This value indicates that the seller ran out of stock on the item, cannot fulfill
   the order, and has to cancel the order line item. This value is allowed when the
-  <b>DisputeReason</b> value is 
+  <b>DisputeReason</b> value is
   <b>TransactionMutuallyCanceled</b>.
      
 */

@@ -24,7 +24,7 @@ extern NSString *const Trading_PhotoDisplayCodeType_NONE;
 extern NSString *const Trading_PhotoDisplayCodeType_SLIDE_SHOW;
 
 /**
-    
+ 
  Increase the size of each image and allow buyers to enlarge images
  further. Only available for site-hosted (EPS) images. Not valid for US Motors
  listings. For all sites that do not automatically upgrade SuperSize to
@@ -45,12 +45,12 @@ extern NSString *const Trading_PhotoDisplayCodeType_SUPER_SIZE;
 /**
  
  Increase the number of images displayed. This is only available for
- images hosted with eBay. See GetCategoryFeatures and the 
- online Help (on the eBay site) for additional information. 
+ images hosted with eBay. See GetCategoryFeatures and the
+ online Help (on the eBay site) for additional information.
  <br><br>
  Picture Pack applies to all sites
- (including USMotors), except for NL (site ID 146). You can specify a minimum of 
- one EPS picture, or no SuperSize-qualified EPS pictures in the request. For 
+ (including USMotors), except for NL (site ID 146). You can specify a minimum of
+ one EPS picture, or no SuperSize-qualified EPS pictures in the request. For
  the NL site, PicturePack is replaced with SuperSize.
  
 */

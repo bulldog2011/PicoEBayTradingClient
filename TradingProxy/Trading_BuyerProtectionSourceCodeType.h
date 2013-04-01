@@ -15,7 +15,7 @@
 
 /**
  
- This value indicates that the item is possibly eligible for buyer protection under 
+ This value indicates that the item is possibly eligible for buyer protection under
  the eBay Buyer Protection Program.
  
 */
@@ -23,7 +23,7 @@ extern NSString *const Trading_BuyerProtectionSourceCodeType_E_BAY;
 
 /**
  
- This value indicates that the item is possibly eligible for buyer protection under 
+ This value indicates that the item is possibly eligible for buyer protection under
  the PayPal Purchase Protection Program.
  
 */

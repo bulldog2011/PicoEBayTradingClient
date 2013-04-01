@@ -6,7 +6,7 @@
 /**
  @file
  
- Enumerated type that lists the possible states for DE and AT categories in regards to the new eBay payment process. 
+ Enumerated type that lists the possible states for DE and AT categories in regards to the new eBay payment process.
  
  
  @ingroup EBayAPIInterface
@@ -21,7 +21,7 @@ extern NSString *const Trading_PaymentOptionsGroupEnabledCodeType_E_BAY_PAYMENT_
 
 /**
  
- This value indicates that non-standard payments is enabled for this category. 
+ This value indicates that non-standard payments is enabled for this category.
  
 */
 extern NSString *const Trading_PaymentOptionsGroupEnabledCodeType_NON_STANDARD_PAYMENTS_ENABLED;

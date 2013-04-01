@@ -21,7 +21,7 @@
  <br>
  <br>
  <span class="tablenote"><b>Note:</b>
- The Picture Border feature has been deprecated.
+ The Picture Border feature is no longer available on the US site.
  </span>
  <br>
  

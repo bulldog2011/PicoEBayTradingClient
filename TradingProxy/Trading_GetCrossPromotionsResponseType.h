@@ -13,8 +13,8 @@
 
 /**
  
- <b>No longer recommended.</b> The eBay Store Cross Promotions are no longer supported in the Trading API, so the 
- <b>CrossPromotion</b> container will either not be returned, or, if it is 
+ <b>No longer recommended.</b> The eBay Store Cross Promotions are no longer supported in the Trading API, so the
+ <b>CrossPromotion</b> container will either not be returned, or, if it is
  returned, the data in the container may not be accurate. Returns a list of either upsell or cross-sell items for a given item ID.
  The list can be filtered by the viewer's role, either buyer or seller.
  
@@ -31,12 +31,14 @@
 
 /**
  
-   eBay Store Cross Promotions are no longer supported in the Trading API, so the 
- <b>CrossPromotion</b> container will either not be returned, or, if it is 
- returned, the data in the container may not be accurate. A list of cross-promoted items defined for a specific
-   referring item. The list is either upsell or cross-sell
-   items, according to the value of PromotionMethod in
-   GetCrossPromotionsRequest.
+   eBay Store Cross Promotions are no longer supported in the Trading API, so the
+ <b>CrossPromotion</b> container will either not be returned, or, if it
+ is returned, the data in the container may not be accurate. A list of cross-promoted
+ items defined for a specific referring item. The list is either upsell or cross-sell
+ items, according to the value of <b>PromotionMethod</b> in
+ <b>GetCrossPromotionsRequest</b>.
+ <br>
+ Not applicable to Half.com.
  
  
  type : class Trading_CrossPromotionsType

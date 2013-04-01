@@ -11,7 +11,7 @@
 
 /**
  
- A message to help the you understand your status as a seller (PowerSeller status, 
+ A message to help the you understand your status as a seller (PowerSeller status,
  policy compliance status, etc.).
  
  
@@ -31,7 +31,7 @@
  
  The severity level helps you understand whether the alert is identifying a
  problem (a warning or strong warning) or if it is informational in nature.
- This field is present if an alert has been issued to your account. 
+ This field is present if an alert has been issued to your account.
  
  
  type: string constant in Trading_SellerDashboardAlertSeverityCodeType.h

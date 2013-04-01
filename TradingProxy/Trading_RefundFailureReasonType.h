@@ -29,8 +29,8 @@
  
   A code indicating the reason why a refund was not issued by the seller.<br/><br/>
   <span class="tablenote">
-  <strong>Note:</strong> RefundFailureCode values are returned 
-  (for GetOrders and other order retrieval calls) for DE/AT orders subject to the new 
+  <strong>Note:</strong> RefundFailureCode values are returned
+  (for GetOrders and other order retrieval calls) for DE/AT orders subject to the new
   eBay payment process.
   </span>
  

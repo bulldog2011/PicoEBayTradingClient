@@ -31,7 +31,7 @@
     The funding sources for the refund.<br/><br/>
     <span class="tablenote">
     <strong>Note:</strong> RefundFundingSource containers are returned (for
-  GetOrders and other order retrieval calls) for DE/AT orders subject to the new eBay 
+  GetOrders and other order retrieval calls) for DE/AT orders subject to the new eBay
   payment process.
     </span>
  

@@ -11,14 +11,15 @@
 
 /**
  
-   eBay Store Cross Promotions are no longer supported in the Trading API, so the 
-   <b>CrossPromotionPreferences</b> container and the 
-   <b>ShowCrossPromotionPreferences</b> flag (in 
-   <b>GetUserPreferences<b>) should no longer be used/set.
-   <br/>
-   <br/>
   Contains preferences describing how items similar to the one the user is
    presently viewing are promoted.
+   <br><br>
+ <span class="tablenote"><b>Note:</b>
+ eBay Store Cross Promotions are no longer supported in the Trading API, so the
+ <b>CrossPromotionPreferences</b> container and the
+ <b>ShowCrossPromotionPreferences</b> flag (in
+   <b>GetUserPreferences</b>) should no longer be used/set.
+ </span>
  
  
  @ingroup EBayAPIInterface
@@ -42,6 +43,11 @@
  
  (For eBay store owners only)
  Specifies whether cross-promotions are enabled for the seller's listings.
+ <br><br>
+ <span class="tablenote"><b>Note:</b>
+ This field should no longer be used as eBay Store Cross Promotions are no
+ longer supported in the Trading API.
+ </span>
  
  
  type : NSNumber, wrapper for primitive bool
@@ -51,8 +57,13 @@
 /**
  
  (For eBay store owners only) Specifies which items should be shown
- in cross-sell promotions (such as Buy It Now or Store Inventory items) and 
+ in cross-sell promotions (such as Buy It Now or Store Inventory items) and
  in which sequence.
+ <br><br>
+ <span class="tablenote"><b>Note:</b>
+ This field should no longer be used as eBay Store Cross Promotions are no
+ longer supported in the Trading API.
+ </span>
  
  
  type: string constant in Trading_ItemFormatSortFilterCodeType.h
@@ -64,6 +75,11 @@
  (For eBay store owners only) Specifies whether to display only items with
  gallery images and whether they should precede other items in cross-sell
  promotions.
+ <br><br>
+ <span class="tablenote"><b>Note:</b>
+ This field should no longer be used as eBay Store Cross Promotions are no
+ longer supported in the Trading API.
+ </span>
  
  
  type: string constant in Trading_GallerySortFilterCodeType.h
@@ -72,8 +88,13 @@
 
 /**
  
- (For eBay store owners only) Specifies how to sort items displayed in 
+ (For eBay store owners only) Specifies how to sort items displayed in
  a cross-sell promotion.
+ <br><br>
+ <span class="tablenote"><b>Note:</b>
+ This field should no longer be used as eBay Store Cross Promotions are no
+ longer supported in the Trading API.
+ </span>
  
  
  type: string constant in Trading_ItemSortFilterCodeType.h
@@ -85,6 +106,11 @@
  (For eBay store owners only) Specifies which items (such as Buy It Now or
  Store Inventory items) should be shown in upsell promotions and in which
  sequence.
+ <br><br>
+ <span class="tablenote"><b>Note:</b>
+ This field should no longer be used as eBay Store Cross Promotions are no
+ longer supported in the Trading API.
+ </span>
  
  
  type: string constant in Trading_ItemFormatSortFilterCodeType.h
@@ -95,6 +121,11 @@
  
  (For eBay store owners only) Specifies whether to display only items with
  gallery images in upsell promotions and whether they should precede other items.
+ <br><br>
+ <span class="tablenote"><b>Note:</b>
+ This field should no longer be used as eBay Store Cross Promotions are no
+ longer supported in the Trading API.
+ </span>
  
  
  type: string constant in Trading_GallerySortFilterCodeType.h
@@ -104,6 +135,11 @@
 /**
  
  (For eBay store owners only) Specifies how to sort items used in an upsell promotion.
+ <br><br>
+ <span class="tablenote"><b>Note:</b>
+ This field should no longer be used as eBay Store Cross Promotions are no
+ longer supported in the Trading API.
+ </span>
  
  
  type: string constant in Trading_ItemSortFilterCodeType.h

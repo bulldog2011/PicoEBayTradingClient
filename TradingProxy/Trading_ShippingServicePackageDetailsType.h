@@ -38,8 +38,8 @@
 /**
  
  This field is only returned if package dimensions are required for the corresponding
- package type (<b>ShippingServicePackageDetails.Name</b> value) supported 
- by the corresponding shipping service option 
+ package type (<b>ShippingServicePackageDetails.Name</b> value) supported
+ by the corresponding shipping service option
  (<b>ShippingServiceDetails.ShippingService</b> value).
  
  

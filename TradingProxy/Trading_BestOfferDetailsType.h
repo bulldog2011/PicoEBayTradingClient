@@ -12,7 +12,7 @@
 
 /**
  
- Type defining the <b>BestOfferDetails</b> container, which consists 
+ Type defining the <b>BestOfferDetails</b> container, which consists
  of Best Offer properties associated with an item.
  
  
@@ -57,8 +57,8 @@
 
 /**
  
- This is the amount of the buyer's current Best Offer. 
- This field will not appear in the <b>GetMyeBayBuying</b> response if the 
+ This is the amount of the buyer's current Best Offer.
+ This field will not appear in the <b>GetMyeBayBuying</b> response if the
  buyer has not made a Best Offer.
  
  
@@ -68,7 +68,7 @@
 
 /**
  
- This enumeration value indicates the status of the latest 
+ This enumeration value indicates the status of the latest
  Best Offer from the buyer. This field will not appear in the
  <b>GetMyeBayBuying</b> response if the buyer has not made a Best Offer.
  

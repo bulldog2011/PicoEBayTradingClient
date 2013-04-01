@@ -49,7 +49,7 @@
  
  A unique identifier assigned to a nonprofit
  charity organization by the dedicated provider of
- eBay Giving Works. This value can contain up to 10 digits. 
+ eBay Giving Works. This value can contain up to 10 digits.
  This value is superseded by CharityID.
  
  

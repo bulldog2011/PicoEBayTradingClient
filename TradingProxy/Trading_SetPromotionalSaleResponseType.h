@@ -14,7 +14,7 @@
  
  Contains the ID and status of a promotional sale.
  The Promotional Price Display feature enables sellers
- to apply discounts and/or free shipping across many listings.  
+ to apply discounts and/or free shipping across many listings.
  
  
  @ingroup EBayAPIInterface

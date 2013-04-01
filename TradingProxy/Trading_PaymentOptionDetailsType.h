@@ -11,8 +11,8 @@
 
 /**
  
- This type is deprecated; use 
- <b>GetCategoryFeatures</b> with <b>PaymentMethods</b> as a 
+ This type is deprecated; use
+ <b>GetCategoryFeatures</b> with <b>PaymentMethods</b> as a
  <b>FeatureID</b> value in the request.
  
  

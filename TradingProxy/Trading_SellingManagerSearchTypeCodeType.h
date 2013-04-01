@@ -80,8 +80,8 @@ extern NSString *const Trading_SellingManagerSearchTypeCodeType_CUSTOM_LABEL;
  In the Selling Manager calls, the value for the sale record ID is in the
  SaleRecordID field. The sale record ID can be for a single or multiple line item order.
  <br/><br/>
- For orders that occurred within the last 30 days, passing only the SaleRecordID into the GetSellingManagerSoldListings 
- request will return the sale record. However, for sales that occurred more than 30 days ago, the SaleDateRange container 
+ For orders that occurred within the last 30 days, passing only the SaleRecordID into the GetSellingManagerSoldListings
+ request will return the sale record. However, for sales that occurred more than 30 days ago, the SaleDateRange container
  must also be used, passing in a date range that includes the date on which the specific sale occurred.
  
 */

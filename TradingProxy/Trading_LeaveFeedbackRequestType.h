@@ -14,7 +14,7 @@
 /**
  
  Enables a buyer and seller to leave feedback for their order partner at the
- conclusion of a successful order. Feedback is left at the order line item level, 
+ conclusion of a successful order. Feedback is left at the order line item level,
  so multiple line item orders may have multiple Feedback entries.&nbsp;<b>
  Also for Half.com</b>.
  
@@ -56,8 +56,8 @@
 /**
  
  Textual comment that explains, clarifies, or justifies the Feedback rating
- specified in <b>CommentType</b>. 
- <br><br> 
+ specified in <b>CommentType</b>.
+ <br><br>
  This comment will still be displayed even if submitted Feedback is withdrawn.
  
  
@@ -120,7 +120,7 @@
  hyphen in between these two IDs. If an <b>OrderLineItemID</b> is included in
  the request, the <b>ItemID</b>, <b>TransactionID</b>, and <b>TargetUser</b> fields are not
  required. Feedback cannot be left for order line items with creation
- dates more than 60 days in the past. 
+ dates more than 60 days in the past.
  
  
  type : NSString, wrapper for primitive string

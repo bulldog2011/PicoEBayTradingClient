@@ -39,10 +39,10 @@
 
 /**
  
- URL to the eBay Web site's item condition help for the 
- category. This may include policies about how to assess the 
- condition of an item in the category. To reduce 
- item-not-as-described disputes, we recommend that 
+ URL to the eBay Web site's item condition help for the
+ category. This may include policies about how to assess the
+ condition of an item in the category. To reduce
+ item-not-as-described disputes, we recommend that
  you refer sellers (and buyers) to these help pages.
  These help pages may vary for some categories.<br>
  <br>

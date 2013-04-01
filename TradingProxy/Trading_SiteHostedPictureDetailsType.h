@@ -13,7 +13,7 @@
 /**
  
          Type defining the <b>SiteHostedPictureDetails</b> container that is returned
- in an <b>UploadSiteHostedPictures</b> call. 
+ in an <b>UploadSiteHostedPictures</b> call.
        
  
  @ingroup EBayAPIInterface
@@ -73,7 +73,7 @@
              That is, after you use UploadSiteHostedPictures to upload an image,
              use the value in FullURL to associate the image with an item
              (specify the value in Item.PictureDetails.PictureURL in
-             AddItem, ReviseItem, or RelistItem) prior to the UseByDate returned in the 
+             AddItem, ReviseItem, or RelistItem) prior to the UseByDate returned in the
              response.
            
  

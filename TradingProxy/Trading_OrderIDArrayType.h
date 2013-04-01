@@ -27,7 +27,7 @@
 /**
  
  A unique identifier that identifies a single line item or multiple line
- item (Combined Payment) order. 
+ item (Combined Payment) order.
  <br><br>
  For the GetOrders and GetOrderTransactions calls, the OrderID field can handle a
  hyphenated OrderLineItemID value. OrderLineItemID is a unique identifier for an

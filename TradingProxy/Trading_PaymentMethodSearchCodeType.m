@@ -6,7 +6,7 @@
 /**
  @file
  
- Used for specifying items for which a specific payment method or methods are accepted. 
+ Used for specifying items for which a specific payment method or methods are accepted.
     
 */
 
@@ -18,7 +18,7 @@
 NSString *const Trading_PaymentMethodSearchCodeType_PAY_PAL = @"PayPal";
 
 /**
-  
+ 
    PaisaPay payment method. The PaisaPay payment method is only for the India site (site ID 203).
  
 */

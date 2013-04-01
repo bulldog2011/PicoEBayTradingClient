@@ -126,17 +126,17 @@
 
 /**
  
- If true, the Relationship node is not returned for any 
- recommendations. Relationship recommendations tell you whether 
- an Item Specific value has a logical dependency on another 
+ If true, the Relationship node is not returned for any
+ recommendations. Relationship recommendations tell you whether
+ an Item Specific value has a logical dependency on another
  Item Specific.<br>
  <br>
- For example, in a clothing category, Size Type could be 
- recommended as a parent of Size, because Size=Small would 
- mean something different to buyers depending on whether 
+ For example, in a clothing category, Size Type could be
+ recommended as a parent of Size, because Size=Small would
+ mean something different to buyers depending on whether
  Size Type=Petite or Size Type=Plus.<br>
  <br>
- In general, it is a good idea to retrieve and use relationship 
+ In general, it is a good idea to retrieve and use relationship
  recommendations, as this data can help buyers find the items
  they want more easily.<br>
  <br>
@@ -149,7 +149,7 @@
 
 /**
  
- If true, returns eBay's level of confidence for each 
+ If true, returns eBay's level of confidence for each
  name and value. Some sellers may find this useful when choosing
  whether to use eBay's recommendation or their own name or value.
  <br>

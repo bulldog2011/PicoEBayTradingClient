@@ -644,8 +644,18 @@
 
 /**
  
- Valid only for the Italy site (site ID 101); contains
- the cash-on-delivery (COD) cost for COD shipping.
+ This dollar value indicates the money due from the buyer upon delivery of the item.
+ <br><br>
+ This field should only be specified in the request if 'COD' (cash-on-delivery) is a
+ valid payment method for the site and it is included as a <b>PaymentMethods</b>
+ value in the same request.
+ <br><br>
+ This field is only returned if set for the listing.
+ <br><br>
+ To see if 'COD' is a supported payment method for a site, call <b>GeteBayDetails</b>
+ with the <b>DetailName</b> field set to 'PaymentOptionDetails'. Look for
+ a value of 'COD' in one of the <b>PaymentOptionDetails.PaymentOption</b>
+ fields in the response.
  
  
  type : class Trading_AmountType
@@ -669,9 +679,9 @@
  a bid on your item.
  <br><br>
  The exclude ship-to location values are eBay regions and countries. To see
- the valid exclude ship-to locations for a specified site, call <b>GeteBayDetails</b> 
- with <b>DetailName</b> set to <b>ExcludeShippingLocationDetails</b>, 
- and then look for the ExcludeShippingLocationDetails.Location fields in the response. 
+ the valid exclude ship-to locations for a specified site, call <b>GeteBayDetails</b>
+ with <b>DetailName</b> set to <b>ExcludeShippingLocationDetails</b>,
+ and then look for the ExcludeShippingLocationDetails.Location fields in the response.
  Repeat <b>GeteBayDetails</b> for each site on which you list.
  <br><br>
  This field works in conjunction with Item.ShipToLocations to create a set of

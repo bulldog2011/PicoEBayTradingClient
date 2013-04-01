@@ -30,8 +30,8 @@
 
 /**
  
- The seller must include this field and set it to 'Add' to create a new 
- promotional sale, or set it to 'Update' to modify an existing promotional sale, 
+ The seller must include this field and set it to 'Add' to create a new
+ promotional sale, or set it to 'Update' to modify an existing promotional sale,
  or set it to 'Delete' to delete a promotional sale.
  
  
@@ -41,9 +41,9 @@
 
 /**
  
- This container must be included in each <b>SetPromotionalSale</b> call. 
- The fields of this container that will be used will depend on whether the seller is 
- adding a new promotional sale, updating an existing promotional sale, or deleting an 
+ This container must be included in each <b>SetPromotionalSale</b> call.
+ The fields of this container that will be used will depend on whether the seller is
+ adding a new promotional sale, updating an existing promotional sale, or deleting an
  existing promotional sale.
  
  

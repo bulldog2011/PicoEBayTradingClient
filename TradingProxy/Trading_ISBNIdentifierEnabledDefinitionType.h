@@ -10,7 +10,7 @@
 
 
 /**
-  
+ 
  This type defines the International Standard Book Number (ISBN) feature, and whether
  this feature is enabled at the site level. An empty ISBNIdentifierEnabled
  field is returned under the FeatureDefinitions container in GetCategoryFeatures

@@ -32,12 +32,12 @@
 
 /**
  
- The source from which the refund was made. RefundFundingSource elements are returned 
- (for GetOrders and other order retrieval calls) for DE/AT orders subject to the 
+ The source from which the refund was made. <b>RefundFundingSource</b> elements are returned
+ (for <b>GetOrders</b> and other order retrieval calls) for DE/AT orders subject to the
  new eBay payment process.<br/><br/>
  <span class="tablenote">
- <strong>Note:</strong> The introduction of the new eBay payment process for the entire German and
- Austrian eBay marketplace has been delayed until 2013. 
+ <strong>Note:</strong> The introduction of the new eBay payment process for the Germany and
+ Austria eBay sites has been delayed until further notice.
  </span>
  
  
@@ -47,12 +47,12 @@
 
 /**
  
- The account number of the funding source. RefundFundingSource elements are returned 
- (for GetOrders and other order retrieval calls) for DE/AT orders subject to the 
+ The account number of the funding source. <b>RefundFundingSource</b> elements are returned
+ (for <b>GetOrders</b> and other order retrieval calls) for DE/AT orders subject to the
  new eBay payment process.<br/><br/>
  <span class="tablenote">
- <strong>Note:</strong> The introduction of the new eBay payment process for the entire German and
- Austrian eBay marketplace has been delayed until 2013. 
+ <strong>Note:</strong> The introduction of the new eBay payment process for the Germany and
+ Austria eBay sites has been delayed until further notice.
  </span>
  
  
@@ -62,12 +62,12 @@
 
 /**
  
- The amount of the refund. RefundFundingSource elements are returned 
- (for GetOrders and other order retrieval calls) for DE/AT orders subject to the 
+ The amount of the refund. <b>RefundFundingSource</b> elements are returned
+ (for <b>GetOrders</b> and other order retrieval calls) for DE/AT orders subject to the
  new eBay payment process.<br/><br/>
  <span class="tablenote">
- <strong>Note:</strong> The introduction of the new eBay payment process for the entire German and
- Austrian eBay marketplace has been delayed until 2013. 
+ <strong>Note:</strong> The introduction of the new eBay payment process for the Germany and
+ Austria eBay sites has been delayed until further notice.
  </span>
  
  
@@ -77,12 +77,12 @@
 
 /**
  
- The external transaction ID of the seller's account. RefundFundingSource elements are returned 
- (for GetOrders and other order retrieval calls) for DE/AT orders subject to the 
+ The external transaction ID of the seller's account. <b>RefundFundingSource</b> elements are returned
+ (for <b>GetOrders</b> and other order retrieval calls) for DE/AT orders subject to the
  new eBay payment process.<br/><br/>
  <span class="tablenote">
- <strong>Note:</strong> The introduction of the new eBay payment process for the entire German and
- Austrian eBay marketplace has been delayed until 2013.  
+ <strong>Note:</strong> The introduction of the new eBay payment process for the Germany and
+ Austria eBay sites has been delayed until further notice.
  </span>
  
  
@@ -92,12 +92,12 @@
 
 /**
  
- The external transaction ID of the buyer's account. RefundFundingSource elements are returned 
- (for GetOrders and other order retrieval calls) for DE/AT orders subject to the 
+ The external transaction ID of the buyer's account. <b>RefundFundingSource</b> elements are returned
+ (for <b>GetOrders</b> and other order retrieval calls) for DE/AT orders subject to the
  new eBay payment process.<br/><br/>
  <span class="tablenote">
- <strong>Note:</strong> The introduction of the new eBay payment process for the entire German and
- Austrian eBay marketplace has been delayed until 2013. 
+ <strong>Note:</strong> The introduction of the new eBay payment process for the Germany and
+ Austria eBay sites has been delayed until further notice.
  </span>
  
  

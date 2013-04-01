@@ -33,7 +33,7 @@
 
 /**
  
- The unique identifier for the listing that was created by the 
+ The unique identifier for the listing that was created by the
  AddItemFromSellingManagerTemplate request.
  
  
@@ -43,7 +43,7 @@
 
 /**
  
- Start time for the listing that was created by the 
+ Start time for the listing that was created by the
  AddItemFromSellingManagerTemplate request.
  
  
@@ -53,8 +53,8 @@
 
 /**
  
- End time for the listing that was created by the 
- AddItemFromSellingManagerTemplate request. 
+ End time for the listing that was created by the
+ AddItemFromSellingManagerTemplate request.
  This value is equal to the start time plus the listing duration.
  
  

@@ -62,7 +62,7 @@
 /**
  
  Container consisting of the Store's font properties. This container is not returned if an eBay predefined store theme is
- used 'as is'. Use the <b>GetStoreOptions</b> 
+ used 'as is'. Use the <b>GetStoreOptions</b>
  call to retrieve the complete set of data for the list of predefined eBay Stores options, including the themes and color
  schemes.
  

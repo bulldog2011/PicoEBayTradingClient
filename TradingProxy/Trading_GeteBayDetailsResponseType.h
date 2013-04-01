@@ -36,7 +36,7 @@
 
 /**
  
- Details about a specified site in response to <b>GeteBayDetailsRequest</b>. 
+ Details about a specified site in response to <b>GeteBayDetailsRequest</b>.
  If no <b>DetailName</b>
  field is identified in the request, all elements of <b>GeteBayDetailsResponse</b> are
  returned. Otherwise, eBay returns only the elements corresponding to the specified
@@ -95,8 +95,8 @@
  specified in the request.
  <br/><br/>
  <span class="tablenote"><b>Note: </b>
- This container is only returned if <b>CurrencyDetails</b> is included as a 
- <b>DetailName</b> filter in the request, or if no <b>DetailName</b> filters are 
+ This container is only returned if <b>CurrencyDetails</b> is included as a
+ <b>DetailName</b> filter in the request, or if no <b>DetailName</b> filters are
  used in the request.
  </span>  <br/><br/>
  
@@ -114,8 +114,8 @@
  the request.
  <br/><br/>
  <span class="tablenote"><b>Note: </b>
- This container is only returned if <b>DispatchTimeMaxDetails</b> is included as a 
- <b>DetailName</b> filter in the request, or if no <b>DetailName</b> 
+ This container is only returned if <b>DispatchTimeMaxDetails</b> is included as a
+ <b>DetailName</b> filter in the request, or if no <b>DetailName</b>
  filters are used in the request.
  </span>  <br/><br/>
  
@@ -128,7 +128,7 @@
 /**
  
  <b>Deprecated </b><br />
- Use <b>GetCategoryFeatures</b> instead, and pass in 
+ Use <b>GetCategoryFeatures</b> instead, and pass in
  <b>PaymentMethods</b> as a <b>FeatureID</b> value in the request.
  
  
@@ -154,8 +154,8 @@
  the request.
  <br/><br/>
  <span class="tablenote"><b>Note: </b>
- This container is only returned if <b>ShippingLocationDetails</b> is included as a 
- <b>DetailName</b> filter in the request, or if no <b>DetailName</b> 
+ This container is only returned if <b>ShippingLocationDetails</b> is included as a
+ <b>DetailName</b> filter in the request, or if no <b>DetailName</b>
  filters are used in the request.
  </span>  <br/><br/>
  
@@ -172,8 +172,8 @@
  request.
  <br/><br/>
  <span class="tablenote"><b>Note: </b>
- This container is only returned if <b>ShippingServiceDetails</b> is included as a 
- <b>DetailName</b> filter in the request, or if no <b>DetailName</b> 
+ This container is only returned if <b>ShippingServiceDetails</b> is included as a
+ <b>DetailName</b> filter in the request, or if no <b>DetailName</b>
  filters are used in the request.
  </span>  <br/><br/>
  
@@ -188,8 +188,8 @@
  Lists all available eBay sites and their associated SiteID numbers.
  <br/><br/>
  <span class="tablenote"><b>Note: </b>
- This container is only returned if <b>SiteDetails</b> is included as a 
- <b>DetailName</b> filter in the request, or if no <b>DetailName</b> 
+ This container is only returned if <b>SiteDetails</b> is included as a
+ <b>DetailName</b> filter in the request, or if no <b>DetailName</b>
  filters are used in the request.
  </span>  <br/><br/>
  
@@ -205,8 +205,8 @@
  site specified in the request.
  <br/><br/>
  <span class="tablenote"><b>Note: </b>
- This container is only returned if <b>TaxJurisdiction</b> is included as a 
- <b>DetailName</b> filter in the request, or if no <b>DetailName</b> 
+ This container is only returned if <b>TaxJurisdiction</b> is included as a
+ <b>DetailName</b> filter in the request, or if no <b>DetailName</b>
  filters are used in the request.
  </span>  <br/><br/>
  
@@ -221,8 +221,8 @@
  Lists eBay URLs that are applicable to the site specified in the request.\
  <br/><br/>
  <span class="tablenote"><b>Note: </b>
- This container is only returned if <b>URLDetails</b> is included as a 
- <b>DetailName</b> filter in the request, or if no <b>DetailName</b> 
+ This container is only returned if <b>URLDetails</b> is included as a
+ <b>DetailName</b> filter in the request, or if no <b>DetailName</b>
  filters are used in the request
  </span>  <br/><br/>
  
@@ -237,8 +237,8 @@
  Lists the details of the time zones supported by the eBay system.
  <br/><br/>
  <span class="tablenote"><b>Note: </b>
- This container is only returned if <b>TimeZoneDetails</b> is included as a 
- <b>DetailName</b> filter in the request, or if no <b>DetailName</b> 
+ This container is only returned if <b>TimeZoneDetails</b> is included as a
+ <b>DetailName</b> filter in the request, or if no <b>DetailName</b>
  filters are used in the request.
  </span>  <br/><br/>
  
@@ -253,8 +253,8 @@
  The site's validation rules (e.g., string lengths) for custom Item Specifics.
  <br/><br/>
  <span class="tablenote"><b>Note: </b>
- This container is only returned if <b>ItemSpecificDetails</b> is included as a 
- <b>DetailName</b> filter in the request, or if no <b>DetailName</b> 
+ This container is only returned if <b>ItemSpecificDetails</b> is included as a
+ <b>DetailName</b> filter in the request, or if no <b>DetailName</b>
  filters are used in the request.
  </span>  <br/><br/>
  
@@ -270,8 +270,8 @@
  descriptions.
  <br/><br/>
  <span class="tablenote"><b>Note: </b>
- This container is only returned if <b>UnitOfMeasurementDetails</b> is included as a 
- <b>DetailName</b> filter in the request, or if no <b>DetailName</b> 
+ This container is only returned if <b>UnitOfMeasurementDetails</b> is included as a
+ <b>DetailName</b> filter in the request, or if no <b>DetailName</b>
  filters are used in the request.
  </span>  <br/><br/>
  
@@ -296,8 +296,8 @@
  Lists the various shipping packages supported by the specified site.
  <br/><br/>
  <span class="tablenote"><b>Note: </b>
-   This container is only returned if <b>ShippingPackageDetails</b> is included as a 
-   <b>DetailName</b> filter in the request, or if no <b>DetailName</b> 
+   This container is only returned if <b>ShippingPackageDetails</b> is included as a
+   <b>DetailName</b> filter in the request, or if no <b>DetailName</b>
    filters are used in the request.
  </span>  <br/><br/>
  
@@ -312,8 +312,8 @@
  Lists the shipping carriers supported by the specified site.
  <br/><br/>
  <span class="tablenote"><b>Note: </b>
- This container is only returned if <b>ShippingCarrierDetails</b> is included as a 
- <b>DetailName</b> filter in the request, or if no <b>DetailName</b> 
+ This container is only returned if <b>ShippingCarrierDetails</b> is included as a
+ <b>DetailName</b> filter in the request, or if no <b>DetailName</b>
  filters are used in the request.
  </span>  <br/><br/>
  
@@ -328,8 +328,8 @@
  Lists the return policies supported by the eBay site specified in the request.
  <br/><br/>
  <span class="tablenote"><b>Note: </b>
- This container is only returned if <b>ReturnPolicyDetails</b> is included as a 
- <b>DetailName</b> filter in the request, or if no <b>DetailName</b> 
+ This container is only returned if <b>ReturnPolicyDetails</b> is included as a
+ <b>DetailName</b> filter in the request, or if no <b>DetailName</b>
  filters are used in the request.
  </span>  <br/><br/>
  
@@ -343,8 +343,8 @@
  Lists the minimum starting prices for the supported types of eBay listings.
  <br/><br/>
  <span class="tablenote"><b>Note: </b>
- This container is only returned if <b>ListingStartPriceDetails</b> is included as a 
- <b>DetailName</b> filter in the request, or if no <b>DetailName</b> 
+ This container is only returned if <b>ListingStartPriceDetails</b> is included as a
+ <b>DetailName</b> filter in the request, or if no <b>DetailName</b>
  filters are used in the request.
  </span>  <br/><br/>
  
@@ -369,8 +369,8 @@
  Details the listing features available for the site specified in the request.
  <br/><br/>
  <span class="tablenote"><b>Note: </b>
- This container is only returned if <b>ListingFeatureDetails</b> is included as a 
- <b>DetailName</b> filter in the request, or if no <b>DetailName</b> 
+ This container is only returned if <b>ListingFeatureDetails</b> is included as a
+ <b>DetailName</b> filter in the request, or if no <b>DetailName</b>
  filters are used in the request.
  </span>  <br/><br/>
  
@@ -389,8 +389,8 @@
  specifics.
  <br/><br/>
  <span class="tablenote"><b>Note: </b>
- This container is only returned if <b>VariationDetails</b> is included as a 
- <b>DetailName</b> filter in the request, or if no <b>DetailName</b> 
+ This container is only returned if <b>VariationDetails</b> is included as a
+ <b>DetailName</b> filter in the request, or if no <b>DetailName</b>
  filters are used in the request.
  </span>  <br/><br/>
  
@@ -430,8 +430,8 @@
  Details the recoupment policies for the site specified in the request.
  <br/><br/>
  <span class="tablenote"><b>Note: </b>
- This container is only returned if <b>RecoupmentPolicyDetails</b> is included as a 
- <b>DetailName</b> filter in the request, or if no <b>DetailName</b> 
+ This container is only returned if <b>RecoupmentPolicyDetails</b> is included as a
+ <b>DetailName</b> filter in the request, or if no <b>DetailName</b>
  filters are used in the request.
  </span>  <br/><br/>
  
@@ -446,21 +446,21 @@
  A shipping service category supported for the site.
  <br/><br/>
  <span class="tablenote"><b>Note: </b>
- This container is only returned if <b>ShippingCategoryDetails</b> is included as a 
- <b>DetailName</b> filter in the request, or if no <b>DetailName</b> 
+ This container is only returned if <b>ShippingCategoryDetails</b> is included as a
+ <b>DetailName</b> filter in the request, or if no <b>DetailName</b>
  filters are used in the request.
  </span>  <br/><br/>
- Each shipping service supported for a site is automatically categorized by eBay into one of the 
+ Each shipping service supported for a site is automatically categorized by eBay into one of the
  shipping categories available for that site depending on how the shipping service shipping time
- aligns with the shipping times specified by eBay for each category. 
+ aligns with the shipping times specified by eBay for each category.
  <br><br>
- Notice that you cannot specify a ShippingCategory 
- as an input to any API call - eBay does this categorizing automatically. ShippingCategory is read-only data 
+ Notice that you cannot specify a ShippingCategory
+ as an input to any API call - eBay does this categorizing automatically. ShippingCategory is read-only data
  that is returned in the <b>ShippingServiceDetails</b> container. One possible use of this data is to segregate shipping
- services by ShippingCategory in a pick list. (For an example of this, see the Services pulldown menu in the 
- Give buyers shipping details form in the eBay Sell Your Item flow.) 
+ services by ShippingCategory in a pick list. (For an example of this, see the Services pulldown menu in the
+ Give buyers shipping details form in the eBay Sell Your Item flow.)
  <br><br>
- One way to populate the picklist would be to call <b>GeteBayDetails</b> 
+ One way to populate the picklist would be to call <b>GeteBayDetails</b>
  with <b>DetailName</b> set to <b>ShippingServiceDetails</b>.
  Then sort these results by ShippingCategory and populate the picklist.
  

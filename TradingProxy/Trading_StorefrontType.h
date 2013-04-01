@@ -11,9 +11,9 @@
 
 /**
  
- This type defines the <b>Storefront</b> container, which can be used 
- by eBay Stores sellers in Add/Revise/Relist calls to list an item under a custom 
- eBay Stores category. The <b>Storefront</b> container is also returned 
+ This type defines the <b>Storefront</b> container, which can be used
+ by eBay Stores sellers in Add/Revise/Relist calls to list an item under a custom
+ eBay Stores category. The <b>Storefront</b> container is also returned
  in <b>GetItem</b> and other Trading calls that retrieve Item data.
   
  

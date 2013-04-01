@@ -34,7 +34,7 @@ extern NSString *const Trading_SelectionModeCodeType_MANUAL;
  will be pre-filled from a catalog, based on a product ID
  that you passed in the request. They should be presented as
  read-only to the seller. If you specify a prefilled value in
- your listing request when you list with a catalog product, 
+ your listing request when you list with a catalog product,
  eBay drops the value and uses the value from the catalog instead.
  
 */
@@ -42,7 +42,7 @@ extern NSString *const Trading_SelectionModeCodeType_PREFILLED;
 
 /**
  
- In listing requests, only specify a value that eBay has 
+ In listing requests, only specify a value that eBay has
  recommended. That is, select from the list of recommended values;
  don't specify your own custom details. If you specify a different value, the listing request may return errors. Rarely used.
  
@@ -51,7 +51,7 @@ extern NSString *const Trading_SelectionModeCodeType_SELECTION_ONLY;
 
 /**
  
- In listing requests, specify any name or value, or select from the 
+ In listing requests, specify any name or value, or select from the
  list of recommended values, if present. This is used in most cases.
  
 */

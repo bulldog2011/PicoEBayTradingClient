@@ -11,8 +11,8 @@
 
 /**
  
- Provides information about the visibility level you've earned for your eBay listings. 
- When you have a better search standing, your listings may receive higher 
+ Provides information about the visibility level you've earned for your eBay listings.
+ When you have a better search standing, your listings may receive higher
  placement in Best Match search results.
  
  

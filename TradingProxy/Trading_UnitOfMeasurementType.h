@@ -29,7 +29,7 @@
 
 /**
  
- A synonym for the unit of measure (such as a fully spelled out name
+ A synonym for the unit of measurement (such as a fully spelled out name
  like "inches" instead of the standard abbreviation).
  This can be used to help a seller map unit names they use in their
  own catalog to unit names that are more popular on eBay.
@@ -42,7 +42,7 @@
 
 /**
  
- The preferred way to specify a given unit of measure name, such as
+ The preferred way to specify a given unit of measurement name, such as
  "in." (instead of "inches" or the " (double quote) symbol).
  
  

@@ -81,7 +81,7 @@
 
 /**
  
- Indicates the page number of data returned in the response. 
+ Indicates the page number of data returned in the response.
  This is the same value specified in the
  Pagination.PageNumber input. If orders are returned, the first page is 1.
  

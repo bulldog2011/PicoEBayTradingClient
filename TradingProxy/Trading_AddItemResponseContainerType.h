@@ -123,12 +123,12 @@
 /**
  
  Most Trading API calls support a <b>MessageID</b> element in the request
- and a <b>CorrelationID</b> element in the response. With 
- <b>AddItems</b>, a unique <b>MessageID</b> value is required for 
- each <b>AddItemRequestContainer<b> container that is used in the request. The 
- <b>CorrelationID</b> value returned under each 
- <b>AddItemResponseContainer</b> container is used to correlate each 
- item request container with its corresponding response container. The same <b>MessageID</b> value that you pass into a request will 
+ and a <b>CorrelationID</b> element in the response. With
+ <b>AddItems</b>, a unique <b>MessageID</b> value is required for
+ each <b>AddItemRequestContainer<b> container that is used in the request. The
+ <b>CorrelationID</b> value returned under each
+ <b>AddItemResponseContainer</b> container is used to correlate each
+ item request container with its corresponding response container. The same <b>MessageID</b> value that you pass into a request will
  be returned in the <b>CorrelationID</b> field in the response.
  
  

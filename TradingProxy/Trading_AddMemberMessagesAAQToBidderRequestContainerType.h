@@ -29,12 +29,12 @@
 
 /**
  
- A <b>CorrelationID</b> value is required for 
- each <b>AddMemberMessagesAAQToBidderRequestContainer<b> container that is used in the request. The 
- <b>CorrelationID</b> value returned under each 
- <b>AddMemberMessagesAAQToBidderResponseContainer</b> container is used to correlate each 
- member message container in the request with its corresponding member message container in the 
- response. The same <b>CorrelationID</b> value that you pass into a request will 
+ A <b>CorrelationID</b> value is required for
+ each <b>AddMemberMessagesAAQToBidderRequestContainer<b> container that is used in the request. The
+ <b>CorrelationID</b> value returned under each
+ <b>AddMemberMessagesAAQToBidderResponseContainer</b> container is used to correlate each
+ member message container in the request with its corresponding member message container in the
+ response. The same <b>CorrelationID</b> value that you pass into a request will
  be returned in the <b>CorrelationID</b> field in the response.
  
  

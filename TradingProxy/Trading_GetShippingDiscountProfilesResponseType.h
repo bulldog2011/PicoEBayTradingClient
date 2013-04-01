@@ -42,7 +42,7 @@
  
  The three-digit code of the currency to be used for shipping cost discounts and
  insurance for combined payment orders. A discount profile can only be associated
- with a listing if the <b>CurrencyID</b> value of the profile matches the 
+ with a listing if the <b>CurrencyID</b> value of the profile matches the
  <b>Item.Currency</b> value specified in a listing.
  
  
@@ -84,7 +84,7 @@
 
 /**
  
- This container is used by the seller to specify/modify packaging and handling discounts that are applied 
+ This container is used by the seller to specify/modify packaging and handling discounts that are applied
  for combined payment orders. This container is only returned if it is set for the Shipping Discount Profile.
  
  

@@ -6,8 +6,8 @@
 /**
  @file
  
- Values specify or indicate the type of promotional sale offered. 
- Promotional sales give store owners the ability to apply discounts and/or 
+ Values specify or indicate the type of promotional sale offered.
+ Promotional sales give store owners the ability to apply discounts and/or
  free shipping across many listings for a specific duration.
  
  

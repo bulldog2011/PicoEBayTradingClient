@@ -6,7 +6,7 @@
 /**
  @file
  
-  A code indicating whether the refund for the DE/AT order was applied toward the 
+  A code indicating whether the refund for the DE/AT order was applied toward the
   purchase price, the original shipping price, or for an additional amount.
  
 */

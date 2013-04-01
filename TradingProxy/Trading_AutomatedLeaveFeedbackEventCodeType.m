@@ -12,21 +12,21 @@
 
 /**
  
- Leave feedback automatically when you receive positive feedback. 
+ Leave feedback automatically when you receive positive feedback.
  
 */
 NSString *const Trading_AutomatedLeaveFeedbackEventCodeType_POSITIVE_FEEDBACK_RECEIVED = @"PositiveFeedbackReceived";
 
 /**
  
- Leave feedback automatically when you receive payment. 
+ Leave feedback automatically when you receive payment.
  
 */
 NSString *const Trading_AutomatedLeaveFeedbackEventCodeType_PAYMENT_RECEIVED = @"PaymentReceived";
 
 /**
  
- Do not leave feedback automatically. 
+ Do not leave feedback automatically.
  
 */
 NSString *const Trading_AutomatedLeaveFeedbackEventCodeType_NONE = @"None";

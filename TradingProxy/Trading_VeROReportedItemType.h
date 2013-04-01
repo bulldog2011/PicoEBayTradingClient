@@ -11,9 +11,9 @@
 
 /**
  
- Type defining the <b>ReportedItem</b> container which is returned in the 
- <b>GetVeROReportStatus</b> response. The <b>ReportedItem</b> 
- container consists of the <b>ItemID</b> of the item that has infringed 
+ Type defining the <b>ReportedItem</b> container which is returned in the
+ <b>GetVeROReportStatus</b> response. The <b>ReportedItem</b>
+ container consists of the <b>ItemID</b> of the item that has infringed
  upon the seller's copyright, trademark, or intellectual property rights, as well as the
  submission status of the VeRO Report.
  
@@ -56,11 +56,11 @@
 
 /**
  
- This text explanation is submitted by eBay when the submission of an VeRO Report 
+ This text explanation is submitted by eBay when the submission of an VeRO Report
  has failed or was blocked.
  <br><br>
- This field is only returned with the <b>ReportedItem</b> container if 
- the <b>ItemStatus</b> value is <b>SubmissionFailed</b> or 
+ This field is only returned with the <b>ReportedItem</b> container if
+ the <b>ItemStatus</b> value is <b>SubmissionFailed</b> or
  <b>ClarificationRequired</b>.
  
  

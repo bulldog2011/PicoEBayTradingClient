@@ -14,7 +14,7 @@
 /**
  
  Indicates the refund amount that a seller issued to a buyer for a single Half.com order line item.
- Refunds may only be issued for a specific order line item. Sellers do not have the ability to issue a 
+ Refunds may only be issued for a specific order line item. Sellers do not have the ability to issue a
  general refund (not tied to an order line item) to a buyer.
  
  
@@ -31,7 +31,7 @@
 
 /**
  
- Total amount that the seller asked Half.com to refund to 
+ Total amount that the seller asked Half.com to refund to
  a buyer for a Half.com order line item.
  
  
@@ -41,7 +41,7 @@
 
 /**
  
- Total amount that Half.com refunded to the buyer (which could include the refund amount 
+ Total amount that Half.com refunded to the buyer (which could include the refund amount
  from the seller plus a refund amount from Half.com).
  
  

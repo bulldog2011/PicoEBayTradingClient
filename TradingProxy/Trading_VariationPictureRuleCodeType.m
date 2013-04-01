@@ -13,7 +13,7 @@
 
 /**
  
- If the name is used in VariationSpecifics, then it must 
+ If the name is used in VariationSpecifics, then it must
  be used as the Pictures.VariationSpecificName.
  
 */
@@ -21,7 +21,7 @@ NSString *const Trading_VariationPictureRuleCodeType_REQUIRED = @"Required";
 
 /**
  
- If the name is used in VariationSpecifics, then it can 
+ If the name is used in VariationSpecifics, then it can
  be used as the Pictures.VariationSpecificName.
  This is the default for variation-enabled categories.
  

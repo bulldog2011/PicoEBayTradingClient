@@ -34,7 +34,7 @@
 @property (nonatomic, retain) NSMutableArray *maximumItemCount;
 
 /**
- The minimum feedback required for a buyer who wants to purchase this item.
+ The Minimum Feedback Score required for a buyer who wants to purchase this item.
  
  entry type : NSNumber, wrapper for primitive int
 */

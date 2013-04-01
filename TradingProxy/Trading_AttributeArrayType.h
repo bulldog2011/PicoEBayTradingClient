@@ -28,8 +28,8 @@
 
 /**
  
- This container is used by the seller to specify one or more attribute values for a 
- Half.com item. This container can be used in <b>ReviseItem</b> to add, 
+ This container is used by the seller to specify one or more attribute values for a
+ Half.com item. This container can be used in <b>ReviseItem</b> to add,
  remove, or modify an attribute or its value.
  <br><br>
  This field is not applicable for eBay listings.

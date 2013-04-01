@@ -11,7 +11,7 @@
 
 /**
  
- Fields in this type provide IDs and values for item conditions 
+ Fields in this type provide IDs and values for item conditions
  (in GetCategoryFeatures).
  
  
@@ -29,7 +29,7 @@
 
 /**
  
- The numeric ID of a condition (e.g., 1000). Use the ID in 
+ The numeric ID of a condition (e.g., 1000). Use the ID in
  AddItem and related calls.
  
  
@@ -39,9 +39,9 @@
 
 /**
  
- The human-readable label for the condition (e.g., "New"). 
- This value is typically localized for each site. 
- The display name can vary by category. 
+ The human-readable label for the condition (e.g., "New").
+ This value is typically localized for each site.
+ The display name can vary by category.
  For example, condition ID 1000 could be called
  "New: with Tags" in one category and "Brand New" in another.
  

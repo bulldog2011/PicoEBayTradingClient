@@ -12,7 +12,7 @@
 
 /**
  
- Defines rules for recommended Item Specifics. The rules apply when 
+ Defines rules for recommended Item Specifics. The rules apply when
  the Item Specific is subsequently used in AddItem and related calls.
  
  
@@ -37,14 +37,14 @@
 
 /**
  
- The data type (e.g., decimal) that eBay expects the value to 
+ The data type (e.g., decimal) that eBay expects the value to
  adhere to in listing requests.
- Only returned if the data type is not Text. 
- In some cases, more details about the data type are returned 
+ Only returned if the data type is not Text.
+ In some cases, more details about the data type are returned
  in the ValueFormat field.<br>
  <br>
  As buyers may search on the value you specify in AddItem,
- the ISBN, UPC, or EAN should match the value that was specified by 
+ the ISBN, UPC, or EAN should match the value that was specified by
  the publisher or manufacturer.
  
  
@@ -58,9 +58,9 @@
  in listing requests. Not returned if zero (0).<br>
  <br>
  If 1 or more, it means this Item Specfic is required
- in listing requests (in the specified category). (Your listing 
- request will return errors if the Item Specific is not present.) 
- If Relationship  is also present, it means this Item Specific is 
+ in listing requests (in the specified category). (Your listing
+ request will return errors if the Item Specific is not present.)
+ If Relationship  is also present, it means this Item Specific is
  required when you specify its parent value in listing requests.
  
  
@@ -71,13 +71,13 @@
 /**
  
  Maximum number of values that you can specify for this Item Specific
- in listing requests (like AddItem) in the specified 
+ in listing requests (like AddItem) in the specified
  category.<br>
  <br>
- Most Item Specifics can only have one value. When this is 
- greater than 1, your application can present the value 
- recommendations (if any) as a multi-select list to the seller. 
- (See SelectionMode to determine whether the seller needs to 
+ Most Item Specifics can only have one value. When this is
+ greater than 1, your application can present the value
+ recommendations (if any) as a multi-select list to the seller.
+ (See SelectionMode to determine whether the seller needs to
  choose from eBay's recommendations or not.)
  
  
@@ -87,8 +87,8 @@
 
 /**
  
- Controls whether you can specify your own name and value 
- in listing requests, or if you need to use a name and/or value 
+ Controls whether you can specify your own name and value
+ in listing requests, or if you need to use a name and/or value
  that eBay has defined.
  
  
@@ -98,20 +98,20 @@
 
 /**
  
- Indicates eBay's confidence that this is the right name or value, 
+ Indicates eBay's confidence that this is the right name or value,
  given the data you specified your request. The confidence is based
- on historical items in the same category, with similar titles 
+ on historical items in the same category, with similar titles
  (if specified).<br>
  <br>
- For example, in GetItemRecommendations, if your request includes a 
- title with words like "Blue T-Shirt", then Color=Blue is likely to 
- have a higher confidence score than Color=Red in the response. 
- If the title does not include a recognized color value, 
- then Color may still have a high confidence score 
- (based on historical item data in the category), but the scores for 
+ For example, in GetItemRecommendations, if your request includes a
+ title with words like "Blue T-Shirt", then Color=Blue is likely to
+ have a higher confidence score than Color=Red in the response.
+ If the title does not include a recognized color value,
+ then Color may still have a high confidence score
+ (based on historical item data in the category), but the scores for
  Blue and Red may have a more even distribution.<br>
  <br>
- Only returned when IncludeConfidence is true in the request. 
+ Only returned when IncludeConfidence is true in the request.
  Not returned when SelectionMode is Prefilled.
  
  
@@ -121,28 +121,28 @@
 
 /**
  
- Indicates the Item Specific's logical dependency on another 
- Item Specific, if any. 
+ Indicates the Item Specific's logical dependency on another
+ Item Specific, if any.
  <br>
  <br>
- For example, in a clothing category, Size Type could be 
- recommended as a parent of Size, because Size=XL would 
- mean something different to buyers when 
+ For example, in a clothing category, Size Type could be
+ recommended as a parent of Size, because Size=XL would
+ mean something different to buyers when
  Size Type=Juniors or Size Type=Regular. <br>
  <br>
  Or in the US (in the future), a list of cities can vary depending
  on the state, so State could be recommended as a parent of City.<br>
  <br>
- Currently, categories only recommend a maximum of one parent 
+ Currently, categories only recommend a maximum of one parent
  for an Item Specific.
  For example, Size=XL could have a Size Type=Juniors
- parent in a Juniors clothing category. 
+ parent in a Juniors clothing category.
  In the future, some categories may recommend multiple parents.
- For example, City=Mountain View could have parents like 
+ For example, City=Mountain View could have parents like
  State=California, State=New York, and State=North Carolina.<br>
  <br>
  If an Item Specific has value dependencies (i.e., if it has value recommendations that contain Relationship), then
- all of its value recommendations are returned (regardless of the 
+ all of its value recommendations are returned (regardless of the
  number you specified in MaxValuesPerName).
  
  
@@ -153,7 +153,7 @@
 
 /**
  
- Indicates whether the name (e.g., Color) can (or must) be used to 
+ Indicates whether the name (e.g., Color) can (or must) be used to
  classify the variation pictures.
  
  
@@ -163,12 +163,12 @@
 
 /**
  
- Indicates whether the recommended name/value pair can be used in 
- Item.Variations in AddFixedPriceItem and related calls. 
- For example, a given category could disable a name like Brand 
+ Indicates whether the recommended name/value pair can be used in
+ Item.Variations in AddFixedPriceItem and related calls.
+ For example, a given category could disable a name like Brand
  in variation specifics (if Brand is only allowed in the item specifics at the Item level). The same category could
- enable a name like Size for variation specifics 
- (in addition to recommending it for item specifics). 
+ enable a name like Size for variation specifics
+ (in addition to recommending it for item specifics).
  If not returned, then the name/value can be used for
  both variation specifics and item specifics.
  
@@ -179,10 +179,10 @@
 
 /**
  
- The format of the data type (e.g., date format) that eBay 
- expects the item specific's value to adhere to in listing requests. 
- A data type identified by the ValueType field may have different 
- representations, and ValueFormat specifies the precise format 
+ The format of the data type (e.g., date format) that eBay
+ expects the item specific's value to adhere to in listing requests.
+ A data type identified by the ValueType field may have different
+ representations, and ValueFormat specifies the precise format
  that is required.
  
  

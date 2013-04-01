@@ -55,9 +55,9 @@
 @property (nonatomic, retain) NSNumber *bidCount;
 
 /**
-  
- The minimum amount a progressive bid must be above the current high bid to be accepted. This field is only 
- applicable to auction listings. The value of this field will always be '0.00' for Classified Ad and fixed-price 
+ 
+ The minimum amount a progressive bid must be above the current high bid to be accepted. This field is only
+ applicable to auction listings. The value of this field will always be '0.00' for Classified Ad and fixed-price
  listings.
  
  
@@ -86,7 +86,7 @@
 /**
  
  For auction listings, this price is the starting price or the current highest
- bid for the item if bids have been placed. 
+ bid for the item if bids have been placed.
  <br><br>
  For fixed-price listings, this price is the sale price of the item.<br>
  <br>

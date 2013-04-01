@@ -61,7 +61,7 @@
  
  Container consisting of the status for a Best Offer. This container is
  only returned if applicable based on the listing and the value set for
- <b>Offer.Action</b> field in the request. 
+ <b>Offer.Action</b> field in the request.
  
  
  type : class Trading_BestOfferType

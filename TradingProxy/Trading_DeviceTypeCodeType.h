@@ -21,7 +21,7 @@ extern NSString *const Trading_DeviceTypeCodeType_PLATFORM;
 
 /**
  
- For SMS/wireless application. 
+ For SMS/wireless application.
  Note that SMS is currently reserved for future use.
  
 */

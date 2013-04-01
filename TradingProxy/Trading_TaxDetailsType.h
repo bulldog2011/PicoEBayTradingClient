@@ -47,7 +47,7 @@
 
 /**
  
- This field indicates the description of the sales tax. 
+ This field indicates the description of the sales tax.
  
  
  type: string constant in Trading_TaxDescriptionCodeType.h

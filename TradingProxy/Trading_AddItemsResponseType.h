@@ -13,8 +13,8 @@
 
 /**
  
- The response of the <b>AddItems<b> call. The response includes the 
- Item IDs of the newly created listings, the eBay category each item is listed under, the 
+ The response of the <b>AddItems<b> call. The response includes the
+ Item IDs of the newly created listings, the eBay category each item is listed under, the
  start and end time of each listing, and the estimated fees that each listing will incur.
  
  

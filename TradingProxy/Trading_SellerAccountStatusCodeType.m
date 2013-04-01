@@ -19,14 +19,14 @@ NSString *const Trading_SellerAccountStatusCodeType_CURRENT = @"Current";
 
 /**
  
- Your account is past due. 
+ Your account is past due.
  
 */
 NSString *const Trading_SellerAccountStatusCodeType_PAST_DUE = @"PastDue";
 
 /**
  
- Your account is on hold and risking suspension. 
+ Your account is on hold and risking suspension.
  
 */
 NSString *const Trading_SellerAccountStatusCodeType_ON_HOLD = @"OnHold";

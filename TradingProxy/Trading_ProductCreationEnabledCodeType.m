@@ -12,7 +12,7 @@
 
 /**
  
- Product creation is not supported for the category. 
+ Product creation is not supported for the category.
  AddItem family calls can still list with product.
  
 */

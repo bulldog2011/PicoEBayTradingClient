@@ -14,7 +14,7 @@
 
 /**
  
- Contains status information for items reported by the VeRO Program member. 
+ Contains status information for items reported by the VeRO Program member.
  
  
  @ingroup EBayAPIInterface
@@ -87,7 +87,7 @@
 
 /**
  
- Status of the packet. 
+ Status of the packet.
  
  
  type: string constant in Trading_VeROReportPacketStatusCodeType.h

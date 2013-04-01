@@ -47,8 +47,8 @@
 
 /**
  
- The seller must include this field and set it to 'AddOrUpdate' to add a new 
- user note or update an existing user note, or set it to 'Delete' to delete a 
+ The seller must include this field and set it to 'AddOrUpdate' to add a new
+ user note or update an existing user note, or set it to 'Delete' to delete a
  an existing user note.
  
  
@@ -129,7 +129,7 @@
  soon as there is a commitment to buy from the seller, and its value is
  based upon the concatenation of <b>ItemID</b> and <b>TransactionID</b>, with a hyphen in
  between these two IDs. <b>OrderLineItemID</b> can be used in the input instead of
- an <b>ItemID</b>/<b>TransactionID</b> pair to identify an order line item. 
+ an <b>ItemID</b>/<b>TransactionID</b> pair to identify an order line item.
  <br>
  <br>
  Notes can only be added to order line items that are currently being

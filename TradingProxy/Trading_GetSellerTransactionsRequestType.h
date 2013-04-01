@@ -49,7 +49,7 @@
  applicable if the NumberOfDays date filter is used.
  <br><br>
  If you don't specify a ModTimeFrom/ModTimeTo filter, the NumberOfDays
- time filter is used and it defaults to 30 (days). 
+ time filter is used and it defaults to 30 (days).
  
  
  type : NSDate, wrapper for primitive date
@@ -164,9 +164,9 @@
  Filters the response to only include order line items for listings
  that match this InventoryTrackingMethod setting. <br>
  <br>
- To track items by seller-defined SKU values instead of by Item IDs, the 
- <b>InventoryTrackingMethod</b> must be included and set to 'SKU' 
- in the <b>AddFixedPriceItem</b> (or <b>ReviseFixedPriceItem</b> 
+ To track items by seller-defined SKU values instead of by Item IDs, the
+ <b>InventoryTrackingMethod</b> must be included and set to 'SKU'
+ in the <b>AddFixedPriceItem</b> (or <b>ReviseFixedPriceItem</b>
  or <b>RelistFixedPriceItem</b>) call.
  <br>
  <br>
@@ -183,10 +183,10 @@
 
 /**
  
- If this flag is included in the request and set to 'true', the buyer's Codice Fiscale 
+ If this flag is included in the request and set to 'true', the buyer's Codice Fiscale
  number is returned in the response (if provided by the buyer).
  <br/><br/>
- This field is only applicable to Italian sellers. The Codice Fiscale number is unique 
+ This field is only applicable to Italian sellers. The Codice Fiscale number is unique
  for each Italian citizen and is used for tax purposes.
  
  

@@ -83,7 +83,7 @@
  
  
  The item title of the promoted item that is displayed in the
- referring item's page. 
+ referring item's page.
  <br><br>
  <span class="tablenote"><b>Note:</b>
  The maximum length of an eBay Item Title has increased to 80 characters as of

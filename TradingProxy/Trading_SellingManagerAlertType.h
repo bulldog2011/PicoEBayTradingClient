@@ -11,8 +11,8 @@
 
 /**
  
- Type defining the Alert container, which contains summary information on one type of 
- Selling Manager alert. 
+ Type defining the Alert container, which contains summary information on one type of
+ Selling Manager alert.
  
  
  @ingroup EBayAPIInterface
@@ -35,8 +35,8 @@
 
 /**
  
- This field indicates the type of Selling Manager alert returned to the seller. This 
- field is always returned with the <b>Alert</b> container in the 
+ This field indicates the type of Selling Manager alert returned to the seller. This
+ field is always returned with the <b>Alert</b> container in the
  <b>GetSellingManagerAlerts</b> response.
  
  
@@ -46,7 +46,7 @@
 
 /**
  
- This value indicates an alert related to a sold item. This field is only returned 
+ This value indicates an alert related to a sold item. This field is only returned
  if <b>AlertType</b>='Sold'.
  
  
@@ -56,7 +56,7 @@
 
 /**
  
- This value indicates an alert related to the seller's inventory, such as a 
+ This value indicates an alert related to the seller's inventory, such as a
  restocking alert. This field is only returned if
  <b>AlertType</b>='Inventory'.
  
@@ -99,7 +99,7 @@
 
 /**
  
- Represents the duration for which this alert is computed. This field is only 
+ Represents the duration for which this alert is computed. This field is only
  returned if the alert is based on duration.
  
  
@@ -109,7 +109,7 @@
 
 /**
  
- This field indicates the number of items affected by the alert. This field is not 
+ This field indicates the number of items affected by the alert. This field is not
  returned if the count is 0.
  
  

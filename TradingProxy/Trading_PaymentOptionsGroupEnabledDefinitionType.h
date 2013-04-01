@@ -12,7 +12,7 @@
 /**
  
  The PaymentOptionsGroupEnabled field is returned in the GetCategoryFeature response if the Payment Options Group feature
- applies to the category. The field is returned as an empty element. The Payment Options Group feature is only applicable to 
+ applies to the category. The field is returned as an empty element. The Payment Options Group feature is only applicable to
  DE and AT listings.
  
  

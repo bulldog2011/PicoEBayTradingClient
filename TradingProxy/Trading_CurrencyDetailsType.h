@@ -31,7 +31,7 @@
 /**
  
  Three-digit currency codes as defined in ISO 4217. The currency codes returned in
- <b>GeteBayDetails</b> can be used as values in the 
+ <b>GeteBayDetails</b> can be used as values in the
  <b>Currency</b> field of the Add/Revise/Relist and other Trading API
  calls.
  <br><br>

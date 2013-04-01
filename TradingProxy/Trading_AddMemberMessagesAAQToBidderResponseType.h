@@ -13,8 +13,8 @@
 
 /**
  
- Type defining the <b>AddMemberMessagesAAQToBidderResponseContainer</b> container, which consists 
- of the <b>Ack</b> field (indicating the result of the send message operation) and the <b>CorrelationID</b> 
+ Type defining the <b>AddMemberMessagesAAQToBidderResponseContainer</b> container, which consists
+ of the <b>Ack</b> field (indicating the result of the send message operation) and the <b>CorrelationID</b>
  field (used to track multiple send message operations performed in one call).
  
  

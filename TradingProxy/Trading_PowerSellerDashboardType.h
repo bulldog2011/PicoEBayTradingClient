@@ -12,8 +12,8 @@
 
 /**
  
- Type defining the <b>PowerSellerStatus</b> container returned in the 
- <b>GetSellerDashboard</b> response. The <b>PowerSellerStatus</b> 
+ Type defining the <b>PowerSellerStatus</b> container returned in the
+ <b>GetSellerDashboard</b> response. The <b>PowerSellerStatus</b>
  container is only returned if the seller making the call is a Power Seller.
  
  
@@ -43,7 +43,7 @@
 /**
  
  The <b>PowerSellerStatus.Alert</b> container is only returned if eBay
- has posted one or more informational or warning messages related to the seller's 
+ has posted one or more informational or warning messages related to the seller's
  PowerSeller status.
  
  

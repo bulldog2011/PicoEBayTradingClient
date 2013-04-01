@@ -29,8 +29,8 @@
 /**
  
  
- A container consisting of details related to an eBay Store promotion rule. One or 
- more <b>PromotionRule</b> containers may be returned in 
+ A container consisting of details related to an eBay Store promotion rule. One or
+ more <b>PromotionRule</b> containers may be returned in
  <b>GetPromotionRules</b>.
  
  

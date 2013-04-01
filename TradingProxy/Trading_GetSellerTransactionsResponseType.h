@@ -50,8 +50,8 @@
  
  Container consisting of the total number of order line items that match the input
  criteria and the total number of pages that must be scrolled through to view all order
- line items. To scroll through each page of order line item data, make subsequent 
- <b>GetSellerTransactions</b> calls, incrementing the <b>Pagination.PageNumber</b> 
+ line items. To scroll through each page of order line item data, make subsequent
+ <b>GetSellerTransactions</b> calls, incrementing the <b>Pagination.PageNumber</b>
  field by a value of '1' each time.
  
  
@@ -63,7 +63,7 @@
  
  This flag indicates whether there are additional pages of order line items to view.
  This field will be returned as 'true' if there are additional pages or order line items
- to view, or 'false' if the current page of order line item data is the last page of 
+ to view, or 'false' if the current page of order line item data is the last page of
  data.
  
  
@@ -75,19 +75,19 @@
  
  This value indicates the number of order line items returned per page (per call) and is
  controlled by the <b>Pagination.EntriesPerPage</b> value passed in the call
- request. Unless it is the last (or possibly only) page of data (<b>HasMoreTransactions=false</b>),  
- the <b>TransactionsPerPage</b> value should equal the 
+ request. Unless it is the last (or possibly only) page of data (<b>HasMoreTransactions=false</b>),
+ the <b>TransactionsPerPage</b> value should equal the
  <b>Pagination.EntriesPerPage</b> value passed in the call request.
  <br>
  <br>
  <span class="tablenote"><b>Note:</b>
- Due to the fact that item data on the eBay platform has a shorter retention period than 
- order data, it is possible that some retrieved pages will contain no data. For pages 
- that contain no data, the <b>ReturnedTransactionCountActual</b> value will 
- be '0'. It is also possible that pages 2, 3, and 4 have no data, but pages 1 and 5 do 
- have data. Therefore, we recommend that you scroll through each page of data (making 
+ Due to the fact that item data on the eBay platform has a shorter retention period than
+ order data, it is possible that some retrieved pages will contain no data. For pages
+ that contain no data, the <b>ReturnedTransactionCountActual</b> value will
+ be '0'. It is also possible that pages 2, 3, and 4 have no data, but pages 1 and 5 do
+ have data. Therefore, we recommend that you scroll through each page of data (making
  subsequent <b>GetSellerTransactions</b> calls and incrementing the
- <b>Pagination.PageNumber</b> value by '1' each time) until you reach the 
+ <b>Pagination.PageNumber</b> value by '1' each time) until you reach the
  last page, indicated by <b>HasMoreTransactions=false</b>.
  </span>
  
@@ -100,8 +100,8 @@
  
  This value indicates the page number of retrieved order line items that match the input
  criteria. This value is controlled by the <b>Pagination.PageNumber</b>
- value passed in the call request. To scroll through all pages of order line items that match the 
- input criteria, you increment the <b>Pagination.PageNumber</b> value by '1' 
+ value passed in the call request. To scroll through all pages of order line items that match the
+ input criteria, you increment the <b>Pagination.PageNumber</b> value by '1'
  with each subsequent <b>GetSellerTransactions</b> call.
  
  
@@ -113,18 +113,18 @@
  
  This value indicates the total number of (non-empty) order line items retrieved in the
  current page of results. The <b>ReturnedTransactionCountActual</b> value
- will be lower than the <b>TransactionsPerPage</b> value if one or more 
+ will be lower than the <b>TransactionsPerPage</b> value if one or more
  empty order line items are retreived on the page.
  <br>
  <br>
  <span class="tablenote"><b>Note:</b>
- Due to the fact that item data on the eBay platform has a shorter retention period than 
- order data, it is possible that some retrieved pages will contain no data. For pages 
- that contain no order line item data, the <b>ReturnedTransactionCountActual</b> value will 
- be '0'. It is also possible that pages 2, 3, and 4 have no data, but pages 1 and 5 do 
- have data. Therefore, we recommend that you scroll through each page of data (making 
+ Due to the fact that item data on the eBay platform has a shorter retention period than
+ order data, it is possible that some retrieved pages will contain no data. For pages
+ that contain no order line item data, the <b>ReturnedTransactionCountActual</b> value will
+ be '0'. It is also possible that pages 2, 3, and 4 have no data, but pages 1 and 5 do
+ have data. Therefore, we recommend that you scroll through each page of data (making
  subsequent <b>GetSellerTransactions</b> calls and incrementing the
- <b>Pagination.PageNumber</b> value by '1' each time) until you reach the 
+ <b>Pagination.PageNumber</b> value by '1' each time) until you reach the
  last page, indicated by <b>HasMoreTransactions=false</b>.
  </span>
  

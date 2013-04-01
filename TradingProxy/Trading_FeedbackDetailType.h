@@ -12,7 +12,7 @@
 
 /**
  
- Container consisting of detailed information on a Feedback entry for a specific 
+ Container consisting of detailed information on a Feedback entry for a specific
  order line item.
    
  
@@ -66,7 +66,7 @@
 /**
  
  Textual comment that explains, clarifies, or justifies the Feedback rating specified
- in <b>CommentType</b>. 
+ in <b>CommentType</b>.
  <br><br>
  The comment is returned as text in the language that the comment was originally left
  in. This comment will still be displayed even if a submitted Feedback entry is
@@ -89,14 +89,14 @@
 
 /**
  
- This value indicates the rating of the feedback left by the user identified by 
- <b>CommentingUser</b>. 
+ This value indicates the rating of the feedback left by the user identified by
+ <b>CommentingUser</b>.
  <br><br>
  A Positive rating increases a user's Feedback score, a Negative rating decreases
  a user's Feedback score, and a Neutral rating does not affect a user's Feedback
- score. 
+ score.
  <br><br>
- Sellers cannot leave Neutral or Negative ratings for buyers. 
+ Sellers cannot leave Neutral or Negative ratings for buyers.
  
  
  type: string constant in Trading_CommentTypeCodeType.h
@@ -181,7 +181,7 @@
  Unique identifier for an eBay order line item for which the
  Feedback entry was left. This field is not returned if the Feedback entry was left
  for an auction listing, since all auction listings have a <b>TransactionID</b>
- value of 0. 
+ value of 0.
  
  
  type : NSString, wrapper for primitive string
@@ -223,7 +223,7 @@
  The flag indicates whether or not the Feedback entry will affect the user's Feedback
  score. Only feedback left by verified users can count toward the aggregate score of
  another user. If a unverified user leaves a Feedback entry, then later
- becomes verified, that Feedback entry will still have no affect on the recipient 
+ becomes verified, that Feedback entry will still have no affect on the recipient
  user's Feedback score. Or, if a user is verified and at some later date changes to
  unverified status, the Feedback entry left while the user was verified remains
  in effect.
@@ -235,7 +235,7 @@
 
 /**
  
- Flag used to indicate whether or not a Feedback entry was revised (rating was 
+ Flag used to indicate whether or not a Feedback entry was revised (rating was
  changed).
  
  

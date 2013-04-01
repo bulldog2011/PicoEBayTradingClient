@@ -10,7 +10,7 @@
 
 
 /**
-  
+ 
  Defines the Item Specific feature. If the field is present, the corresponding feature applies to the site. The field is returned as an empty element (e.g., a boolean value is not returned).
  
  

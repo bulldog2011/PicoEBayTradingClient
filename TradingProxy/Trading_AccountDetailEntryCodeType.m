@@ -2029,7 +2029,7 @@ NSString *const Trading_AccountDetailEntryCodeType_CREDIT_GLOBAL_SHIPPING_PROGRA
 
 /**
  
- A fee charged to the seller's account if the seller ends an auction (with bids) 
+ A fee charged to the seller's account if the seller ends an auction (with bids)
  early.
  
 */
@@ -2037,8 +2037,8 @@ NSString *const Trading_AccountDetailEntryCodeType_FEE_AUCTION_END_EARLY = @"Fee
 
 /**
  
- A credit issued by eBay to the seller's account if a duplicate auction 
- listing is ended administratively by eBay. A seller is only eligible for this 
+ A credit issued by eBay to the seller's account if a duplicate auction
+ listing is ended administratively by eBay. A seller is only eligible for this
  credit if the auction listing had zero bids and was never surfaced in Search.
  
 */
@@ -2066,7 +2066,7 @@ NSString *const Trading_AccountDetailEntryCodeType_CREDIT_FED_EX_SHIPPING_LABEL 
  This fee is charged to the seller's account if eBay is forced to refund the buyer
  in a case where the buyer has used the eBay US Managed Returns process and return
  shipped the item to the seller, but the seller has not issued a refund to the buyer
- within seven business days after receiving the returned item. 
+ within seven business days after receiving the returned item.
  <br/><br/>
  This value is equal to the refund ("CreditReturnRefund") issued to the buyer.
  
@@ -2076,14 +2076,14 @@ NSString *const Trading_AccountDetailEntryCodeType_FEE_RETURN_REFUND = @"FeeRetu
 /**
  
  A credit issued to the buyer's account by eBay in a case where the buyer has used the eBay US
- Managed Returns process and return shipped the item to the seller, but the seller 
- has not issued a refund to the buyer within seven business days after receiving the 
- returned item. The buyer credit amounts to the total purchase price (plus any 
- shipping costs if the item was "not as described") minus the seller's restocking 
+ Managed Returns process and return shipped the item to the seller, but the seller
+ has not issued a refund to the buyer within seven business days after receiving the
+ returned item. The buyer credit amounts to the total purchase price (plus any
+ shipping costs if the item was "not as described") minus the seller's restocking
  fee if one was specified under the return policy of the listing.
  <br/><br/>
- eBay then charges this expense to the seller's account, and this charge is 
- attached to the "FeeReturnRefund" value. 
+ eBay then charges this expense to the seller's account, and this charge is
+ attached to the "FeeReturnRefund" value.
  
 */
 NSString *const Trading_AccountDetailEntryCodeType_CREDIT_RETURN_REFUND = @"CreditReturnRefund";

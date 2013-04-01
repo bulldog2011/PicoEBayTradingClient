@@ -15,7 +15,7 @@
 
 /**
  
- A date including the month, day, and year in the following format: 
+ A date including the month, day, and year in the following format:
  '<em>YYYYMMDD</em>'
  
 */

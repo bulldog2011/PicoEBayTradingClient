@@ -6,19 +6,19 @@
 /**
  @file
  
- Used to indicate whether ID-based attributes have been converted 
+ Used to indicate whether ID-based attributes have been converted
  to custom Item Specifics.
  
 */
 
 /**
  
- Please note that we no longer recommend passing both ID-based 
+ Please note that we no longer recommend passing both ID-based
  attributes and custom Item specifics in the same request.<br>
  <br>
- eBay has not converted the category from ID-based attributes to 
- only support custom Item Specifics. AddItem and related calls 
- may support passing both formats in the same request (if the 
+ eBay has not converted the category from ID-based attributes to
+ only support custom Item Specifics. AddItem and related calls
+ may support passing both formats in the same request (if the
  category supports both formats.)
  
 */
@@ -26,15 +26,15 @@ NSString *const Trading_AttributeConversionEnabledCodeType_NOT_APPLICABLE = @"No
 
 /**
  
- As previously announced in 2011 and early 2012, most categories no 
+ As previously announced in 2011 and early 2012, most categories no
  longer perform this conversion, so very few categories return this value.<br>
  <br>
- eBay has converted the category from ID-based attributes to 
+ eBay has converted the category from ID-based attributes to
  only support custom Item Specifics. With this setting:<br>
  <br>
  You can pass one format or the other in the same AddItem request,
- but you can't pass both formats together. If you pass in ID-based 
- attributes in the AddItem family of calls, eBay will convert them to 
+ but you can't pass both formats together. If you pass in ID-based
+ attributes in the AddItem family of calls, eBay will convert them to
  custom Item Specifics on your behalf.
  
 */
@@ -42,9 +42,9 @@ NSString *const Trading_AttributeConversionEnabledCodeType_ENABLED = @"Enabled";
 
 /**
  
- eBay has converted the category from ID-based attributes to 
- only support custom Item Specifics. ID-based attributes are 
- no longer supported. AddItem and related calls 
+ eBay has converted the category from ID-based attributes to
+ only support custom Item Specifics. ID-based attributes are
+ no longer supported. AddItem and related calls
  will fail if you pass ID-based attributes in the request.
  
 */

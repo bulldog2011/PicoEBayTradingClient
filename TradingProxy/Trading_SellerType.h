@@ -113,11 +113,10 @@
 
 /**
  
- If true, this flag indicates that the seller has stored bank account information on
- file with eBay. A seller must have stored bank account information on file with eBay
- in order to use the Cash in Person (also known as Pay upon Pickup) feature.
- This field is applicable to all eBay sites that support Cash in Person or Pay upon
- Pickuop as a payment method.
+ If true, this flag indicates that the seller has stored bank account information on file
+ with eBay. A seller must have stored bank account information on file with eBay in order
+ to use 'CashOnPickup' as a payment method (known as 'Pay upon Pickup' on the site). This
+ field is applicable to all eBay sites that support 'CashOnPickup' as a payment method.
  
  
  type : NSNumber, wrapper for primitive bool

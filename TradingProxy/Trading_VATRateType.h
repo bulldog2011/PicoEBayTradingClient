@@ -11,10 +11,10 @@
 
 /**
  
- Type defining the <b>VATRateType</b> container, which is used by 
- <b>ReviseSellingManagerSaleRecord</b> to modify the VAT percentage for an 
- order line item. This container is also retrieved by 
- <b>GetSellingManagerSaleRecord</b> if Value-Added Tax has been applied to 
+ Type defining the <b>VATRateType</b> container, which is used by
+ <b>ReviseSellingManagerSaleRecord</b> to modify the VAT percentage for an
+ order line item. This container is also retrieved by
+ <b>GetSellingManagerSaleRecord</b> if Value-Added Tax has been applied to
  the order line item.
  
  
@@ -50,7 +50,7 @@
  
  Unique identifier for an eBay order line item (transaction). An order line
  item is created once there is a commitment from a buyer to purchase an item.
- Since an auction listing can only have one order line item 
+ Since an auction listing can only have one order line item
  during the duration of the listing, the <b>TransactionID</b> for auction listings
  is always 0. Along with its corresponding <b>ItemID</b>, a <b>TransactionID</b> is used
  and referenced during an order checkout flow and after checkout has been

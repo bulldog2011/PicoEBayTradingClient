@@ -52,9 +52,9 @@
  Year, Make, and Model, and the values would correspond to specific vehicles in
  eBay's catalog.
  <br><br>
- The eBay Germany site supports the use of K type vehicle numbers to specify
+ The K type vehicle number is supported in the DE, UK, and AU eBay sites to specify
  parts compatibility. To use a K type number to specify item compatiblities,
- set the Name field to "KType" and set the corresponding Value field to the 
+ set the Name field to "KType" and set the corresponding Value field to the
  K type number.
  
  

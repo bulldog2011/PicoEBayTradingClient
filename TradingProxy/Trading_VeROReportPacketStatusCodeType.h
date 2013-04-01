@@ -6,7 +6,7 @@
 /**
  @file
  
- The status of a set of items (packet) reported for infringement. Packet states 
+ The status of a set of items (packet) reported for infringement. Packet states
  are based on the states of the reported items within the packet.
  
  

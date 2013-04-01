@@ -6,7 +6,7 @@
 /**
  @file
  
- Enumerated type containing the list of values that can be used when revising the 
+ Enumerated type containing the list of values that can be used when revising the
  item description of an active listing through the Revise API calls.
  
  

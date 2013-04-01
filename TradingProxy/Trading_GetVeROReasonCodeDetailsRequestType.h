@@ -12,11 +12,11 @@
 
 /**
  
- Retrieves details for VeRO reason codes and their descriptions. You can specify a 
- reason code ID to get details for a specific reason on the site specified in the 
- request header. If ReasonCodeID is not passed in the request, all reason codes are 
+ Retrieves details for VeRO reason codes and their descriptions. You can specify a
+ reason code ID to get details for a specific reason on the site specified in the
+ request header. If ReasonCodeID is not passed in the request, all reason codes are
  returned. Set ReturnAllSites to true to retrieve reason codes for all sites.
- You must be a member of the Verified Rights Owner (VeRO) Program to use this call. 
+ You must be a member of the Verified Rights Owner (VeRO) Program to use this call.
  
  
  @ingroup EBayAPIInterface
@@ -32,8 +32,8 @@
 
 /**
  
-  Unique identifier for a reason code. If this ReasonCodeID is passed then 
-  only details of this ReasonCodeID will be returned. If no reason code is 
+  Unique identifier for a reason code. If this ReasonCodeID is passed then
+  only details of this ReasonCodeID will be returned. If no reason code is
   specified, all reason codes are returned.
  
  
@@ -43,9 +43,9 @@
 
 /**
  
-  Set to true to retrieve reason codes for all sites. If not specified, 
-  reason codes are returned for the site specified in the request header 
-  only. 
+  Set to true to retrieve reason codes for all sites. If not specified,
+  reason codes are returned for the site specified in the request header
+  only.
   If ReasonCodeID is specified, this parameter is ignored.
  
  

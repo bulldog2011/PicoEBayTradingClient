@@ -6,8 +6,8 @@
 /**
  @file
  
- Enumerated type listing the possible roles an eBay user may have in regards to an 
- eBay order. 
+ Enumerated type listing the possible roles an eBay user may have in regards to an
+ eBay order.
  
  
  @ingroup EBayAPIInterface
@@ -15,8 +15,8 @@
 
 /**
  
- The eBay user is acting as the buyer for the order(s). In <b>GetOrders</b>, 
- this value should be passed into the <b>OrderRole</b> field in the 
+ The eBay user is acting as the buyer for the order(s). In <b>GetOrders</b>,
+ this value should be passed into the <b>OrderRole</b> field in the
  request to retrieve orders in which the calling eBay user is the buyer in the order.
  
 */
@@ -24,8 +24,8 @@ extern NSString *const Trading_TradingRoleCodeType_BUYER;
 
 /**
  
- The eBay user is acting as the seller for the order(s). In <b>GetOrders</b>, 
- this value should be passed into the <b>OrderRole</b> field in the 
+ The eBay user is acting as the seller for the order(s). In <b>GetOrders</b>,
+ this value should be passed into the <b>OrderRole</b> field in the
  request to retrieve orders in which the calling eBay user is the seller in the order.
  
 */

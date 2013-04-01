@@ -54,17 +54,17 @@
 /**
  
  Most Trading API calls support a <b>MessageID</b> element in the request
- and a <b>CorrelationID</b> element in the response. With 
- <b>EndItems</b>, the seller can pass in a different 
- <b>MessageID</b> value for 
- each <b>EndItemRequestContainer<b> container that is used in the request. The 
- <b>CorrelationID</b> value returned under each 
- <b>EndItemResponseContainer</b> container is used to correlate each 
- End Item request container with its corresponding End Item response container. The same <b>MessageID</b> value that you pass into a request will 
+ and a <b>CorrelationID</b> element in the response. With
+ <b>EndItems</b>, the seller can pass in a different
+ <b>MessageID</b> value for
+ each <b>EndItemRequestContainer<b> container that is used in the request. The
+ <b>CorrelationID</b> value returned under each
+ <b>EndItemResponseContainer</b> container is used to correlate each
+ End Item request container with its corresponding End Item response container. The same <b>MessageID</b> value that you pass into a request will
  be returned in the <b>CorrelationID</b> field in the response.
  <br>
  <br>
- If you do not pass in a <b>MessageID</b> value in the request, 
+ If you do not pass in a <b>MessageID</b> value in the request,
  <b>CorrelationID</b> is not returned.
  
  

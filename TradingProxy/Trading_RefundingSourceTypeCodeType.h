@@ -16,8 +16,8 @@
  
   The seller's scheduled payout account with eBay. When a buyer pays for an item the purchase amount goes into this account. This value indicates that the refund has been issued from the seller's scheduled payout account.<br/><br/>
   <span class="tablenote">
-  <strong>Note:</strong> RefundingSourceType values are returned 
-  (for GetOrders and other order retrieval calls) for DE/AT orders subject to the 
+  <strong>Note:</strong> RefundingSourceType values are returned
+  (for GetOrders and other order retrieval calls) for DE/AT orders subject to the
   new eBay payment process.
   </span>
  
@@ -28,8 +28,8 @@ extern NSString *const Trading_RefundingSourceTypeCodeType_SCHEDULED_PAYOUT;
  
   The seller's PayPal account associated with the transaction.<br/><br/>
   <span class="tablenote">
-  <strong>Note:</strong> RefundingSourceType values are returned 
-  (for GetOrders and other order retrieval calls) for DE/AT orders subject to the 
+  <strong>Note:</strong> RefundingSourceType values are returned
+  (for GetOrders and other order retrieval calls) for DE/AT orders subject to the
   new eBay payment process.
   </span>
  
@@ -40,8 +40,8 @@ extern NSString *const Trading_RefundingSourceTypeCodeType_PAYPAL;
  
   The seller's bank account associated with the transaction.<br/><br/>
   <span class="tablenote">
-  <strong>Note:</strong> RefundingSourceType values are returned 
-  (for GetOrders and other order retrieval calls) for DE/AT orders subject to the 
+  <strong>Note:</strong> RefundingSourceType values are returned
+  (for GetOrders and other order retrieval calls) for DE/AT orders subject to the
   new eBay payment process.
   </span>
  

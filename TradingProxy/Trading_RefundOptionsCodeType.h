@@ -25,10 +25,10 @@ extern NSString *const Trading_RefundOptionsCodeType_MONEY_BACK;
 
 /**
  
- This value is being deprecated in 2012. We recommend that you stop using this value. 
- Beginning with version 759, a warning message will be returned if a listing is created 
- or revised with this value. And starting in early May 2012, listings created or revised 
- with this value will be blocked. 
+ This value is being deprecated in 2012. We recommend that you stop using this value.
+ Beginning with version 759, a warning message will be returned if a listing is created
+ or revised with this value. And starting in early May 2012, listings created or revised
+ with this value will be blocked.
  <br><br>
  The seller will exchange the returned item for another item. Use
  ReturnPolicy.Description to explain how this will occur (such as whether the seller will
@@ -39,11 +39,11 @@ extern NSString *const Trading_RefundOptionsCodeType_EXCHANGE;
 
 /**
  
- This value is being deprecated in 2012. We recommend that you stop using this value. 
- Beginning with version 759, a warning message will be returned if a listing is created 
- or revised with this value. And starting in early May 2012, listings created or revised 
- with this value will be blocked. 
- <br><br> 
+ This value is being deprecated in 2012. We recommend that you stop using this value.
+ Beginning with version 759, a warning message will be returned if a listing is created
+ or revised with this value. And starting in early May 2012, listings created or revised
+ with this value will be blocked.
+ <br><br>
  The seller will give the buyer a credit toward the purchase of another item.
  Use ReturnPolicy.Description to explain how the buyer can redeem this credit.
  
@@ -54,8 +54,8 @@ extern NSString *const Trading_RefundOptionsCodeType_MERCHANDISE_CREDIT;
  
  The seller will either issue the buyer a refund for the cost of the item (excluding
  shipping and other costs), or the seller will exchange the returned item for another
- identical/similar item. 
- <br><br> 
+ identical/similar item.
+ <br><br>
  Use ReturnPolicy.Description to explain how the seller will handle the refund (such as
  whether the refund will occur via PayPal), or how the exchange will occur (such as
  whether the seller will send an identical item in place of the returned item).

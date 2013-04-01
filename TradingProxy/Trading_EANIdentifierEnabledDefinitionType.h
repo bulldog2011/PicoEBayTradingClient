@@ -10,7 +10,7 @@
 
 
 /**
-  
+ 
  This type defines the European Article Number (EAN) feature, and whether this
  feature is enabled at the site level. An empty EANIdentifierEnabled field is
  returned under the FeatureDefinitions container in GetCategoryFeatures if the feature

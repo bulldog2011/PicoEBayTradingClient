@@ -82,13 +82,13 @@
  order line item identified in the call request. The seller must include and
  specify all fields of this type, including the buyer's eBay User ID, the
  Feedback rating (a seller can only leave a buyer a "Positive" rating), and a
- comment, which helps justify the Feedback rating. The eBay User ID must match 
- the buyer who bought the order line item, or an error will occur. An error will 
- also occur if Feedback has already been left for the buyer (either through API 
+ comment, which helps justify the Feedback rating. The eBay User ID must match
+ the buyer who bought the order line item, or an error will occur. An error will
+ also occur if Feedback has already been left for the buyer (either through API
  or the Web flow).
  <br><br>
- To determine if Feedback has already been left for an order line item, you can 
- call <b class="con">GetFeedback</b>, passing in the 
+ To determine if Feedback has already been left for an order line item, you can
+ call <b class="con">GetFeedback</b>, passing in the
  <b class="con">OrderLineItemID</b> value in the call request.
  
  
@@ -113,7 +113,7 @@
  shipped automatically and the <b>Shipped</b> field is not
  required.
  <br><br>
- For orders going through the new payment process, DE and AT sellers mark an 
+ For orders going through the new payment process, DE and AT sellers mark an
  order as shipped to expedite the seller payout process.
  
  
@@ -160,7 +160,7 @@
  tracking number and shipping carrier automatically marks the item as shipped
  and the <b>Shipped</b> field is not required.
  <br><br>
- (If you supply <b>ShipmentTrackingNumber</b> you must also supply 
+ (If you supply <b>ShipmentTrackingNumber</b> you must also supply
  <b>ShippingCarrierUsed</b>, otherwise you will get an error.
  <br><br>
  To modify the shipping tracking number and/or carrier, supply the new number
@@ -170,13 +170,13 @@
  <br><br>
  To simply delete the current tracking details altogether, supply empty
  <b>Shipment</b> tags.
- <br> 
+ <br>
  <br>
  <span class="tablenote"><b>Note:</b>
  Top-rated sellers must have a record of uploading shipment tracking
  information (through site or through API) for at least 90 percent of their order line
  items (purchased by U.S. buyers) to keep their status as Top-rated sellers. For more
- information on changes to eBay's Top-rated seller program, see the 
+ information on changes to eBay's Top-rated seller program, see the
  <a href="http://pages.ebay.com/sellerinformation/news/fallupdate2012/newetrsbadge.html">2012 Fall Seller Update</a> page.
  </span>
  <br>
@@ -189,8 +189,8 @@
 /**
  
  A unique identifier that identifies a single line item or multiple line
- item order. 
- <br><br> 
+ item order.
+ <br><br>
  For a single line item order, the <b>OrderID</b> value is identical to the
  <b>OrderLineItemID</b> value that is generated upon creation of the order line
  item. For multiple line item orders, the <b>OrderID</b> value is created by eBay

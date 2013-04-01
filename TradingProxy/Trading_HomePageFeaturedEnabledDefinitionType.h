@@ -10,7 +10,7 @@
 
 
 /**
-  
+ 
  Defines whether Home Page Featured is available on the site.
  
  

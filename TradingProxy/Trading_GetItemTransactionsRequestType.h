@@ -78,7 +78,7 @@
  the request or if the <b>NumberOfDays</b> date filter is used.
  <br><br>
  If you don't specify a <b>ModTimeFrom</b>/<b>ModTimeTo</b> filter, the <b>NumberOfDays</b>
- time filter is used and it defaults to 30 (days). 
+ time filter is used and it defaults to 30 (days).
  
  
  type : NSDate, wrapper for primitive date
@@ -110,7 +110,7 @@
  
  Include a <b>TransactionID</b> field in the request if you want to retrieve the
  data for a specific order line item (transaction). If a <b>TransactionID</b> is
- provided, any specified time filter is ignored. 
+ provided, any specified time filter is ignored.
  
  
  type : NSString, wrapper for primitive string
@@ -208,7 +208,7 @@
  hyphen in between these two IDs. If you want to retrieve data on a
  specific order line item, you can use an <b>OrderLineItemID</b> value in the
  request instead of the <b>ItemID</b>/<b>TransactionID</b> pair. If an <b>OrderLineItemID</b> is
- provided, any specified time filter is ignored. 
+ provided, any specified time filter is ignored.
  
  
  type : NSString, wrapper for primitive string

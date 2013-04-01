@@ -10,7 +10,7 @@
 
 
 /**
-  
+ 
  This type defines the PaisaPayEscrow payment feature. If the field is present, the PaisaPayEscrow payment feature applies to the category. The field is returned as an empty element, the boolean value is not returned.
  
  

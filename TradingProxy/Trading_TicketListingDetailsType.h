@@ -11,7 +11,7 @@
 
 /**
  
- Type defining the <b>TicketListingDetails</b> container, which is used in 
+ Type defining the <b>TicketListingDetails</b> container, which is used in
  an Add/Revise/Relist call to provide more details about event tickets.
  
  

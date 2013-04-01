@@ -11,7 +11,7 @@
 @class Trading_ProductInfoType;
 
 /**
-  
+ 
  Pricing data returned from the Product Pricing engine.
  
  
@@ -27,7 +27,7 @@
 
 /**
  
-             A product's pricing data (if any) and brief information about the product. 
+             A product's pricing data (if any) and brief information about the product.
  
  
  type : class Trading_ProductInfoType

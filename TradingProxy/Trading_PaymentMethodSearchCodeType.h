@@ -6,7 +6,7 @@
 /**
  @file
  
- Used for specifying items for which a specific payment method or methods are accepted. 
+ Used for specifying items for which a specific payment method or methods are accepted.
     
  
  @ingroup EBayAPIInterface
@@ -20,7 +20,7 @@
 extern NSString *const Trading_PaymentMethodSearchCodeType_PAY_PAL;
 
 /**
-  
+ 
    PaisaPay payment method. The PaisaPay payment method is only for the India site (site ID 203).
  
 */

@@ -11,11 +11,11 @@
 
 /**
  
- Type defining the <b>SellerPaymentProfile</b> container, which is used in an 
+ Type defining the <b>SellerPaymentProfile</b> container, which is used in an
  Add/Revise/Relist Trading API call to reference a Business Policies payment profile.
  <br/><br/>
  <span class="tablenote"><b>Note:</b>
- Business Policies are not yet available for use on the eBay platform. 
+ Business Policies are not yet available for use on the eBay platform.
  <span/>
  
  
@@ -33,18 +33,18 @@
 
 /**
  
- The unique identifier of a Business Policies payment profile. A <b>PaymentProfileID</b> 
+ The unique identifier of a Business Policies payment profile. A <b>PaymentProfileID</b>
  and/or a <b>PaymentProfileName</b> value is used in the Add/Revise/Relist
  call to reference and use the payment policy values of a Business Policies payment
- profile. If both fields are provided and their values don't match, the <b>PaymentProfileID</b> 
+ profile. If both fields are provided and their values don't match, the <b>PaymentProfileID</b>
  takes precedence.
  <br/><br/>
  In the "Get" calls, the <b>PaymentProfileID</b> value will always be
- returned if the listing is using a Business Policies payment profile, and the <b>PaymentProfileName</b> 
+ returned if the listing is using a Business Policies payment profile, and the <b>PaymentProfileName</b>
  value will be returned if a name is assigned to the payment profile.
  <br/><br/>
  <span class="tablenote"><b>Note:</b>
- Business Policies are not yet available for use on the eBay platform. 
+ Business Policies are not yet available for use on the eBay platform.
  <span/>
  
  
@@ -54,18 +54,18 @@
 
 /**
  
- The name of a Business Policies payment profile. A <b>PaymentProfileID</b> 
+ The name of a Business Policies payment profile. A <b>PaymentProfileID</b>
  and/or a <b>PaymentProfileName</b> value is used in the Add/Revise/Relist
  call to reference and use the payment policy values of a Business Policies payment
- profile. If both fields are provided and their values don't match, the <b>PaymentProfileID</b> 
+ profile. If both fields are provided and their values don't match, the <b>PaymentProfileID</b>
  takes precedence.
  <br/><br/>
  In the "Get" calls, the <b>PaymentProfileID</b> value will always be
- returned if the listing is using a Business Policies payment profile, and the <b>PaymentProfileName</b> 
+ returned if the listing is using a Business Policies payment profile, and the <b>PaymentProfileName</b>
  value will be returned if a name is assigned to the payment profile.
  <br/><br/>
  <span class="tablenote"><b>Note:</b>
- Business Policies are not yet available for use on the eBay platform. 
+ Business Policies are not yet available for use on the eBay platform.
  <span/>
  
  

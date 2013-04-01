@@ -14,8 +14,8 @@
  
   The seller's billing agreement with PayPal has been cancelled. <br/><br/>
             <span class="tablenote">
-            <strong>Note:</strong> RefundFailureCode values are returned 
-            (for GetOrders and other order retrieval calls) for DE/AT orders subject to the new 
+            <strong>Note:</strong> RefundFailureCode values are returned
+            (for GetOrders and other order retrieval calls) for DE/AT orders subject to the new
             eBay payment process.
             </span>
  
@@ -26,8 +26,8 @@ NSString *const Trading_RefundFailureCodeType_PAYPAL_BILLING_AGREEMENT_CANCELED 
  
   Please log in to your PayPal account to proceed with the refund request. <br/><br/>
             <span class="tablenote">
-            <strong>Note:</strong> RefundFailureCode values are returned 
-            (for GetOrders and other order retrieval calls) for DE/AT orders subject to the new 
+            <strong>Note:</strong> RefundFailureCode values are returned
+            (for GetOrders and other order retrieval calls) for DE/AT orders subject to the new
             eBay payment process.
             </span>
  

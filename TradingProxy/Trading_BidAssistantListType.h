@@ -30,7 +30,7 @@
 /**
  
  
- Use this element to specify the bid group id for the Bid Assistant items 
+ Use this element to specify the bid group id for the Bid Assistant items
  that you want information about.
  
  

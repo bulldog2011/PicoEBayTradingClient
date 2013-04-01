@@ -30,7 +30,7 @@
 
 /**
  
- Confirms the quantity and price associated with a listing 
+ Confirms the quantity and price associated with a listing
  or variation that was revised.
  
  
@@ -41,21 +41,21 @@
 
 /**
  
- Child elements contain the estimated listing fees for a 
- listing that was revised. Use the ItemID to correlate the 
- Fees data with the InventoryStatus data in the response. 
- The fees do not include the Final Value Fee (FVF), 
+ Child elements contain the estimated listing fees for a
+ listing that was revised. Use the ItemID to correlate the
+ Fees data with the InventoryStatus data in the response.
+ The fees do not include the Final Value Fee (FVF),
  which can't be determined until the listing has sales.<br>
  <br>
- If you revise a variation in a multi-variation listing, 
+ If you revise a variation in a multi-variation listing,
  the fees are for the entire listing. The insertion fee and
- listing fee are affected by the highest priced variation 
+ listing fee are affected by the highest priced variation
  in the listing (which is not necessarily the variation that
  you passed in the request).<br>
  <br>
  Also note that the call returns only one Fees node per listing.
- For example, if you revise 4 variations from the same 
- multi-variation listing, the response includes 4 
+ For example, if you revise 4 variations from the same
+ multi-variation listing, the response includes 4
  InventoryStatus nodes and 1 Fees node.
  
  

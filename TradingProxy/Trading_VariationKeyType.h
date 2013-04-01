@@ -29,7 +29,7 @@
 
 /**
  
- The ID of the item whose variation(s) should be added to or 
+ The ID of the item whose variation(s) should be added to or
  removed from the watch list.
  
  
@@ -39,9 +39,9 @@
 
 /**
  
- Name-value pairs that identify a variation within the 
- listing identified by VariationKey.ItemID. 
- or that partially match one or more variations. Names may not be duplicated in the same VariationSpecifics container. 
+ Name-value pairs that identify a variation within the
+ listing identified by VariationKey.ItemID.
+ or that partially match one or more variations. Names may not be duplicated in the same VariationSpecifics container.
  If the specified pairs do not match any variation, the call
  behaves as if no variations were specified.
  

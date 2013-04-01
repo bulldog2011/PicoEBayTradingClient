@@ -11,9 +11,9 @@
 
 /**
  
-  Type defining the <b>VariationSpecificPictureSet</b> container, which is 
-  used to specify the URL(s) where the picture(s) of the variation specific will be 
-  hosted. If the <b>Variations.Pictures</b> container is used, at least one 
+  Type defining the <b>VariationSpecificPictureSet</b> container, which is
+  used to specify the URL(s) where the picture(s) of the variation specific will be
+  hosted. If the <b>Variations.Pictures</b> container is used, at least one
   <b>VariationSpecificPictureSet</b> container is required.
  
  
@@ -33,9 +33,9 @@
 
 /**
  
- A value that is associated with VariationSpecificName. For example, 
+ A value that is associated with VariationSpecificName. For example,
  suppose this set of pictures is showing blue shirts, and some of
- the variations include Color=Blue in their variation specifics. 
+ the variations include Color=Blue in their variation specifics.
  If VariationSpecificName is "Color", then VariationSpecificValue would be "Blue".
  
  
@@ -61,14 +61,14 @@
  first picture is used as the thumbnail image for all the red shirt variations.
  <br>
  <br>
- You can use Item.PictureDetails to specify additional pictures. 
- For example, the item-level pictures could include a model wearing a 
+ You can use Item.PictureDetails to specify additional pictures.
+ For example, the item-level pictures could include a model wearing a
  black shirt, as a typical example of the shirt style.
  <br><br>
  <span class="tablenote"><b>Note:</b>
- If a URI contains spaces, replace them with <code>%20</code>. 
- For example, <code>http://example.com/my image.jpg</code> must be 
- submitted as <code>http://example.com/my%20image.jpg</code> to 
+ If a URI contains spaces, replace them with <code>%20</code>.
+ For example, <code>http://example.com/my image.jpg</code> must be
+ submitted as <code>http://example.com/my%20image.jpg</code> to
  replace the space in the image file name.
  </span>
  

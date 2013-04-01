@@ -8,9 +8,9 @@
  
  Enumerated type that contains the top-level reasons for a buyer or seller to create a
  case against one another. These values are specified in the
- <b>DisputeReason</b> field of <b>AddDispute</b>, and are returned 
+ <b>DisputeReason</b> field of <b>AddDispute</b>, and are returned
  in the <b>GetUserDisputes</b> and <b>GetDispute</b> calls.
- The <b>DisputeReason</b> value will dictate what 
+ The <b>DisputeReason</b> value will dictate what
  <b>DisputeExplanation</b> values that can be used/returned.
  
 */
@@ -18,8 +18,11 @@
 /**
  
  The seller has opened a case against the buyer because the buyer has not paid for
- the order line item. A seller can open an Unpaid Item case as early as 4 days after 
- the end of the auction listing.
+ the order line item. A seller can open an Unpaid Item case as early as 2 days after
+ the end of the auction listing. An exception to this rule occurs when the seller
+ allows combined payment orders. If the seller does allow the buyer to combine orders
+ and make one payment for those orders, the seller would not be able to open an Unpaid
+ Item case until after the time period to combine orders expires.
  
 */
 NSString *const Trading_DisputeReasonCodeType_BUYER_HAS_NOT_PAID = @"BuyerHasNotPaid";
@@ -33,10 +36,10 @@ NSString *const Trading_DisputeReasonCodeType_TRANSACTION_MUTUALLY_CANCELED = @"
 
 /**
  
- The buyer has opened a case against the seller because the item has not been 
- received by the buyer. A buyer can open an Item Not Received case after the 
- Estimated Delivery Date of the item has passed, or 7 days after payment if the 
- Estimated Delivery Date wasn't given by the seller. This value cannot be used in 
+ The buyer has opened a case against the seller because the item has not been
+ received by the buyer. A buyer can open an Item Not Received case after the
+ Estimated Delivery Date of the item has passed, or 7 days after payment if the
+ Estimated Delivery Date wasn't given by the seller. This value cannot be used in
  <b>AddDispute</b>.
  
 */
@@ -62,7 +65,7 @@ NSString *const Trading_DisputeReasonCodeType_NO_REFUND = @"NoRefund";
 
 /**
  
- Item was returned and seller was not paid. This value cannot be used in 
+ Item was returned and seller was not paid. This value cannot be used in
  <b>AddDispute</b>.
  
 */

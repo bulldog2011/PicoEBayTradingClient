@@ -10,10 +10,10 @@
 
 
 /**
-  
+ 
  Defines the escrow workflow version applicable for the given category on the India site, if the category
- supports PaisaPayFullEscrow. If this field is present, the corresponding feature applies to the category. 
- The fieldis returned as an empty element. 
+ supports PaisaPayFullEscrow. If this field is present, the corresponding feature applies to the category.
+ The fieldis returned as an empty element.
  
  
  @ingroup EBayAPIInterface

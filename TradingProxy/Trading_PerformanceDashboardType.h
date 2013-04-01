@@ -12,9 +12,9 @@
 
 /**
  
- Type defining the <b>Performance</b> container returned in the 
- <b>GetSellerDashboard</b> response. The <b>Performance</b> 
- container consists of the seller's overall selling performance rating on all eBay sites 
+ Type defining the <b>Performance</b> container returned in the
+ <b>GetSellerDashboard</b> response. The <b>Performance</b>
+ container consists of the seller's overall selling performance rating on all eBay sites
  on which the seller is sellling, as well as any alerts related to performance.
  
  
@@ -48,7 +48,7 @@
 /**
  
  This field indicates the seller's performance rating. This rating is an overall
- performance for the eBay site(s) found in the <b>Site</b> field(s). 
+ performance for the eBay site(s) found in the <b>Site</b> field(s).
  
  
  type: string constant in Trading_PerformanceStatusCodeType.h

@@ -12,8 +12,8 @@
 
 /**
  
- Type defining the <b>CheckoutStatus</b> container that is returned in 
- <b>GetOrders</b> and <b>GetOrderTransactions</b> to indicate 
+ Type defining the <b>CheckoutStatus</b> container that is returned in
+ <b>GetOrders</b> and <b>GetOrderTransactions</b> to indicate
  the current checkout status of the order.
  
  
@@ -35,7 +35,7 @@
 
 /**
  
- This value indicates the payment status of an order. 
+ This value indicates the payment status of an order.
  <br><br>
  Also applicable to Half.com orders (GetOrders only).
  
@@ -71,10 +71,10 @@
 /**
  
  Indicates the status of the order. This value is subject to change based on the
- status of the checkout flow. Generally speaking, the <b>Status</b> 
+ status of the checkout flow. Generally speaking, the <b>Status</b>
  field reads 'Incomplete'
  when payment has yet to be initiated, 'Pending' when payment has been initiated
- but is in process, and 'Complete' when the payment process has completed. 
+ but is in process, and 'Complete' when the payment process has completed.
  <br><br>
  <b>Note</b>: If the PaymentMethod is CashOnPickup, the Status value
  will read Complete right at Checkout, even though the seller may not have been
@@ -109,7 +109,7 @@
  
  This container is returned when a buyer's payment does not match the total cost of an
  order going through the new eBay payment process. This container is only applicable for
- German and Austrian orders going through the new eBay payment process, and if the buyer 
+ German and Austrian orders going through the new eBay payment process, and if the buyer
  has selected EFT as the payment method.
  
  

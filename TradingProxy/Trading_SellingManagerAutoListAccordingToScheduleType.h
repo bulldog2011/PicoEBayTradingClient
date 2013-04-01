@@ -10,7 +10,7 @@
 
 
 /**
- Defines the options available for an Automated Listing Rule that 
+ Defines the options available for an Automated Listing Rule that
  keeps a fixed number of items on the site
  
  @ingroup EBayAPIInterface
@@ -78,7 +78,7 @@
 
 /**
  
- The number of current, listed items required for the rule to no longer be run. 
+ The number of current, listed items required for the rule to no longer be run.
  
  
  type : NSNumber, wrapper for primitive int
@@ -87,7 +87,7 @@
 
 /**
  
- Sets a minimum inventory level for listings of associated products 
+ Sets a minimum inventory level for listings of associated products
  to occur.
  
  

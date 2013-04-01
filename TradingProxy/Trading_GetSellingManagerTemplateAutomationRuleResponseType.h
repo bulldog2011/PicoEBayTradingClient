@@ -61,8 +61,8 @@
 
 /**
  
- Contains fees that may be incurred when items are listed using the 
- automation rule (e.g., a scheduled listing fee). Use of an automation rule 
+ Contains fees that may be incurred when items are listed using the
+ automation rule (e.g., a scheduled listing fee). Use of an automation rule
  does not in itself have a fee, but use can result in a fee.
  
  

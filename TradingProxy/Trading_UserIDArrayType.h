@@ -11,7 +11,7 @@
 
 /**
  
- Contains an array of eBay UserID entries. 
+ Contains an array of eBay UserID entries.
  
  
  @ingroup EBayAPIInterface
@@ -27,8 +27,8 @@
 
 /**
  
- Unique eBay user ID for the user. 
- Applies to eBay Motors Pro applications only. 
+ Unique eBay user ID for the user.
+ Applies to eBay Motors Pro applications only.
  
  
  entry type : NSString, wrapper for primitive string

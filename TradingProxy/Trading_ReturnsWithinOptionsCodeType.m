@@ -14,8 +14,8 @@
 
 /**
  
- The seller specifies this value to enable a 3-day return policy. A buyer must 
- return an item within three days after purchase in order to receive a refund or 
+ The seller specifies this value to enable a 3-day return policy. A buyer must
+ return an item within three days after purchase in order to receive a refund or
  an exchange.
  <br>
  <br>
@@ -28,8 +28,8 @@ NSString *const Trading_ReturnsWithinOptionsCodeType_DAYS_3 = @"Days_3";
 
 /**
  
- The seller specifies this value to enable a 7-day return policy. A buyer must 
- return an item within seven days after purchase in order to receive a refund or 
+ The seller specifies this value to enable a 7-day return policy. A buyer must
+ return an item within seven days after purchase in order to receive a refund or
  an exchange.
  <br>
  <br>
@@ -42,8 +42,8 @@ NSString *const Trading_ReturnsWithinOptionsCodeType_DAYS_7 = @"Days_7";
 
 /**
  
- The seller specifies this value to enable a 10-day return policy. A buyer must 
- return an item within 10 days after purchase in order to receive a refund or 
+ The seller specifies this value to enable a 10-day return policy. A buyer must
+ return an item within 10 days after purchase in order to receive a refund or
  an exchange.
  <br>
  <br>
@@ -56,8 +56,8 @@ NSString *const Trading_ReturnsWithinOptionsCodeType_DAYS_10 = @"Days_10";
 
 /**
  
- The seller specifies this value to enable a 14-day return policy. A buyer must 
- return an item within 14 days after purchase in order to receive a refund or 
+ The seller specifies this value to enable a 14-day return policy. A buyer must
+ return an item within 14 days after purchase in order to receive a refund or
  an exchange.
  
 */
@@ -65,8 +65,8 @@ NSString *const Trading_ReturnsWithinOptionsCodeType_DAYS_14 = @"Days_14";
 
 /**
  
- The seller specifies this value to enable a 30-day return policy. A buyer must 
- return an item within 30 days after purchase in order to receive a refund or 
+ The seller specifies this value to enable a 30-day return policy. A buyer must
+ return an item within 30 days after purchase in order to receive a refund or
  an exchange.
  
 */
@@ -74,8 +74,8 @@ NSString *const Trading_ReturnsWithinOptionsCodeType_DAYS_30 = @"Days_30";
 
 /**
  
- The seller specifies this value to enable a 60-day return policy. A buyer must 
- return an item within 60 days after purchase in order to receive a refund or 
+ The seller specifies this value to enable a 60-day return policy. A buyer must
+ return an item within 60 days after purchase in order to receive a refund or
  an exchange.
  
 */

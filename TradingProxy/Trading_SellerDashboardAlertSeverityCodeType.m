@@ -27,10 +27,10 @@ NSString *const Trading_SellerDashboardAlertSeverityCodeType_INFORMATIONAL = @"I
  
  The alert message is a warning that identifies a problem.
  <br><br>
- For example, you might get a PowerSeller status warning if you missed the 
+ For example, you might get a PowerSeller status warning if you missed the
  PowerSeller sales requirements in the past month. Or you might get a
  policy-compliance warning if you recently listed an item with excessive
- shipping costs, or a seller-account warning if a collections message 
+ shipping costs, or a seller-account warning if a collections message
  asks you to pay now to make sure no restrictions are placed on your account.
  
 */

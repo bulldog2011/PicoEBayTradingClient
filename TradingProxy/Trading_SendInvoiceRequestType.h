@@ -220,8 +220,11 @@
 
 /**
  
- Italy site (site ID 101) only.
- Enables you to specify the cash-on-delivery (COD) cost for COD shipping.
+ This dollar value indicates the money due from the buyer upon delivery of the item.
+ <br><br>
+ This field should only be specified in the <b>SendInvoice</b> request if 'COD'
+ (cash-on-delivery) was the payment method selected by the buyer and it is included
+ as the <b>PaymentMethods</b> value in the same request.
  
  
  type : class Trading_AmountType

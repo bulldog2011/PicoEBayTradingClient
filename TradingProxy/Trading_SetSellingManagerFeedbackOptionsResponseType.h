@@ -12,7 +12,7 @@
 
 /**
  
- Provides confirmation that feedback comments and (optionally) automated feedback 
+ Provides confirmation that feedback comments and (optionally) automated feedback
  preferences were added successfully.
  
  

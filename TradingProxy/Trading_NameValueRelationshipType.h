@@ -30,7 +30,7 @@
 /**
  
  The name of another Item Specific that the current value depends on.
- For example, in a clothing category, "Size Type" could be recommended 
+ For example, in a clothing category, "Size Type" could be recommended
  as a parent of Size.
  
  

@@ -47,13 +47,13 @@
 
 /**
  
-   Unique identifier for an eBay Store custom page. If you specify a valid 
-   <b>PageID</b> value in a 
+   Unique identifier for an eBay Store custom page. If you specify a valid
+   <b>PageID</b> value in a
    <b>SetStoreCustomPage</b> call, the existing custom page
    is updated. If you do not specify a <b>PageID</b> value, you are
  creating a new custom page.
  <br/><br/>
- The <b>PageID</b> field is always returned in 
+ The <b>PageID</b> field is always returned in
  <b>GetStoreCustomPage</b>.
    
  
@@ -67,10 +67,10 @@
  using Chinese characters in the <b>Name</b> field. The URL path of the
  eBay Store custom page is normally derived from the <b>Name</b> field, but
  the URL path cannot be derived from the name of the custom page if it contains Chinese
- characters because URLs cannot contain Chinese characters. 
+ characters because URLs cannot contain Chinese characters.
  <br/><br/>
- The <b>URLPath</b> is only returned in the <b>GetStoreCustomPage</b> 
- response if it is defined for the eBay Store custom page, and if a <b>PageID</b> 
+ The <b>URLPath</b> is only returned in the <b>GetStoreCustomPage</b>
+ response if it is defined for the eBay Store custom page, and if a <b>PageID</b>
  value is included in the request.
    
  
@@ -80,9 +80,9 @@
 
 /**
  
-   The full URL of the eBay Store custom page, which is generally derived from the 
-   <b>CustomPage.Name</b> value. The exception to this rule is if the seller 
-   specified a custom URL using the <b>CustomPage.URLPath</b> field in a 
+   The full URL of the eBay Store custom page, which is generally derived from the
+   <b>CustomPage.Name</b> value. The exception to this rule is if the seller
+   specified a custom URL using the <b>CustomPage.URLPath</b> field in a
    <b>SetStoreCustomPage</b> call.
    <br/><br/>
    The <b>URL</b> is only returned in the
@@ -96,14 +96,14 @@
 
 /**
  
-   This value indicates the status of the eBay custom page. In a 
-   <b>SetStoreCustomPage</b> call, the seller uses the optional 
+   This value indicates the status of the eBay custom page. In a
+   <b>SetStoreCustomPage</b> call, the seller uses the optional
    <b>Status</b> field to make an inactive custom page active, to make an
- active custom page inactive, or to delete an active or inactive custom page. To 
- change the status (including delete) of a custom page, a <b>PageID</b> 
+ active custom page inactive, or to delete an active or inactive custom page. To
+ change the status (including delete) of a custom page, a <b>PageID</b>
  value must be included to identify the custom page to modify.
  <br/><br/>
- The <b>Status</b> value is always returned in the 
+ The <b>Status</b> value is always returned in the
  <b>GetStoreCustomPage</b> response.
    
  
@@ -115,8 +115,8 @@
  
    The HTML content of the eBay Store custom page. This field has a maximum size of 96
  kilobytes. If the <b>PreviewEnabled</b> field is set to 'true', then
- this field is required in a <b>SetStoreCustomPage</b> call. Otherwise, 
- it is optional. 
+ this field is required in a <b>SetStoreCustomPage</b> call. Otherwise,
+ it is optional.
  <br/><br/>
  The <b>Content</b> field is only returned in the
  <b>GetStoreCustomPage</b> response if a <b>PageID</b> value
@@ -129,9 +129,9 @@
 
 /**
  
-   This flag controls whether or not the left navigation bar is included in the eBay 
-   Store custom page. To include the left navigation bar in a custom page, the seller 
-   will include the <b>LeftNav</b> field in the <b>SetStoreCustomPage</b> 
+   This flag controls whether or not the left navigation bar is included in the eBay
+   Store custom page. To include the left navigation bar in a custom page, the seller
+   will include the <b>LeftNav</b> field in the <b>SetStoreCustomPage</b>
    request and set it to 'true'.
    <br/><br/>
  The <b>LeftNav</b> field is only returned in the
@@ -161,12 +161,12 @@
 
 /**
  
-   This integer value controls the order in which the corresponding eBay Store custom 
-   page is displayed in the list of custom pages. To make the corresponding custom 
-   page appear first in the list of custom pages, the seller would include the 
+   This integer value controls the order in which the corresponding eBay Store custom
+   page is displayed in the list of custom pages. To make the corresponding custom
+   page appear first in the list of custom pages, the seller would include the
    <b>Order</b> field and set its value to '1'.
    <br/><br/>
- The <b>Order</b> value is always returned in the 
+ The <b>Order</b> value is always returned in the
  <b>GetStoreCustomPage</b> response.
    
  

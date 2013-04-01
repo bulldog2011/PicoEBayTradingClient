@@ -21,7 +21,7 @@
  values) that are supported by the listing site.
  <br/><br/>
  <span class="tablenote"><b>Note: </b>
- This container is only returned if <b>BuyerRequirementDetails</b> is included as a <b>DetailName</b> 
+ This container is only returned if <b>BuyerRequirementDetails</b> is included as a <b>DetailName</b>
  filter in the request, or if no <b>DetailName</b> filters are used in the request.
  </span>  <br/><br/>
  
@@ -66,7 +66,7 @@
 
 /**
  
-   Limits unpaying or low feedback bidders, by setting the MaximumItemCount and 
+   Limits unpaying or low feedback bidders, by setting the MaximumItemCount and
    MinimumFeedbackScore to define when a bidder is blocked from bidding.
  
  
@@ -86,7 +86,7 @@
 
 /**
  
- This container consists of the values that can be used in the 
+ This container consists of the values that can be used in the
  <b>BuyerRequirementDetails.MinimumFeedbackScore</b> field when listing
  an item through an Add/Revise/Relist API call. The Feedback Score for a potential
  buyer must be greater than or equal to the specified value, or that buyer is blocked

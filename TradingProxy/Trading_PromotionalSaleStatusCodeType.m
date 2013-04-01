@@ -13,14 +13,14 @@
 
 /**
  
- The promotional sale is active. 
+ The promotional sale is active.
  
 */
 NSString *const Trading_PromotionalSaleStatusCodeType_ACTIVE = @"Active";
 
 /**
  
- The promotional sale is scheduled. That is, the start time is in the future. 
+ The promotional sale is scheduled. That is, the start time is in the future.
  
 */
 NSString *const Trading_PromotionalSaleStatusCodeType_SCHEDULED = @"Scheduled";
@@ -45,7 +45,7 @@ NSString *const Trading_PromotionalSaleStatusCodeType_INACTIVE = @"Inactive";
 
 /**
  
- The promotional sale has been deleted. Deleted promotional sales cannot be 
+ The promotional sale has been deleted. Deleted promotional sales cannot be
  updated or reactivated.
  
 */

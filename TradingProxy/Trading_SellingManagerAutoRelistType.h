@@ -12,7 +12,7 @@
 
 /**
  
- Provides information about an automated relisting rule.   
+ Provides information about an automated relisting rule.
  Automated relisting rules cannot be combined with automated listing rules.
  A template can have one set of information per automated relisting rule specified.
  
@@ -64,7 +64,7 @@
 
 /**
  
- Used when RelistCondition equals RelistAfterDaysHours; specifies 
+ Used when RelistCondition equals RelistAfterDaysHours; specifies
  the number hours after the item ends that it should be relisted.
  
  
@@ -74,7 +74,7 @@
 
 /**
  
- Used when RelistCondition equals RelistAtSpecificTimeOfDay; specifies the time 
+ Used when RelistCondition equals RelistAtSpecificTimeOfDay; specifies the time
  of day the item should be relisted.
  
  
@@ -93,7 +93,7 @@
 
 /**
  
- Specifies that item is not listed if inventory levels on the associated 
+ Specifies that item is not listed if inventory levels on the associated
  product are at or below the specified level.
  
  

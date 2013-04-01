@@ -6,7 +6,7 @@
 /**
  @file
  
- Type defining the time periods used when evaluating the number of buying policy 
+ Type defining the time periods used when evaluating the number of buying policy
  violations and unpaid item strikes that a buyer has against their account.
  
  
@@ -22,7 +22,7 @@ extern NSString *const Trading_PeriodCodeType_DAYS_1;
 
 /**
  
- This value indicates that the evaluation period is set back 30 days from the 
+ This value indicates that the evaluation period is set back 30 days from the
  present date.
  
 */

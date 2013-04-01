@@ -40,7 +40,7 @@
 /**
  
  Display string that applications can use to present a list of shipping locations in
- a more user-friendly format (such as in a drop-down list). This field is localized 
+ a more user-friendly format (such as in a drop-down list). This field is localized
  in the language of the site.
  
  

@@ -22,6 +22,7 @@
 @synthesize showSellerProfilePreferences = _showSellerProfilePreferences;
 @synthesize showSellerReturnPreferences = _showSellerReturnPreferences;
 @synthesize showGlobalShippingProgramPreference = _showGlobalShippingProgramPreference;
+@synthesize showDispatchCutoffTimePreferences = _showDispatchCutoffTimePreferences;
 
 // class meta-data method
 // note: this method is only for internal use, DO NOT CHANGE!
@@ -85,6 +86,9 @@
     ps = [[PicoPropertySchema alloc] initWithKind:PICO_KIND_ELEMENT xmlName:@"ShowGlobalShippingProgramPreference" propertyName:@"showGlobalShippingProgramPreference" type:PICO_TYPE_BOOL clazz:nil];
     [map setObject:ps forKey:@"showGlobalShippingProgramPreference"];
     [ps release];
+    ps = [[PicoPropertySchema alloc] initWithKind:PICO_KIND_ELEMENT xmlName:@"ShowDispatchCutoffTimePreferences" propertyName:@"showDispatchCutoffTimePreferences" type:PICO_TYPE_BOOL clazz:nil];
+    [map setObject:ps forKey:@"showDispatchCutoffTimePreferences"];
+    [ps release];
     
     return map;
 }
@@ -108,6 +112,7 @@
     self.showSellerProfilePreferences = nil;
     self.showSellerReturnPreferences = nil;
     self.showGlobalShippingProgramPreference = nil;
+    self.showDispatchCutoffTimePreferences = nil;
     [super dealloc];
 }
 

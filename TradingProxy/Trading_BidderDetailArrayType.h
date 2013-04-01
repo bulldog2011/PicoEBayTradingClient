@@ -11,7 +11,7 @@
 @class Trading_BidderDetailType;
 
 /**
-  
+ 
  A collection of Bidder Detail.
  
  
@@ -26,7 +26,7 @@
 
 
 /**
-  
+ 
  Details about a Live Auctions bidder.
  Returned if at least one bidder has requested approval.
  

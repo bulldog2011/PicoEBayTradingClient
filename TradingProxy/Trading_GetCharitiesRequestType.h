@@ -94,9 +94,7 @@
  Domain (mission area) that a nonprofit charity organization
  belongs to. Nonprofit charity organizations may belong to multiple
  mission areas. Meaning of input values differs depending on the
- site. See GetCharities in the API Developer's Guide for the meaning
- of each input/output value. CharityDomain input value must be valid for
- that SiteID.
+ site.
  
  
  type : NSNumber, wrapper for primitive int

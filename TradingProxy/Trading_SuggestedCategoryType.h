@@ -40,9 +40,9 @@
 
 /**
  
- Percentage of the matching items that were found in this category, 
- relative to other categories in which matching items were also found. 
- Indicates the distribution of matching items across the suggested categories. 
+ Percentage of the matching items that were found in this category,
+ relative to other categories in which matching items were also found.
+ Indicates the distribution of matching items across the suggested categories.
  
  
  type : NSNumber, wrapper for primitive int

@@ -71,12 +71,12 @@
 
 /**
  
- <b>For SetNotificationPreferences</b>: include and set <b>AlertEnable</b> to 
- 'Enable' to receive application markup and markdown alerts, or set to 'Disable' to 
- disable the alerts. If not included, the <b>AlertEnable</b> defaults to 
+ <b>For SetNotificationPreferences</b>: include and set <b>AlertEnable</b> to
+ 'Enable' to receive application markup and markdown alerts, or set to 'Disable' to
+ disable the alerts. If not included, the <b>AlertEnable</b> defaults to
  its current value.
  <br/><br/>
- <b>For GetNotificationPreferences</b>: this field's value indicates 
+ <b>For GetNotificationPreferences</b>: this field's value indicates
  whether application markup and markdown alerts are enabled or disabled.
  
  

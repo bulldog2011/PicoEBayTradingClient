@@ -31,7 +31,7 @@ NSString *const Trading_ProfileCategoryGroupCodeType_NONE = @"None";
 
 /**
  
- For Business Policies, the 'ALL' enumeration value represents all eBay categories 
+ For Business Policies, the 'ALL' enumeration value represents all eBay categories
  except for motor vehicles.
  
 */
@@ -39,7 +39,7 @@ NSString *const Trading_ProfileCategoryGroupCodeType_ALL = @"ALL";
 
 /**
  
- For Business Policies, the 'MOTORS_VEHICLE' enumeration value represents all motor vehicle 
+ For Business Policies, the 'MOTORS_VEHICLE' enumeration value represents all motor vehicle
  categories.
    
 */

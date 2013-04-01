@@ -12,8 +12,8 @@
 
 /**
  
- Type defining the <b>SellerAccount</b> container returned in the 
- <b>GetSellerDashboard</b> response. 
+ Type defining the <b>SellerAccount</b> container returned in the
+ <b>GetSellerDashboard</b> response.
  
  
  @ingroup EBayAPIInterface
@@ -30,8 +30,8 @@
 
 /**
  
- This field indicates the status of your seller's account. Specifically, you'll find out if your 
- account is current and active, or if your account has a past due balance or is on 
+ This field indicates the status of your seller's account. Specifically, you'll find out if your
+ account is current and active, or if your account has a past due balance or is on
  hold. For more details about your account, you can go to your Seller Account page
  on the eBay site (login to My eBay), or you can call <b>GetAccount</b>.
  
@@ -42,7 +42,7 @@
 
 /**
  
- The <b>SellerAccount.Alert</b> container is only returned if eBay has 
+ The <b>SellerAccount.Alert</b> container is only returned if eBay has
  posted one or more informational or warning messages to the seller's account.
  
  

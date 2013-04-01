@@ -12,8 +12,9 @@
 
 /**
  
- This type is deprecated as the call is no longer available.
- 
+ No longer recommended in general, although this call may still be used to
+ determine whether a category is catalog-enabled. All other features of this call
+ are no longer functional.
  
  
  @ingroup EBayAPIInterface
@@ -29,7 +30,6 @@
 
 /**
  
- 
  ID of a category for which to retrieve mappings.
  If not specified, the call
  retrieves a map for all categories.
@@ -40,7 +40,6 @@
 @property (nonatomic, retain) NSString *categoryID;
 
 /**
- 
  
  A version of the mappings for the site.
  Typically, an application passes the version value that was returned the last

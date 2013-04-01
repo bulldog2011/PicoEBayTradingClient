@@ -12,8 +12,8 @@
 /**
  
  Type defining the <b>MaximumBuyerPolicyViolations</b> container, which is
- used by the seller as a mechanism to block prospective buyers who have buyer policy 
- violations on their account exceeding the value set in the <b>Count</b> 
+ used by the seller as a mechanism to block prospective buyers who have buyer policy
+ violations on their account exceeding the value set in the <b>Count</b>
  field during a specified time period (set in the <b>Period</b> field).
  
  
@@ -36,10 +36,10 @@
  (<b>MaximumBuyerPolicyViolations.Period</b>) before being blocked from
  buying/bidding on the item.
  <br><br>
- To retrieve a list of allowed values for this field, the seller should call 
- <b>GeteBayDetails</b>, including <b>BuyerRequirementDetails</b> in 
+ To retrieve a list of allowed values for this field, the seller should call
+ <b>GeteBayDetails</b>, including <b>BuyerRequirementDetails</b> in
  the <b>DetailName</b> field of the request, and then look for the
- <b>BuyerRequirementDetails.MaximumBuyerPolicyViolations.NumberOfPolicyViolations.Count</b> 
+ <b>BuyerRequirementDetails.MaximumBuyerPolicyViolations.NumberOfPolicyViolations.Count</b>
  fields in the response.
  
  
@@ -49,13 +49,13 @@
 
 /**
  
- This enumerated value defines the length of time over which a prospective buyer's 
- buyer policy violations will be counted. If the prospective buyer's number of buyer policy  
- violations during this defined period exceeds the value set in the <b>Count</b> 
+ This enumerated value defines the length of time over which a prospective buyer's
+ buyer policy violations will be counted. If the prospective buyer's number of buyer policy
+ violations during this defined period exceeds the value set in the <b>Count</b>
  field, that prospective buyer is blocked from buying/bidding on the item.
  <br/><br/>
- If the <b>Count</b> value is 2, and the specified <b>Period</b> 
- is 'Days_30' (counting back 30 days from the present day), any prospective buyer that has 
+ If the <b>Count</b> value is 2, and the specified <b>Period</b>
+ is 'Days_30' (counting back 30 days from the present day), any prospective buyer that has
  had three or more buyer policy violations is blocked from buying/bidding on the item.
  
  

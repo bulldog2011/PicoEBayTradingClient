@@ -103,7 +103,7 @@
 
 /**
  
- Contains the status of a PayPal payment hold on the item.
+ This field indicates the type and/or status of a payment hold on the item.
  
  
  type: string constant in Trading_PaymentHoldStatusCodeType.h
@@ -129,13 +129,13 @@
  
  This container is returned when a buyer's payment does not match the total cost of an
  order going through the new eBay payment process. This container is only applicable for
- German and Austrian orders going through the new eBay payment process, and when the 
+ German and Austrian orders going through the new eBay payment process, and when the
  buyer has selected EFT as the payment method.
  <br>
  <br>
  <span class="tablenote"><b>Note:</b>
  The introduction of the new eBay payment process for the entire German and
- Austrian eBay marketplace has been delayed until further notice.<br>
+ Austrian eBay marketplace has been delayed until further notice.</span>
  
  
  type : class Trading_EBayPaymentMismatchDetailsType

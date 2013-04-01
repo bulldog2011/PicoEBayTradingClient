@@ -79,8 +79,8 @@
 /**
  
  This flag indicates whether or not the seller's Checkout Enabled preference is turned on (at account level or at
- listing level). This preference is managed through Payment Preferences in My eBay. If this preference is enabled, 
- a Pay Now button will appear in checkout flow pages and in the email notifications that are sent to buyers. This 
+ listing level). This preference is managed through Payment Preferences in My eBay. If this preference is enabled,
+ a Pay Now button will appear in checkout flow pages and in the email notifications that are sent to buyers. This
  preferance is enabled by default if PayPal is one of the payment methods.
  
  
@@ -227,7 +227,7 @@
  
  This flag indicates whether the Buy It Now feature is available for an auction listing.
  As a general rule, once an auction listing has bids (and the high bid exceeds the
- reserve price, if any), the Buy It Now feature becomes disabled for the listing.  
+ reserve price, if any), the Buy It Now feature becomes disabled for the listing.
  <br><br>
  On some sites, the Buy It Now feature for an auction may remain available for
  certain categories even after a bid is placed. See the "Longer Lasting Buy It Now"
@@ -327,7 +327,7 @@
 
 /**
  
- The pay-per-lead feature is no longer available, and this field is scheduled to 
+ The pay-per-lead feature is no longer available, and this field is scheduled to
  be removed from the WSDL.
  
  

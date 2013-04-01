@@ -11,9 +11,9 @@
 
 /**
  
- Type defining the <b>VariationDetails</b> container that is returned in 
- <b>GeteBayDetails</b> if <b>VariationDetails</b> is included 
- in the request as a <b>DetailName</b> filter, or if <b>GeteBayDetails</b> 
+ Type defining the <b>VariationDetails</b> container that is returned in
+ <b>GeteBayDetails</b> if <b>VariationDetails</b> is included
+ in the request as a <b>DetailName</b> filter, or if <b>GeteBayDetails</b>
  is called with no <b>DetailName</b> filters.
  
  
@@ -34,7 +34,7 @@
 
 /**
  
- This value indicates the maximum number of item variations that the site will allow 
+ This value indicates the maximum number of item variations that the site will allow
  within one multi-variation listing.
  
  
@@ -44,7 +44,7 @@
 
 /**
  
- This value indicates the maximum number of variation specific sets that the site will allow 
+ This value indicates the maximum number of variation specific sets that the site will allow
  per listing. Typical variation specific sets for clothing may be 'Color', 'Size', 'Long Sleeve', etc.
  
  
@@ -54,9 +54,9 @@
 
 /**
  
- This value indicates the maximum number of values that the site will allow 
- within one variation specific set. For example, if the variation specific set was 
- 'Color', the seller could specify as many colors that are available up to this 
+ This value indicates the maximum number of values that the site will allow
+ within one variation specific set. For example, if the variation specific set was
+ 'Color', the seller could specify as many colors that are available up to this
  maximum value.
  
  

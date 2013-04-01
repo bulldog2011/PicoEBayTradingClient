@@ -39,8 +39,8 @@ NSString *const Trading_PictureManagerActionCodeType_RENAME = @"Rename";
 /**
  
  
- (in) Moves a picture to the user's default folder in the 
- default album. If the picture is already there, 
+ (in) Moves a picture to the user's default folder in the
+ default album. If the picture is already there,
  then no action occurs.
  
 */

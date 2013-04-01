@@ -33,14 +33,15 @@
 
 /**
  
- This enumeration value indicates if the buyer has overpaid or underpaid for an order 
- going through the new eBay payment process. This field is always returned with the 
+ This enumeration value indicates if the buyer has overpaid or underpaid for an order
+ going through the new eBay payment process. This field is always returned with the
  <b>eBayPaymentMismatchDetails</b> container.
  <br>
  <br>
  <span class="tablenote"><b>Note:</b>
  The introduction of the new eBay payment process for the entire German and
- Austrian eBay marketplace has been delayed until further notice.<br>
+ Austrian eBay marketplace has been delayed until further notice.</span>
+ <br>
  
  
  type: string constant in Trading_MismatchTypeCodeType.h
@@ -57,7 +58,8 @@
  <br>
  <span class="tablenote"><b>Note:</b>
  The introduction of the new eBay payment process for the entire German and
- Austrian eBay marketplace has been delayed until further notice.<br>
+ Austrian eBay marketplace has been delayed until further notice.</span>
+ <br>
  
  
  type : NSDate, wrapper for primitive date
@@ -67,14 +69,15 @@
 /**
  
  This value indicates the amount in which the buyer's payment was either over
- (<b>MismatchType</b>=OverPayment) or under 
+ (<b>MismatchType</b>=OverPayment) or under
  (<b>MismatchType</b>=UnderPayment) the actual total
  cost of an order going through the new eBay payment process.
  <br>
  <br>
  <span class="tablenote"><b>Note:</b>
  The introduction of the new eBay payment process for the entire German and
- Austrian eBay marketplace has been delayed until further notice.<br>
+ Austrian eBay marketplace has been delayed until further notice.</span>
+ <br>
  
  
  type : class Trading_AmountType

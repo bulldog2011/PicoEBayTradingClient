@@ -41,13 +41,13 @@
  
  Contains data that distinguishes one variation from another.
  For example, if the items vary by color and size, each Variation
- node specifies a combination of one of those colors and 
+ node specifies a combination of one of those colors and
  sizes.<br>
  <br>
- When listing or relisting an item, you are allowed to create a 
- listing with only one variation if you plan to add more variations 
- to it in the future. However, if you don't plan to add other 
- variations, we recommend that you avoid listing with only one 
+ When listing or relisting an item, you are allowed to create a
+ listing with only one variation if you plan to add more variations
+ to it in the future. However, if you don't plan to add other
+ variations, we recommend that you avoid listing with only one
  variation, so that you avoid confusing buyers.<br>
  <br>
  When you modify a variation, it's safest to specify all the fields with the values
@@ -55,7 +55,7 @@
  to modify an existing variation. If you omit SKU, the existing SKU (if any) is
  deleted from the variation. If you omit Quantity, it is set to 0.<br>
  <br>
- Variation, Pictures, or ModifyNameList (or all) need to be 
+ Variation, Pictures, or ModifyNameList (or all) need to be
  specified when the Variations node is specified in listing requests.
  
  
@@ -68,23 +68,23 @@
  
  Contains a set of pictures that correspond to one of the
  variation specifics, such as Color. For example, if a listing
- has blue and black color variations, you could choose Color 
+ has blue and black color variations, you could choose Color
  for all the pictures, and then include a set of pictures
  for the blue variations and another set of pictures for the black
  variations.<br>
  <br>
- We strongly recommend that you also include shared pictures 
- in Item.PictureDetails, as this results in a better experience 
+ We strongly recommend that you also include shared pictures
+ in Item.PictureDetails, as this results in a better experience
  for buyers.<br>
  <br>
  <b>For ReviseFixedPriceItem only:</b> To replace
- or delete individual pictures, pass in the entire Pictures 
- node with the complete set of variation pictures that you 
+ or delete individual pictures, pass in the entire Pictures
+ node with the complete set of variation pictures that you
  want in the listing. If the applicable variations have purchases
- or the listing ends in less than 12 hours, you can add 
+ or the listing ends in less than 12 hours, you can add
  pictures, but you can't remove existing pictures.<br>
  <br>
- Variation, Pictures, or ModifyNameList (or all) need to be 
+ Variation, Pictures, or ModifyNameList (or all) need to be
  specified when the Variations node is specified in listing requests<br>
  <br>
  <span class="tablenote"><b>Note:</b>
@@ -101,37 +101,37 @@
 
 /**
  
- The set of all variation specific names and values that can be 
- applicable to the listing (at any time in its life cycle). 
- This must include all names and values specified in the 
+ The set of all variation specific names and values that can be
+ applicable to the listing (at any time in its life cycle).
+ This must include all names and values specified in the
  VariationSpecifics nodes.<br>
  <br>
- Required when Variations are specified in a new listing, and when you 
- modify the name of a variation by using ModifyNameList. 
- When you modify variation specific names, VariationSpecificsSet  must 
+ Required when Variations are specified in a new listing, and when you
+ modify the name of a variation by using ModifyNameList.
+ When you modify variation specific names, VariationSpecificsSet  must
  include the new names plus the names that are not changing (but omit the old names), <br>
  <br>
- This set configures variation selection widgets 
- that appear on eBay's  View Item page. 
- For example, if you specify Color and Size names in the set, 
- eBay's View Item page displays Color and Size drop-down lists 
+ This set configures variation selection widgets
+ that appear on eBay's  View Item page.
+ For example, if you specify Color and Size names in the set,
+ eBay's View Item page displays Color and Size drop-down lists
  to enable a buyer to choose a variation of interest.<br>
  <br>
  The order in which you specify the names and values also
  controls the order in which the selection widgets appear on
  the View Item page.
- For example, if you specify "Color", then "Size", and then 
- "Sleeve Style" as names, the View Item page shows drop-down lists 
- with those labels in that order. For "Size", if you specify 
- "S", "M", and "L" as values, the View Item page 
+ For example, if you specify "Color", then "Size", and then
+ "Sleeve Style" as names, the View Item page shows drop-down lists
+ with those labels in that order. For "Size", if you specify
+ "S", "M", and "L" as values, the View Item page
  shows the values in that order in the Size drop-down list.<br>
  <br>
- Use GetCategorySpecifics to retrieve recommendations for names, 
+ Use GetCategorySpecifics to retrieve recommendations for names,
  values, and order.<br>
  <br>
  Required when Variations are specified in a new listing
- (e.g., in AddFixedPriceItem). Also required when you change 
- variation specific names or values in ReviseFixedPriceItem and 
+ (e.g., in AddFixedPriceItem). Also required when you change
+ variation specific names or values in ReviseFixedPriceItem and
  RelistFixedPriceItem.
  
  
@@ -141,7 +141,7 @@
 
 /**
  
- Modifies variation specific names when you revise or 
+ Modifies variation specific names when you revise or
  relist items.<br>
  <br>
  You can modify a variation specific name regardless of the quantity sold (i.e., no restrictions on whether the item has orders or order line items (transactions)).<br>

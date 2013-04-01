@@ -7,7 +7,7 @@
  @file
  
  The designations for the different types of information that you want returned by
- <b>GeteBayDetails</b> using <b>DetailName</b>. 
+ <b>GeteBayDetails</b> using <b>DetailName</b>.
  The details are returned for the specified eBay site.
  
  
@@ -20,8 +20,8 @@
  the eBay system.
  <br/><br/>
  <span class="tablenote"><b>Note: </b>
- This container is only returned if <b>CountryDetails</b> is included as a 
- <b>DetailName</b> filter in the request, or if no <b>DetailName</b> 
+ This container is only returned if <b>CountryDetails</b> is included as a
+ <b>DetailName</b> filter in the request, or if no <b>DetailName</b>
  filters are used in the request.
  </span>  <br/><br/>
  
@@ -33,8 +33,8 @@ extern NSString *const Trading_DetailNameCodeType_COUNTRY_DETAILS;
  Lists the currencies supported by the eBay system.
  <br/><br/>
  <span class="tablenote"><b>Note: </b>
- This container is only returned if <b>CurrencyDetails</b> is included as a 
- <b>DetailName</b> filter in the request, or if no <b>DetailName</b> filters are 
+ This container is only returned if <b>CurrencyDetails</b> is included as a
+ <b>DetailName</b> filter in the request, or if no <b>DetailName</b> filters are
  used in the request.
  </span>  <br/><br/>
  
@@ -194,8 +194,8 @@ extern NSString *const Trading_DetailNameCodeType_VARIATION_DETAILS;
  >ISO 3166</a> location codes.
  <br/><br/>
  <span class="tablenote"><b>Note: </b>
- This container is only returned if <b>ExcludeShippingLocationDetails</b> is included 
- as a <b>DetailName</b> 
+ This container is only returned if <b>ExcludeShippingLocationDetails</b> is included
+ as a <b>DetailName</b>
  filter in the request, or if no <b>DetailName</b> filters are used in the request.
  </span>  <br/><br/>
  

@@ -14,8 +14,8 @@
 
 /**
  
- Contains the items, searches and sellers that the user has saved to this 
- list using the "Add to list" feature.  The name of the list is given by the 
+ Contains the items, searches and sellers that the user has saved to this
+ list using the "Add to list" feature.  The name of the list is given by the
  "Name" element.
  
  
@@ -46,8 +46,8 @@
 
 /**
  
- The value in this field indicates the total number of items in the 
- user-defined list. The number of <b>Item</b> nodes in the 
+ The value in this field indicates the total number of items in the
+ user-defined list. The number of <b>Item</b> nodes in the
  <b>ItemArray</b> should match this value.
  
  
@@ -57,8 +57,8 @@
 
 /**
  
- The value in this field indicates the total number of favorite sellers in the 
- user-defined list. The number of <b>FavoriteSeller</b> nodes returned 
+ The value in this field indicates the total number of favorite sellers in the
+ user-defined list. The number of <b>FavoriteSeller</b> nodes returned
  in the response should match this value.
     
  

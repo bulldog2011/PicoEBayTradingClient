@@ -15,7 +15,7 @@
  
  A payment between Half.com and a seller. The financial value of a payment is
  typically based on an amount that a buyer paid to Half.com for one order line
- item, plus the buyer's shipping cost, minus Half.com's commission. 
+ item, plus the buyer's shipping cost, minus Half.com's commission.
  
  
  @ingroup EBayAPIInterface
@@ -67,14 +67,14 @@
 /**
  
  A unique identifier that identifies a single line item or multiple line item
- (Combined Payment) Half.com order. 
+ (Combined Payment) Half.com order.
  <br><br>
  For a single line item order, the <b>OrderID</b> value is identical to the
  <b>OrderLineItemID</b> value that is generated upon creation of the order line
  item. For a Combined Payment order, the <b>OrderID</b> value is created by eBay
  when the buyer or seller (sharing multiple, common order line items)
  combines multiple order line items into a Combined Payment order through
- the Half.com site. 
+ the Half.com site.
  
  
  type : NSString, wrapper for primitive string
@@ -152,7 +152,7 @@
  line item (Combined Payment) order, the total shipping cost may be less than
  the cost to ship the items individually, which makes the adjustment
  necessary. The shipping cost may also be adjusted due to Half.com handling
- charges. 
+ charges.
  <br><br>
  <b>Note</b>: Due to the way shipping costs are calculated, this
  value may be different for identical items in different orders.

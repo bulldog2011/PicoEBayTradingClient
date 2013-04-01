@@ -40,7 +40,7 @@
 
 /**
  
- Name of this theme group (localized to the language associated 
+ Name of this theme group (localized to the language associated
  with the eBay site).
  
  

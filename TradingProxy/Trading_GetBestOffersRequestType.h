@@ -57,7 +57,7 @@
  
  This optional filter controls whether only active Best Offers are retrieved or
  all Best Offers (even Best Offers that were declined or all no longer the "best
- offer"). The "All" value can only be specified if an <b>ItemID</b> 
+ offer"). The "All" value can only be specified if an <b>ItemID</b>
  value is also supplied in the request.
  
  

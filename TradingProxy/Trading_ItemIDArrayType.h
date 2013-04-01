@@ -11,7 +11,7 @@
 
 /**
  
- Type defining the <b>PromotionalSaleItemIDArray</b> container, which 
+ Type defining the <b>PromotionalSaleItemIDArray</b> container, which
  consists of an array of listings to which a Promotional Sale applies.
  
  
@@ -28,15 +28,15 @@
 
 /**
  
- A unique identifier for an item listing. 
+ A unique identifier for an item listing.
  <br/><br/>
- For <b>SetPromotionalSaleListings</b>, the seller passes in the 
- <b>ItemID</b> value for each listing that he/she wishes to become 
- part of the Promotional Sale identified by the 
+ For <b>SetPromotionalSaleListings</b>, the seller passes in the
+ <b>ItemID</b> value for each listing that he/she wishes to become
+ part of the Promotional Sale identified by the
  <b>PromotionalSaleID</b> value.
  <br/><br/>
- For <b>GetPromotionalSaleDetails</b>, each listing returned in the 
- response is a part of the Promotional Sale identified by the 
+ For <b>GetPromotionalSaleDetails</b>, each listing returned in the
+ response is a part of the Promotional Sale identified by the
  <b>PromotionalSaleID</b> value.
  
  

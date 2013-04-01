@@ -13,12 +13,12 @@
 
 /**
  
- Returns all promotion rules associated with the specified item or store category. 
+ Returns all promotion rules associated with the specified item or store category.
  
  <pre>
  &lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;strong xmlns="urn:ebay:apis:eBLBaseComponents" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" xmlns:ns="urn:ebay:apis:eBLBaseComponents" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xs="http://www.w3.org/2001/XMLSchema"&gt;Note:&lt;/strong&gt;
  </pre>
-  eBay Store Cross Promotions are no longer supported in the 
+  eBay Store Cross Promotions are no longer supported in the
  Trading API.
  
  @ingroup EBayAPIInterface
@@ -32,7 +32,7 @@
 
 
 /**
-  
+ 
  An array of promotion rules associated with the item or store category
  specified in the request.
  

@@ -55,7 +55,7 @@
  CategorySpecificsFileInfo (or the call returns an error). CategoryID and
  CategorySpecific.CategoryID can both be used in the same request.
  (CategorySpecific offers more options to control the response.)
- Some input fields, such as IncludeConfidence, only work when 
+ Some input fields, such as IncludeConfidence, only work when
  CategoryID or CategorySpecfics.CategoryID is specified.
  <br><br>
  You can specify multiple leaf categories, but more categories can result in
@@ -106,10 +106,10 @@
 
 /**
  
- Maximum number of values to retrieve per item specific. 
+ Maximum number of values to retrieve per item specific.
  The best practice for using this field depends on your use case.
- For example, if you want all possible values (such as all brands 
- and sizes in a clothing category), then specify a very large 
+ For example, if you want all possible values (such as all brands
+ and sizes in a clothing category), then specify a very large
  number. (This is recommended in most cases.) If you only want the most popular value (like the most popular color), then specify a small number.
  
  
@@ -189,15 +189,15 @@
 /**
  
  If true, returns eBay's level of confidence in the popularity of
- each name and value for the specified category. 
+ each name and value for the specified category.
  Some sellers may find this useful when
  choosing whether to use eBay's recommendation or their own
  name or value.<br>
  <br>
  Requires CategoryID to also be passed in.<br>
  <br>
- If you try to use this with CategorySpecificsFileInfo 
- but withoutCategoryID, the request fails and no 
+ If you try to use this with CategorySpecificsFileInfo
+ but withoutCategoryID, the request fails and no
  TaskReferenceID or FileReferenceID is returned.
  
  

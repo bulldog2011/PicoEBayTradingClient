@@ -30,8 +30,8 @@
  
  A container consisting of details about an order line item against which the seller issued a refund.<br/><br/>
  <span class="tablenote">
- <strong>Note:</strong> RefundTransaction containers are returned 
- (for GetOrders and other order retrieval calls) if a refund was issued from the seller 
+ <strong>Note:</strong> RefundTransaction containers are returned
+ (for GetOrders and other order retrieval calls) if a refund was issued from the seller
  to the buyer for a DE/AT order subject to the new eBay payment process.
  </span>
  

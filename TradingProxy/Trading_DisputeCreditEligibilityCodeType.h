@@ -9,7 +9,7 @@
  Indicates whether the seller is eligible for a Final Value Fee credit if the
  dispute is resolved by the buyer and seller, or if eBay customer support makes a
  decision on the dispute in the seller's favor. Note that even if the item is
- eligible for a Final Value Fee credit, the credit is not guaranteed in any way. 
+ eligible for a Final Value Fee credit, the credit is not guaranteed in any way.
  
  
  @ingroup EBayAPIInterface

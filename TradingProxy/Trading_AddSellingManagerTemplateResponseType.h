@@ -53,7 +53,7 @@
 
 /**
  
- The ID of the Selling Manager template. Store this value, for use in 
+ The ID of the Selling Manager template. Store this value, for use in
  other Selling Manager calls.
  
  
@@ -63,8 +63,8 @@
 
 /**
  
- Ignore this value. For the output value that indicates the 
- ID of the product associated with the template, 
+ Ignore this value. For the output value that indicates the
+ ID of the product associated with the template,
  use SellingManagerProductDetails.ProductID.
  
  
@@ -74,8 +74,8 @@
 
 /**
  
- The name of the template, as it will appear in Selling Manager Pro. 
- This name is the input value you provided in the SaleTemplateName field. 
+ The name of the template, as it will appear in Selling Manager Pro.
+ This name is the input value you provided in the SaleTemplateName field.
  If you didn't specify a value for
  SaleTemplateName, then Item.Title is used as the name.
  

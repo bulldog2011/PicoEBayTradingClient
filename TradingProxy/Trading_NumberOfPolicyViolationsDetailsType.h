@@ -11,15 +11,15 @@
 
 /**
  
- Type defining the <b>NumberOfPolicyViolations</b> container that is returned 
- in the <b>GeteBayDetails</b> response. The <b>NumberOfPolicyViolations</b> 
- container consists of multiple <b>Count</b> fields with values that can be 
- used in the <b>BuyerRequirementDetails.MaximumBuyerPolicyViolations.Count</b> 
+ Type defining the <b>NumberOfPolicyViolations</b> container that is returned
+ in the <b>GeteBayDetails</b> response. The <b>NumberOfPolicyViolations</b>
+ container consists of multiple <b>Count</b> fields with values that can be
+ used in the <b>BuyerRequirementDetails.MaximumBuyerPolicyViolations.Count</b>
  field when using the Trading API to add, revise, or relist an item.
  <br><br>
- The <b>Item.MaximumBuyerPolicyViolations</b> container in Add/Revise/Relist 
+ The <b>Item.MaximumBuyerPolicyViolations</b> container in Add/Revise/Relist
  API calls is used to block buyers with buyer policy violations equal to or exceeding
- the specified <b>Count</b> value during the specified <b>Period</b> 
+ the specified <b>Count</b> value during the specified <b>Period</b>
  value from buying/bidding on the item.
  
  
@@ -37,8 +37,8 @@
 /**
  
  Each value returned in each <b>NumberOfPolicyViolations.Count</b> field
- can be used in the <b>BuyerRequirementDetails.MaximumBuyerPolicyViolations.Count</b> 
- field when using the Trading API to add, revise, or relist an item. 
+ can be used in the <b>BuyerRequirementDetails.MaximumBuyerPolicyViolations.Count</b>
+ field when using the Trading API to add, revise, or relist an item.
  
  
  entry type : NSNumber, wrapper for primitive int

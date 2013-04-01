@@ -62,8 +62,8 @@
  <br>
  If an Item Specific has value dependencies (i.e., if it has value recommendations that contain Relationship), then
  all of its value recommendations are returned.
- If it has no dependencies, then the maximum number of 
- value recommendations that can be returned is limited by the number 
+ If it has no dependencies, then the maximum number of
+ value recommendations that can be returned is limited by the number
  you specified in MaxValuesPerName.
  
  

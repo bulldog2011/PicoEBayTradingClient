@@ -10,7 +10,7 @@
 
 
 /**
-  
+ 
  This type is deprecated as the eBay Express is no longer available.
  
  

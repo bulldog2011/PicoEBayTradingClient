@@ -601,7 +601,7 @@
 
 /**
  
- The pay-per-lead feature is no longer available, and this field is scheduled to 
+ The pay-per-lead feature is no longer available, and this field is scheduled to
  be removed from the WSDL.
  
  
@@ -1512,10 +1512,10 @@
  
  One <b>PaymentMethod</b> field is returned for each acceptable payment
  method. Acceptable payment methods for an item are dependent on the listing site
- and the category. If a DE or AT seller making the call is subject to the new eBay 
+ and the category. If a DE or AT seller making the call is subject to the new eBay
  payment process, only one
  <b>PaymentMethod</b> field will be returned, and the value will always
- be <b>StandardPayment</b>. 
+ be <b>StandardPayment</b>.
  <br><br>
  The seller can specify one or more of the acceptable payment methods when
  making an Add/Revise/RelistItem API call.
@@ -1662,7 +1662,7 @@
 /**
  
  Indicates whether the category supports (or requires) using Item.ConditionID to
- specify an item's condition in AddItem and related calls. See the 
+ specify an item's condition in AddItem and related calls. See the
  <b>ConditionValues</b> container for a list of valid IDs.<br>
  <br>
  <span class="tablenote"><b>Note:</b>

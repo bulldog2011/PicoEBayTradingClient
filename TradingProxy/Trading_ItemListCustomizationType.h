@@ -68,7 +68,7 @@
 /**
  
  Specifies the time period during which an item was won or lost. Similar to the
- period drop-down menu in the My eBay user interface. For example, to return 
+ period drop-down menu in the My eBay user interface. For example, to return
  the items won or lost in the last week, specify a DurationInDays of 7.
  
  
@@ -102,9 +102,9 @@
  Filter to reduce the SoldList response based on whether the seller (or eBay) marked the applicable order as Paid and/or Shipped
  in My eBay.<br>
  <br>
- (Sellers can use CompleteSale or the eBay Web site UI to mark an 
+ (Sellers can use CompleteSale or the eBay Web site UI to mark an
  order as Paid or Shipped in My eBay. Sellers can also specify
- PaymentStatus in ReviseCheckoutStatus to mark an order as 
+ PaymentStatus in ReviseCheckoutStatus to mark an order as
  Paid or awaiting payment in My eBay.)
  
  

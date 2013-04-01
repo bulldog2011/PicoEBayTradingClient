@@ -15,13 +15,13 @@
 
 /**
  
- The GetFeedback response contains the feedback summary if a 
+ The GetFeedback response contains the feedback summary if a
  TransactionID or ItemID is specified, and contains the specified user's total
  feedback score and feedback summary data if a UserID is specified. If no
  value is supplied, the feedback score and feedback summary for the requesting
- user will be returned. 
+ user will be returned.
  <br>
- If a detail level value of ReturnAll is specified, an array of all feedback 
+ If a detail level value of ReturnAll is specified, an array of all feedback
  records will be returned.
  
  
@@ -94,8 +94,8 @@
 
 /**
  
- Indicates the number of entries (feedback detail) that are being 
- returned per page of data (i.e., per call).  
+ Indicates the number of entries (feedback detail) that are being
+ returned per page of data (i.e., per call).
  Only returned if entries are returned.
  
  

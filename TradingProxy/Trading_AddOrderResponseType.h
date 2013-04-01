@@ -30,7 +30,7 @@
 
 /**
  
- The unique identifier for the Combined Payment order. This OrderID can be used as an input filter in GetOrders. 
+ The unique identifier for the Combined Payment order. This OrderID can be used as an input filter in GetOrders.
  
  
  type : NSString, wrapper for primitive string

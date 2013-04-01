@@ -92,7 +92,7 @@
  Use this field if you want to know if specific features are enabled at the site
  or root category level. Multiple <b>FeatureID</b> elements can be
  used in the request. If no <b>FeatureID</b> elements are used, the
- call retrieves data for all features, as applicable to the other request 
+ call retrieves data for all features, as applicable to the other request
  parameters.
  
  

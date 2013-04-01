@@ -85,7 +85,7 @@
  
  
  The ID of the store category the user is browsing. Use with a
- promotion scheme of 
+ promotion scheme of
  StoreToStoreCat, ItemToDefaultRule or DefaultRule.
  Always use ReferringStoreCategoryID or ReferringItemID, but
  not both.
@@ -118,7 +118,7 @@
 @property (nonatomic, retain) NSString *referringKeywords;
 
 /**
-  
+ 
  
  The type of cross-promotion scheme you are defining.
  
@@ -128,7 +128,7 @@
 @property (nonatomic, retain) NSString *promotionScheme;
 
 /**
-  
+ 
  
  The type of cross promotion, CrossSell or UpSell.
  

@@ -6,7 +6,7 @@
 /**
  @file
  
- Type of seller account. This value is returned if the user is a 
+ Type of seller account. This value is returned if the user is a
  business seller with a site ID of 77 (Germany), 3 (UK), 205 (Ireland) or 100 (Motors).
  
  

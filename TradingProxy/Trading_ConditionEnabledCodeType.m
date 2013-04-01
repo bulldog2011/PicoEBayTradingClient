@@ -12,7 +12,7 @@
 
 /**
  
- Item condition is not supported for the category. 
+ Item condition is not supported for the category.
  Do not pass ConditionID in AddItem and related calls.
  
 */
@@ -20,8 +20,8 @@ NSString *const Trading_ConditionEnabledCodeType_DISABLED = @"Disabled";
 
 /**
  
- Item condition is supported for the category. 
- You can pass ConditionID to specify the condition 
+ Item condition is supported for the category.
+ You can pass ConditionID to specify the condition
  in AddItem and related calls.
  
 */
@@ -29,8 +29,8 @@ NSString *const Trading_ConditionEnabledCodeType_ENABLED = @"Enabled";
 
 /**
  
- Item condition is required for the category. 
- You must use ConditionID to specify the condition 
+ Item condition is required for the category.
+ You must use ConditionID to specify the condition
  in AddItem and related calls.
  
 */

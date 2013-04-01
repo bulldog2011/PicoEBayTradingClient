@@ -10,17 +10,18 @@
 
 
 @class Trading_PurchaseReminderEmailPreferencesType;
-@class Trading_SellerFavoriteItemPreferencesType;
+@class Trading_EndOfAuctionEmailPreferencesType;
+@class Trading_SellerExcludeShipToLocationPreferencesType;
+@class Trading_BidderNoticePreferencesType;
+@class Trading_ProStoresCheckoutPreferenceType;
+@class Trading_SellerPaymentPreferencesType;
 @class Trading_CrossPromotionPreferencesType;
+@class Trading_SellerFavoriteItemPreferencesType;
 @class Trading_UnpaidItemAssistancePreferencesType;
 @class Trading_SellerProfilePreferencesType;
-@class Trading_EndOfAuctionEmailPreferencesType;
-@class Trading_SellerReturnPreferencesType;
 @class Trading_CombinedPaymentPreferencesType;
-@class Trading_SellerExcludeShipToLocationPreferencesType;
-@class Trading_ProStoresCheckoutPreferenceType;
-@class Trading_BidderNoticePreferencesType;
-@class Trading_SellerPaymentPreferencesType;
+@class Trading_SellerReturnPreferencesType;
+@class Trading_DispatchCutoffTimePreferencesType;
 
 /**
  
@@ -49,6 +50,7 @@
     Trading_SellerProfilePreferencesType *_sellerProfilePreferences;
     Trading_SellerReturnPreferencesType *_sellerReturnPreferences;
     NSNumber *_offerGlobalShippingProgramPreference;
+    Trading_DispatchCutoffTimePreferencesType *_dispatchCutoffTimePreference;
 
 }
 
@@ -72,8 +74,8 @@
  is included and set to 'true' in the request.
  <br>
  <span class="tablenote"><strong>Note:</strong>
- Calculated and flat-rate shipping preferences are no longer managed using the 
- <b>SetUserPreferences</b> and <b>GetUserPreferences</b> calls. 
+ Calculated and flat-rate shipping preferences are no longer managed using the
+ <b>SetUserPreferences</b> and <b>GetUserPreferences</b> calls.
  Instead,use the
  <b>SetDiscountProfiles</b> and <b>GetDiscountProfiles</b>
  calls to manage shipping discounts for combined payment orders.
@@ -275,6 +277,15 @@
  type : NSNumber, wrapper for primitive bool
 */
 @property (nonatomic, retain) NSNumber *offerGlobalShippingProgramPreference;
+
+/**
+ 
+ Contains information about a seller's order cut off time preferences for same day shipping. If the seller specifies a value of <code>0</code> in <strong>Item.DispatchTimeMax</strong> to offer same day handling when listing an item, the seller's shipping time commitment depends on the order cut off time set for the listing site, as indicated by <strong>DispatchCutoffTimePreference.CutoffTime</strong>.
+    
+ 
+ type : class Trading_DispatchCutoffTimePreferencesType
+*/
+@property (nonatomic, retain) Trading_DispatchCutoffTimePreferencesType *dispatchCutoffTimePreference;
 
 
 @end

@@ -11,8 +11,8 @@
 @class Trading_ListingTipType;
 
 /**
-  
-       (out) Contains a list of tips on improving a listing's details, if any. 
+ 
+       (out) Contains a list of tips on improving a listing's details, if any.
  
  
  @ingroup EBayAPIInterface
@@ -27,7 +27,7 @@
 
 /**
  
- An individual tip on improving a listing's details. 
+ An individual tip on improving a listing's details.
  
  
  entry type : class Trading_ListingTipType

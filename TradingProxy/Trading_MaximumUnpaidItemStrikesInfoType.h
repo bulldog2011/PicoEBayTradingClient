@@ -13,7 +13,7 @@
  
  Type defining the <b>MaximumUnpaidItemStrikesInfo</b> container, which is
  used by the seller as a mechanism to block prospective buyers who have unpaid item
- strikes on their account exceeding the value set in the <b>Count</b> 
+ strikes on their account exceeding the value set in the <b>Count</b>
  field during a specified time period (set in the <b>Period</b> field).
  
  
@@ -36,10 +36,10 @@
  (<b>MaximumUnpaidItemStrikesInfo.Period</b>) before being blocked from
  buying/bidding on the item.
  <br><br>
- To retrieve a list of allowed values for this field, the seller should call 
- <b>GeteBayDetails</b>, including <b>BuyerRequirementDetails</b> in 
+ To retrieve a list of allowed values for this field, the seller should call
+ <b>GeteBayDetails</b>, including <b>BuyerRequirementDetails</b> in
  the <b>DetailName</b> field of the request, and then look for the
- <b>BuyerRequirementDetails.MaximumUnpaidItemStrikesInfo.MaximumUnpaidItemStrikesCount.Count</b> 
+ <b>BuyerRequirementDetails.MaximumUnpaidItemStrikesInfo.MaximumUnpaidItemStrikesCount.Count</b>
  fields in the response.
  
  
@@ -49,13 +49,13 @@
 
 /**
  
- This enumerated value defines the length of time over which a prospective buyer's 
- unpaid item strikes will be counted. If the prospective buyer's number of unpaid item 
- strikes during this defined period exceeds the value set in the <b>Count</b> 
+ This enumerated value defines the length of time over which a prospective buyer's
+ unpaid item strikes will be counted. If the prospective buyer's number of unpaid item
+ strikes during this defined period exceeds the value set in the <b>Count</b>
  field, that prospective buyer is blocked from buying/bidding on the item.
  <br/><br/>
- If the <b>Count</b> value is 2, and the specified <b>Period</b> 
- is 'Days_30' (counting back 30 days from the present day), any prospective buyer that has 
+ If the <b>Count</b> value is 2, and the specified <b>Period</b>
+ is 'Days_30' (counting back 30 days from the present day), any prospective buyer that has
  had three or more unpaid item strikes is blocked from buying/bidding on the item.
  
  

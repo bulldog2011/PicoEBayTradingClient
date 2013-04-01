@@ -16,10 +16,7 @@
  return, and shipping policy profiles that a seller has defined for a site.
  <br><br>
  <span class="tablenote"><strong>Note:</strong>
- Beginning with Version 763, the new Business Policies Management API and related Trading
- API containers/fields become available for testing in the Sandbox environment. In May
- 2012, Business Policies becomes fully functional and sellers can apply Business Policies 
- profiles to live eBay listings.
+ Business Policies are not yet available for use on the eBay platform.
  </span>
  
  
@@ -40,10 +37,7 @@
  <b>ProfileType</b> field.
  <br><br>
  <span class="tablenote"><strong>Note:</strong>
- Beginning with Version 763, the new Business Policies Management API and related Trading
- API containers/fields become available for testing in the Sandbox environment. In May
- 2012, Business Policies becomes fully functional and sellers can apply Business Policies 
- profiles to live eBay listings.
+ Business Policies are not yet available for use on the eBay platform.
  </span>
  
  

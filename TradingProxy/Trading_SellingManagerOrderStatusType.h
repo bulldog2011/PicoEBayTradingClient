@@ -42,7 +42,7 @@
 
 /**
  
- Indicates the current status of the checkout flow for the order. 
+ Indicates the current status of the checkout flow for the order.
  
  
  type: string constant in Trading_CheckoutStatusCodeType.h

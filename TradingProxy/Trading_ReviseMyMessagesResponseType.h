@@ -12,7 +12,7 @@
 
 /**
  
- The response to ReviseMyMessagesRequestType. If the request was successful, 
+ The response to ReviseMyMessagesRequestType. If the request was successful,
  ReviseMyMessages returns nothing.
  
  

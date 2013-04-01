@@ -40,8 +40,8 @@ NSString *const Trading_VeROItemStatusCodeType_SUBMISSION_FAILED = @"SubmissionF
 
 /**
  
- (out) The VeRO report request for the item has been received by eBay, but 
- additional clarification is needed before eBay can end the item. 
+ (out) The VeRO report request for the item has been received by eBay, but
+ additional clarification is needed before eBay can end the item.
  
 */
 NSString *const Trading_VeROItemStatusCodeType_CLARIFICATION_REQUIRED = @"ClarificationRequired";

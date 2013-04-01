@@ -29,7 +29,7 @@
  
  Contains promotional sale information based on the request.
  If you did not specify a PromotionalSaleID in the request,
- then all promotional sales for the seller are returned. 
+ then all promotional sales for the seller are returned.
  
  
  entry type : class Trading_PromotionalSaleType

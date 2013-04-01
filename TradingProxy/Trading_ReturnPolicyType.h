@@ -45,37 +45,48 @@
 /**
  
  Indicates how the seller will compensate the buyer for a returned item.
- Use the ReturnPolicy.Description field to explain the policy details
+ Use the <b>ReturnPolicy.Description</b> field to explain the policy details
  (such as how quickly the seller will process the refund, whether the seller must
  receive the item before processing the refund, and other useful details.).<br>
  <br>
- <b>Applicable values:</b>
- To get the applicable RefundOption values for your site,
- call <b>GeteBayDetails</b>
- with <b>DetailName</b> set to <b>RefundDetails</b>, 
- and then look for the ReturnPolicyDetails.Refund.RefundOption fields in the response.
- RefundOptionsCodeType defines all the possible values.<br>
+ The <b>RefundOption</b> field is not supported by following sites:
+ <ul>
+ <li>Austria (Site ID 16)</li>
+ <li>Belgium-Dutch (Site ID 123)</li>
+ <li>Belgium-French (Site ID 23)</li>
+ <li>France (Site ID 71)</li>
+ <li>Germany (Site ID 77)</li>
+ <li>Ireland (Site ID 205)</li>
+ <li>Italy (Site ID 101)</li>
+ <li>Netherlands (Site ID 146)</li>
+ <li>Poland (Site ID 212)</li>
+ </ul>
  <br>
- <b>For AddItem, VerifyAddItem, and RelistItem (and
- corresponding FixedPrice calls):</b>
- If the seller accepts returns (ReturnsAcceptedOption=ReturnsAccepted)
- but you do not pass in this RefundOption field when listing the item,
- some eBay sites may set a default value (like MoneyBack), and the seller
+ <br>
+ <b>Applicable values:</b> To get the applicable <b>RefundOption</b> values for
+ your site, call <b>GeteBayDetails</b> with
+ <b>DetailName</b> set to <b>RefundDetails</b>, and
+ then look for the <b>ReturnPolicyDetails.Refund.RefundOption</b> fields in the
+ response. <br>
+ <br>
+ <b>For Add/Revise/Relist/VerifyAdd API calls):</b>
+ If the seller accepts returns (<b>ReturnsAcceptedOption=ReturnsAccepted</b>)
+ but you do not pass in this <b>RefundOption</b> field when listing the item,
+ some eBay sites may set a default value (like 'MoneyBack'), and the seller
  is obligated to honor this setting. Therefore, to avoid unexpected obligations,
  the seller should set a specific value for this field.<br>
  <br>
- <b>For ReviseItem only:</b>
+ <b>For Revise calls only:</b>
  If the listing has bids or sales and/or ends within 12 hours,
- you can't change this value. See the parent ReturnPolicy node description
+ you can't change this value. See the parent <b>ReturnPolicy</b> node description
  for more details.
  <br/><br/>
- <span class="tablenote"><b>Note:</b>
- As of version 771, listings created, revised, or relisted with
- deprecated <b>RefundOption</b> and/or
- <b>ReturnsWithinOption</b> values (using Add/Revise/Relist
- API calls) will be blocked.
+ <span class="tablenote"><b>Note:</b> As of version 771,
+ listings created, revised, or relisted on the US site with deprecated
+ <b>RefundOption</b> and/or <b>ReturnsWithinOption</b>
+ values (using Add/Revise/Relist API calls) will be blocked.
  <br/><br/>
- For <b>RefundOption</b>, the deprecated values are <b>MerchandiseCredit</b>
+ For <b>RefundOption</b>, the deprecated values for the US site are <b>MerchandiseCredit</b>
  and <b>Exchange</b>. Instead of these deprecated values, the seller must
  offer a <b>MoneyBack</b> or a <b>MoneyBackOrExchange</b> refund
  option. Consider using the <b>MoneyBackOrExchange</b> option when you have
@@ -110,9 +121,9 @@
  Use the ReturnPolicy.Description field to explain the policy details.<br>
  <br>
  <b>Applicable values:</b>
- To get the applicable ReturnsWithinOption values for your site, 
+ To get the applicable ReturnsWithinOption values for your site,
  call <b>GeteBayDetails</b>
- with <b>DetailName</b> set to <b>ReturnPolicyDetails</b>, 
+ with <b>DetailName</b> set to <b>ReturnPolicyDetails</b>,
  and then look for the ReturnPolicyDetails.ReturnsWithin.ReturnsWithinOption fields in the response.
  ReturnsWithinOptionsCodeType defines all the possible values.<br>
  <br>
@@ -195,7 +206,7 @@
  <br>
  <b>Applicable values:</b>
  To get the applicable ReturnsAcceptedOption values for your site, call <b>GeteBayDetails</b>
- with <b>DetailName</b> set to <b>ReturnPolicyDetails</b>, 
+ with <b>DetailName</b> set to <b>ReturnPolicyDetails</b>,
  and then look for the ReturnPolicyDetails.ReturnsAccepted.Description fields in the response.
  ReturnsAcceptedOptionsCodeType defines all the possible values.<br>
  <br>
@@ -253,7 +264,7 @@
  <b>Applicable values:</b>
  To get the applicable WarrantyOfferedOption values for your site,
  call <b>GeteBayDetails</b>
- with <b>DetailName</b> set to <b>ReturnPolicyDetails</b>, 
+ with <b>DetailName</b> set to <b>ReturnPolicyDetails</b>,
  and then look for the ReturnPolicyDetails.WarrantyOffered.WarrantyOfferedOption fields in the response.
  WarrantyOfferedCodeType defines all the possible values.<br>
  <b>Note:</b> Only the eBay India site supports this field.
@@ -304,7 +315,7 @@
  <b>Applicable values:</b>
  To get the applicable WarrantyTypeOption values for your site,
  call <b>GeteBayDetails</b>
- with <b>DetailName</b> set to <b>ReturnPolicyDetails</b>, 
+ with <b>DetailName</b> set to <b>ReturnPolicyDetails</b>,
  and then look for the ReturnPolicyDetails.WarrantyType.WarrantyTypeOption fields in the response.
  WarrantyTypeOptionsCodeType defines all the possible values.<br>
  <b>Note:</b> Only the eBay India site supports this field.
@@ -348,7 +359,7 @@
  <b>Applicable values:</b>
  To get the applicable WarrantyDurationOption values for your site,
  call <b>GeteBayDetails</b>
- with <b>DetailName</b> set to <b>ReturnPolicyDetails</b>, 
+ with <b>DetailName</b> set to <b>ReturnPolicyDetails</b>,
  and then look for the ReturnPolicyDetails.WarrantyDuration. WarrantyDurationOption fields in the response.
  WarrantyDurationOptionsCodeType defines all the possible values.<br>
  <br>
@@ -388,7 +399,7 @@
  
  The European Article Number (EAN) associated with the item, if any.
  To determine if your site supports this field, call <b>GeteBayDetails</b>
- with <b>DetailName</b> set to <b>ReturnPolicyDetails</b>, 
+ with <b>DetailName</b> set to <b>ReturnPolicyDetails</b>,
  and then look for a 'true' value in the ReturnPolicyDetails.EAN field.
  Only returned if the seller has specified this value in their return policy.<br>
  <br>
@@ -410,7 +421,7 @@
  <b>Applicable values:</b>
  To get the applicable ShippingCostPaidByOption values for your site,
  call <b>GeteBayDetails</b>
- with <b>DetailName</b> set to <b>ReturnPolicyDetails</b>, 
+ with <b>DetailName</b> set to <b>ReturnPolicyDetails</b>,
  and then look for the ReturnPolicyDetails.ShippingCostPaidBy.ShippingCostPaidByOption fields in the response.
  ShippingCostPaidByOptionsCodeType defines all the possible values.<br>
  <br>

@@ -27,9 +27,8 @@
 
 /**
  
- 
  A product finder ID. GetCategory2CS always (and only) returns this
- when Category.ProductFinderIDs is returned. 
+ when Category.ProductFinderIDs is returned.
  
  
  type : NSNumber, wrapper for primitive int
@@ -37,7 +36,6 @@
 @property (nonatomic, retain) NSNumber *productFinderID;
 
 /**
- 
  
  If false or not present, the product finder can be used as input to
  GetProductSearchResults to search for catalog data (Pre-filled Item Information)

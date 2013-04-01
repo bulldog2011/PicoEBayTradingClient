@@ -85,7 +85,7 @@
 
 /**
  
- Returns feedback of a specified type (positive, negative, or neutral) in 
+ Returns feedback of a specified type (positive, negative, or neutral) in
  <b>FeedbackDetailArray</b>. You can include two comment types in your call if you want
  to exclude the third type from your results. If no <b>CommentType</b> is specified,
  all of the feedback types are returned.

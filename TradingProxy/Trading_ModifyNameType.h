@@ -38,21 +38,21 @@
 
 /**
  
- The new name (e.g., Fabric) of the variation specific you are 
+ The new name (e.g., Fabric) of the variation specific you are
  modifying.<br>
  <br>
  If specified, Name must also be specified. <br>
  <br>
- Also specify the new name (and omit the original name) in 
+ Also specify the new name (and omit the original name) in
  VariationSpecificsSet.<br>
  <br>
  After this change is made, GetItem only shows the new name in VariationSpecfiics.<br>
  <br>
  Note that variations that were sold while they used the old name will also be changed to use the new name in eBay's system. (This may change in the future.)<br>
  <br>
- If you are making other changes to a variation (such as adding new 
- values or pictures), use consistent names to avoid unexpected 
- results. For example, specify the same new name to identify the 
+ If you are making other changes to a variation (such as adding new
+ values or pictures), use consistent names to avoid unexpected
+ results. For example, specify the same new name to identify the
  variation specific in VariationSpecifics and Pictures, (in addition to adding the new name here in ModifyNameList).
  
  

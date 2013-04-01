@@ -12,7 +12,7 @@
 
 /**
  
- The response to ReviseMyMessagesFoldersRequestType. If the request was successful, 
+ The response to ReviseMyMessagesFoldersRequestType. If the request was successful,
  ReviseMyMessagesFolders returns nothing.
  
  

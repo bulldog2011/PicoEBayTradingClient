@@ -12,9 +12,11 @@
 
 /**
  
- This type defines the <b>PaymentHoldDetails</b> container, which consists of 
- information that can assist DE or AT sellers expedite the payout process for orders that 
- are subject to the new eBay payment process.
+ This type defines the <b>PaymentHoldDetails</b> container, which
+ consists of information related to the payment hold on the order, including the
+ reason why the buyer's payment for the order is being held, the expected
+ release date of the funds into the seller's account, and possible action(s) the
+ seller can take to expedite the payout of funds into their account.
  
  
  @ingroup EBayAPIInterface
@@ -25,6 +27,7 @@
     NSDate *_expectedReleaseDate;
     Trading_RequiredSellerActionArrayType *_requiredSellerActionArray;
     NSNumber *_numOfReqSellerActions;
+    NSString *_paymentHoldReason;
     NSMutableArray *_any;
 
 }
@@ -32,8 +35,9 @@
 
 /**
  
- Timestamp that indicates the expected date in which eBay will distribute the payout to 
- the seller's account. This is not a firm date and is subject to change.
+ Timestamp that indicates the expected date in which eBay/PayPal will
+ distribute the funds to the seller's account. This is not a firm date and
+ is subject to change.
  
  
  type : NSDate, wrapper for primitive date
@@ -44,7 +48,7 @@
  
  Container consisting of one or more <b>RequiredSellerAction</b> fields.
  <b>RequiredSellerAction</b> fields provide possible actions that a seller can take to
- expedite the seller payout process.
+ expedite the release of funds into their account.
  
  
  type : class Trading_RequiredSellerActionArrayType
@@ -53,14 +57,30 @@
 
 /**
  
- Integer value that indicates the number of possible actions a seller can take to
- possibly expedite the seller payout process. This value should equal the number of
- <b>RequiredSellerAction</b> fields contained in the <b>RequiredSellerActionArray</b> container.
+ Integer value that indicates the number of possible actions that a seller
+ can take to possibly expedite the release of funds into their account. This
+ value should equal the number of <b>RequiredSellerAction</b>
+ fields contained in the <b>RequiredSellerActionArray</b>
+ container.
  
  
  type : NSNumber, wrapper for primitive int
 */
 @property (nonatomic, retain) NSNumber *numOfReqSellerActions;
+
+/**
+ 
+ Enumerated value that indicates why the buyer's payment for the order is
+ being held by PayPal instead of being distributed to the seller's account.
+ A seller's funds for an order can be held by PayPal for as little as three
+ days after the buyer receives the order, but the hold can be up to 21 days
+ based on the scenario, and in some cases, the seller's lack of action in
+ helping to expedite the release of funds.
+ 
+ 
+ type: string constant in Trading_PaymentHoldReasonCodeType.h
+*/
+@property (nonatomic, retain) NSString *paymentHoldReason;
 
 /**
  (public property)

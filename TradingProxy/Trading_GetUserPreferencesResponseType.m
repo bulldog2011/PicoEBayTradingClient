@@ -4,17 +4,18 @@
 #import <Foundation/Foundation.h>
 #import "Trading_GetUserPreferencesResponseType.h"
 #import "Trading_PurchaseReminderEmailPreferencesType.h"
-#import "Trading_SellerFavoriteItemPreferencesType.h"
+#import "Trading_EndOfAuctionEmailPreferencesType.h"
+#import "Trading_SellerExcludeShipToLocationPreferencesType.h"
+#import "Trading_BidderNoticePreferencesType.h"
+#import "Trading_ProStoresCheckoutPreferenceType.h"
+#import "Trading_SellerPaymentPreferencesType.h"
 #import "Trading_CrossPromotionPreferencesType.h"
+#import "Trading_SellerFavoriteItemPreferencesType.h"
 #import "Trading_UnpaidItemAssistancePreferencesType.h"
 #import "Trading_SellerProfilePreferencesType.h"
-#import "Trading_EndOfAuctionEmailPreferencesType.h"
-#import "Trading_SellerReturnPreferencesType.h"
 #import "Trading_CombinedPaymentPreferencesType.h"
-#import "Trading_SellerExcludeShipToLocationPreferencesType.h"
-#import "Trading_ProStoresCheckoutPreferenceType.h"
-#import "Trading_BidderNoticePreferencesType.h"
-#import "Trading_SellerPaymentPreferencesType.h"
+#import "Trading_SellerReturnPreferencesType.h"
+#import "Trading_DispatchCutoffTimePreferencesType.h"
 
 @implementation Trading_GetUserPreferencesResponseType
 
@@ -34,6 +35,7 @@
 @synthesize sellerProfilePreferences = _sellerProfilePreferences;
 @synthesize sellerReturnPreferences = _sellerReturnPreferences;
 @synthesize offerGlobalShippingProgramPreference = _offerGlobalShippingProgramPreference;
+@synthesize dispatchCutoffTimePreference = _dispatchCutoffTimePreference;
 
 // class meta-data method
 // note: this method is only for internal use, DO NOT CHANGE!
@@ -97,6 +99,9 @@
     ps = [[PicoPropertySchema alloc] initWithKind:PICO_KIND_ELEMENT xmlName:@"OfferGlobalShippingProgramPreference" propertyName:@"offerGlobalShippingProgramPreference" type:PICO_TYPE_BOOL clazz:nil];
     [map setObject:ps forKey:@"offerGlobalShippingProgramPreference"];
     [ps release];
+    ps = [[PicoPropertySchema alloc] initWithKind:PICO_KIND_ELEMENT xmlName:@"DispatchCutoffTimePreference" propertyName:@"dispatchCutoffTimePreference" type:PICO_TYPE_OBJECT clazz:[Trading_DispatchCutoffTimePreferencesType class]];
+    [map setObject:ps forKey:@"dispatchCutoffTimePreference"];
+    [ps release];
     
     return map;
 }
@@ -120,6 +125,7 @@
     self.sellerProfilePreferences = nil;
     self.sellerReturnPreferences = nil;
     self.offerGlobalShippingProgramPreference = nil;
+    self.dispatchCutoffTimePreference = nil;
     [super dealloc];
 }
 

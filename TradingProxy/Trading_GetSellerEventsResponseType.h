@@ -43,15 +43,15 @@
 /**
  
  Collection of items whose last modified time matches
- the filters specified in the request. 
- Returns empty if no items were modified within the 
- time range of the request. 
- If 1 to 2999 items are returned, then the results are 
- complete. If 3000 or more items are returned, it usually means 
- additional items exist within the time range you requested, 
+ the filters specified in the request.
+ Returns empty if no items were modified within the
+ time range of the request.
+ If 1 to 2999 items are returned, then the results are
+ complete. If 3000 or more items are returned, it usually means
+ additional items exist within the time range you requested,
  but they were not all returned. To retrieve complete results,
- use a smaller time range in the request so that fewer than 
- 3000 are returned per response. 
+ use a smaller time range in the request so that fewer than
+ 3000 are returned per response.
  
  
  type : class Trading_ItemArrayType

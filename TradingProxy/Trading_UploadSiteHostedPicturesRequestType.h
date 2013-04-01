@@ -102,8 +102,8 @@
    You can only include one ExternalPictureURL field per call.
  <br><br>
  <span class="tablenote"><b>Note:</b>
- If a URI contains spaces, replace them with <code>%20</code>. 
- For example, <code>http://example.com/my image.jpg</code> must be submitted as <code>http://example.com/my%20image.jpg</code> 
+ If a URI contains spaces, replace them with <code>%20</code>.
+ For example, <code>http://example.com/my image.jpg</code> must be submitted as <code>http://example.com/my%20image.jpg</code>
  to replace the space in the image file name.
  </span>
    <br>

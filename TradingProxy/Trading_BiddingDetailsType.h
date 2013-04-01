@@ -109,8 +109,8 @@
 
 /**
  
- Indicates whether the current bid was placed by BidAssistant.
- Only returns if true.
+ The Bid Assistant feature is retired, and this field is scheduled to
+ be removed from BiddingDetailsType.
  
  
  type : NSNumber, wrapper for primitive bool

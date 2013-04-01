@@ -29,7 +29,7 @@
 
 /**
  
- A recommended value for the Item Specific. Only returned when 
+ A recommended value for the Item Specific. Only returned when
  a recommended value is available.
  
  
@@ -41,10 +41,10 @@
  
  Constraints that eBay places on this Item Specific value.<br>
  <br>
- Only returned when you configure your request to include 
- relationships and/or confidence, and a recommended value 
- is available. 
- (Not returned when ExcludeRelationships is true and 
+ Only returned when you configure your request to include
+ relationships and/or confidence, and a recommended value
+ is available.
+ (Not returned when ExcludeRelationships is true and
  IncludeConfidence is false.)
  
  

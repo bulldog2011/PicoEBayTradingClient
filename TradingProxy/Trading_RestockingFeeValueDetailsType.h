@@ -30,8 +30,8 @@
 
 /**
  
- A restocking fee value option that a seller can specify in the 
- <b>RestockingFeeValueOption</b> field of Add/Revise/Relist calls. 
+ A restocking fee value option that a seller can specify in the
+ <b>RestockingFeeValueOption</b> field of Add/Revise/Relist calls.
  In order to charge a buyer a restocking fee when an item is returned, a US seller
  must input a restocking fee value as part of the return policy.
  
@@ -42,8 +42,8 @@
 
 /**
  
- Display string that applications can use to present 
- the <b>RestockingFeeValueOption</b> values in a more user-friendly 
+ Display string that applications can use to present
+ the <b>RestockingFeeValueOption</b> values in a more user-friendly
  format when used in GUI features such as option buttons or drop-down lists.
  
  

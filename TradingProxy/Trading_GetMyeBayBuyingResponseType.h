@@ -175,8 +175,8 @@
 
 /**
  
- Contains the items, searches, or sellers that the user has saved to this 
- list using the "Add to list" feature.  The name of the list is given by the 
+ Contains the items, searches, or sellers that the user has saved to this
+ list using the "Add to list" feature.  The name of the list is given by the
  "Name" element. Returned only if UserDefineLists is specified in the request.
  
  

@@ -13,8 +13,8 @@
 /**
  
    Type defining the <b>SellerPaymentPreferences</b> container, which
- consists of the seller's payment preferences. Payment preferences specified in a 
- <b>SetUserPreferences</b> call override the settings in My eBay payment 
+ consists of the seller's payment preferences. Payment preferences specified in a
+ <b>SetUserPreferences</b> call override the settings in My eBay payment
  preferences.
  
  
@@ -39,12 +39,12 @@
 
 /**
  
- Sellers include this field and set it to 'true' if they want buyers to mail payment 
- to the payment address specified in the 
+ Sellers include this field and set it to 'true' if they want buyers to mail payment
+ to the payment address specified in the
  <b>SellerPaymentPreferences.SellerPaymentAddress</b> field. A payment
  address only comes into play if the item's category allows offline payments, and the
  seller has allowed the buyer to mail a payment. This payment address will only be
- displayed to winning bidders and buyers. 
+ displayed to winning bidders and buyers.
  
  
  type : NSNumber, wrapper for primitive bool
@@ -53,7 +53,7 @@
 
 /**
  
- If set, this field determines whether a Pay Now button is displayed for all of the 
+ If set, this field determines whether a Pay Now button is displayed for all of the
  user's listings. The user has the option of using a PayPal only version of the Pay
  Now button or a Pay Now button for all payment methods.
  

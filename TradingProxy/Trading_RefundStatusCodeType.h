@@ -16,8 +16,8 @@
  
   The refund request was successful.<br/><br/>
   <span class="tablenote">
-  <strong>Note:</strong> The RefundStatus value is returned 
-  (for GetOrders and other order retrieval calls) for DE/AT orders subject to the 
+  <strong>Note:</strong> The RefundStatus value is returned
+  (for GetOrders and other order retrieval calls) for DE/AT orders subject to the
   new eBay payment process.
   </span>
  
@@ -28,8 +28,8 @@ extern NSString *const Trading_RefundStatusCodeType_SUCCESSFUL;
  
   The refund request is being processed.<br/><br/>
   <span class="tablenote">
-  <strong>Note:</strong> The RefundStatus value is returned 
-  (for GetOrders and other order retrieval calls) for DE/AT orders subject to the 
+  <strong>Note:</strong> The RefundStatus value is returned
+  (for GetOrders and other order retrieval calls) for DE/AT orders subject to the
   new eBay payment process.
   </span>
  
@@ -40,8 +40,8 @@ extern NSString *const Trading_RefundStatusCodeType_PENDING;
  
   The refund request was rejected.<br/><br/>
   <span class="tablenote">
-  <strong>Note:</strong> The RefundStatus value is returned 
-  (for GetOrders and other order retrieval calls) for DE/AT orders subject to the 
+  <strong>Note:</strong> The RefundStatus value is returned
+  (for GetOrders and other order retrieval calls) for DE/AT orders subject to the
   new eBay payment process.
   </span>
  

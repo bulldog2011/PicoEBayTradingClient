@@ -26,7 +26,7 @@ extern NSString *const Trading_ItemSpecificSourceCodeType_ITEM_SPECIFIC;
  
  The Item Specific was originally stored with eBay's
  system-defined (ID-based) attributes format. (For example,
- the seller used the AttributeSetArray node in AddItem 
+ the seller used the AttributeSetArray node in AddItem
  at a time when the category supported Attributes.)
  
 */

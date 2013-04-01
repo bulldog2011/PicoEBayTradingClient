@@ -39,7 +39,7 @@
  paired up with a corresponding <b>TransactionID</b> and used as an input filter
  for <b>ReviseSellingManagerSaleRecord</b>. The <b>ItemID</b>/<b>TransactionID</b> pair
  corresponds to a Selling Manager <b>SaleRecordID</b>, which can be retrieved
- with the <b>GetSellingManagerSaleRecord</b> call. 
+ with the <b>GetSellingManagerSaleRecord</b> call.
  <br><br>
  Unless an <b>OrderLineItemID</b> is used to identify a single line item order,
  or the <b>OrderID</b> is used to identify a single or multiple line item
@@ -81,8 +81,8 @@
 /**
  
  A unique identifier that identifies a single line item or multiple line
- item (Combined Payment) order. 
- <br><br> 
+ item (Combined Payment) order.
+ <br><br>
  For a single line item order, the <b>OrderID</b> value is identical to the
  <b>OrderLineItemID</b> value that is generated upon creation of the order line
  item. For a Combined Payment order, the <b>OrderID</b> value is created by eBay
@@ -119,7 +119,7 @@
  is based upon the concatenation of <b>ItemID</b> and <b>TransactionID</b>, with a
  hyphen in between these two IDs. For a single line item order, the
  <b>OrderLineItemID</b> value can be passed into the <b>OrderID</b> field to revise the
- order in Selling Manager. 
+ order in Selling Manager.
  <br><br>
  Unless an <b>ItemID</b>/<b>TransactionID</b> pair is used to identify a single line
  item order, or the <b>OrderID</b> is used to identify a single or multiple line

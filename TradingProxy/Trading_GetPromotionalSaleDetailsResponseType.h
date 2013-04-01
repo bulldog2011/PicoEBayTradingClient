@@ -29,10 +29,10 @@
 
 /**
  
- Contains information about a promotional sale or sales. If you did not 
+ Contains information about a promotional sale or sales. If you did not
  specify a PromotionalSaleID in the request, then all promotional sales
- for the seller are returned. Promotional sales enable sellers to add 
- discounts and/or free shipping to items. 
+ for the seller are returned. Promotional sales enable sellers to add
+ discounts and/or free shipping to items.
  
  
  type : class Trading_PromotionalSaleArrayType

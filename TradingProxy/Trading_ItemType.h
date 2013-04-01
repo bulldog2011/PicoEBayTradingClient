@@ -266,7 +266,7 @@
 /**
  
  To create an immediate payment listing, <b>AutoPay</b> must be included and
- set to 'true' for the Add/Revise/Relist API calls. If the seller does not want to create an
+ set to 'true' for the Add/Revise/Relist/VerifyAdd API calls. If the seller does not want to create an
  immediate payment item, this field is either omitted, or included and set to 'false'.
  <br>
  <br>
@@ -371,8 +371,10 @@
  There is a minimum percentage value that the Buy It Now price must be set above
  the Start Price. This minimum percentage value varies by site. To see the valid values
  for your site, call <b>GeteBayDetails</b> with <b>DetailName</b> set to <b>ListingStartPriceDetails</b>,
- and then look for the ListingStartPriceDetails.MinBuyItNowPricePercent field in the response.
- If this value is 40.0 (percent), that means that your Buy It Now price on your auction listing must exceed the Start Price by 40 percent to be valid.<br><br>
+ and then look for the <b>ListingStartPriceDetails.MinBuyItNowPricePercent</b> field in the response.
+ If this value is 40.0 (percent), that means that your Buy It Now price on
+ your auction listing must exceed the Start Price by 40 percent to be
+ valid.
  <br><br>
  This feature is not applicable to fixed-price listings, Ad Format listings, or Half.com
  listings.
@@ -785,23 +787,16 @@
 
 /**
  
- Indicates the geographical location of the item (along with Country).
- When you revise a listing, you can add or change this value only if the
- listing has no bids (or no items have sold) and it does not end within
- 12 hours.
+ Indicates the geographical location of the item (along with Country) to be displayed on eBay listing pages. When you revise a listing, you can add or change this value only if the listing has no bids (or no items have sold) and it does not end within 12 hours.
  <br><br>
- If you do not specify Location, you must specify Item.PostalCode. If you
- specify a postal code, but do not specify a location, then the location is
- given a default value derived from the postal code.
+ If you do not specify <strong>Location</strong>, you must specify <strong>Item.PostalCode</strong>.
+ <br/><br/>
+                   <span class="tablenote">
+                   <strong>Note:</strong> If you specify both <strong>Location</strong> and <strong>PostalCode</strong>, and eBay can determine a location that corresponds to the postal code, the postal code-derived location will be used for the listing.
+                   </span>
+ For the Classified Ad format for eBay Motors vehicles, the value provided in the Location is used as item location only if the SellerContactDetails.Street and the SellerContactDetails.Street2 are empty. Else, the SellerContactDetails.Street and the SellerContactDetails.Street2 will be used for item location.
  <br><br>
- For the Classified Ad format for eBay Motors vehicles, the value
- provided in the Location is used as item location only if the
- SellerContactDetails.Street and the SellerContactDetails.Street2 are empty.
- Else, the SellerContactDetails.Street and the SellerContactDetails.Street2
- will be used for item location.
- <br><br>
- Also applicable as input to AddItem and related calls when you list items
- to Half.com.
+ Also applicable as input to AddItem and related calls when you list items to Half.com.
  
  
  type : NSString, wrapper for primitive string
@@ -1974,12 +1969,13 @@
 
 /**
  
- Postal code of the place where the item is located. This value is used for
- proximity searches. To remove this value when revising or relisting an item,
- use DeletedField. If you do not specify PostalCode, you must specify
- Item.Location. If you specify PostalCode, but do not specify Item.Location,
- then Item.Location is given a default value derived from the postal code.
- <br><br>
+ Postal code of the place where the item is located. This value is used for proximity searches. To remove this value when revising or relisting an item, use DeletedField.
+                   <br/><br/>
+ eBay derives a geographical location from the postal code to display on eBay listing pages. If you do not specify <strong>PostalCode</strong>, you must specify <strong>Item.Location</strong>.
+ <br/><br/>
+                   <span class="tablenote">
+                   <strong>Note:</strong> If you specify both <strong>PostalCode</strong> and <strong>Location</strong>, and eBay can determine a location that corresponds to the postal code, the postal code-derived location will be used for the listing.
+                   </span>
  Not applicable to Half.com.
  
  
@@ -2347,8 +2343,9 @@
 
 /**
  
- This flag is set to true if a watched item belongs to a bid
- group. It will only be returned for the Watch container.
+ Bid groups are only applicable to the Bid Assistant feature, which is a
+ feature that has been retired. This field is scheduled to be removed
+ from ItemType.
  
  
  type : NSNumber, wrapper for primitive bool
@@ -2809,10 +2806,10 @@
  (<b>Item.Description</b>), and the listing's pictures do not contradict
  one another.
  <br><br>
- The <b>ConditionDescription</b> field is optional For Add/Revise/Relist
- API calls. However, this field may become required in some categories starting
- with the Spring 2013 Seller Release.
- <br><br>
+ <span class="tablenote">
+                   <strong>Note:</strong> The <b>ConditionDescription</b> field is optional For Add/Revise/Relist API calls. However, this field may become required in some categories starting with the Spring 2013 Seller Release. <br>
+                   <b>ConditionDescription</b> is currently supported only on the eBay US, UK and Motors sites.
+                   </span>
  The <b>ConditionDescription</b> field is returned by <b>GetItem</b>
  (and other related calls that return the Item object) if a condition description
  is specified in the listing.

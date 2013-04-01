@@ -37,11 +37,11 @@
 /**
  
  An international shipping service being offered by the seller to ship an item to
- a buyer. For a list of valid values, call <b>GeteBayDetails</b> 
+ a buyer. For a list of valid values, call <b>GeteBayDetails</b>
  with <b>DetailName</b> set to <b>ShippingServiceDetails</b>.
- To view the full list of International shipping service options in the response, 
- look for the ShippingService fields in the ShippingServiceDetails containers that 
- contain a InternationalService=true field, as this indicates that the ShippingService 
+ To view the full list of International shipping service options in the response,
+ look for the ShippingService fields in the ShippingServiceDetails containers that
+ contain a InternationalService=true field, as this indicates that the ShippingService
  value is an International shipping service option.
  The ShippingServiceDetails.ValidForSellingFlow flag must
  also be present. Otherwise, that particular shipping service option is no longer
@@ -106,9 +106,9 @@
 /**
  
  An international location or region to where the item seller will ship the item.
- Use <b>GeteBayDetails</b> with <b>DetailName</b> set to 
- <b>ShippingLocationDetails</b> to determine which locations are valid per site. 
- In the GeteBayDetails response, look for the ShippingLocationDetails.ShippingLocation fields. 
+ Use <b>GeteBayDetails</b> with <b>DetailName</b> set to
+ <b>ShippingLocationDetails</b> to determine which locations are valid per site.
+ In the GeteBayDetails response, look for the ShippingLocationDetails.ShippingLocation fields.
  For the AddItem family of calls, this field is required if any
  international shipping service is specified.
  

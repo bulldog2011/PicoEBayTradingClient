@@ -13,7 +13,7 @@
 
 /**
  
- Defines the <b>SetPromotionalSaleListings</b> call request. 
+ Defines the <b>SetPromotionalSaleListings</b> call request.
  
  
  @ingroup EBayAPIInterface
@@ -35,7 +35,7 @@
 
 /**
  
- The unique identifier of the seller's promotional sale. Based on the <b>Action</b> 
+ The unique identifier of the seller's promotional sale. Based on the <b>Action</b>
  value, listings will either be added to or removed from the promotional sale.
  
  
@@ -64,11 +64,11 @@
 /**
  
  Container consisting of one or more <b>ItemID</b> values. Based on
- the <b>Action</b> value, the listings identified by these 
- <b>ItemID</b> values are either added to or removed from the 
+ the <b>Action</b> value, the listings identified by these
+ <b>ItemID</b> values are either added to or removed from the
  promotional sale.
  <br><br>
- This container is required if listings are being removed (<b>Action</b>='Delete') 
+ This container is required if listings are being removed (<b>Action</b>='Delete')
  from the promotional sale.
    
  

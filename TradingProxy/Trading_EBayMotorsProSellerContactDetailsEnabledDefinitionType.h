@@ -11,8 +11,8 @@
 
 /**
  
- Defines the SellerContactDetailsEnabled feature. If this field is present, 
- the category allows retrieval of seller-level contact information. The 
+ Defines the SellerContactDetailsEnabled feature. If this field is present,
+ the category allows retrieval of seller-level contact information. The
  field is returned as an empty element (e.g., a boolean value is not returned).
  Added for EbayMotors Pro users.
  

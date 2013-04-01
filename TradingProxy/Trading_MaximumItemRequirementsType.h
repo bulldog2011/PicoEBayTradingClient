@@ -27,21 +27,21 @@
 
 /**
  
- This field is conditionally required if the <b>MaximumItemRequirements</b> 
+ This field is conditionally required if the <b>MaximumItemRequirements</b>
  container is used.
  <br/><br/>
- The value of this field specifies the maximum number of items a prospective buyer can 
- purchase from the seller during a 10-day period. The prospective buyer will be blocked 
- from bidding/buying once this value is reached. 
- To see the valid values for your site, call <b>GeteBayDetails</b> 
+ The value of this field specifies the maximum number of items a prospective buyer can
+ purchase from the seller during a 10-day period. The prospective buyer will be blocked
+ from bidding/buying once this value is reached.
+ To see the valid values for your site, call <b>GeteBayDetails</b>
  with <b>DetailName</b> set to <b>BuyerRequirementDetails</b>,
  , and then look for the BuyerRequirementDetails.MaximumItemRequirements.MaximumItemCount fields.
  As of Jan. 2013, the valid values
  for the US site are: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 25, 50, 75, and 100.
  <br/><br/>
- If the <b>MaximumItemRequirements.MinimumFeedbackScore</b> field is also 
+ If the <b>MaximumItemRequirements.MinimumFeedbackScore</b> field is also
  specified, the <b>MaximumItemCount</b> limit will only apply to those
- prospective buyers that don't equal or exceed the specified minimum Feedback Score.
+ prospective buyers who don't meet the specified Minimum Feedback Score threshold.
  
  
  type : NSNumber, wrapper for primitive int
@@ -51,12 +51,12 @@
 /**
  
  This is an optional field that is ignored if a <b>MaximumItemCount</b>
- value has not been provided. 
+ value has not been provided.
  <br><br>
  If this field is used, a prospective buyer is blocked from bidding/buying if they have
  reached or exceeded the <b>MaximumItemCount</b> and their feedback score
- is less than the value of this field. To see the valid values for your site, call <b>GeteBayDetails</b> 
- with <b>DetailName</b> set to <b>BuyerRequirementDetails</b>, 
+ is less than the value of this field. To see the valid values for your site, call <b>GeteBayDetails</b>
+ with <b>DetailName</b> set to <b>BuyerRequirementDetails</b>,
  and then look for the BuyerRequirementDetails.MaximumItemRequirements.MinimumFeedbackScore fields.
  Currently, the valid values for the US site are: 0, 1, 2, 3, 4, and 5.
  

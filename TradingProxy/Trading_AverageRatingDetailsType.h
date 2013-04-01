@@ -10,9 +10,9 @@
 
 
 /**
-  
+ 
  Applicable to sites that support the Detailed Seller Ratings feature.
- The AverageRatingDetailsType contains the average detailed seller ratings in an area. When buyers leave an overall Feedback rating (positive, neutral, or negative) for a seller, they also can leave ratings in four areas: item as described, communication, shipping time, and charges for shipping and handling. Users retrieve detailed ratings as averages of the ratings left by buyers. 
+ The AverageRatingDetailsType contains the average detailed seller ratings in an area. When buyers leave an overall Feedback rating (positive, neutral, or negative) for a seller, they also can leave ratings in four areas: item as described, communication, shipping time, and charges for shipping and handling. Users retrieve detailed ratings as averages of the ratings left by buyers.
  
  
  @ingroup EBayAPIInterface
@@ -34,7 +34,7 @@
  Users retrieve detailed ratings as averages of the ratings left by buyers.
  When buyers leave an overall Feedback rating (positive, neutral, or negative)
  for a seller, they also can leave ratings in four areas:
- item as described, communication, shipping time, and charges for shipping and handling. 
+ item as described, communication, shipping time, and charges for shipping and handling.
  
  
  type: string constant in Trading_FeedbackRatingDetailCodeType.h
@@ -42,8 +42,8 @@
 @property (nonatomic, retain) NSString *ratingDetail;
 
 /**
-  
- An average detailed seller rating applying to the area in the corresponding RatingDetail field. 
+ 
+ An average detailed seller rating applying to the area in the corresponding RatingDetail field.
  
  
  type : NSNumber, wrapper for primitive double
@@ -51,9 +51,9 @@
 @property (nonatomic, retain) NSNumber *rating;
 
 /**
-  
+ 
  The number of detailed seller ratings in the area
- in the corresponding RatingDetail field. 
+ in the corresponding RatingDetail field.
  
  
  type : NSNumber, wrapper for primitive int

@@ -32,8 +32,8 @@
 
 /**
  
- An array of one or more <b>ItemTransactionID</b> containers. Each 
- <b>ItemTransactionID</b> container identifies an order line item 
+ An array of one or more <b>ItemTransactionID</b> containers. Each
+ <b>ItemTransactionID</b> container identifies an order line item
  to retrieve in the response.
  
  
@@ -43,9 +43,9 @@
 
 /**
  
- An array of one or more <b>OrderID</b> containers. Each 
+ An array of one or more <b>OrderID</b> containers. Each
  <b>OrderID</b> container identifies an order to retrieve in the response.
- Up to 20 orders (using 20 <b>OrderID</b> containers) can be 
+ Up to 20 orders (using 20 <b>OrderID</b> containers) can be
  retrieved with one <b>GetOrderTransactions</b> call.
  
  

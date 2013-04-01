@@ -12,7 +12,7 @@
 
 /**
  
- Defines the options available for an automated 
+ Defines the options available for an automated
  second chance offer rule.
  
  
@@ -43,7 +43,7 @@
 /**
  
  Used when SecondChanceOfferCondition is equal to
- BidsGreaterThanAmount or BidsGreaterThanCostPlusAmount. Specifies 
+ BidsGreaterThanAmount or BidsGreaterThanCostPlusAmount. Specifies
  the amount associated with the SecondChanceOfferCondition.
  
  
@@ -53,7 +53,7 @@
 
 /**
  
- Used when SecondChanceOfferCondition is equal 
+ Used when SecondChanceOfferCondition is equal
  to BidsGreaterThanCostPlusPercentage to specify the amount of profit
  associated with the SecondChanceOfferCondition.
  
@@ -64,7 +64,7 @@
 
 /**
  
- Specifies the length of time the second chance offer listing will be active. 
+ Specifies the length of time the second chance offer listing will be active.
  The recipient bidder has that much time to purchase the item or the offer expires.
  
  
@@ -74,7 +74,7 @@
 
 /**
  
- Do not list if inventory levels on the associated product 
+ Do not list if inventory levels on the associated product
  are at or below the specified amount.
  
  

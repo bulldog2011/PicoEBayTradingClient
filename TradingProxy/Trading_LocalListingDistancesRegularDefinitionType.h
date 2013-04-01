@@ -10,8 +10,8 @@
 
 
 /**
-  
- Defines the LocalListingDistancesRegular feature. This feature displays all the supported local listing 
+ 
+ Defines the LocalListingDistancesRegular feature. This feature displays all the supported local listing
  distances for items listed by sellers subscribed to Local Market for Vehicles.
  
  

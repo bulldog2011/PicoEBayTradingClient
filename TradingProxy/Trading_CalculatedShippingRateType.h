@@ -14,7 +14,7 @@
 /**
  
  Details pertinent to one or more items for which
- calculated shipping (or flat rate shipping using shipping rate tables with 
+ calculated shipping (or flat rate shipping using shipping rate tables with
  weight surcharges) has been offered by the seller, such as package
  dimension and weight and packaging/handling costs. Also returned
  with the data for an item's transaction.
@@ -170,9 +170,9 @@
  
  The nature of the package used to ship the item(s).
  This is required for calculated shipping only.
- To get the applicable ShippingPackage values for your site, call 
- <b>GeteBayDetails</b> with <b>DetailName</b> set to <b>ShippingPackageDetails</b>, 
- and then look for the ShippingPackageDetails.ShippingPackage fields in the response.  
+ To get the applicable ShippingPackage values for your site, call
+ <b>GeteBayDetails</b> with <b>DetailName</b> set to <b>ShippingPackageDetails</b>,
+ and then look for the ShippingPackageDetails.ShippingPackage fields in the response.
  
  
  type: string constant in Trading_ShippingPackageCodeType.h
@@ -190,8 +190,8 @@
  that can only be selected via the eBay Web site and not via API.
  The weight details are validated against the selected shipping service.
  <br><br>
- For calculated shipping or for flat rate shipping if shipping rate tables are 
- specified and the shipping rate table uses weight surcharges. 
+ For calculated shipping or for flat rate shipping if shipping rate tables are
+ specified and the shipping rate table uses weight surcharges.
  Required on input when calculated shipping is used.
  
  
@@ -202,9 +202,9 @@
 /**
  
  See the definition of WeightMajor. For calculated shipping or for flat rate shipping
- if shipping rate tables are specified and the shipping rate table uses weight surcharges. 
- (When used with the shipping rate tables with weight surcharge, any WeightMinor value greater 
- than zero results in WeightMajor getting rounded up in the shipping cost calculation 
+ if shipping rate tables are specified and the shipping rate table uses weight surcharges.
+ (When used with the shipping rate tables with weight surcharge, any WeightMinor value greater
+ than zero results in WeightMajor getting rounded up in the shipping cost calculation
   for example, 1 lb, 2 oz is rounded up to 2 lbs.)
   <br><br>
  Required on input when calculated shipping is used.

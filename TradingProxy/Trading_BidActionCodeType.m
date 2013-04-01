@@ -84,7 +84,7 @@ NSString *const Trading_BidActionCodeType_BUY_IT_NOW = @"BuyItNow";
  This value is used for fixed-price listings to purchase an item.
  In PlaceOffer, for auction listings with the Buy It Now option,
  specify 'Purchase' to buy the item.
- In the case of fixed-price listings requiring immediate payment (AutoPay enabled), 
+ In the case of fixed-price listings requiring immediate payment (AutoPay enabled),
  PlaceOffer cannot be used for purchase. But for fixed-price listings with
  AutoPay that have the BestOffer option,
  PlaceOffer can be used to make an offer (but not to purchase).
@@ -104,7 +104,7 @@ NSString *const Trading_BidActionCodeType_CUSTOM_CODE = @"CustomCode";
  If an item is best-offer enabled, use this value if a buyer is making a best offer on
  the item. After a buyer makes a best offer (or counter-offer, etc.), the buyer can get
  the status of the best offer (and of a possible seller-counter-offer, etc.) using the
- GetBestOffers call. 
+ GetBestOffers call.
  
 */
 NSString *const Trading_BidActionCodeType_OFFER = @"Offer";

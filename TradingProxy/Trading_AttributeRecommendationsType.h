@@ -11,7 +11,7 @@
 @class Trading_AttributeSetArrayType;
 
 /**
-  
+ 
  Item Specifics data returned from the Suggested Attributes engine.
  
  
@@ -28,8 +28,8 @@
 
 /**
  
- A list of attribute sets containing recommended attributes and values. 
- Returned from GetItemRecommendations when the Suggested Attributes engine is used 
+ A list of attribute sets containing recommended attributes and values.
+ Returned from GetItemRecommendations when the Suggested Attributes engine is used
  See the eBay Web Services guide for additional details.
  
  

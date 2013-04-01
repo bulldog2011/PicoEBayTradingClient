@@ -12,13 +12,13 @@
 
 /**
  
- Type defining the <b>BuyingSummary</b> container returned in 
- <b>GetMyeBayBuying<b>. The <b>BuyingSummary</b> container 
- consists of data that summarizes the buyer's recent buying activity, including the 
- number of items bid on, the number of items buyer is winning, and the number of items 
+ Type defining the <b>BuyingSummary</b> container returned in
+ <b>GetMyeBayBuying<b>. The <b>BuyingSummary</b> container
+ consists of data that summarizes the buyer's recent buying activity, including the
+ number of items bid on, the number of items buyer is winning, and the number of items
  the buyer has won. The <b>BuyingSummary</b> container is only returned if
- the <b>BuyingSummary.Include</b> field is included in the GetMyeBayBuying request and set to 
- 'true'. 
+ the <b>BuyingSummary.Include</b> field is included in the GetMyeBayBuying request and set to
+ 'true'.
  
  
  @ingroup EBayAPIInterface

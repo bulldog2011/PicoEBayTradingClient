@@ -6,17 +6,17 @@
 /**
  @file
  
- Type defining the values that can be returned in the <b>eBayPaymentStatus</b> 
- field of order management calls. These values indicate the current status of the buyer's 
+ Type defining the values that can be returned in the <b>eBayPaymentStatus</b>
+ field of order management calls. These values indicate the current status of the buyer's
  payment for an order.
  
 */
 
 /**
  
- This value indicates that the buyer's payment for the order has cleared. A 
- <b>CheckoutStatus.eBayPaymentStatus</b> value of 'NoPaymentFailure' 
- and a <b>CheckoutStatus.Status</b> value of 'Complete' indicates that 
+ This value indicates that the buyer's payment for the order has cleared. A
+ <b>CheckoutStatus.eBayPaymentStatus</b> value of 'NoPaymentFailure'
+ and a <b>CheckoutStatus.Status</b> value of 'Complete' indicates that
  checkout is complete.
  
 */
@@ -24,7 +24,7 @@ NSString *const Trading_PaymentStatusCodeType_NO_PAYMENT_FAILURE = @"NoPaymentFa
 
 /**
  
- This value indicates that the buyer's eCheck bounced. This value is only applicable 
+ This value indicates that the buyer's eCheck bounced. This value is only applicable
  if the seller accepts eChecks as a form of payment.
  
 */

@@ -12,7 +12,7 @@
 
 /**
  
- Retrieves the data for one or more Selling Manager sale records. 
+ Retrieves the data for one or more Selling Manager sale records.
  <br><br>
  The standard Trading API
  deprecation process is not applicable to this call.
@@ -68,7 +68,7 @@
 /**
  
  A unique identifier that identifies a single line item or multiple line item
- (Combined Payment) order associated with the Selling Manager sale record(s). 
+ (Combined Payment) order associated with the Selling Manager sale record(s).
  <br><br>
  For a single line item order, the <b>OrderID</b> value is identical to the
  <b>OrderLineItemID</b> value that is generated upon creation of the order line
@@ -96,7 +96,7 @@
  returned under the <b>SellingManagerSoldTransaction</b> container of the
  <b>GetSellingManagerSoldListings</b> request. Unless an <b>OrderID</b> or an
  <b>ItemID</b>/<b>Transaction</b> pair is specified in the <b>GetSellingManagerSaleRecord</b>
- request, the <b>OrderLineItemID</b> is required. 
+ request, the <b>OrderLineItemID</b> is required.
  <br>
  
  

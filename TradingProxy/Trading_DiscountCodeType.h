@@ -21,7 +21,7 @@ extern NSString *const Trading_DiscountCodeType_PERCENTAGE;
 
 /**
  
- Specifies discount type as a fixed amount. Discount will be in the 
+ Specifies discount type as a fixed amount. Discount will be in the
  currency of the original listing.
  
 */

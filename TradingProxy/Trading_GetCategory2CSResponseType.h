@@ -14,8 +14,7 @@
 
 /**
  
- This type is deprecated as the call is no longer available.
- 
+ Only applicable for determining whether a category is catalog-enabled.
  
  
  @ingroup EBayAPIInterface
@@ -33,7 +32,6 @@
 
 /**
  
- 
  Contains data about categories that are mapped to characteristics sets.
  Use this data to determine:<br>
  - The names and IDs of the characteristics sets<br>
@@ -50,7 +48,6 @@
 
 /**
  
- 
  Contains data about categories (if any) whose characteristics set mappings have changed
  since the version specified in the request. When a characteristics set mapping
  changes, the data appears in both the UnmappedCategoryArray object
@@ -62,7 +59,6 @@
 @property (nonatomic, retain) Trading_CategoryArrayType *unmappedCategoryArray;
 
 /**
- 
  
  Current version of the mappings for the site.
  This value changes each time changes are made to the mappings.
@@ -76,7 +72,6 @@
 @property (nonatomic, retain) NSString *attributeSystemVersion;
 
 /**
- 
  
  A list of one or more characteristics sets mapped to the category, if any. Use this
  information when working with Item Specifics (Attributes) and Pre-filled Item

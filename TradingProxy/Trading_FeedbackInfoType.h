@@ -31,7 +31,7 @@
 /**
  
  Textual comment that explains, clarifies, or justifies the Feedback rating specified
- in <b>CommentType</b>. This field is required in <b>CompleteSale</b> if the 
+ in <b>CommentType</b>. This field is required in <b>CompleteSale</b> if the
  <b>FeedbackInfo</b> container is used.
  <br><br>
  This comment will still be displayed even if submitted Feedback is withdrawn.
@@ -43,15 +43,15 @@
 
 /**
  
- This value indicates the Feedback rating for the user specified in the 
- <b>TargetUser</b> field. This field is required in <b>CompleteSale</b> if the 
- <b>FeedbackInfo</b> container is used. 
+ This value indicates the Feedback rating for the user specified in the
+ <b>TargetUser</b> field. This field is required in <b>CompleteSale</b> if the
+ <b>FeedbackInfo</b> container is used.
  <br><br>
  A Positive rating increases the user's Feedback score, a Negative rating decreases
  the user's Feedback score, and a Neutral rating does not affect the user's Feedback
  score. eBay users also have the right to withdraw feedback for whatever reason.
  <br><br>
- Sellers cannot leave Neutral or Negative ratings for buyers. 
+ Sellers cannot leave Neutral or Negative ratings for buyers.
  
  
  type: string constant in Trading_CommentTypeCodeType.h
@@ -61,7 +61,7 @@
 /**
  
  This eBay User ID identifies the recipient user for whom the feedback is being left.
- This field is required in <b>CompleteSale</b> if the 
+ This field is required in <b>CompleteSale</b> if the
  <b>FeedbackInfo</b> container is used.
  
  

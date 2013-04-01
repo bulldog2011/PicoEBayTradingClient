@@ -13,7 +13,7 @@
 
 /**
  
- Contains the reason codes for all sites. 
+ Contains the reason codes for all sites.
  
  
  @ingroup EBayAPIInterface

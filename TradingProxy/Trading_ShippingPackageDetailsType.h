@@ -44,7 +44,7 @@
 /**
  
  Display string that applications can use to present a list of shipping package
- options in a more user-friendly format (such as in a drop-down list). 
+ options in a more user-friendly format (such as in a drop-down list).
  
  
  type : NSString, wrapper for primitive string
@@ -53,9 +53,9 @@
 
 /**
  
- A supported value for the site that can be used in the 
- <b>Item.ShippingPackageDetails.ShippingPackage</b> or 
- <b>Item.ShippingDetails.CalculatedShippingRate.ShippingPackage</b> fields 
+ A supported value for the site that can be used in the
+ <b>Item.ShippingPackageDetails.ShippingPackage</b> or
+ <b>Item.ShippingDetails.CalculatedShippingRate.ShippingPackage</b> fields
  of an Add/Revise/Relist API call.
  
  
@@ -74,7 +74,7 @@
 
 /**
  
- This field is returned as 'true' if the shipping package supports the use of 
+ This field is returned as 'true' if the shipping package supports the use of
  package dimensions.
  
  

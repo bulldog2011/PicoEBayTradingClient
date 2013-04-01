@@ -10,7 +10,7 @@
 
 
 /**
-  
+ 
  Defines the ID-based attribute conversion to custom Item Specifics. If the field is present, the corresponding feature applies to the category. The field is returned as an empty element (e.g., a boolean value is not returned).
  
  
